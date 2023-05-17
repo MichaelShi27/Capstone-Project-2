@@ -4,7 +4,7 @@ import { qS, setDisplay } from './helpers.js';
 // sort alphabetically by 'name' property
 const mountains = mountainData.sort((a, b) => a.name.toLowerCase().localeCompare( b.name.toLowerCase() ));
 
-const mountainSelect = qS('#mountain-select');
+const mountainSelect = qS('#mountains-select');
 
 window.onload = () => populateMountainSelect();
 
@@ -18,7 +18,7 @@ const populateMountainSelect = () => {
 };
 
 const displayMountainInfo = () => {
-  const mountainInfo = qS('#mountain-info');
+  const mountainInfo = qS('#mountains-info');
   mountainInfo.innerHTML = '';
 
   const { value } = mountainSelect;
