@@ -1,7 +1,7 @@
-export const parkData = [
+export const parks = [
   {
-    locationId: "ABLI",
-    locationName: "Abraham Lincoln Birthplace National Historical Park",
+    id: "ABLI",
+    name: "Abraham Lincoln Birthplace National Historical Park",
     address: "2995 Lincoln Farm Road",
     city: "Hodgenville",
     state: "Kentucky",
@@ -19,8 +19,8 @@ export const parkData = [
     }
   },
   {
-    locationId: "ACAD",
-    locationName: "Acadia National Park",
+    id: "ACAD",
+    name: "Acadia National Park",
     address: "P.O. Box 177",
     city: "Bar Harbor",
     state: "Maine",
@@ -37,10 +37,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ADAM",
-    locationName: "Adams National Historical Park",
+  },
+  {
+    id: "ADAM",
+    name: "Adams National Historical Park",
     address: "135 Adams Street",
     city: "Quincy",
     state: "Massachusetts",
@@ -56,10 +56,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "AFBG",
-    locationName: "African Burial Ground National Monument",
+  },
+  {
+    id: "AFBG",
+    name: "African Burial Ground National Monument",
     address: "290 Broadway, 1st Floor",
     city: "New York",
     state: "New York",
@@ -75,10 +75,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "alka",
-    locationName: "Ala Kahakai National Historic Trail",
+  },
+  {
+    id: "alka",
+    name: "Ala Kahakai National Historic Trail",
     address: "73-4786 Kanalani Street, #14",
     city: "Kailua-Kona",
     state: "Hawaii",
@@ -94,10 +94,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "alag",
-    locationName: "Alagnak Wild River",
+  },
+  {
+    id: "alag",
+    name: "Alagnak Wild River",
     address: "P.O. Box 245",
     city: "King Salmon",
     state: "Alaska",
@@ -113,10 +113,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "alca",
-    locationName: "Alcatraz Island",
+  },
+  {
+    id: "alca",
+    name: "Alcatraz Island",
     address: 0,
     city: "San Francisco",
     state: "California",
@@ -133,10 +133,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "aleu",
-    locationName: "Aleutian World War II National Historic Area",
+  },
+  {
+    id: "aleu",
+    name: "Aleutian World War II National Historic Area",
     address: "Ounalashka Corporation, P.O. Box 149",
     city: "Unalaska",
     state: "Alaska",
@@ -152,10 +152,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ALPO",
-    locationName: "Allegheny Portage Railroad National Historic Site",
+  },
+  {
+    id: "ALPO",
+    name: "Allegheny Portage Railroad National Historic Site",
     address: "110 Federal Park Road",
     city: "Gallitzin",
     state: "Pennsylvania",
@@ -171,10 +171,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "AMME",
-    locationName: "American Memorial Park",
+  },
+  {
+    id: "AMME",
+    name: "American Memorial Park",
     address: "Superintendent, P.O. Box 5198 CHRB",
     city: "Saipan",
     state: "MP-Japan",
@@ -190,10 +190,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "AMIS",
-    locationName: "Amistad National Recreation Area",
+  },
+  {
+    id: "AMIS",
+    name: "Amistad National Recreation Area",
     address: "4121 Veterans Blvd.",
     city: "Del Rio",
     state: "Texas",
@@ -209,10 +209,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ande",
-    locationName: "Andersonville National Historic Site",
+  },
+  {
+    id: "ande",
+    name: "Andersonville National Historic Site",
     address: "496 Cemetery Road",
     city: "Andersonville",
     state: "Georgia",
@@ -228,10 +228,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ANJO",
-    locationName: "Andrew Johnson National Historic Site",
+  },
+  {
+    id: "ANJO",
+    name: "Andrew Johnson National Historic Site",
     address: "Mailing address - Andrew Johnson NHS, 121 Monument Ave., GPS location - Andrew Johnson NHS Visitor Center, 101 North College St.",
     city: "Greeneville",
     state: "Tennessee",
@@ -247,10 +247,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ania",
-    locationName: "Aniakchak National Monument & Preserve",
+  },
+  {
+    id: "ania",
+    name: "Aniakchak National Monument & Preserve",
     address: "P.O. Box 245",
     city: "King Salmon",
     state: "Alaska",
@@ -266,10 +266,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ANTI",
-    locationName: "Antietam National Battlefield",
+  },
+  {
+    id: "ANTI",
+    name: "Antietam National Battlefield",
     address: "P.O. Box 158",
     city: "Sharpsburg",
     state: "Maryland",
@@ -286,10 +286,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "apis",
-    locationName: "Apostle Islands National Lakeshore",
+  },
+  {
+    id: "apis",
+    name: "Apostle Islands National Lakeshore",
     address: "415 Washington Ave",
     city: "Bayfield",
     state: "Wisconsin",
@@ -305,10 +305,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "appa",
-    locationName: "Appalachian National Scenic Trail",
+  },
+  {
+    id: "appa",
+    name: "Appalachian National Scenic Trail",
     address: "P.O. Box 50",
     city: "Harpers Ferry",
     state: "West Virginia",
@@ -325,10 +325,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ARCH",
-    locationName: "Arches National Park",
+  },
+  {
+    id: "ARCH",
+    name: "Arches National Park",
     address: "PO Box 907",
     city: "Moab",
     state: "Utah",
@@ -345,10 +345,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "arpo",
-    locationName: "Arkansas Post National Memorial",
+  },
+  {
+    id: "arpo",
+    name: "Arkansas Post National Memorial",
     address: "1741 Old Post Road",
     city: "Gillett",
     state: "Arkansas",
@@ -364,10 +364,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ASIS",
-    locationName: "Assateague Island National Seashore",
+  },
+  {
+    id: "ASIS",
+    name: "Assateague Island National Seashore",
     address: "7206 National Seashore Lane",
     city: "Berlin",
     state: "Maryland",
@@ -384,10 +384,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "AZRU",
-    locationName: "Aztec Ruins National Monument",
+  },
+  {
+    id: "AZRU",
+    name: "Aztec Ruins National Monument",
     address: "Visitor Services, #84 County Road 2900",
     city: "Aztec",
     state: "New Mexico",
@@ -404,10 +404,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BADL",
-    locationName: "Badlands National Park",
+  },
+  {
+    id: "BADL",
+    name: "Badlands National Park",
     address: "25216 Ben Reifel Road, P.O. Box 6",
     city: "Interior",
     state: "South Dakota",
@@ -424,10 +424,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BAWA",
-    locationName: "Baltimore-Washington Parkway",
+  },
+  {
+    id: "BAWA",
+    name: "Baltimore-Washington Parkway",
     address: "Baltimore Washington Parkway inc/o Greenbelt Park, 6565 Greenbelt Road",
     city: "Greenbelt",
     state: "Maryland",
@@ -443,10 +443,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BAND",
-    locationName: "Bandelier National Monument",
+  },
+  {
+    id: "BAND",
+    name: "Bandelier National Monument",
     address: "Superintendent, Bandelier National Monument 15 Entrance Road",
     city: "Los Alamos",
     state: "New Mexico",
@@ -462,10 +462,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "beol",
-    locationName: "Bent's Old Fort National Historic Site",
+  },
+  {
+    id: "beol",
+    name: "Bent's Old Fort National Historic Site",
     address: "35110 Highway 194 E.",
     city: "La Junta",
     state: "Colorado",
@@ -481,10 +481,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "bela",
-    locationName: "Bering Land Bridge National Preserve",
+  },
+  {
+    id: "bela",
+    name: "Bering Land Bridge National Preserve",
     address: "PO Box 220",
     city: "Nome",
     state: "Alaska",
@@ -500,10 +500,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BIBE",
-    locationName: "Big Bend National Park",
+  },
+  {
+    id: "BIBE",
+    name: "Big Bend National Park",
     address: "PO Box 129",
     city: "Big Bend National Park",
     state: "Texas",
@@ -520,10 +520,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "bicy",
-    locationName: "Big Cypress National Preserve",
+  },
+  {
+    id: "bicy",
+    name: "Big Cypress National Preserve",
     address: "33100 Tamiami Trail East",
     city: "Ochopee",
     state: "Florida",
@@ -539,10 +539,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BISO",
-    locationName: "Big South Fork National River & Recreation Area",
+  },
+  {
+    id: "BISO",
+    name: "Big South Fork National River & Recreation Area",
     address: "4564 Leatherwood Road",
     city: "Oneida",
     state: "Tennessee",
@@ -558,10 +558,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BITH",
-    locationName: "Big Thicket National Preserve",
+  },
+  {
+    id: "BITH",
+    name: "Big Thicket National Preserve",
     address: "6044 FM 420",
     city: "Kountze",
     state: "Texas",
@@ -577,10 +577,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BICA",
-    locationName: "Bighorn Canyon National Recreation Area",
+  },
+  {
+    id: "BICA",
+    name: "Bighorn Canyon National Recreation Area",
     address: "Bighorn Canyon NRA Headquarters, 5 Avenue B, P.O. Box 7458, Fort Smith, MT 59035",
     city: "Fort Smith",
     state: "Montana",
@@ -597,10 +597,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "bisc",
-    locationName: "Biscayne National Park",
+  },
+  {
+    id: "bisc",
+    name: "Biscayne National Park",
     address: "Biscayne National Park, 9700 SW 328 Street",
     city: "Homestead",
     state: "Florida",
@@ -617,10 +617,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "blca",
-    locationName: "Black Canyon of the Gunnison National Park",
+  },
+  {
+    id: "blca",
+    name: "Black Canyon of the Gunnison National Park",
     address: "National Park Service, 102 Elk Creek",
     city: "Gunnison",
     state: "Colorado",
@@ -637,10 +637,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BLRI",
-    locationName: "Blue Ridge Parkway",
+  },
+  {
+    id: "BLRI",
+    name: "Blue Ridge Parkway",
     address: "199 Hemphill Knob Road",
     city: "Asheville",
     state: "North Carolina",
@@ -656,10 +656,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BOHA",
-    locationName: "Boston Harbor Islands National Recreation Area",
+  },
+  {
+    id: "BOHA",
+    name: "Boston Harbor Islands National Recreation Area",
     address: "Boston Harbor Islands Partnership, 408 Atlantic Avenue, Suite 228",
     city: "Boston",
     state: "Massachusetts",
@@ -675,10 +675,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BOST",
-    locationName: "Boston National Historical Park",
+  },
+  {
+    id: "BOST",
+    name: "Boston National Historical Park",
     address: "Charlestown Navy Yard",
     city: "Boston",
     state: "Massachusetts",
@@ -694,10 +694,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BRCR",
-    locationName: "Brices Cross Roads National Battlefield Site",
+  },
+  {
+    id: "BRCR",
+    name: "Brices Cross Roads National Battlefield Site",
     address: "2680 Natchez Trace Parkway",
     city: "Tupelo",
     state: "Mississippi",
@@ -713,10 +713,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BRVB",
-    locationName: "Brown v. Board of Education National Historic Site",
+  },
+  {
+    id: "BRVB",
+    name: "Brown v. Board of Education National Historic Site",
     address: "1515 SE Monroe Street",
     city: "Topeka",
     state: "Kansas",
@@ -732,10 +732,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "BRCA",
-    locationName: "Bryce Canyon National Park",
+  },
+  {
+    id: "BRCA",
+    name: "Bryce Canyon National Park",
     address: "PO Box 640201",
     city: "Bryce",
     state: "Utah",
@@ -752,10 +752,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "buff",
-    locationName: "Buffalo National River",
+  },
+  {
+    id: "buff",
+    name: "Buffalo National River",
     address: "402 N. Walnut, Suite 136",
     city: "Harrison",
     state: "Arkansas",
@@ -771,10 +771,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cabr",
-    locationName: "Cabrillo National Monument",
+  },
+  {
+    id: "cabr",
+    name: "Cabrillo National Monument",
     address: "1800 Cabrillo Memorial Drive",
     city: "San Diego",
     state: "California",
@@ -790,10 +790,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cali",
-    locationName: "California National Historic Trail",
+  },
+  {
+    id: "cali",
+    name: "California National Historic Trail",
     address: "National Trails Intermountain Region, 324 South State St.,Suite 200",
     city: "Salt Lake city",
     state: "Utah",
@@ -809,10 +809,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cana",
-    locationName: "Canaveral National Seashore",
+  },
+  {
+    id: "cana",
+    name: "Canaveral National Seashore",
     address: "212 S. Washington Avenue",
     city: "Titusville",
     state: "Florida",
@@ -828,10 +828,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CARI",
-    locationName: "Cane River Creole National Historical Park",
+  },
+  {
+    id: "CARI",
+    name: "Cane River Creole National Historical Park",
     address: "Cane River Creole National Historical Park, 400 Rapides Drive",
     city: "Natchitoches",
     state: "Louisiana",
@@ -847,10 +847,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cach",
-    locationName: "Canyon de Chelly National Monument",
+  },
+  {
+    id: "cach",
+    name: "Canyon de Chelly National Monument",
     address: "PO Box 588",
     city: "Chinle",
     state: "Arizona",
@@ -866,10 +866,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CANY",
-    locationName: "Canyonlands National Park",
+  },
+  {
+    id: "CANY",
+    name: "Canyonlands National Park",
     address: "Canyonlands National Park, 2282 SW Resource Blvd.",
     city: "Moab",
     state: "Utah",
@@ -885,10 +885,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CAHA",
-    locationName: "Cape Hatteras National Seashore",
+  },
+  {
+    id: "CAHA",
+    name: "Cape Hatteras National Seashore",
     address: "Cape Hatteras National Seashore, 1401 National Park Drive",
     city: "Manteo",
     state: "North Carolina",
@@ -905,10 +905,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cakr",
-    locationName: "Cape Krusenstern National Monument",
+  },
+  {
+    id: "cakr",
+    name: "Cape Krusenstern National Monument",
     address: "Cape Krusenstern National Monument",
     city: "Kotzebue",
     state: "Alaska",
@@ -924,10 +924,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CALO",
-    locationName: "Cape Lookout National Seashore",
+  },
+  {
+    id: "CALO",
+    name: "Cape Lookout National Seashore",
     address: "131 Charles Street",
     city: "Harkers Island",
     state: "North Carolina",
@@ -943,10 +943,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CARE",
-    locationName: "Capitol Reef National Park",
+  },
+  {
+    id: "CARE",
+    name: "Capitol Reef National Park",
     address: "Capitol Reef National Park, HC 70 Box 15",
     city: "Torrey",
     state: "Utah",
@@ -962,10 +962,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CAJO",
-    locationName: "Captain John Smith Chesapeake National Historic Trail",
+  },
+  {
+    id: "CAJO",
+    name: "Captain John Smith Chesapeake National Historic Trail",
     address: "NPS Chesapeake Bay Program Office, 410 Severn Avenue, Suite 314",
     city: "Annapolis",
     state: "Maryland",
@@ -981,10 +981,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CAVO",
-    locationName: "Capulin Volcano National Monument",
+  },
+  {
+    id: "CAVO",
+    name: "Capulin Volcano National Monument",
     address: "Capulin Volcano NM, P.O. Box 40",
     city: "Des Moines",
     state: "New Mexico",
@@ -1000,10 +1000,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CARL",
-    locationName: "Carl Sandburg Home National Historic Site",
+  },
+  {
+    id: "CARL",
+    name: "Carl Sandburg Home National Historic Site",
     address: "81 Carl Sandburg Lane",
     city: "Flat Rock",
     state: "North Carolina",
@@ -1019,10 +1019,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CAVE",
-    locationName: "Carlsbad Caverns National Park",
+  },
+  {
+    id: "CAVE",
+    name: "Carlsbad Caverns National Park",
     address: "Carlsbad Caverns National Park, 3225 National Parks Highway",
     city: "Carlsbad",
     state: "New Mexico",
@@ -1038,10 +1038,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cagr",
-    locationName: "Casa Grande Ruins National Monument",
+  },
+  {
+    id: "cagr",
+    name: "Casa Grande Ruins National Monument",
     address: "Casa Grande Ruins National Monument, 1100 West Ruins Drive",
     city: "Coolidge",
     state: "Arizona",
@@ -1057,10 +1057,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "casa",
-    locationName: "Castillo de San Marcos National Monument",
+  },
+  {
+    id: "casa",
+    name: "Castillo de San Marcos National Monument",
     address: "Castillo de San Marcos NM, 1 South Castillo Drive",
     city: "St. Augustine",
     state: "Florida",
@@ -1076,10 +1076,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CACL",
-    locationName: "Castle Clinton National Monument",
+  },
+  {
+    id: "CACL",
+    name: "Castle Clinton National Monument",
     address: "Castle Clinton National Monument, Battery Park",
     city: "New York",
     state: "New York",
@@ -1095,10 +1095,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CATO",
-    locationName: "Catoctin Mountain Park",
+  },
+  {
+    id: "CATO",
+    name: "Catoctin Mountain Park",
     address: "Catoctin Mountain Park, 6602 Foxville Road",
     city: "Thurmont",
     state: "Maryland",
@@ -1114,10 +1114,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CEBR",
-    locationName: "Cedar Breaks National Monument",
+  },
+  {
+    id: "CEBR",
+    name: "Cedar Breaks National Monument",
     address: "Cedar Breaks National Monument, 2390 W. Hwy 56, Suite 11",
     city: "Cedar city",
     state: "Utah",
@@ -1133,10 +1133,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CHCU",
-    locationName: "Chaco Culture National Historical Park",
+  },
+  {
+    id: "CHCU",
+    name: "Chaco Culture National Historical Park",
     address: "Chaco Culture National Historical Park, P. O. Box 220",
     city: "Nageezi",
     state: "New Mexico",
@@ -1152,10 +1152,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CHAM",
-    locationName: "Chamizal National Memorial",
+  },
+  {
+    id: "CHAM",
+    name: "Chamizal National Memorial",
     address: "Chamizal National Memorial, 800 S. San Marcial",
     city: "El Paso",
     state: "Texas",
@@ -1171,10 +1171,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "chis",
-    locationName: "Channel Islands National Park",
+  },
+  {
+    id: "chis",
+    name: "Channel Islands National Park",
     address: "Channel Islands National Park, 1901 Spinnaker Drive",
     city: "Ventura",
     state: "California",
@@ -1191,10 +1191,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CHPI",
-    locationName: "Charles Pinckney National Historic Site",
+  },
+  {
+    id: "CHPI",
+    name: "Charles Pinckney National Historic Site",
     address: "1214 Middle Street",
     city: "Sullivan's Island",
     state: "South Carolina",
@@ -1210,10 +1210,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "chat",
-    locationName: "Chattahoochee River National Recreation Area",
+  },
+  {
+    id: "chat",
+    name: "Chattahoochee River National Recreation Area",
     address: "1978 Island Ford Pkwy",
     city: "Sandy Springs",
     state: "Georgia",
@@ -1229,10 +1229,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CHOH",
-    locationName: "Chesapeake & Ohio Canal National Historical Park",
+  },
+  {
+    id: "CHOH",
+    name: "Chesapeake & Ohio Canal National Historical Park",
     address: "C&O Canal NHP Headquarters, 1850 Dual Highway, Suite 100",
     city: "Hagerstown",
     state: "Maryland",
@@ -1248,10 +1248,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CBPO",
-    locationName: "Chesapeake Bay Gateways Network",
+  },
+  {
+    id: "CBPO",
+    name: "Chesapeake Bay Gateways Network",
     address: "410 Severn Avenue, Suite 109",
     city: "Annapolis",
     state: "Maryland",
@@ -1267,10 +1267,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "chch",
-    locationName: "Chickamauga & Chattanooga National Military Park",
+  },
+  {
+    id: "chch",
+    name: "Chickamauga & Chattanooga National Military Park",
     address: "P.O. Box 2128 (Mailing), 3370 LaFayette Road (Shipping)",
     city: "Fort Oglethorpe",
     state: "Georgia",
@@ -1286,10 +1286,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CHIC",
-    locationName: "Chickasaw National Recreation Area",
+  },
+  {
+    id: "CHIC",
+    name: "Chickasaw National Recreation Area",
     address: "Chickasaw National Recreation Area, 1008 West Second Street",
     city: "Sulphur",
     state: "Oklahoma",
@@ -1306,10 +1306,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "chir",
-    locationName: "Chiricahua National Monument",
+  },
+  {
+    id: "chir",
+    name: "Chiricahua National Monument",
     address: "Superintendent, 12856 E. Rhyolite Creek RD",
     city: "Willcox",
     state: "Arizona",
@@ -1325,10 +1325,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CIRO",
-    locationName: "city of Rocks National Reserve",
+  },
+  {
+    id: "CIRO",
+    name: "city of Rocks National Reserve",
     address: "city of Rocks National Reserve, P.O. Box 169",
     city: "Almo",
     state: "Idaho",
@@ -1344,10 +1344,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CLBA",
-    locationName: "Clara Barton National Historic Site",
+  },
+  {
+    id: "CLBA",
+    name: "Clara Barton National Historic Site",
     address: "Clara Barton NHS, 5801 Oxford Road",
     city: "Glen Echo",
     state: "Maryland",
@@ -1363,10 +1363,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "colm",
-    locationName: "Colorado National Monument",
+  },
+  {
+    id: "colm",
+    name: "Colorado National Monument",
     address: "Colorado National Monument, 7 M S of Fruita Hwy 340",
     city: "Fruita",
     state: "Colorado",
@@ -1382,10 +1382,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "coro",
-    locationName: "Coronado National Memorial",
+  },
+  {
+    id: "coro",
+    name: "Coronado National Memorial",
     address: "4101 East Montezuma Canyon Road",
     city: "Hereford",
     state: "Arizona",
@@ -1401,10 +1401,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "COWP",
-    locationName: "Cowpens National Battlefield",
+  },
+  {
+    id: "COWP",
+    name: "Cowpens National Battlefield",
     address: "Cowpens National Battlefield, PO Box 308",
     city: "Chesnee",
     state: "South Carolina",
@@ -1420,10 +1420,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CRLA",
-    locationName: "Crater Lake National Park",
+  },
+  {
+    id: "CRLA",
+    name: "Crater Lake National Park",
     address: "P.O. Box 7",
     city: "Crater Lake",
     state: "Oregon",
@@ -1440,10 +1440,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CRMO",
-    locationName: "Craters of the Moon National Monument & Preserve",
+  },
+  {
+    id: "CRMO",
+    name: "Craters of the Moon National Monument & Preserve",
     address: "Craters of the Moon National Monument and Preserve, P.O. Box 29",
     city: "Arco",
     state: "Idaho",
@@ -1459,10 +1459,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CUGA",
-    locationName: "Cumberland Gap National Historical Park",
+  },
+  {
+    id: "CUGA",
+    name: "Cumberland Gap National Historical Park",
     address: "Cumberland Gap National Historical Park, 91 Bartlett Park Road",
     city: "Middlesboro",
     state: "Kentucky",
@@ -1479,10 +1479,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cuis",
-    locationName: "Cumberland Island National Seashore",
+  },
+  {
+    id: "cuis",
+    name: "Cumberland Island National Seashore",
     address: "101 Wheeler Street",
     city: "St. Marys",
     state: "Georgia",
@@ -1498,10 +1498,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "cure",
-    locationName: "Curecanti National Recreation Area",
+  },
+  {
+    id: "cure",
+    name: "Curecanti National Recreation Area",
     address: "National Park Service, 102 Elk Creek",
     city: "Gunnison",
     state: "Colorado",
@@ -1517,10 +1517,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "CUVA",
-    locationName: "Cuyahoga Valley National Park",
+  },
+  {
+    id: "CUVA",
+    name: "Cuyahoga Valley National Park",
     address: "Cuyahoga Valley National Park, 15610 Vaughn Rd",
     city: "Cleveland",
     state: "Ohio",
@@ -1536,10 +1536,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "DABE",
-    locationName: "David Berger National Memorial",
+  },
+  {
+    id: "DABE",
+    name: "David Berger National Memorial",
     address: "Mandel Jewish Community Center, 26001 South Woodland Road",
     city: "Beachwood",
     state: "Ohio",
@@ -1555,10 +1555,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "deso",
-    locationName: "De Soto National Memorial",
+  },
+  {
+    id: "deso",
+    name: "De Soto National Memorial",
     address: "De Soto National Memorial, P.O. Box 15390",
     city: "Bradenton",
     state: "Florida",
@@ -1574,10 +1574,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "deva",
-    locationName: "Death Valley National Park",
+  },
+  {
+    id: "deva",
+    name: "Death Valley National Park",
     address: "Death Valley National Park, P.O. Box 579",
     city: "Death Valley",
     state: "California",
@@ -1593,10 +1593,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "DEWA",
-    locationName: "Delaware Water Gap National Recreation Area",
+  },
+  {
+    id: "DEWA",
+    name: "Delaware Water Gap National Recreation Area",
     address: "Interpretation & Education, Delaware Water Gap NRA",
     city: "Bushkill",
     state: "Pennsylvania",
@@ -1612,10 +1612,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "dena",
-    locationName: "Denali National Park and Preserve",
+  },
+  {
+    id: "dena",
+    name: "Denali National Park and Preserve",
     address: "Denali National Park & Preserve, P.O. Box 9",
     city: "Denali Park",
     state: "Alaska",
@@ -1632,10 +1632,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "DEMO",
-    locationName: "Deshler Morris House",
+  },
+  {
+    id: "DEMO",
+    name: "Deshler Morris House",
     address: "143 S. Third Street",
     city: "Philadelphia",
     state: "Pennsylvania",
@@ -1651,10 +1651,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "depo",
-    locationName: "Devils Postpile National Monument",
+  },
+  {
+    id: "depo",
+    name: "Devils Postpile National Monument",
     address: "Devils Postpile National Monument, P.O. Box 3999",
     city: "Mammoth Lakes",
     state: "California",
@@ -1670,10 +1670,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "DETO",
-    locationName: "Devils Tower National Monument",
+  },
+  {
+    id: "DETO",
+    name: "Devils Tower National Monument",
     address: "PO Box 10",
     city: "Devils Tower",
     state: "Wyoming",
@@ -1690,10 +1690,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "dino",
-    locationName: "Dinosaur National Monument",
+  },
+  {
+    id: "dino",
+    name: "Dinosaur National Monument",
     address: "Dinosaur National Monument, 4545 E. Highway 40",
     city: "Dinosaur",
     state: "Colorado",
@@ -1709,10 +1709,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "drto",
-    locationName: "Dry Tortugas National Park",
+  },
+  {
+    id: "drto",
+    name: "Dry Tortugas National Park",
     address: "P.O. Box 6208",
     city: "Key West",
     state: "Florida",
@@ -1729,10 +1729,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "EDAL",
-    locationName: "Edgar Allan Poe National Historic Site",
+  },
+  {
+    id: "EDAL",
+    name: "Edgar Allan Poe National Historic Site",
     address: "INHP, 143 S. Third Street",
     city: "Philadelphia",
     state: "Pennsylvania",
@@ -1748,10 +1748,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "EFMO",
-    locationName: "Effigy Mounds National Monument",
+  },
+  {
+    id: "EFMO",
+    name: "Effigy Mounds National Monument",
     address: "Effigy Mounds National Monument, 151 HWY 76",
     city: "Harpers Ferry",
     state: "Iowa",
@@ -1767,10 +1767,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "EISE",
-    locationName: "Eisenhower National Historic Site",
+  },
+  {
+    id: "EISE",
+    name: "Eisenhower National Historic Site",
     address: "Eisenhower NHS, 1195 Baltimore Pike, Suite 100",
     city: "Gettysburg",
     state: "Pennsylvania",
@@ -1786,10 +1786,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELTE",
-    locationName: "El Camino Real de los Tejas National Historic Trail",
+  },
+  {
+    id: "ELTE",
+    name: "El Camino Real de los Tejas National Historic Trail",
     address: "National Trails Intermountain Region, P.O. Box 728",
     city: "Santa Fe",
     state: "New Mexico",
@@ -1805,10 +1805,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELCA",
-    locationName: "El Camino Real de Tierra Adentro National Historic Trail",
+  },
+  {
+    id: "ELCA",
+    name: "El Camino Real de Tierra Adentro National Historic Trail",
     address: "National Trails Intermountain Region, PO Box 728",
     city: "Santa Fe",
     state: "New Mexico",
@@ -1824,10 +1824,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELMA",
-    locationName: "El Malpais National Monument",
+  },
+  {
+    id: "ELMA",
+    name: "El Malpais National Monument",
     address: "El Malpais National Monument, 123 East Roosevelt Avenue",
     city: "Grants",
     state: "New Mexico",
@@ -1843,10 +1843,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELMO",
-    locationName: "El Morro National Monument",
+  },
+  {
+    id: "ELMO",
+    name: "El Morro National Monument",
     address: "El Morro National Monument, HC 61 Box 43",
     city: "Ramah",
     state: "New Mexico",
@@ -1862,10 +1862,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELRO",
-    locationName: "Eleanor Roosevelt National Historic Site",
+  },
+  {
+    id: "ELRO",
+    name: "Eleanor Roosevelt National Historic Site",
     address: "National Park Service, 4097 Albany Post Road",
     city: "Hyde Park",
     state: "New York",
@@ -1881,10 +1881,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ELIS",
-    locationName: "Ellis Island National Monument",
+  },
+  {
+    id: "ELIS",
+    name: "Ellis Island National Monument",
     address: "Statue of Liberty National Monument & Ellis Island, Liberty Island",
     city: "New York",
     state: "New York",
@@ -1900,10 +1900,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ESSE",
-    locationName: "Essex National Heritage Area",
+  },
+  {
+    id: "ESSE",
+    name: "Essex National Heritage Area",
     address: "221 Essex Street, Suite 41",
     city: "Salem",
     state: "Massachusetts",
@@ -1919,10 +1919,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "euon",
-    locationName: "Eugene O'Neill National Historic Site",
+  },
+  {
+    id: "euon",
+    name: "Eugene O'Neill National Historic Site",
     address: "P.O. Box 280",
     city: "Danville",
     state: "California",
@@ -1938,10 +1938,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ever",
-    locationName: "Everglades National Park",
+  },
+  {
+    id: "ever",
+    name: "Everglades National Park",
     address: "40001 State Road 9336",
     city: "Homestead",
     state: "Florida",
@@ -1957,10 +1957,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FEHA",
-    locationName: "Federal Hall National Memorial",
+  },
+  {
+    id: "FEHA",
+    name: "Federal Hall National Memorial",
     address: "Federal Hall National Memorial, 26 Wall Street",
     city: "New York",
     state: "New York",
@@ -1976,10 +1976,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FIIS",
-    locationName: "Fire Island National Seashore",
+  },
+  {
+    id: "FIIS",
+    name: "Fire Island National Seashore",
     address: "Fire Island National Seashore, 120 Laurel Street",
     city: "Patchogue",
     state: "New York",
@@ -1995,10 +1995,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FILA",
-    locationName: "First Ladies National Historic Site",
+  },
+  {
+    id: "FILA",
+    name: "First Ladies National Historic Site",
     address: "National First Ladies Library, 205 Market Avenue South",
     city: "Canton",
     state: "Ohio",
@@ -2014,10 +2014,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FLNI",
-    locationName: "Flight 93 National Memorial",
+  },
+  {
+    id: "FLNI",
+    name: "Flight 93 National Memorial",
     address: "P.O. Box 911",
     city: "Shanksville",
     state: "Pennsylvania",
@@ -2033,10 +2033,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "flfo",
-    locationName: "Florissant Fossil Beds National Monument",
+  },
+  {
+    id: "flfo",
+    name: "Florissant Fossil Beds National Monument",
     address: "PO Box 185",
     city: "Florissant",
     state: "Colorado",
@@ -2052,10 +2052,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "fobo",
-    locationName: "Fort Bowie National Historic Site",
+  },
+  {
+    id: "fobo",
+    name: "Fort Bowie National Historic Site",
     address: "Fort Bowie National Historic Site, 3203 South Old Fort Bowie Road",
     city: "Bowie",
     state: "Arizona",
@@ -2071,10 +2071,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FODA",
-    locationName: "Fort Davis National Historic Site",
+  },
+  {
+    id: "FODA",
+    name: "Fort Davis National Historic Site",
     address: "Fort Davis National Historic Site, P.O. Box 1379",
     city: "Fort Davis",
     state: "Texas",
@@ -2090,10 +2090,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FODO",
-    locationName: "Fort Donelson National Battlefield",
+  },
+  {
+    id: "FODO",
+    name: "Fort Donelson National Battlefield",
     address: "Fort Donelson National Battlefield, P.O. Box 434",
     city: "Dover",
     state: "Tennessee",
@@ -2109,10 +2109,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOFO",
-    locationName: "Fort Foote Park",
+  },
+  {
+    id: "FOFO",
+    name: "Fort Foote Park",
     address: "13551 Fort Washington Road",
     city: "Fort Washington",
     state: "Maryland",
@@ -2128,10 +2128,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "fofr",
-    locationName: "Fort Frederica National Monument",
+  },
+  {
+    id: "fofr",
+    name: "Fort Frederica National Monument",
     address: "Fort Frederica NM, 6515 Frederica Rd.",
     city: "St. Simons Island",
     state: "Georgia",
@@ -2147,10 +2147,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOLS",
-    locationName: "Fort Larned National Historic Site",
+  },
+  {
+    id: "FOLS",
+    name: "Fort Larned National Historic Site",
     address: "Fort Larned NHS, 1767 KS Hwy 156",
     city: "Larned",
     state: "Kansas",
@@ -2166,10 +2166,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "foma",
-    locationName: "Fort Matanzas National Monument",
+  },
+  {
+    id: "foma",
+    name: "Fort Matanzas National Monument",
     address: "Fort Matanzas National Monument, 8635 A1A South",
     city: "St. Augustine",
     state: "Florida",
@@ -2185,10 +2185,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FONE",
-    locationName: "Fort Necessity National Battlefield",
+  },
+  {
+    id: "FONE",
+    name: "Fort Necessity National Battlefield",
     address: "Fort Necessity NB, 1 Washington Parkway",
     city: "Farmington",
     state: "Pennsylvania",
@@ -2204,10 +2204,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "fopo",
-    locationName: "Fort Point National Historic Site",
+  },
+  {
+    id: "fopo",
+    name: "Fort Point National Historic Site",
     address: "Fort Point National Historic Site, Fort Mason, Building 201",
     city: "San Francisco",
     state: "California",
@@ -2223,10 +2223,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "fopu",
-    locationName: "Fort Pulaski National Monument",
+  },
+  {
+    id: "fopu",
+    name: "Fort Pulaski National Monument",
     address: "Fort Pulaski NM, P. O. Box 30757",
     city: "Savannah",
     state: "Georgia",
@@ -2242,10 +2242,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FORA",
-    locationName: "Fort Raleigh National Historic Site",
+  },
+  {
+    id: "FORA",
+    name: "Fort Raleigh National Historic Site",
     address: "Fort Raleigh National Historic Site, 1401 National Park Drive",
     city: "Manteo",
     state: "North Carolina",
@@ -2261,10 +2261,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOSC",
-    locationName: "Fort Scott National Historic Site",
+  },
+  {
+    id: "FOSC",
+    name: "Fort Scott National Historic Site",
     address: "Fort Scott NHS, P.O. Box 918",
     city: "Fort Scott",
     state: "Kansas",
@@ -2280,10 +2280,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "fosm",
-    locationName: "Fort Smith National Historic Site",
+  },
+  {
+    id: "fosm",
+    name: "Fort Smith National Historic Site",
     address: "Fort Smith National Historic Site, PO Box 1406",
     city: "Fort Smith",
     state: "Arkansas",
@@ -2299,10 +2299,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOST",
-    locationName: "Fort Stanwix National Monument",
+  },
+  {
+    id: "FOST",
+    name: "Fort Stanwix National Monument",
     address: "Fort Stanwix National Monument, 112 E Park Street",
     city: "Rome",
     state: "New York",
@@ -2318,10 +2318,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOSU",
-    locationName: "Fort Sumter National Monument",
+  },
+  {
+    id: "FOSU",
+    name: "Fort Sumter National Monument",
     address: "1214 Middle Street",
     city: "Sullivan's Island",
     state: "South Carolina",
@@ -2337,10 +2337,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOUN",
-    locationName: "Fort Union National Monument",
+  },
+  {
+    id: "FOUN",
+    name: "Fort Union National Monument",
     address: "Superintendent, Fort Union National Monument PO Box 127",
     city: "Watrous",
     state: "New Mexico",
@@ -2356,10 +2356,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOUS",
-    locationName: "Fort Union Trading Post National Historic Site",
+  },
+  {
+    id: "FOUS",
+    name: "Fort Union Trading Post National Historic Site",
     address: "Fort Union Trading Post NHS, 15550 Hwy 1804",
     city: "Williston",
     state: "North Dakota",
@@ -2375,10 +2375,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOVA",
-    locationName: "Fort Vancouver National Historic Site",
+  },
+  {
+    id: "FOVA",
+    name: "Fort Vancouver National Historic Site",
     address: "Fort Vancouver NHS, 612 East Reserve Street",
     city: "Vancouver",
     state: "Washington",
@@ -2394,10 +2394,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FOWA",
-    locationName: "Fort Washington Park",
+  },
+  {
+    id: "FOWA",
+    name: "Fort Washington Park",
     address: "13551 Fort Washington Road",
     city: "Fort Washington",
     state: "Maryland",
@@ -2413,10 +2413,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FRLA",
-    locationName: "Frederick Law Olmsted National Historic Site",
+  },
+  {
+    id: "FRLA",
+    name: "Frederick Law Olmsted National Historic Site",
     address: "Frederick Law Olmsted      National Historic Site, 99 Warren Street",
     city: "Brookline",
     state: "Massachusetts",
@@ -2432,10 +2432,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FRSP",
-    locationName: "Fredericksburg & Spotsylvania National Military Park",
+  },
+  {
+    id: "FRSP",
+    name: "Fredericksburg & Spotsylvania National Military Park",
     address: "Superintendent, 120 Chatham Lane",
     city: "Fredericksburg",
     state: "Virginia",
@@ -2451,10 +2451,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "FRHI",
-    locationName: "Friendship Hill National Historic Site",
+  },
+  {
+    id: "FRHI",
+    name: "Friendship Hill National Historic Site",
     address: "Friendship Hill NHS, 1 Washington Parkway",
     city: "Farmington",
     state: "Pennsylvania",
@@ -2470,10 +2470,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "gaar",
-    locationName: "Gates of the Arctic National Park & Preserve",
+  },
+  {
+    id: "gaar",
+    name: "Gates of the Arctic National Park & Preserve",
     address: "Visitor Information, P.O. Box 30",
     city: "Bettles",
     state: "Alaska",
@@ -2489,10 +2489,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GATE",
-    locationName: "Gateway National Recreation Area",
+  },
+  {
+    id: "GATE",
+    name: "Gateway National Recreation Area",
     address: "Public Affairs Office, Gateway NRA, 210 New York Avenue",
     city: "Staten Island",
     state: "New York",
@@ -2508,10 +2508,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GEGR",
-    locationName: "General Grant National Memorial",
+  },
+  {
+    id: "GEGR",
+    name: "General Grant National Memorial",
     address: "General Grant National Memorial, West 122nd Street and Riverside Drive",
     city: "New York",
     state: "New York",
@@ -2527,10 +2527,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GERO",
-    locationName: "George Rogers Clark National Historical Park",
+  },
+  {
+    id: "GERO",
+    name: "George Rogers Clark National Historical Park",
     address: "George Rogers Clark National Historical Park, 401 S. 2nd St.",
     city: "Vincennes",
     state: "Indiana",
@@ -2546,10 +2546,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GWCA",
-    locationName: "George Washington Carver National Monument",
+  },
+  {
+    id: "GWCA",
+    name: "George Washington Carver National Monument",
     address: "George Washington Carver National Monument, 5646 Carver Road",
     city: "Diamond",
     state: "Missouri",
@@ -2565,10 +2565,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GETT",
-    locationName: "Gettysburg National Military Park",
+  },
+  {
+    id: "GETT",
+    name: "Gettysburg National Military Park",
     address: "Gettysburg National Military Park, 1195 Baltimore Pike, Suite 100",
     city: "Gettysburg",
     state: "Pennsylvania",
@@ -2585,10 +2585,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GICL",
-    locationName: "Gila Cliff Dwellings National Monument",
+  },
+  {
+    id: "GICL",
+    name: "Gila Cliff Dwellings National Monument",
     address: "Gila Cliff Dwellings National Monument, HC 68 Box 100",
     city: "Silver city",
     state: "New Mexico",
@@ -2605,10 +2605,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "glba",
-    locationName: "Glacier Bay National Park and Preserve",
+  },
+  {
+    id: "glba",
+    name: "Glacier Bay National Park and Preserve",
     address: "Glacier Bay National Park, PO Box 140",
     city: "Gustavus",
     state: "Alaska",
@@ -2625,10 +2625,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GLAC",
-    locationName: "Glacier National Park",
+  },
+  {
+    id: "GLAC",
+    name: "Glacier National Park",
     address: "Glacier National Park, PO Box 128",
     city: "West Glacier",
     state: "Montana",
@@ -2644,10 +2644,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GLCA",
-    locationName: "Glen Canyon National Recreation Area",
+  },
+  {
+    id: "GLCA",
+    name: "Glen Canyon National Recreation Area",
     address: "Glen Canyon NRA, PO Box 1507",
     city: "Page",
     state: "Arizona",
@@ -2663,10 +2663,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GLEC",
-    locationName: "Glen Echo Park",
+  },
+  {
+    id: "GLEC",
+    name: "Glen Echo Park",
     address: 0,
     city: "Glen Echo Park",
     state: "Missouri",
@@ -2682,10 +2682,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "goga",
-    locationName: "Golden Gate National Recreation Area",
+  },
+  {
+    id: "goga",
+    name: "Golden Gate National Recreation Area",
     address: "Golden Gate National Recreation Area, Fort Mason, Building 201",
     city: "San Francisco",
     state: "California",
@@ -2701,10 +2701,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GOSP",
-    locationName: "Golden Spike National Historic Site",
+  },
+  {
+    id: "GOSP",
+    name: "Golden Spike National Historic Site",
     address: "Golden Spike NHS, P.O. Box 897",
     city: "Brigham city",
     state: "Utah",
@@ -2720,10 +2720,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GOIS",
-    locationName: "Governors Island National Monument",
+  },
+  {
+    id: "GOIS",
+    name: "Governors Island National Monument",
     address: "Governors Island National Monument, 10 South Street - Slip 7",
     city: "New York",
     state: "New York",
@@ -2739,10 +2739,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "grca",
-    locationName: "Grand Canyon National Park",
+  },
+  {
+    id: "grca",
+    name: "Grand Canyon National Park",
     address: "Grand Canyon National Park, P.O. Box 129",
     city: "Grand Canyon",
     state: "Arizona",
@@ -2758,10 +2758,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "para",
-    locationName: "Grand Canyon-Parashant National Monument",
+  },
+  {
+    id: "para",
+    name: "Grand Canyon-Parashant National Monument",
     address: "Grand Canyon-Parashant National Monument, 345 East Riverside Drive",
     city: "St. George",
     state: "Utah",
@@ -2777,10 +2777,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GRPO",
-    locationName: "Grand Portage National Monument",
+  },
+  {
+    id: "GRPO",
+    name: "Grand Portage National Monument",
     address: "P.O. Box 426, 170 Mile Creek Road",
     city: "Grand Portage",
     state: "Minnesota",
@@ -2796,10 +2796,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GRTE",
-    locationName: "Grand Teton National Park & John D. Rockefeller Jr. Memorial Parkway",
+  },
+  {
+    id: "GRTE",
+    name: "Grand Teton National Park & John D. Rockefeller Jr. Memorial Parkway",
     address: "Grand Teton National Park, P.O. Drawer 170",
     city: "Moose",
     state: "Wyoming",
@@ -2815,10 +2815,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GRKO",
-    locationName: "Grant-Kohrs Ranch National Historic Site",
+  },
+  {
+    id: "GRKO",
+    name: "Grant-Kohrs Ranch National Historic Site",
     address: "Grant-Kohrs Ranch NHS, 266 Warren Lane",
     city: "Deer Lodge",
     state: "Montana",
@@ -2834,10 +2834,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GRBA",
-    locationName: "Great Basin National Park",
+  },
+  {
+    id: "GRBA",
+    name: "Great Basin National Park",
     address: "Great Basin National Park, 100 Great Basin National Park",
     city: "Baker",
     state: "Nevada",
@@ -2853,10 +2853,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "grsa",
-    locationName: "Great Sand Dunes National Park and Preserve",
+  },
+  {
+    id: "grsa",
+    name: "Great Sand Dunes National Park and Preserve",
     address: "Great Sand Dunes National Park, 11500 State Highway 150",
     city: "Mosca",
     state: "Colorado",
@@ -2872,10 +2872,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GRSM",
-    locationName: "Great Smoky Mountains National Park",
+  },
+  {
+    id: "GRSM",
+    name: "Great Smoky Mountains National Park",
     address: "Great Smoky Mountains National Park, 107 Park Headquarters Road",
     city: "Gatlinburg",
     state: "Tennessee",
@@ -2891,10 +2891,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GREE",
-    locationName: "Greenbelt Park",
+  },
+  {
+    id: "GREE",
+    name: "Greenbelt Park",
     address: "6565 Greenbelt Road",
     city: "Greenbelt",
     state: "Maryland",
@@ -2910,10 +2910,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GUMO",
-    locationName: "Guadalupe Mountains National Park",
+  },
+  {
+    id: "GUMO",
+    name: "Guadalupe Mountains National Park",
     address: "Guadalupe Mountains National Park, 400 Pine Canyon Road",
     city: "Salt Flat",
     state: "Texas",
@@ -2930,10 +2930,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "GUCO",
-    locationName: "Guilford Courthouse National Military Park",
+  },
+  {
+    id: "GUCO",
+    name: "Guilford Courthouse National Military Park",
     address: "Guilford Courthouse National Military Park, 2332 New Garden Road",
     city: "Greensboro",
     state: "North Carolina",
@@ -2949,10 +2949,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "guis",
-    locationName: "Gulf Islands National Seashore",
+  },
+  {
+    id: "guis",
+    name: "Gulf Islands National Seashore",
     address: "1801 Gulf Breeze Parkway",
     city: "Gulf Breeze",
     state: "Florida",
@@ -2968,10 +2968,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HAFO",
-    locationName: "Hagerman Fossil Beds National Monument",
+  },
+  {
+    id: "HAFO",
+    name: "Hagerman Fossil Beds National Monument",
     address: "Hagerman Fossil Beds National Monument, P.O. Box 570",
     city: "Hagerman",
     state: "Idaho",
@@ -2987,10 +2987,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "hale",
-    locationName: "Haleakala National Park",
+  },
+  {
+    id: "hale",
+    name: "Haleakala National Park",
     address: "PO Box 369",
     city: "Makawao",
     state: "Hawaii",
@@ -3006,10 +3006,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HAGR",
-    locationName: "Hamilton Grange National Memorial",
+  },
+  {
+    id: "HAGR",
+    name: "Hamilton Grange National Memorial",
     address: "Hamilton Grange National Memorial, C/O Manhattan Sites, 26 Wall Street",
     city: "New York",
     state: "New York",
@@ -3025,10 +3025,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HAMP",
-    locationName: "Hampton National Historic Site",
+  },
+  {
+    id: "HAMP",
+    name: "Hampton National Historic Site",
     address: "Superintendent, 535 Hampton Lane",
     city: "Towson",
     state: "Maryland",
@@ -3044,10 +3044,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HAHA",
-    locationName: "Harmony Hall",
+  },
+  {
+    id: "HAHA",
+    name: "Harmony Hall",
     address: "13551 Fort Washington Road",
     city: "Fort Washington",
     state: "Maryland",
@@ -3063,10 +3063,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HAFE",
-    locationName: "Harpers Ferry National Historical Park",
+  },
+  {
+    id: "HAFE",
+    name: "Harpers Ferry National Historical Park",
     address: "P.O. Box 65",
     city: "Harpers Ferry",
     state: "West Virginia",
@@ -3082,10 +3082,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HSTR",
-    locationName: "Harry S Truman National Historic Site",
+  },
+  {
+    id: "HSTR",
+    name: "Harry S Truman National Historic Site",
     address: "Harry S Truman NHS, 223 N. Main St.",
     city: "Independence",
     state: "Missouri",
@@ -3101,10 +3101,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "havo",
-    locationName: "Hawai'i Volcanoes National Park",
+  },
+  {
+    id: "havo",
+    name: "Hawai'i Volcanoes National Park",
     address: "Hawai`i Volcanoes National Park, P.O. Box 52",
     city: "Hawai`i National Park",
     state: "Hawaii",
@@ -3120,10 +3120,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HEHO",
-    locationName: "Herbert Hoover National Historic Site",
+  },
+  {
+    id: "HEHO",
+    name: "Herbert Hoover National Historic Site",
     address: "Herbert Hoover NHS, P. O. Box 607",
     city: "West Branch",
     state: "Iowa",
@@ -3139,10 +3139,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "pima",
-    locationName: "Hohokam Pima National Monument",
+  },
+  {
+    id: "pima",
+    name: "Hohokam Pima National Monument",
     address: "Hohokam Pima National Monument",
     city: "Chandler",
     state: "Arizona",
@@ -3158,10 +3158,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HOFR",
-    locationName: "Home of Franklin D Roosevelt National Historic Site",
+  },
+  {
+    id: "HOFR",
+    name: "Home of Franklin D Roosevelt National Historic Site",
     address: "National Park Service, 4097 Albany Post Road",
     city: "Hyde Park",
     state: "New York",
@@ -3177,10 +3177,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HOME",
-    locationName: "Homestead National Monument of America",
+  },
+  {
+    id: "HOME",
+    name: "Homestead National Monument of America",
     address: "Superintendent, 8523 W. State Hwy. 4",
     city: "Beatrice",
     state: "Nebraska",
@@ -3196,10 +3196,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HOCU",
-    locationName: "Hopewell Culture National Historical Park",
+  },
+  {
+    id: "HOCU",
+    name: "Hopewell Culture National Historical Park",
     address: "Hopewell Culture National Historical Park, 16062 State Route 104",
     city: "Chillicothe",
     state: "Ohio",
@@ -3215,10 +3215,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "HOFU",
-    locationName: "Hopewell Furnace National Historic Site",
+  },
+  {
+    id: "HOFU",
+    name: "Hopewell Furnace National Historic Site",
     address: "Hopewell Furnace National Historic Site, 2 Mark Bird Lane",
     city: "Elverson",
     state: "Pennsylvania",
@@ -3234,10 +3234,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "hobe",
-    locationName: "Horseshoe Bend National Military Park",
+  },
+  {
+    id: "hobe",
+    name: "Horseshoe Bend National Military Park",
     address: "Horseshoe Bend NMP, 11288 Horseshoe Bend Rd.",
     city: "Daviston",
     state: "Alabama",
@@ -3253,10 +3253,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "hosp",
-    locationName: "Hot Springs National Park",
+  },
+  {
+    id: "hosp",
+    name: "Hot Springs National Park",
     address: "Hot Springs National Park, 101 Reserve Street",
     city: "Hot Springs",
     state: "Arkansas",
@@ -3272,10 +3272,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "hove",
-    locationName: "Hovenweep National Monument",
+  },
+  {
+    id: "hove",
+    name: "Hovenweep National Monument",
     address: "Hovenweep National Monument, McElmo Route",
     city: "Cortez",
     state: "Colorado",
@@ -3291,10 +3291,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "hutar",
-    locationName: "Hubbell Trading Post National Historic Site",
+  },
+  {
+    id: "hutar",
+    name: "Hubbell Trading Post National Historic Site",
     address: "Hubbell Trading Post NHS, P.O. Box 150",
     city: "Ganado",
     state: "Arizona",
@@ -3310,10 +3310,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "iatr",
-    locationName: "Ice Age National Scenic Trail",
+  },
+  {
+    id: "iatr",
+    name: "Ice Age National Scenic Trail",
     address: "National Park Service, 700 Rayovac Drive Suite 100",
     city: "Madison",
     state: "Wisconsin",
@@ -3329,10 +3329,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "INDE",
-    locationName: "Independence National Historical Park",
+  },
+  {
+    id: "INDE",
+    name: "Independence National Historical Park",
     address: "Independence National Historical Park, 143 S. Third Street",
     city: "Philadelphia",
     state: "Pennsylvania",
@@ -3348,10 +3348,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "INDU",
-    locationName: "Indiana Dunes National Lakeshore",
+  },
+  {
+    id: "INDU",
+    name: "Indiana Dunes National Lakeshore",
     address: "1100 N. Mineral Springs Road",
     city: "Porter",
     state: "Indiana",
@@ -3367,10 +3367,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "inup",
-    locationName: "Inupiat Heritage Center",
+  },
+  {
+    id: "inup",
+    name: "Inupiat Heritage Center",
     address: "Inupiat Heritage Center, P.O.Box 69",
     city: "Barrow",
     state: "Alaska",
@@ -3386,10 +3386,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ISRO",
-    locationName: "Isle Royale National Park",
+  },
+  {
+    id: "ISRO",
+    name: "Isle Royale National Park",
     address: "Isle Royale National Park, 800 East Lakeshore Drive",
     city: "Houghton",
     state: "Michigan",
@@ -3405,10 +3405,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JAGA",
-    locationName: "James A Garfield National Historic Site",
+  },
+  {
+    id: "JAGA",
+    name: "James A Garfield National Historic Site",
     address: "James A. Garfield National Historic Site, 8095 Mentor Avenue",
     city: "Mentor",
     state: "Ohio",
@@ -3424,10 +3424,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JELA",
-    locationName: "Jean Lafitte National Historical Park and Preserve",
+  },
+  {
+    id: "JELA",
+    name: "Jean Lafitte National Historical Park and Preserve",
     address: "419 Decatur Street",
     city: "New Orleans",
     state: "Louisiana",
@@ -3443,10 +3443,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JEFF",
-    locationName: "Jefferson National Expansion Memorial",
+  },
+  {
+    id: "JEFF",
+    name: "Jefferson National Expansion Memorial",
     address: "Jefferson National Expansion Memorial, 11 N. 4th Street",
     city: "St. Louis",
     state: "Missouri",
@@ -3462,10 +3462,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JECA",
-    locationName: "Jewel Cave National Monument",
+  },
+  {
+    id: "JECA",
+    name: "Jewel Cave National Monument",
     address: "11149 U.S. Highway 16, Building B12",
     city: "Custer",
     state: "South Dakota",
@@ -3481,10 +3481,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "jica",
-    locationName: "Jimmy Carter National Historic Site",
+  },
+  {
+    id: "jica",
+    name: "Jimmy Carter National Historic Site",
     address: "Jimmy Carter National Historic Site, 300 North Bond Street",
     city: "Plains",
     state: "Georgia",
@@ -3500,10 +3500,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JODA",
-    locationName: "John Day Fossil Beds National Monument",
+  },
+  {
+    id: "JODA",
+    name: "John Day Fossil Beds National Monument",
     address: "32651 Highway 19,",
     city: "Kimberly",
     state: "Oregon",
@@ -3519,10 +3519,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JOFI",
-    locationName: "John Fitzgerald Kennedy National Historic Site",
+  },
+  {
+    id: "JOFI",
+    name: "John Fitzgerald Kennedy National Historic Site",
     address: "John Fitzgerald Kennedy National Historic Site, 83 Beals Street",
     city: "Brookline",
     state: "Massachusetts",
@@ -3538,10 +3538,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "jomu",
-    locationName: "John Muir National Historic Site",
+  },
+  {
+    id: "jomu",
+    name: "John Muir National Historic Site",
     address: "John Muir National Historic Site, 4202 Alhambra Ave.",
     city: "Martinez",
     state: "California",
@@ -3557,10 +3557,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JOFL",
-    locationName: "Johnstown Flood National Memorial",
+  },
+  {
+    id: "JOFL",
+    name: "Johnstown Flood National Memorial",
     address: "Johnstown Flood National Memorial, 733 Lake Road",
     city: "South Fork",
     state: "Pennsylvania",
@@ -3576,10 +3576,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "jotr",
-    locationName: "Joshua Tree National Park",
+  },
+  {
+    id: "jotr",
+    name: "Joshua Tree National Park",
     address: "Joshua Tree National Park, 74485 National Park Drive",
     city: "Twentynine Palms",
     state: "California",
@@ -3595,10 +3595,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "juba",
-    locationName: "Juan Bautista de Anza National Historic Trail",
+  },
+  {
+    id: "juba",
+    name: "Juan Bautista de Anza National Historic Trail",
     address: "1111 Jackson St., Suite 700",
     city: "Oakland",
     state: "California",
@@ -3614,10 +3614,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "kala",
-    locationName: "Kalaupapa National Historical Park",
+  },
+  {
+    id: "kala",
+    name: "Kalaupapa National Historical Park",
     address: "Superintendent, POB 2222",
     city: "Kalaupapa",
     state: "Hawaii",
@@ -3633,10 +3633,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "kaho",
-    locationName: "Kaloko-Honokohau National Historical Park",
+  },
+  {
+    id: "kaho",
+    name: "Kaloko-Honokohau National Historical Park",
     address: "Kaloko-Honokohau National Historical Park, 73-4786 Kanalani St., #14",
     city: "Kailua-Kona",
     state: "Hawaii",
@@ -3652,10 +3652,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "katm",
-    locationName: "Katmai National Park & Preserve",
+  },
+  {
+    id: "katm",
+    name: "Katmai National Park & Preserve",
     address: "P.O. Box 7",
     city: "King Salmon",
     state: "Alaska",
@@ -3671,10 +3671,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "kefj",
-    locationName: "Kenai Fjords National Park",
+  },
+  {
+    id: "kefj",
+    name: "Kenai Fjords National Park",
     address: "Kenai Fjords National Park, P.O. Box 1727",
     city: "Seward",
     state: "Alaska",
@@ -3690,10 +3690,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "kemo",
-    locationName: "Kennesaw Mountain National Battlefield Park",
+  },
+  {
+    id: "kemo",
+    name: "Kennesaw Mountain National Battlefield Park",
     address: "Ranger Activities, 900 Kennesaw Mountain Dr.",
     city: "Kennesaw",
     state: "Georgia",
@@ -3709,10 +3709,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "KEWE",
-    locationName: "Keweenaw National Historical Park",
+  },
+  {
+    id: "KEWE",
+    name: "Keweenaw National Historical Park",
     address: "25970 Red Jacket Road",
     city: "Calumet",
     state: "Michigan",
@@ -3728,10 +3728,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "KIMO",
-    locationName: "Kings Mountain National Military Park",
+  },
+  {
+    id: "KIMO",
+    name: "Kings Mountain National Military Park",
     address: "Superintendent, 2625 Park Rd",
     city: "Blacksburg",
     state: "South Carolina",
@@ -3747,10 +3747,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "klse",
-    locationName: "Klondike Gold Rush - Seattle Unit National Historical Park",
+  },
+  {
+    id: "klse",
+    name: "Klondike Gold Rush - Seattle Unit National Historical Park",
     address: "319 Second Avenue South",
     city: "Seattle",
     state: "Washington",
@@ -3766,10 +3766,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "klgo",
-    locationName: "Klondike Gold Rush National Historical Park",
+  },
+  {
+    id: "klgo",
+    name: "Klondike Gold Rush National Historical Park",
     address: "P.O. Box 517",
     city: "Skagway",
     state: "Alaska",
@@ -3785,10 +3785,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "KNRI",
-    locationName: "Knife River Indian Villages National Historic Site",
+  },
+  {
+    id: "KNRI",
+    name: "Knife River Indian Villages National Historic Site",
     address: "P.O. Box 9, 564 County Road 37",
     city: "Stanton",
     state: "North Dakota",
@@ -3804,10 +3804,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "kova",
-    locationName: "Kobuk Valley National Park",
+  },
+  {
+    id: "kova",
+    name: "Kobuk Valley National Park",
     address: "PO Box 1029",
     city: "Kotzebue",
     state: "Alaska",
@@ -3823,10 +3823,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "lacl",
-    locationName: "Lake Clark National Park & Preserve",
+  },
+  {
+    id: "lacl",
+    name: "Lake Clark National Park & Preserve",
     address: "240 West 5th Avenue, Suite 236",
     city: "Anchorage",
     state: "Alaska",
@@ -3842,10 +3842,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "lame",
-    locationName: "Lake Mead National Recreation Area",
+  },
+  {
+    id: "lame",
+    name: "Lake Mead National Recreation Area",
     address: "601 Nevada Way",
     city: "Boulder city",
     state: "Nevada",
@@ -3862,10 +3862,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "lavo",
-    locationName: "Lassen Volcanic National Park",
+  },
+  {
+    id: "lavo",
+    name: "Lassen Volcanic National Park",
     address: "Lassen Volcanic National Park, P.O. Box 100",
     city: "Mineral",
     state: "California",
@@ -3881,10 +3881,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "labe",
-    locationName: "Lava Beds National Monument",
+  },
+  {
+    id: "labe",
+    name: "Lava Beds National Monument",
     address: "P.O. Box 1240",
     city: "Tulelake",
     state: "California",
@@ -3900,10 +3900,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LECL",
-    locationName: "Lewis & Clark National Historic Trail",
+  },
+  {
+    id: "LECL",
+    name: "Lewis & Clark National Historic Trail",
     address: "601 Riverfront Drive",
     city: "Omaha",
     state: "Nebraska",
@@ -3920,10 +3920,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LEWI",
-    locationName: "Lewis and Clark National Historical Park",
+  },
+  {
+    id: "LEWI",
+    name: "Lewis and Clark National Historical Park",
     address: "92343 Fort Clatsop Road",
     city: "Astoria",
     state: "Oregon",
@@ -3939,10 +3939,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LIBO",
-    locationName: "Lincoln Boyhood National Memorial",
+  },
+  {
+    id: "LIBO",
+    name: "Lincoln Boyhood National Memorial",
     address: "2916 E South Street, PO Box 1816",
     city: "Lincoln city",
     state: "Indiana",
@@ -3958,10 +3958,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LIHO",
-    locationName: "Lincoln Home National Historic Site",
+  },
+  {
+    id: "LIHO",
+    name: "Lincoln Home National Historic Site",
     address: "Lincoln Home NHS, 413 South Eighth Street",
     city: "Springfield",
     state: "Illinois",
@@ -3977,10 +3977,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LIBI",
-    locationName: "Little Bighorn Battlefield National Monument",
+  },
+  {
+    id: "LIBI",
+    name: "Little Bighorn Battlefield National Monument",
     address: "Little Bighorn Battlefield National Monument, PO Box 39",
     city: "Crow Agency",
     state: "Montana",
@@ -3996,10 +3996,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "liri",
-    locationName: "Little River Canyon National Preserve",
+  },
+  {
+    id: "liri",
+    name: "Little River Canyon National Preserve",
     address: "Little River Canyon National Preserve, 4322 Little River Trail NE,   Suite 100",
     city: "Fort Payne",
     state: "Alabama",
@@ -4015,10 +4015,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "chsc",
-    locationName: "Little Rock Central High School National Historic Site",
+  },
+  {
+    id: "chsc",
+    name: "Little Rock Central High School National Historic Site",
     address: "2120 Daisy Bates Drive",
     city: "Little Rock",
     state: "Arkansas",
@@ -4034,10 +4034,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LONG",
-    locationName: "Longfellow National Historic Site",
+  },
+  {
+    id: "LONG",
+    name: "Longfellow National Historic Site",
     address: "Longfellow House - Washington's Headquarters National Historic Site, 105 Brattle Street",
     city: "Cambridge",
     state: "Massachusetts",
@@ -4053,10 +4053,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LOWE",
-    locationName: "Lowell National Historical Park",
+  },
+  {
+    id: "LOWE",
+    name: "Lowell National Historical Park",
     address: "Superintendent, 67 Kirk Street",
     city: "Lowell",
     state: "Massachusetts",
@@ -4072,10 +4072,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LOEA",
-    locationName: "Lower East Side Tenement Museum National Historic Site",
+  },
+  {
+    id: "LOEA",
+    name: "Lower East Side Tenement Museum National Historic Site",
     address: "108 Orchard Street, Visitor Center",
     city: "New York",
     state: "New York",
@@ -4091,10 +4091,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "LYJO",
-    locationName: "Lyndon B. Johnson National Historical Park",
+  },
+  {
+    id: "LYJO",
+    name: "Lyndon B. Johnson National Historical Park",
     address: "Superintendent, P.O. Box 329",
     city: "Johnson city",
     state: "Texas",
@@ -4110,10 +4110,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MAAC",
-    locationName: "Maine Acadian Culture",
+  },
+  {
+    id: "MAAC",
+    name: "Maine Acadian Culture",
     address: "c/o Acadia National Park, P.O. Box 177",
     city: "Bar Harbor",
     state: "Maine",
@@ -4129,10 +4129,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MACA",
-    locationName: "Mammoth Cave National Park",
+  },
+  {
+    id: "MACA",
+    name: "Mammoth Cave National Park",
     address: "Superintendent, 1 Mammoth Cave Parkway   P.O. Box 7",
     city: "Mammoth Cave",
     state: "Kentucky",
@@ -4148,10 +4148,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MANA",
-    locationName: "Manassas National Battlefield Park",
+  },
+  {
+    id: "MANA",
+    name: "Manassas National Battlefield Park",
     address: "Manassas National Battlefield, 12521 Lee Highway",
     city: "Manassas",
     state: "Virginia",
@@ -4167,10 +4167,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "manz",
-    locationName: "Manzanar National Historic Site",
+  },
+  {
+    id: "manz",
+    name: "Manzanar National Historic Site",
     address: "Manzanar National Historic Site, P.O. Box 426",
     city: "Independence",
     state: "California",
@@ -4186,10 +4186,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MABI",
-    locationName: "Marsh-Billings-Rockefeller National Historical Park",
+  },
+  {
+    id: "MABI",
+    name: "Marsh-Billings-Rockefeller National Historical Park",
     address: "Marsh-Billings-Rockefeller National Historical Park, 54 Elm Street",
     city: "Woodstock",
     state: "Vermont",
@@ -4205,10 +4205,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "malu",
-    locationName: "Martin Luther King Jr National Historic Site",
+  },
+  {
+    id: "malu",
+    name: "Martin Luther King Jr National Historic Site",
     address: "Superintendent, 450 Auburn Avenue, NE",
     city: "Atlanta",
     state: "Georgia",
@@ -4224,10 +4224,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MAVA",
-    locationName: "Martin Van Buren National Historic Site",
+  },
+  {
+    id: "MAVA",
+    name: "Martin Van Buren National Historic Site",
     address: "1013 Old Post Road",
     city: "Kinderhook",
     state: "New York",
@@ -4243,10 +4243,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "meve",
-    locationName: "Mesa Verde National Park",
+  },
+  {
+    id: "meve",
+    name: "Mesa Verde National Park",
     address: "Mesa Verde National Park, P.O. Box 8",
     city: "Mesa Verde",
     state: "Colorado",
@@ -4262,10 +4262,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MIIN",
-    locationName: "Minidoka National Historic Site",
+  },
+  {
+    id: "MIIN",
+    name: "Minidoka National Historic Site",
     address: "P.O. Box 570",
     city: "Hagerman",
     state: "Idaho",
@@ -4281,10 +4281,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MIMA",
-    locationName: "Minute Man National Historical Park",
+  },
+  {
+    id: "MIMA",
+    name: "Minute Man National Historical Park",
     address: "Minute Man National Historical Park, 174 Liberty St.",
     city: "Concord",
     state: "Massachusetts",
@@ -4300,10 +4300,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MIMI",
-    locationName: "Minuteman Missile National Historic Site",
+  },
+  {
+    id: "MIMI",
+    name: "Minuteman Missile National Historic Site",
     address: "21280 SD Hwy 240",
     city: "Philip",
     state: "South Dakota",
@@ -4319,10 +4319,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MISS",
-    locationName: "Mississippi National River and Recreation Area",
+  },
+  {
+    id: "MISS",
+    name: "Mississippi National River and Recreation Area",
     address: "111 East Kellogg Blvd., Suite 105",
     city: "Saint Paul",
     state: "Minnesota",
@@ -4338,10 +4338,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MNRR",
-    locationName: "Missouri National Recreational River",
+  },
+  {
+    id: "MNRR",
+    name: "Missouri National Recreational River",
     address: "Missouri National Recreational River, 508 E. 2nd Street",
     city: "Yankton",
     state: "South Dakota",
@@ -4357,10 +4357,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "moja",
-    locationName: "Mojave National Preserve",
+  },
+  {
+    id: "moja",
+    name: "Mojave National Preserve",
     address: "Mojave National Preserve, 2701 Barstow Road",
     city: "Barstow",
     state: "California",
@@ -4377,10 +4377,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MONO",
-    locationName: "Monocacy National Battlefield",
+  },
+  {
+    id: "MONO",
+    name: "Monocacy National Battlefield",
     address: "4801 Urbana Pike",
     city: "Frederick",
     state: "Maryland",
@@ -4396,10 +4396,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "moca",
-    locationName: "Montezuma Castle National Monument",
+  },
+  {
+    id: "moca",
+    name: "Montezuma Castle National Monument",
     address: "Montezuma Castle National Monument, P. O. Box 219",
     city: "Camp Verde",
     state: "Arizona",
@@ -4415,10 +4415,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MOCR",
-    locationName: "Moores Creek National Battlefield",
+  },
+  {
+    id: "MOCR",
+    name: "Moores Creek National Battlefield",
     address: "40 Patriots Hall Drive",
     city: "Currie",
     state: "North Carolina",
@@ -4434,10 +4434,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MOPI",
-    locationName: "Mormon Pioneer National Historic Trail",
+  },
+  {
+    id: "MOPI",
+    name: "Mormon Pioneer National Historic Trail",
     address: "National Trails Intermountain Region, 324 South State St., Suite 200",
     city: "Salt Lake city",
     state: "Utah",
@@ -4453,10 +4453,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MORR",
-    locationName: "Morristown National Historical Park",
+  },
+  {
+    id: "MORR",
+    name: "Morristown National Historical Park",
     address: "Morristown National Historical Park, 30 Washington Place",
     city: "Morristown",
     state: "New Jersey",
@@ -4472,10 +4472,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MORA",
-    locationName: "Mount Rainier National Park",
+  },
+  {
+    id: "MORA",
+    name: "Mount Rainier National Park",
     address: "Mount Rainier National Park, 55210 238th Ave. East",
     city: "Ashford",
     state: "Washington",
@@ -4491,10 +4491,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "MORU",
-    locationName: "Mount Rushmore National Memorial",
+  },
+  {
+    id: "MORU",
+    name: "Mount Rushmore National Memorial",
     address: "Mount Rushmore National Memorial, 13000 Hwy 244 Bldg 31 Suite 1",
     city: "Keystone",
     state: "South Dakota",
@@ -4510,10 +4510,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "muwo",
-    locationName: "Muir Woods National Monument",
+  },
+  {
+    id: "muwo",
+    name: "Muir Woods National Monument",
     address: "Muir Woods National Monument",
     city: "Mill Valley",
     state: "California",
@@ -4529,10 +4529,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NATT",
-    locationName: "Natchez Trace National Scenic Trail",
+  },
+  {
+    id: "NATT",
+    name: "Natchez Trace National Scenic Trail",
     address: "Natchez Trace National Scenic Trail, 2680 Natchez Trace Parkway",
     city: "Tupelo",
     state: "Mississippi",
@@ -4548,10 +4548,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "natr",
-    locationName: "Natchez Trace Parkway",
+  },
+  {
+    id: "natr",
+    name: "Natchez Trace Parkway",
     address: "Natchez Trace Parkway, 2680 Natchez Trace Parkway",
     city: "Tupelo",
     state: "Mississippi",
@@ -4567,10 +4567,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NACE",
-    locationName: "National Capital Parks-East",
+  },
+  {
+    id: "NACE",
+    name: "National Capital Parks-East",
     address: "1900 Anacostia Dr., SE",
     city: "Washington",
     state: "DC",
@@ -4586,10 +4586,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "npsa",
-    locationName: "National Park of American Samoa",
+  },
+  {
+    id: "npsa",
+    name: "National Park of American Samoa",
     address: "Superintendent, National Park of American Samoa",
     city: "Pago Pago",
     state: "American Samoa",
@@ -4605,10 +4605,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NPNH",
-    locationName: "National Parks of New York Harbor",
+  },
+  {
+    id: "NPNH",
+    name: "National Parks of New York Harbor",
     address: "National Parks of New York Harbor, Federal Hall National Memorial 26 Wall Street",
     city: "New York",
     state: "New York",
@@ -4624,10 +4624,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NABR",
-    locationName: "Natural Bridges National Monument",
+  },
+  {
+    id: "NABR",
+    name: "Natural Bridges National Monument",
     address: "Natural Bridges, HC-60 Box 1",
     city: "Lake Powell",
     state: "Utah",
@@ -4643,10 +4643,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "nava",
-    locationName: "Navajo National Monument",
+  },
+  {
+    id: "nava",
+    name: "Navajo National Monument",
     address: "Superintendent, Navajo National Monument, HC 71 Box 3",
     city: "Tonalea",
     state: "Arizona",
@@ -4662,10 +4662,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NEBE",
-    locationName: "New Bedford Whaling National Historical Park",
+  },
+  {
+    id: "NEBE",
+    name: "New Bedford Whaling National Historical Park",
     address: "New Bedford Whaling NHP, 33 William Street",
     city: "New Bedford",
     state: "Massachusetts",
@@ -4681,10 +4681,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "JAZZ",
-    locationName: "New Orleans Jazz National Historical Park",
+  },
+  {
+    id: "JAZZ",
+    name: "New Orleans Jazz National Historical Park",
     address: "419 Decatur Street",
     city: "New Orleans",
     state: "Louisiana",
@@ -4701,10 +4701,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NERI",
-    locationName: "New River Gorge National River",
+  },
+  {
+    id: "NERI",
+    name: "New River Gorge National River",
     address: "P.O. Box 246",
     city: "Glen Jean",
     state: "West Virginia",
@@ -4720,10 +4720,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NEPE",
-    locationName: "Nez Perce National Historical Park",
+  },
+  {
+    id: "NEPE",
+    name: "Nez Perce National Historical Park",
     address: "Nez Perce NHP, PO Box 1000",
     city: "Lapwai",
     state: "Idaho",
@@ -4740,10 +4740,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NICO",
-    locationName: "Nicodemus National Historic Site",
+  },
+  {
+    id: "NICO",
+    name: "Nicodemus National Historic Site",
     address: "Nicodemus National Historic Site, 304 Washington Avenue",
     city: "Nicodemus",
     state: "Kansas",
@@ -4759,10 +4759,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NISI",
-    locationName: "Ninety Six National Historic Site",
+  },
+  {
+    id: "NISI",
+    name: "Ninety Six National Historic Site",
     address: "Ninety Six National Historic Site, PO Box 418",
     city: "Ninety Six",
     state: "South Carolina",
@@ -4778,10 +4778,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NIOB",
-    locationName: "Niobrara National Scenic River",
+  },
+  {
+    id: "NIOB",
+    name: "Niobrara National Scenic River",
     address: "Niobrara National Scenic River, P.O. Box 319",
     city: "Valentine",
     state: "Nebraska",
@@ -4797,10 +4797,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "noat",
-    locationName: "Noatak National Preserve",
+  },
+  {
+    id: "noat",
+    name: "Noatak National Preserve",
     address: "National Park Service, P.O. Box 1029",
     city: "Kotzebue",
     state: "Alaska",
@@ -4816,10 +4816,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "lach",
-    locationName: "North Cascades National Park Service Complex",
+  },
+  {
+    id: "lach",
+    name: "North Cascades National Park Service Complex",
     address: "North Cascades National Park Complex, 810 State Route 20",
     city: "Sedro-Woolley",
     state: "Washington",
@@ -4835,10 +4835,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NOCO",
-    locationName: "North Country National Scenic Trail",
+  },
+  {
+    id: "NOCO",
+    name: "North Country National Scenic Trail",
     address: "700 Rayovac Dr. Suite 100",
     city: "Madison",
     state: "Wisconsin",
@@ -4854,10 +4854,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "NORG",
-    locationName: "Northern Rio Grande National Heritage Area",
+  },
+  {
+    id: "NORG",
+    name: "Northern Rio Grande National Heritage Area",
     address: "PO BOX 610",
     city: "Espa&ntilde;ola",
     state: "New Mexico",
@@ -4873,10 +4873,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OBED",
-    locationName: "Obed Wild & Scenic River",
+  },
+  {
+    id: "OBED",
+    name: "Obed Wild & Scenic River",
     address: "Obed Wild and Scenic River, P.O. Box 429",
     city: "Wartburg",
     state: "Tennessee",
@@ -4892,10 +4892,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ocmu",
-    locationName: "Ocmulgee National Monument",
+  },
+  {
+    id: "ocmu",
+    name: "Ocmulgee National Monument",
     address: "Ocmulgee National Monument, 1207 Emery Highway",
     city: "Macon",
     state: "Georgia",
@@ -4911,10 +4911,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OKCI",
-    locationName: "Oklahoma city National Memorial",
+  },
+  {
+    id: "OKCI",
+    name: "Oklahoma city National Memorial",
     address: "PO Box 676",
     city: "Oklahoma city",
     state: "Oklahoma",
@@ -4931,10 +4931,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "olsp",
-    locationName: "Old Spanish National Historic Trail",
+  },
+  {
+    id: "olsp",
+    name: "Old Spanish National Historic Trail",
     address: "National Trails Intermountain Region, PO Box 728",
     city: "Santa Fe",
     state: "New Mexico",
@@ -4950,10 +4950,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OREG",
-    locationName: "Oregon National Historic Trail",
+  },
+  {
+    id: "OREG",
+    name: "Oregon National Historic Trail",
     address: "National Park Service, 324 S. State St., Suite 200",
     city: "Salt Lake city",
     state: "Utah",
@@ -4969,10 +4969,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "orpi",
-    locationName: "Organ Pipe Cactus National Monument",
+  },
+  {
+    id: "orpi",
+    name: "Organ Pipe Cactus National Monument",
     address: "Organ Pipe Cactus National Monument, 10 Organ Pipe Drive",
     city: "Ajo",
     state: "Arizona",
@@ -4988,10 +4988,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OVVI",
-    locationName: "Overmountain Victory National Historic Trail",
+  },
+  {
+    id: "OVVI",
+    name: "Overmountain Victory National Historic Trail",
     address: "Superintendent, 2635 Park Road",
     city: "Blacksburg",
     state: "South Carolina",
@@ -5007,10 +5007,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OXHI",
-    locationName: "Oxon Cove Park & Oxon Hill Farm",
+  },
+  {
+    id: "OXHI",
+    name: "Oxon Cove Park & Oxon Hill Farm",
     address: "1900 Anacostia Dr. S.W.",
     city: "Washington",
     state: "DC",
@@ -5026,10 +5026,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "OZAR",
-    locationName: "Ozark National Scenic Riverways",
+  },
+  {
+    id: "OZAR",
+    name: "Ozark National Scenic Riverways",
     address: "Ozark National Scenic Riverways, P.O. Box 490",
     city: "Van Buren",
     state: "Missouri",
@@ -5045,10 +5045,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PAIS",
-    locationName: "Padre Island National Seashore",
+  },
+  {
+    id: "PAIS",
+    name: "Padre Island National Seashore",
     address: "Malaquite Visitor Center, PO Box 181300",
     city: "Corpus Christi",
     state: "Texas",
@@ -5064,10 +5064,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PAAL",
-    locationName: "Palo Alto Battlefield National Historical Park",
+  },
+  {
+    id: "PAAL",
+    name: "Palo Alto Battlefield National Historical Park",
     address: "1623 Central Boulevard, Suite 213",
     city: "Brownsville",
     state: "Texas",
@@ -5083,10 +5083,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "usar",
-    locationName: "Park News",
+  },
+  {
+    id: "usar",
+    name: "Park News",
     address: "Superintendent, 1 Arizona Memorial Place",
     city: "Honolulu",
     state: "Hawaii",
@@ -5102,10 +5102,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "peri",
-    locationName: "Pea Ridge National Military Park",
+  },
+  {
+    id: "peri",
+    name: "Pea Ridge National Military Park",
     address: "Pea Ridge NMP, 15930 E Highway 62",
     city: "Garfield",
     state: "Arkansas",
@@ -5121,10 +5121,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PECO",
-    locationName: "Pecos National Historical Park",
+  },
+  {
+    id: "PECO",
+    name: "Pecos National Historical Park",
     address: "Superintendent, Pecos National Historical Park PO Box 418",
     city: "Pecos",
     state: "New Mexico",
@@ -5140,10 +5140,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PEVI",
-    locationName: "Perrys Victory and International Peace Memorial",
+  },
+  {
+    id: "PEVI",
+    name: "Perrys Victory and International Peace Memorial",
     address: "Perry's Victory and International Peace Memorial, Post Office Box 549",
     city: "Put-in-Bay",
     state: "Ohio",
@@ -5159,10 +5159,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "pefo",
-    locationName: "Petrified Forest National Park",
+  },
+  {
+    id: "pefo",
+    name: "Petrified Forest National Park",
     address: "Superintendent, Petrified Forest National Park, PO Box 2217",
     city: "Petrified Forest",
     state: "Arizona",
@@ -5178,10 +5178,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PETR",
-    locationName: "Petroglyph National Monument",
+  },
+  {
+    id: "PETR",
+    name: "Petroglyph National Monument",
     address: "Petroglyph National Monument, 6001 Unser Blvd, NW",
     city: "Albuquerque",
     state: "New Mexico",
@@ -5197,10 +5197,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PIRO",
-    locationName: "Pictured Rocks National Lakeshore",
+  },
+  {
+    id: "PIRO",
+    name: "Pictured Rocks National Lakeshore",
     address: "Pictured Rocks National Lakeshore, P.O. Box 40",
     city: "Munising",
     state: "Michigan",
@@ -5216,10 +5216,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "PINE",
-    locationName: "Pinelands National Reserve",
+  },
+  {
+    id: "PINE",
+    name: "Pinelands National Reserve",
     address: "New Jersey Pinelands Commission, 15 Springfield Rd (P.O. Box 7)",
     city: "New Lisbon",
     state: "New Jersey",
@@ -5235,10 +5235,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "pinn",
-    locationName: "Pinnacles National Monument",
+  },
+  {
+    id: "pinn",
+    name: "Pinnacles National Monument",
     address: "Pinnacles National Monument, 5000 Highway 146",
     city: "Paicines",
     state: "California",
@@ -5255,10 +5255,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "pisp",
-    locationName: "Pipe Spring National Monument",
+  },
+  {
+    id: "pisp",
+    name: "Pipe Spring National Monument",
     address: "Pipe Spring National Monument, HC 65 Box 5",
     city: "Fredonia",
     state: "Arizona",
@@ -5274,10 +5274,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "pore",
-    locationName: "Point Reyes National Seashore",
+  },
+  {
+    id: "pore",
+    name: "Point Reyes National Seashore",
     address: "Point Reyes National Seashore, 1 Bear Valley Rd.",
     city: "Point Reyes Station",
     state: "California",
@@ -5293,10 +5293,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "poex",
-    locationName: "Pony Express National Historic Trail",
+  },
+  {
+    id: "poex",
+    name: "Pony Express National Historic Trail",
     address: "National Park Service, 324 S. State St., Suite 200",
     city: "Salt Lake city",
     state: "Utah",
@@ -5312,10 +5312,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "poch",
-    locationName: "Port Chicago Naval Magazine National Memorial",
+  },
+  {
+    id: "poch",
+    name: "Port Chicago Naval Magazine National Memorial",
     address: "Port Chicago Naval Magazine NM, 4202 Alhambra Ave.",
     city: "Martinez",
     state: "California",
@@ -5331,10 +5331,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "POHE",
-    locationName: "Potomac Heritage National Scenic Trail",
+  },
+  {
+    id: "POHE",
+    name: "Potomac Heritage National Scenic Trail",
     address: "Potomac Heritage National Scenic Trail Office, Post Office Box B",
     city: "Harpers Ferry",
     state: "West Virginia",
@@ -5350,10 +5350,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "POPO",
-    locationName: "Poverty Point National Monument",
+  },
+  {
+    id: "POPO",
+    name: "Poverty Point National Monument",
     address: "Poverty Point State Historic Site, P.O. Box 276",
     city: "Epps",
     state: "Louisiana",
@@ -5369,10 +5369,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "puho",
-    locationName: "Pu`uhonua o Honaunau National Historical Park",
+  },
+  {
+    id: "puho",
+    name: "Pu`uhonua o Honaunau National Historical Park",
     address: "Pu`uhonua o Honaunau National Historical Park",
     city: "Captain Cook",
     state: "Hawaii",
@@ -5388,10 +5388,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "puhe",
-    locationName: "Pu'ukohola Heiau National Historic Site",
+  },
+  {
+    id: "puhe",
+    name: "Pu'ukohola Heiau National Historic Site",
     address: "Superintendent, 62-3601 Kawaihae Road",
     city: "Kawaihae",
     state: "Hawaii",
@@ -5407,10 +5407,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "RABR",
-    locationName: "Rainbow Bridge National Monument",
+  },
+  {
+    id: "RABR",
+    name: "Rainbow Bridge National Monument",
     address: "Rainbow Bridge NM, PO Box 1507",
     city: "Page",
     state: "Arizona",
@@ -5426,10 +5426,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "redw",
-    locationName: "Redwood National and State Parks",
+  },
+  {
+    id: "redw",
+    name: "Redwood National and State Parks",
     address: "Redwood National & State Parks, 1111 Second Street",
     city: "Crescent city",
     state: "California",
@@ -5445,10 +5445,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "rigr",
-    locationName: "Rio Grande Wild & Scenic River",
+  },
+  {
+    id: "rigr",
+    name: "Rio Grande Wild & Scenic River",
     address: "Rio Grande Wild & Scenic River c/o Big Bend National Park, PO Box 129",
     city: "Big Bend National Park",
     state: "Texas",
@@ -5464,10 +5464,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "romo",
-    locationName: "Rocky Mountain National Park",
+  },
+  {
+    id: "romo",
+    name: "Rocky Mountain National Park",
     address: "Rocky Mountain National Park, 1000 Highway 36",
     city: "Estes Park",
     state: "Colorado",
@@ -5483,10 +5483,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ROWI",
-    locationName: "Roger Williams National Memorial",
+  },
+  {
+    id: "ROWI",
+    name: "Roger Williams National Memorial",
     address: "Roger Williams National Memorial, 282 North Main Street",
     city: "Providence",
     state: "Rhode Island",
@@ -5502,10 +5502,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ROCA",
-    locationName: "Roosevelt Campobello International Park",
+  },
+  {
+    id: "ROCA",
+    name: "Roosevelt Campobello International Park",
     address: "Executive Secretary, P.O. Box 97",
     city: "Lubec",
     state: "Maine",
@@ -5521,10 +5521,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "rori",
-    locationName: "Rosie the Riveter / WWII Home Front National Historical Park",
+  },
+  {
+    id: "rori",
+    name: "Rosie the Riveter / WWII Home Front National Historical Park",
     address: "PO Box 336, Station A",
     city: "Richmond",
     state: "California",
@@ -5540,10 +5540,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ruca",
-    locationName: "Russell Cave National Monument",
+  },
+  {
+    id: "ruca",
+    name: "Russell Cave National Monument",
     address: "Russell Cave National Monument, 3729 County Road 98",
     city: "Bridgeport",
     state: "Alabama",
@@ -5559,10 +5559,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAHI",
-    locationName: "Sagamore Hill American National Historic Site",
+  },
+  {
+    id: "SAHI",
+    name: "Sagamore Hill American National Historic Site",
     address: "20 Sagamore Hill Road",
     city: "Oyster Bay",
     state: "New York",
@@ -5578,10 +5578,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "sagu",
-    locationName: "Saguaro National Park",
+  },
+  {
+    id: "sagu",
+    name: "Saguaro National Park",
     address: "Saguaro National Park, 3693 South Old Spanish Trail",
     city: "Tucson",
     state: "Arizona",
@@ -5597,10 +5597,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SACR",
-    locationName: "Saint Croix Island International Historic Site",
+  },
+  {
+    id: "SACR",
+    name: "Saint Croix Island International Historic Site",
     address: "c/o Acadia National Park, P.O. Box 177",
     city: "Bar Harbor",
     state: "Maine",
@@ -5616,10 +5616,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "sacn",
-    locationName: "Saint Croix National Scenic Riverway",
+  },
+  {
+    id: "sacn",
+    name: "Saint Croix National Scenic Riverway",
     address: "401 North Hamilton Street",
     city: "Saint Croix Falls",
     state: "Wisconsin",
@@ -5635,10 +5635,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAPA",
-    locationName: "Saint Paul's Church National Historic Site",
+  },
+  {
+    id: "SAPA",
+    name: "Saint Paul's Church National Historic Site",
     address: "St. Paul's Church National Historic Site, 897 South Columbus Ave.",
     city: "Mount Vernon",
     state: "New York",
@@ -5654,10 +5654,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAGA",
-    locationName: "Saint-Gaudens National Historic Site",
+  },
+  {
+    id: "SAGA",
+    name: "Saint-Gaudens National Historic Site",
     address: "139 Saint-Gaudens Road",
     city: "Cornish",
     state: "New Hampshire",
@@ -5673,10 +5673,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAMA",
-    locationName: "Salem Maritime National Historic Site",
+  },
+  {
+    id: "SAMA",
+    name: "Salem Maritime National Historic Site",
     address: "Salem Maritime National Historic Site, 160 Derby Street",
     city: "Salem",
     state: "Massachusetts",
@@ -5692,10 +5692,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAPU",
-    locationName: "Salinas Pueblo Missions National Monument",
+  },
+  {
+    id: "SAPU",
+    name: "Salinas Pueblo Missions National Monument",
     address: "P.O. Box 517",
     city: "Mountainair",
     state: "New Mexico",
@@ -5711,10 +5711,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "saan",
-    locationName: "San Antonio Missions National Historical Park",
+  },
+  {
+    id: "saan",
+    name: "San Antonio Missions National Historical Park",
     address: "San Antonio Missions National Historical Park, 2202 Roosevelt Avenue",
     city: "San Antonio",
     state: "Texas",
@@ -5730,10 +5730,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "safr",
-    locationName: "San Francisco Maritime National Historical Park",
+  },
+  {
+    id: "safr",
+    name: "San Francisco Maritime National Historical Park",
     address: "San Francisco Maritime NHP, Fort Mason Center, Building E",
     city: "San Francisco",
     state: "California",
@@ -5749,10 +5749,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAJU",
-    locationName: "San Juan National Historic Site",
+  },
+  {
+    id: "SAJU",
+    name: "San Juan National Historic Site",
     address: "San Juan NHS, 501 Calle Norzagaray",
     city: "San Juan",
     state: "Puerto Rico",
@@ -5769,10 +5769,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "sand",
-    locationName: "Sand Creek Massacre National Historic Site",
+  },
+  {
+    id: "sand",
+    name: "Sand Creek Massacre National Historic Site",
     address: "PO Box 249, 910 Wansted",
     city: "Eads",
     state: "Colorado",
@@ -5788,10 +5788,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "safe",
-    locationName: "Santa Fe National Historic Trail",
+  },
+  {
+    id: "safe",
+    name: "Santa Fe National Historic Trail",
     address: "National Trails Intermountain Region, PO Box 728",
     city: "Santa Fe",
     state: "New Mexico",
@@ -5807,10 +5807,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "samo",
-    locationName: "Santa Monica Mountains National Recreation Area",
+  },
+  {
+    id: "samo",
+    name: "Santa Monica Mountains National Recreation Area",
     address: "401 West Hillcrest Drive",
     city: "Thousand Oaks",
     state: "California",
@@ -5826,10 +5826,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SARA",
-    locationName: "Saratoga National Historical Park",
+  },
+  {
+    id: "SARA",
+    name: "Saratoga National Historical Park",
     address: "648 Route 32",
     city: "Stillwater",
     state: "New York",
@@ -5845,10 +5845,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SAIR",
-    locationName: "Saugus Iron Works National Historic Site",
+  },
+  {
+    id: "SAIR",
+    name: "Saugus Iron Works National Historic Site",
     address: "244 Central Street",
     city: "Saugus",
     state: "Massachusetts",
@@ -5864,10 +5864,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SCBL",
-    locationName: "Scotts Bluff National Monument",
+  },
+  {
+    id: "SCBL",
+    name: "Scotts Bluff National Monument",
     address: "P.O. Box 27",
     city: "Gering",
     state: "Nebraska",
@@ -5883,10 +5883,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "semo",
-    locationName: "Selma To Montgomery National Historic Trail",
+  },
+  {
+    id: "semo",
+    name: "Selma To Montgomery National Historic Trail",
     address: "7002 US Highway 80, P.O. Box 595",
     city: "Hayneville",
     state: "Alabama",
@@ -5902,10 +5902,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "seki",
-    locationName: "Sequoia & Kings Canyon National Park",
+  },
+  {
+    id: "seki",
+    name: "Sequoia & Kings Canyon National Park",
     address: "Sequoia & Kings Canyon National Parks, 47050 Generals Highway",
     city: "Three Rivers",
     state: "California",
@@ -5921,10 +5921,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SHIL",
-    locationName: "Shiloh National Military Park",
+  },
+  {
+    id: "SHIL",
+    name: "Shiloh National Military Park",
     address: "Shiloh National Military Park, 1055 Pittsburg Landing Road",
     city: "Shiloh",
     state: "Tennessee",
@@ -5940,10 +5940,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "sitk",
-    locationName: "Sitka National Historical Park",
+  },
+  {
+    id: "sitk",
+    name: "Sitka National Historical Park",
     address: "Sitka National Historical Park, 103 Monastery Street",
     city: "Sitka",
     state: "Alaska",
@@ -5959,10 +5959,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SLBE",
-    locationName: "Sleeping Bear Dunes National Lakeshore",
+  },
+  {
+    id: "SLBE",
+    name: "Sleeping Bear Dunes National Lakeshore",
     address: "Sleeping Bear Dunes National Lakeshore, 9922 Front Street",
     city: "Empire",
     state: "Michigan",
@@ -5978,10 +5978,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "SPAR",
-    locationName: "Springfield Armory National Historic Site",
+  },
+  {
+    id: "SPAR",
+    name: "Springfield Armory National Historic Site",
     address: "Springfield Armory NHS, One Armory Square, Suite 2",
     city: "Springfield",
     state: "Massachusetts",
@@ -5997,10 +5997,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "STSP",
-    locationName: "Star-Spangled Banner National Historic Trail",
+  },
+  {
+    id: "STSP",
+    name: "Star-Spangled Banner National Historic Trail",
     address: "National Park Service, 410 Severn Avenue, Suite 314",
     city: "Annapolis",
     state: "Maryland",
@@ -6016,10 +6016,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "STLI",
-    locationName: "Statue of Liberty National Monument",
+  },
+  {
+    id: "STLI",
+    name: "Statue of Liberty National Monument",
     address: "National Park Service, Statue of Liberty National Monument, Liberty Island",
     city: "New York",
     state: "New York",
@@ -6035,10 +6035,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "STEA",
-    locationName: "Steamtown National Historic Site",
+  },
+  {
+    id: "STEA",
+    name: "Steamtown National Historic Site",
     address: "Click the Contact Us link to your left, 150 South Washington Ave",
     city: "Scranton",
     state: "Pennsylvania",
@@ -6054,10 +6054,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "STRI",
-    locationName: "Stones River National Battlefield",
+  },
+  {
+    id: "STRI",
+    name: "Stones River National Battlefield",
     address: "3501 Old Nashville Highway",
     city: "Murfreesboro",
     state: "Tennessee",
@@ -6073,10 +6073,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "sucr",
-    locationName: "Sunset Crater Volcano National Monument",
+  },
+  {
+    id: "sucr",
+    name: "Sunset Crater Volcano National Monument",
     address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
     city: "Flagstaff",
     state: "Arizona",
@@ -6092,10 +6092,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "TAPR",
-    locationName: "Tallgrass Prairie National Preserve",
+  },
+  {
+    id: "TAPR",
+    name: "Tallgrass Prairie National Preserve",
     address: "Tallgrass Prairie National Preserve, P.O. Box 585",
     city: "Cottonwood Falls",
     state: "Kansas",
@@ -6111,10 +6111,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "THKO",
-    locationName: "Thaddeus Kosciuszko National Memorial",
+  },
+  {
+    id: "THKO",
+    name: "Thaddeus Kosciuszko National Memorial",
     address: "INHP, 143 S. Third Street",
     city: "Philadelphia",
     state: "Pennsylvania",
@@ -6130,10 +6130,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "THRB",
-    locationName: "Theodore Roosevelt Birthplace National Historic Site",
+  },
+  {
+    id: "THRB",
+    name: "Theodore Roosevelt Birthplace National Historic Site",
     address: "Theodore Roosevelt Birthplace NHS, 28 East 20th Street",
     city: "New York",
     state: "New York",
@@ -6149,10 +6149,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "THRI",
-    locationName: "Theodore Roosevelt Inaugural National Historic Site",
+  },
+  {
+    id: "THRI",
+    name: "Theodore Roosevelt Inaugural National Historic Site",
     address: "Theodore Roosevelt Inaugural National Historic SIte, 641 Delaware Avenue",
     city: "Buffalo",
     state: "New York",
@@ -6168,10 +6168,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "THCO",
-    locationName: "Thomas Cole National Historic Site",
+  },
+  {
+    id: "THCO",
+    name: "Thomas Cole National Historic Site",
     address: "Thomas Cole NHS/Cedar Grove, PO Box 426, 218 Spring St",
     city: "Catskill",
     state: "New York",
@@ -6187,10 +6187,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "EDIS",
-    locationName: "Thomas Edison National Historical Park",
+  },
+  {
+    id: "EDIS",
+    name: "Thomas Edison National Historical Park",
     address: "Thomas Edison National Historical Park, 211 Main Street",
     city: "West Orange",
     state: "New Jersey",
@@ -6206,10 +6206,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "THST",
-    locationName: "Thomas Stone National Historic Site",
+  },
+  {
+    id: "THST",
+    name: "Thomas Stone National Historic Site",
     address: "6655 Rose Hill Rd",
     city: "Port Tobacco",
     state: "Maryland",
@@ -6225,10 +6225,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "TICA",
-    locationName: "Timpanogos Cave National Monument",
+  },
+  {
+    id: "TICA",
+    name: "Timpanogos Cave National Monument",
     address: "R.R. 3 Box 200",
     city: "American Fork",
     state: "Utah",
@@ -6244,10 +6244,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "foca",
-    locationName: "Timucuan Ecological and Historic Preserve & Fort Caroline National Memorial",
+  },
+  {
+    id: "foca",
+    name: "Timucuan Ecological and Historic Preserve & Fort Caroline National Memorial",
     address: "12713 Fort Caroline Road",
     city: "Jacksonville",
     state: "Florida",
@@ -6263,10 +6263,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tont",
-    locationName: "Tonto National Monument",
+  },
+  {
+    id: "tont",
+    name: "Tonto National Monument",
     address: "Tonto National Monument, 26260 N Az Hwy 188 # 2",
     city: "Roosevelt",
     state: "Arizona",
@@ -6282,10 +6282,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "TOSY",
-    locationName: "Touro Synagogue National Historic Site",
+  },
+  {
+    id: "TOSY",
+    name: "Touro Synagogue National Historic Site",
     address: "Touro Synagogue Foundation, 85 Touro Street",
     city: "Newport",
     state: "Rhode Island",
@@ -6301,10 +6301,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "trte",
-    locationName: "Trail of Tears National Historic Trail",
+  },
+  {
+    id: "trte",
+    name: "Trail of Tears National Historic Trail",
     address: "National Trails Intermountain Region, P.O. Box 728",
     city: "Santa Fe",
     state: "New Mexico",
@@ -6320,10 +6320,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tule",
-    locationName: "Tule Lake Unit",
+  },
+  {
+    id: "tule",
+    name: "Tule Lake Unit",
     address: "Tule Lake Unit, P.O. Box 1240",
     city: "Tulelake",
     state: "California",
@@ -6339,10 +6339,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tuma",
-    locationName: "Tumacacori National Historical Park",
+  },
+  {
+    id: "tuma",
+    name: "Tumacacori National Historical Park",
     address: "Superintendent, P. O. Box 8067",
     city: "Tumacacori",
     state: "Arizona",
@@ -6358,10 +6358,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "TUPE",
-    locationName: "Tupelo National Battlefield",
+  },
+  {
+    id: "TUPE",
+    name: "Tupelo National Battlefield",
     address: "Tupelo National Battlefield, 2680 Natchez Trace Parkway",
     city: "Tupelo",
     state: "Mississippi",
@@ -6377,10 +6377,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tuai",
-    locationName: "Tuskegee Airmen National Historic Site",
+  },
+  {
+    id: "tuai",
+    name: "Tuskegee Airmen National Historic Site",
     address: "Tuskegee Airmen NHS, 1616 Chappie James Ave.",
     city: "Tuskegee",
     state: "Alabama",
@@ -6396,10 +6396,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tuin",
-    locationName: "Tuskegee Institute National Historic Site",
+  },
+  {
+    id: "tuin",
+    name: "Tuskegee Institute National Historic Site",
     address: "Tuskegee Institute National Historic Site, 1212 West Montgomery Road",
     city: "Tuskegee",
     state: "Alabama",
@@ -6415,10 +6415,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "tuzi",
-    locationName: "Tuzigoot National Monument",
+  },
+  {
+    id: "tuzi",
+    name: "Tuzigoot National Monument",
     address: "Tuzigoot National Monument, P.O. Box 219",
     city: "Camp Verde",
     state: "Arizona",
@@ -6434,10 +6434,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ULSG",
-    locationName: "Ulysses S Grant National Historic Site",
+  },
+  {
+    id: "ULSG",
+    name: "Ulysses S Grant National Historic Site",
     address: "Superintendent, 7400 Grant Road",
     city: "St. Louis",
     state: "Missouri",
@@ -6453,10 +6453,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "UPDE",
-    locationName: "Upper Delaware Scenic and Recreational River",
+  },
+  {
+    id: "UPDE",
+    name: "Upper Delaware Scenic and Recreational River",
     address: "Superintendent, 274 River Road",
     city: "Beach Lake",
     state: "Pennsylvania",
@@ -6472,10 +6472,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "VAFO",
-    locationName: "Valley Forge National Historical Park",
+  },
+  {
+    id: "VAFO",
+    name: "Valley Forge National Historical Park",
     address: "1400 North Outer Line Drive",
     city: "King of Prussia",
     state: "Pennsylvania",
@@ -6491,10 +6491,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "VAMA",
-    locationName: "Vanderbilt Mansion National Historic Site",
+  },
+  {
+    id: "VAMA",
+    name: "Vanderbilt Mansion National Historic Site",
     address: "National Park Service, 4097 Albany Post Road",
     city: "Hyde Park",
     state: "New York",
@@ -6510,10 +6510,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "VICK",
-    locationName: "Vicksburg National Military Park",
+  },
+  {
+    id: "VICK",
+    name: "Vicksburg National Military Park",
     address: "Vicksburg National Military Park, 3201 Clay Street",
     city: "Vicksburg",
     state: "Mississippi",
@@ -6529,10 +6529,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "VIIS",
-    locationName: "Virgin Islands National Park",
+  },
+  {
+    id: "VIIS",
+    name: "Virgin Islands National Park",
     address: "Virgin Islands National Park, 1300 Cruz Bay Creek",
     city: "St. John",
     state: "Virgin Islands",
@@ -6548,10 +6548,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "VOYA",
-    locationName: "Voyageurs National Park",
+  },
+  {
+    id: "VOYA",
+    name: "Voyageurs National Park",
     address: "Voyageurs National Park, 360 Highway 11 East",
     city: "International Falls",
     state: "Minnesota",
@@ -6567,10 +6567,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "waca",
-    locationName: "Walnut Canyon National Monument",
+  },
+  {
+    id: "waca",
+    name: "Walnut Canyon National Monument",
     address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
     city: "Flagstaff",
     state: "Arizona",
@@ -6586,10 +6586,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "wapa",
-    locationName: "War in the Pacific National Historical Park",
+  },
+  {
+    id: "wapa",
+    name: "War in the Pacific National Historical Park",
     address: "Superintendent, 135 Murray Boulevard",
     city: "Hagatna",
     state: "Guam",
@@ -6605,10 +6605,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "wefa",
-    locationName: "Weir Farm National Historic Site",
+  },
+  {
+    id: "wefa",
+    name: "Weir Farm National Historic Site",
     address: "Weir Farm NHS, 735 Nod Hill Road",
     city: "Wilton",
     state: "Connecticut",
@@ -6624,10 +6624,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "whis",
-    locationName: "Whiskeytown National Recreational Area",
+  },
+  {
+    id: "whis",
+    name: "Whiskeytown National Recreational Area",
     address: "P.O. Box 188, 14412 Kennedy Memorial Drive",
     city: "Whiskeytown",
     state: "California",
@@ -6643,10 +6643,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "WHSA",
-    locationName: "White Sands National Monument",
+  },
+  {
+    id: "WHSA",
+    name: "White Sands National Monument",
     address: "White Sands National Monument, PO Box 1086",
     city: "Holloman AFB",
     state: "New Mexico",
@@ -6663,10 +6663,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "WIHO",
-    locationName: "William Howard Taft National Historic Site",
+  },
+  {
+    id: "WIHO",
+    name: "William Howard Taft National Historic Site",
     address: "William Howard Taft National Historic Site, 2038 Auburn Ave.",
     city: "Cincinnati",
     state: "Ohio",
@@ -6682,10 +6682,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "WORI",
-    locationName: "Women's Rights National Historical Park",
+  },
+  {
+    id: "WORI",
+    name: "Women's Rights National Historical Park",
     address: "Superintendent, 136 Fall Street",
     city: "Seneca Falls",
     state: "New York",
@@ -6701,10 +6701,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "wrst",
-    locationName: "Wrangell-St. Elias National Park & Preserve",
+  },
+  {
+    id: "wrst",
+    name: "Wrangell-St. Elias National Park & Preserve",
     address: "Wrangell-St. Elias National Park, PO Box 439",
     city: "Copper Center",
     state: "Alaska",
@@ -6720,10 +6720,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "WRBR",
-    locationName: "Wright Brothers National Memorial",
+  },
+  {
+    id: "WRBR",
+    name: "Wright Brothers National Memorial",
     address: "Wright Brothers National Memorial, 1401 National Park Drive",
     city: "Manteo",
     state: "North Carolina",
@@ -6739,10 +6739,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "wupa",
-    locationName: "Wupatki National Monument",
+  },
+  {
+    id: "wupa",
+    name: "Wupatki National Monument",
     address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
     city: "Flagstaff",
     state: "Arizona",
@@ -6758,10 +6758,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "YELL",
-    locationName: "Yellowstone National Park",
+  },
+  {
+    id: "YELL",
+    name: "Yellowstone National Park",
     address: "P.O. Box 168",
     city: "Yellowstone National Park",
     state: "Wyoming",
@@ -6778,10 +6778,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "yose",
-    locationName: "Yosemite National Park",
+  },
+  {
+    id: "yose",
+    name: "Yosemite National Park",
     address: "PO Box 577",
     city: "Yosemite National Park",
     state: "California",
@@ -6798,10 +6798,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "yuho",
-    locationName: "Yucca House National Monument",
+  },
+  {
+    id: "yuho",
+    name: "Yucca House National Monument",
     address: "c/o Mesa Verde National Park, P.O. Box 8",
     city: "Mesa Verde",
     state: "Colorado",
@@ -6817,10 +6817,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "yuch",
-    locationName: "Yukon Charley Rivers National Preserve",
+  },
+  {
+    id: "yuch",
+    name: "Yukon Charley Rivers National Preserve",
     address: "Eagle Visitor Center, P.O. Box 167",
     city: "Eagle",
     state: "Alaska",
@@ -6836,10 +6836,10 @@ export const parkData = [
         ],
         type: "Point"
     }
-    },
-    {
-    locationId: "ZION",
-    locationName: "Zion National Park",
+  },
+  {
+    id: "ZION",
+    name: "Zion National Park",
     address: "Zion National Park",
     city: "Springdale",
     state: "Utah",
