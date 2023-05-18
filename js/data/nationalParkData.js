@@ -1,36 +1,36 @@
-const nationalParksArray = [
-    {
-    LocationID: "ABLI",
-    LocationName: "Abraham Lincoln Birthplace National Historical Park",
-    Address: "2995 Lincoln Farm Road",
-    City: "Hodgenville",
-    State: "Kentucky",
-    ZipCode: 42748,
-    Phone: "(270) 358-3137",
-    Fax: "(270) 358-3874",
-    Latitude: 37.535671,
-    Longitude: -85.7340637,
-    Location: {
+export const parkData = [
+  {
+    locationId: "ABLI",
+    locationName: "Abraham Lincoln Birthplace National Historical Park",
+    address: "2995 Lincoln Farm Road",
+    city: "Hodgenville",
+    state: "Kentucky",
+    zipCode: 42748,
+    phone: "(270) 358-3137",
+    fax: "(270) 358-3874",
+    latitude: 37.535671,
+    longitude: -85.7340637,
+    location: {
         coordinates: [
         -85.7340637,
         37.535671
         ],
         type: "Point"
     }
-    },
-    {
-    LocationID: "ACAD",
-    LocationName: "Acadia National Park",
-    Address: "P.O. Box 177",
-    City: "Bar Harbor",
-    State: "Maine",
-    ZipCode: 4609,
-    Phone: "(207) 288-3338",
-    Fax: "(207) 288-8813",
+  },
+  {
+    locationId: "ACAD",
+    locationName: "Acadia National Park",
+    address: "P.O. Box 177",
+    city: "Bar Harbor",
+    state: "Maine",
+    zipCode: 4609,
+    phone: "(207) 288-3338",
+    fax: "(207) 288-8813",
     Visit: "https://www.nps.gov/acad/index.htm",
-    Latitude: 44.3385559,
-    Longitude: -68.2733346,
-    Location: {
+    latitude: 44.3385559,
+    longitude: -68.2733346,
+    location: {
         coordinates: [
         -68.2733346,
         44.3385559
@@ -39,17 +39,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ADAM",
-    LocationName: "Adams National Historical Park",
-    Address: "135 Adams Street",
-    City: "Quincy",
-    State: "Massachusetts",
-    ZipCode: 2169,
-    Phone: "(617) 770-1175",
-    Fax: "(617) 472-7562",
-    Latitude: 42.256412,
-    Longitude: -71.011167,
-    Location: {
+    locationId: "ADAM",
+    locationName: "Adams National Historical Park",
+    address: "135 Adams Street",
+    city: "Quincy",
+    state: "Massachusetts",
+    zipCode: 2169,
+    phone: "(617) 770-1175",
+    fax: "(617) 472-7562",
+    latitude: 42.256412,
+    longitude: -71.011167,
+    location: {
         coordinates: [
         -71.011167,
         42.256412
@@ -58,17 +58,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "AFBG",
-    LocationName: "African Burial Ground National Monument",
-    Address: "290 Broadway, 1st Floor",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10007,
-    Phone: "(212) 637-2019",
-    Fax: "(212) 227-2026",
-    Latitude: 40.7150514,
-    Longitude: -74.0053687,
-    Location: {
+    locationId: "AFBG",
+    locationName: "African Burial Ground National Monument",
+    address: "290 Broadway, 1st Floor",
+    city: "New York",
+    state: "New York",
+    zipCode: 10007,
+    phone: "(212) 637-2019",
+    fax: "(212) 227-2026",
+    latitude: 40.7150514,
+    longitude: -74.0053687,
+    location: {
         coordinates: [
         -74.0053687,
         40.7150514
@@ -77,17 +77,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "alka",
-    LocationName: "Ala Kahakai National Historic Trail",
-    Address: "73-4786 Kanalani Street, #14",
-    City: "Kailua-Kona",
-    State: "Hawaii",
-    ZipCode: 96740,
-    Phone: 0,
-    Fax: "(808) 329-2597",
-    Latitude: 19.689206,
-    Longitude: -156.021329,
-    Location: {
+    locationId: "alka",
+    locationName: "Ala Kahakai National Historic Trail",
+    address: "73-4786 Kanalani Street, #14",
+    city: "Kailua-Kona",
+    state: "Hawaii",
+    zipCode: 96740,
+    phone: 0,
+    fax: "(808) 329-2597",
+    latitude: 19.689206,
+    longitude: -156.021329,
+    location: {
         coordinates: [
         -156.021329,
         19.689206
@@ -96,17 +96,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "alag",
-    LocationName: "Alagnak Wild River",
-    Address: "P.O. Box 245",
-    City: "King Salmon",
-    State: "Alaska",
-    ZipCode: 99613,
-    Phone: 0,
-    Fax: "(907) 246-2116",
-    Latitude: 58.756222,
-    Longitude: -156.51724,
-    Location: {
+    locationId: "alag",
+    locationName: "Alagnak Wild River",
+    address: "P.O. Box 245",
+    city: "King Salmon",
+    state: "Alaska",
+    zipCode: 99613,
+    phone: 0,
+    fax: "(907) 246-2116",
+    latitude: 58.756222,
+    longitude: -156.51724,
+    location: {
         coordinates: [
         -156.51724,
         58.756222
@@ -115,18 +115,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "alca",
-    LocationName: "Alcatraz Island",
-    Address: 0,
-    City: "San Francisco",
-    State: "California",
-    ZipCode: 0,
-    Phone: 0,
-    Fax: "(415) 705-1050",
+    locationId: "alca",
+    locationName: "Alcatraz Island",
+    address: 0,
+    city: "San Francisco",
+    state: "California",
+    zipCode: 0,
+    phone: 0,
+    fax: "(415) 705-1050",
     Visit: "https://www.nps.gov/places/alcatraz-island.htm",
-    Latitude: 37.8266636,
-    Longitude: -122.4230122,
-    Location: {
+    latitude: 37.8266636,
+    longitude: -122.4230122,
+    location: {
         coordinates: [
         -122.4230122,
         37.8266636
@@ -135,17 +135,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "aleu",
-    LocationName: "Aleutian World War II National Historic Area",
-    Address: "Ounalashka Corporation, P.O. Box 149",
-    City: "Unalaska",
-    State: "Alaska",
-    ZipCode: 99685,
-    Phone: "(907) 581-1276",
-    Fax: 0,
-    Latitude: 53.8845397,
-    Longitude: -166.5533823,
-    Location: {
+    locationId: "aleu",
+    locationName: "Aleutian World War II National Historic Area",
+    address: "Ounalashka Corporation, P.O. Box 149",
+    city: "Unalaska",
+    state: "Alaska",
+    zipCode: 99685,
+    phone: "(907) 581-1276",
+    fax: 0,
+    latitude: 53.8845397,
+    longitude: -166.5533823,
+    location: {
         coordinates: [
         -166.5533823,
         53.8845397
@@ -154,17 +154,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ALPO",
-    LocationName: "Allegheny Portage Railroad National Historic Site",
-    Address: "110 Federal Park Road",
-    City: "Gallitzin",
-    State: "Pennsylvania",
-    ZipCode: 16641,
-    Phone: "(814) 886-6150",
-    Fax: "(814) 884-0206",
-    Latitude: 40.4692629,
-    Longitude: -78.5437922,
-    Location: {
+    locationId: "ALPO",
+    locationName: "Allegheny Portage Railroad National Historic Site",
+    address: "110 Federal Park Road",
+    city: "Gallitzin",
+    state: "Pennsylvania",
+    zipCode: 16641,
+    phone: "(814) 886-6150",
+    fax: "(814) 884-0206",
+    latitude: 40.4692629,
+    longitude: -78.5437922,
+    location: {
         coordinates: [
         -78.5437922,
         40.4692629
@@ -173,17 +173,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "AMME",
-    LocationName: "American Memorial Park",
-    Address: "Superintendent, P.O. Box 5198 CHRB",
-    City: "Saipan",
-    State: "MP-Japan",
-    ZipCode: 96950,
-    Phone: "(670) 234-7207 ext. 2020",
-    Fax: "(670) 234-6698",
-    Latitude: 15.21226,
-    Longitude: 145.724335,
-    Location: {
+    locationId: "AMME",
+    locationName: "American Memorial Park",
+    address: "Superintendent, P.O. Box 5198 CHRB",
+    city: "Saipan",
+    state: "MP-Japan",
+    zipCode: 96950,
+    phone: "(670) 234-7207 ext. 2020",
+    fax: "(670) 234-6698",
+    latitude: 15.21226,
+    longitude: 145.724335,
+    location: {
         coordinates: [
         145.724335,
         15.21226
@@ -192,17 +192,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "AMIS",
-    LocationName: "Amistad National Recreation Area",
-    Address: "4121 Veterans Blvd.",
-    City: "Del Rio",
-    State: "Texas",
-    ZipCode: 78840,
-    Phone: "(830) 775-7491",
-    Fax: "(830) 778-9248",
-    Latitude: 29.4216948,
-    Longitude: -100.9068262,
-    Location: {
+    locationId: "AMIS",
+    locationName: "Amistad National Recreation Area",
+    address: "4121 Veterans Blvd.",
+    city: "Del Rio",
+    state: "Texas",
+    zipCode: 78840,
+    phone: "(830) 775-7491",
+    fax: "(830) 778-9248",
+    latitude: 29.4216948,
+    longitude: -100.9068262,
+    location: {
         coordinates: [
         -100.9068262,
         29.4216948
@@ -211,17 +211,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ande",
-    LocationName: "Andersonville National Historic Site",
-    Address: "496 Cemetery Road",
-    City: "Andersonville",
-    State: "Georgia",
-    ZipCode: 31711,
-    Phone: "(229) 924-0343",
-    Fax: "(229) 924-1086",
-    Latitude: 32.197776,
-    Longitude: -84.129294,
-    Location: {
+    locationId: "ande",
+    locationName: "Andersonville National Historic Site",
+    address: "496 Cemetery Road",
+    city: "Andersonville",
+    state: "Georgia",
+    zipCode: 31711,
+    phone: "(229) 924-0343",
+    fax: "(229) 924-1086",
+    latitude: 32.197776,
+    longitude: -84.129294,
+    location: {
         coordinates: [
         -84.129294,
         32.197776
@@ -230,17 +230,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ANJO",
-    LocationName: "Andrew Johnson National Historic Site",
-    Address: "Mailing Address - Andrew Johnson NHS, 121 Monument Ave., GPS Location - Andrew Johnson NHS Visitor Center, 101 North College St.",
-    City: "Greeneville",
-    State: "Tennessee",
-    ZipCode: 37743,
-    Phone: 0,
-    Fax: "(423) 798-0754",
-    Latitude: 36.117189,
-    Longitude: -82.856625,
-    Location: {
+    locationId: "ANJO",
+    locationName: "Andrew Johnson National Historic Site",
+    address: "Mailing address - Andrew Johnson NHS, 121 Monument Ave., GPS location - Andrew Johnson NHS Visitor Center, 101 North College St.",
+    city: "Greeneville",
+    state: "Tennessee",
+    zipCode: 37743,
+    phone: 0,
+    fax: "(423) 798-0754",
+    latitude: 36.117189,
+    longitude: -82.856625,
+    location: {
         coordinates: [
         -82.856625,
         36.117189
@@ -249,17 +249,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ania",
-    LocationName: "Aniakchak National Monument & Preserve",
-    Address: "P.O. Box 245",
-    City: "King Salmon",
-    State: "Alaska",
-    ZipCode: 99613,
-    Phone: "(907) 246-3305",
-    Fax: "(907) 246-2116",
-    Latitude: 58.756222,
-    Longitude: -156.51724,
-    Location: {
+    locationId: "ania",
+    locationName: "Aniakchak National Monument & Preserve",
+    address: "P.O. Box 245",
+    city: "King Salmon",
+    state: "Alaska",
+    zipCode: 99613,
+    phone: "(907) 246-3305",
+    fax: "(907) 246-2116",
+    latitude: 58.756222,
+    longitude: -156.51724,
+    location: {
         coordinates: [
         -156.51724,
         58.756222
@@ -268,18 +268,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ANTI",
-    LocationName: "Antietam National Battlefield",
-    Address: "P.O. Box 158",
-    City: "Sharpsburg",
-    State: "Maryland",
-    ZipCode: 21782,
-    Phone: 0,
-    Fax: "(301) 432-4590",
+    locationId: "ANTI",
+    locationName: "Antietam National Battlefield",
+    address: "P.O. Box 158",
+    city: "Sharpsburg",
+    state: "Maryland",
+    zipCode: 21782,
+    phone: 0,
+    fax: "(301) 432-4590",
     Visit: "https://www.nps.gov/anti/index.htm",
-    Latitude: 39.4798039,
-    Longitude: -77.7394856,
-    Location: {
+    latitude: 39.4798039,
+    longitude: -77.7394856,
+    location: {
         coordinates: [
         -77.7394856,
         39.4798039
@@ -288,17 +288,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "apis",
-    LocationName: "Apostle Islands National Lakeshore",
-    Address: "415 Washington Ave",
-    City: "Bayfield",
-    State: "Wisconsin",
-    ZipCode: 54814,
-    Phone: 0,
-    Fax: "(715) 779-3049",
-    Latitude: 46.8122706,
-    Longitude: -90.8209629,
-    Location: {
+    locationId: "apis",
+    locationName: "Apostle Islands National Lakeshore",
+    address: "415 Washington Ave",
+    city: "Bayfield",
+    state: "Wisconsin",
+    zipCode: 54814,
+    phone: 0,
+    fax: "(715) 779-3049",
+    latitude: 46.8122706,
+    longitude: -90.8209629,
+    location: {
         coordinates: [
         -90.8209629,
         46.8122706
@@ -307,18 +307,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "appa",
-    LocationName: "Appalachian National Scenic Trail",
-    Address: "P.O. Box 50",
-    City: "Harpers Ferry",
-    State: "West Virginia",
-    ZipCode: 25425,
-    Phone: 0,
-    Fax: "(304) 535-6270",
+    locationId: "appa",
+    locationName: "Appalachian National Scenic Trail",
+    address: "P.O. Box 50",
+    city: "Harpers Ferry",
+    state: "West Virginia",
+    zipCode: 25425,
+    phone: 0,
+    fax: "(304) 535-6270",
     Visit: "https://www.nps.gov/appa/index.htm",
-    Latitude: 39.27954,
-    Longitude: -77.785195,
-    Location: {
+    latitude: 39.27954,
+    longitude: -77.785195,
+    location: {
         coordinates: [
         -77.785195,
         39.27954
@@ -327,18 +327,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ARCH",
-    LocationName: "Arches National Park",
-    Address: "PO Box 907",
-    City: "Moab",
-    State: "Utah",
-    ZipCode: 84532,
-    Phone: "(435) 719-2299",
-    Fax: "(435) 719-2300",
+    locationId: "ARCH",
+    locationName: "Arches National Park",
+    address: "PO Box 907",
+    city: "Moab",
+    state: "Utah",
+    zipCode: 84532,
+    phone: "(435) 719-2299",
+    fax: "(435) 719-2300",
     Visit: "https://www.nps.gov/arch/index.htm",
-    Latitude: 38.733081,
-    Longitude: -109.5925139,
-    Location: {
+    latitude: 38.733081,
+    longitude: -109.5925139,
+    location: {
         coordinates: [
         -109.5925139,
         38.733081
@@ -347,17 +347,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "arpo",
-    LocationName: "Arkansas Post National Memorial",
-    Address: "1741 Old Post Road",
-    City: "Gillett",
-    State: "Arkansas",
-    ZipCode: 72055,
-    Phone: "(870) 548-2207",
-    Fax: "(870) 548-2431",
-    Latitude: 34.0166096,
-    Longitude: -91.3451369,
-    Location: {
+    locationId: "arpo",
+    locationName: "Arkansas Post National Memorial",
+    address: "1741 Old Post Road",
+    city: "Gillett",
+    state: "Arkansas",
+    zipCode: 72055,
+    phone: "(870) 548-2207",
+    fax: "(870) 548-2431",
+    latitude: 34.0166096,
+    longitude: -91.3451369,
+    location: {
         coordinates: [
         -91.3451369,
         34.0166096
@@ -366,18 +366,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ASIS",
-    LocationName: "Assateague Island National Seashore",
-    Address: "7206 National Seashore Lane",
-    City: "Berlin",
-    State: "Maryland",
-    ZipCode: 21811,
-    Phone: "(410) 641-1441",
-    Fax: 0,
+    locationId: "ASIS",
+    locationName: "Assateague Island National Seashore",
+    address: "7206 National Seashore Lane",
+    city: "Berlin",
+    state: "Maryland",
+    zipCode: 21811,
+    phone: "(410) 641-1441",
+    fax: 0,
     Visit: "https://www.nps.gov/asis/index.htm",
-    Latitude: 38.249822,
-    Longitude: -75.1559737,
-    Location: {
+    latitude: 38.249822,
+    longitude: -75.1559737,
+    location: {
         coordinates: [
         -75.1559737,
         38.249822
@@ -386,18 +386,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "AZRU",
-    LocationName: "Aztec Ruins National Monument",
-    Address: "Visitor Services, #84 County Road 2900",
-    City: "Aztec",
-    State: "New Mexico",
-    ZipCode: 87410,
-    Phone: "(505) 334-6174",
-    Fax: "(505) 334-6372",
+    locationId: "AZRU",
+    locationName: "Aztec Ruins National Monument",
+    address: "Visitor Services, #84 County Road 2900",
+    city: "Aztec",
+    state: "New Mexico",
+    zipCode: 87410,
+    phone: "(505) 334-6174",
+    fax: "(505) 334-6372",
     Visit: "https://www.nps.gov/azru/index.htm",
-    Latitude: 36.8346019,
-    Longitude: -107.9960917,
-    Location: {
+    latitude: 36.8346019,
+    longitude: -107.9960917,
+    location: {
         coordinates: [
         -107.9960917,
         36.8346019
@@ -406,18 +406,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BADL",
-    LocationName: "Badlands National Park",
-    Address: "25216 Ben Reifel Road, P.O. Box 6",
-    City: "Interior",
-    State: "South Dakota",
-    ZipCode: 57750,
-    Phone: 0,
-    Fax: "(605) 433-5404",
+    locationId: "BADL",
+    locationName: "Badlands National Park",
+    address: "25216 Ben Reifel Road, P.O. Box 6",
+    city: "Interior",
+    state: "South Dakota",
+    zipCode: 57750,
+    phone: 0,
+    fax: "(605) 433-5404",
     Visit: "https://www.nps.gov/badl/index.htm",
-    Latitude: 43.716892,
-    Longitude: -101.892914,
-    Location: {
+    latitude: 43.716892,
+    longitude: -101.892914,
+    location: {
         coordinates: [
         -101.892914,
         43.716892
@@ -426,17 +426,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BAWA",
-    LocationName: "Baltimore-Washington Parkway",
-    Address: "Baltimore Washington Parkway inc/o Greenbelt Park, 6565 Greenbelt Road",
-    City: "Greenbelt",
-    State: "Maryland",
-    ZipCode: 20770,
-    Phone: 0,
-    Fax: "(301) 344-3936",
-    Latitude: 38.995757,
-    Longitude: -76.895521,
-    Location: {
+    locationId: "BAWA",
+    locationName: "Baltimore-Washington Parkway",
+    address: "Baltimore Washington Parkway inc/o Greenbelt Park, 6565 Greenbelt Road",
+    city: "Greenbelt",
+    state: "Maryland",
+    zipCode: 20770,
+    phone: 0,
+    fax: "(301) 344-3936",
+    latitude: 38.995757,
+    longitude: -76.895521,
+    location: {
         coordinates: [
         -76.895521,
         38.995757
@@ -445,17 +445,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BAND",
-    LocationName: "Bandelier National Monument",
-    Address: "Superintendent, Bandelier National Monument 15 Entrance Road",
-    City: "Los Alamos",
-    State: "New Mexico",
-    ZipCode: 87544,
-    Phone: 0,
-    Fax: "(505) 672-9607",
-    Latitude: 35.7772999,
-    Longitude: -106.2687907,
-    Location: {
+    locationId: "BAND",
+    locationName: "Bandelier National Monument",
+    address: "Superintendent, Bandelier National Monument 15 Entrance Road",
+    city: "Los Alamos",
+    state: "New Mexico",
+    zipCode: 87544,
+    phone: 0,
+    fax: "(505) 672-9607",
+    latitude: 35.7772999,
+    longitude: -106.2687907,
+    location: {
         coordinates: [
         -106.2687907,
         35.7772999
@@ -464,17 +464,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "beol",
-    LocationName: "Bent's Old Fort National Historic Site",
-    Address: "35110 Highway 194 E.",
-    City: "La Junta",
-    State: "Colorado",
-    ZipCode: 81050,
-    Phone: "(719) 383-5010",
-    Fax: "(719) 383-2129",
-    Latitude: 38.0451225,
-    Longitude: -103.4336602,
-    Location: {
+    locationId: "beol",
+    locationName: "Bent's Old Fort National Historic Site",
+    address: "35110 Highway 194 E.",
+    city: "La Junta",
+    state: "Colorado",
+    zipCode: 81050,
+    phone: "(719) 383-5010",
+    fax: "(719) 383-2129",
+    latitude: 38.0451225,
+    longitude: -103.4336602,
+    location: {
         coordinates: [
         -103.4336602,
         38.0451225
@@ -483,17 +483,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "bela",
-    LocationName: "Bering Land Bridge National Preserve",
-    Address: "PO Box 220",
-    City: "Nome",
-    State: "Alaska",
-    ZipCode: 99762,
-    Phone: "(907) 443-2522",
-    Fax: "(907) 443-6139",
-    Latitude: 66.0740832,
-    Longitude: -164.9347562,
-    Location: {
+    locationId: "bela",
+    locationName: "Bering Land Bridge National Preserve",
+    address: "PO Box 220",
+    city: "Nome",
+    state: "Alaska",
+    zipCode: 99762,
+    phone: "(907) 443-2522",
+    fax: "(907) 443-6139",
+    latitude: 66.0740832,
+    longitude: -164.9347562,
+    location: {
         coordinates: [
         -164.9347562,
         66.0740832
@@ -502,18 +502,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BIBE",
-    LocationName: "Big Bend National Park",
-    Address: "PO Box 129",
-    City: "Big Bend National Park",
-    State: "Texas",
-    ZipCode: 79834,
-    Phone: "(432) 477-2251",
-    Fax: "(432) 477-1175",
+    locationId: "BIBE",
+    locationName: "Big Bend National Park",
+    address: "PO Box 129",
+    city: "Big Bend National Park",
+    state: "Texas",
+    zipCode: 79834,
+    phone: "(432) 477-2251",
+    fax: "(432) 477-1175",
     Visit: "https://www.nps.gov/bibe/index.htm",
-    Latitude: 29.2166538,
-    Longitude: -103.2663479,
-    Location: {
+    latitude: 29.2166538,
+    longitude: -103.2663479,
+    location: {
         coordinates: [
         -103.2663479,
         29.2166538
@@ -522,17 +522,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "bicy",
-    LocationName: "Big Cypress National Preserve",
-    Address: "33100 Tamiami Trail East",
-    City: "Ochopee",
-    State: "Florida",
-    ZipCode: 34141,
-    Phone: 0,
-    Fax: "(239) 695-3901",
-    Latitude: 25.898814,
-    Longitude: -81.318701,
-    Location: {
+    locationId: "bicy",
+    locationName: "Big Cypress National Preserve",
+    address: "33100 Tamiami Trail East",
+    city: "Ochopee",
+    state: "Florida",
+    zipCode: 34141,
+    phone: 0,
+    fax: "(239) 695-3901",
+    latitude: 25.898814,
+    longitude: -81.318701,
+    location: {
         coordinates: [
         -81.318701,
         25.898814
@@ -541,17 +541,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BISO",
-    LocationName: "Big South Fork National River & Recreation Area",
-    Address: "4564 Leatherwood Road",
-    City: "Oneida",
-    State: "Tennessee",
-    ZipCode: 37841,
-    Phone: "(423) 286-7275",
-    Fax: "(423) 569-5505",
-    Latitude: 36.4701139,
-    Longitude: -84.6411206,
-    Location: {
+    locationId: "BISO",
+    locationName: "Big South Fork National River & Recreation Area",
+    address: "4564 Leatherwood Road",
+    city: "Oneida",
+    state: "Tennessee",
+    zipCode: 37841,
+    phone: "(423) 286-7275",
+    fax: "(423) 569-5505",
+    latitude: 36.4701139,
+    longitude: -84.6411206,
+    location: {
         coordinates: [
         -84.6411206,
         36.4701139
@@ -560,17 +560,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BITH",
-    LocationName: "Big Thicket National Preserve",
-    Address: "6044 FM 420",
-    City: "Kountze",
-    State: "Texas",
-    ZipCode: 77625,
-    Phone: 0,
-    Fax: "(409) 951-6718",
-    Latitude: 30.404128,
-    Longitude: -94.415751,
-    Location: {
+    locationId: "BITH",
+    locationName: "Big Thicket National Preserve",
+    address: "6044 FM 420",
+    city: "Kountze",
+    state: "Texas",
+    zipCode: 77625,
+    phone: 0,
+    fax: "(409) 951-6718",
+    latitude: 30.404128,
+    longitude: -94.415751,
+    location: {
         coordinates: [
         -94.415751,
         30.404128
@@ -579,18 +579,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BICA",
-    LocationName: "Bighorn Canyon National Recreation Area",
-    Address: "Bighorn Canyon NRA Headquarters, 5 Avenue B, P.O. Box 7458, Fort Smith, MT 59035",
-    City: "Fort Smith",
-    State: "Montana",
-    ZipCode: 59035,
-    Phone: "(307) 548-5406",
-    Fax: "(406) 666-2415",
+    locationId: "BICA",
+    locationName: "Bighorn Canyon National Recreation Area",
+    address: "Bighorn Canyon NRA Headquarters, 5 Avenue B, P.O. Box 7458, Fort Smith, MT 59035",
+    city: "Fort Smith",
+    state: "Montana",
+    zipCode: 59035,
+    phone: "(307) 548-5406",
+    fax: "(406) 666-2415",
     Visit: "https://www.nps.gov/bica/index.htm",
-    Latitude: 45.312493,
-    Longitude: -107.935565,
-    Location: {
+    latitude: 45.312493,
+    longitude: -107.935565,
+    location: {
         coordinates: [
         -107.935565,
         45.312493
@@ -599,18 +599,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "bisc",
-    LocationName: "Biscayne National Park",
-    Address: "Biscayne National Park, 9700 SW 328 Street",
-    City: "Homestead",
-    State: "Florida",
-    ZipCode: 33033,
-    Phone: "(305) 230-7275",
-    Fax: "(305) 230-1190",
+    locationId: "bisc",
+    locationName: "Biscayne National Park",
+    address: "Biscayne National Park, 9700 SW 328 Street",
+    city: "Homestead",
+    state: "Florida",
+    zipCode: 33033,
+    phone: "(305) 230-7275",
+    fax: "(305) 230-1190",
     Visit: "https://www.nps.gov/bisc/index.htm",
-    Latitude: 25.4631936,
-    Longitude: -80.3463139,
-    Location: {
+    latitude: 25.4631936,
+    longitude: -80.3463139,
+    location: {
         coordinates: [
         -80.3463139,
         25.4631936
@@ -619,18 +619,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "blca",
-    LocationName: "Black Canyon of the Gunnison National Park",
-    Address: "National Park Service, 102 Elk Creek",
-    City: "Gunnison",
-    State: "Colorado",
-    ZipCode: 81230,
-    Phone: 0,
-    Fax: "(970) 641-3127",
+    locationId: "blca",
+    locationName: "Black Canyon of the Gunnison National Park",
+    address: "National Park Service, 102 Elk Creek",
+    city: "Gunnison",
+    state: "Colorado",
+    zipCode: 81230,
+    phone: 0,
+    fax: "(970) 641-3127",
     Visit: "https://www.nps.gov/blca/index.htm",
-    Latitude: 38.4657461,
-    Longitude: -107.16668,
-    Location: {
+    latitude: 38.4657461,
+    longitude: -107.16668,
+    location: {
         coordinates: [
         -107.16668,
         38.4657461
@@ -639,17 +639,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BLRI",
-    LocationName: "Blue Ridge Parkway",
-    Address: "199 Hemphill Knob Road",
-    City: "Asheville",
-    State: "North Carolina",
-    ZipCode: 28803,
-    Phone: 0,
-    Fax: "(828) 271-4313",
-    Latitude: 35.564766,
-    Longitude: -82.489803,
-    Location: {
+    locationId: "BLRI",
+    locationName: "Blue Ridge Parkway",
+    address: "199 Hemphill Knob Road",
+    city: "Asheville",
+    state: "North Carolina",
+    zipCode: 28803,
+    phone: 0,
+    fax: "(828) 271-4313",
+    latitude: 35.564766,
+    longitude: -82.489803,
+    location: {
         coordinates: [
         -82.489803,
         35.564766
@@ -658,17 +658,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BOHA",
-    LocationName: "Boston Harbor Islands National Recreation Area",
-    Address: "Boston Harbor Islands Partnership, 408 Atlantic Avenue, Suite 228",
-    City: "Boston",
-    State: "Massachuetts",
-    ZipCode: 2110,
-    Phone: "(617) 223-8666",
-    Fax: "(617) 223-8671",
-    Latitude: 42.3552589,
-    Longitude: -71.050518,
-    Location: {
+    locationId: "BOHA",
+    locationName: "Boston Harbor Islands National Recreation Area",
+    address: "Boston Harbor Islands Partnership, 408 Atlantic Avenue, Suite 228",
+    city: "Boston",
+    state: "Massachuetts",
+    zipCode: 2110,
+    phone: "(617) 223-8666",
+    fax: "(617) 223-8671",
+    latitude: 42.3552589,
+    longitude: -71.050518,
+    location: {
         coordinates: [
         -71.050518,
         42.3552589
@@ -677,17 +677,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BOST",
-    LocationName: "Boston National Historical Park",
-    Address: "Charlestown Navy Yard",
-    City: "Boston",
-    State: "Massachuetts",
-    ZipCode: 2129,
-    Phone: 0,
-    Fax: "(617) 242-6006",
-    Latitude: 42.3747172,
-    Longitude: -71.0540366,
-    Location: {
+    locationId: "BOST",
+    locationName: "Boston National Historical Park",
+    address: "Charlestown Navy Yard",
+    city: "Boston",
+    state: "Massachuetts",
+    zipCode: 2129,
+    phone: 0,
+    fax: "(617) 242-6006",
+    latitude: 42.3747172,
+    longitude: -71.0540366,
+    location: {
         coordinates: [
         -71.0540366,
         42.3747172
@@ -696,17 +696,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BRCR",
-    LocationName: "Brices Cross Roads National Battlefield Site",
-    Address: "2680 Natchez Trace Parkway",
-    City: "Tupelo",
-    State: "Mississippi",
-    ZipCode: 38804,
-    Phone: 0,
-    Fax: "(662) 680-4034",
-    Latitude: 34.307545,
-    Longitude: -88.720974,
-    Location: {
+    locationId: "BRCR",
+    locationName: "Brices Cross Roads National Battlefield Site",
+    address: "2680 Natchez Trace Parkway",
+    city: "Tupelo",
+    state: "Mississippi",
+    zipCode: 38804,
+    phone: 0,
+    fax: "(662) 680-4034",
+    latitude: 34.307545,
+    longitude: -88.720974,
+    location: {
         coordinates: [
         -88.720974,
         34.307545
@@ -715,17 +715,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BRVB",
-    LocationName: "Brown v. Board of Education National Historic Site",
-    Address: "1515 SE Monroe Street",
-    City: "Topeka",
-    State: "Kansas",
-    ZipCode: 66612,
-    Phone: "(785) 354-4273",
-    Fax: "(785) 354-7213",
-    Latitude: 39.037925,
-    Longitude: -95.676498,
-    Location: {
+    locationId: "BRVB",
+    locationName: "Brown v. Board of Education National Historic Site",
+    address: "1515 SE Monroe Street",
+    city: "Topeka",
+    state: "Kansas",
+    zipCode: 66612,
+    phone: "(785) 354-4273",
+    fax: "(785) 354-7213",
+    latitude: 39.037925,
+    longitude: -95.676498,
+    location: {
         coordinates: [
         -95.676498,
         39.037925
@@ -734,18 +734,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "BRCA",
-    LocationName: "Bryce Canyon National Park",
-    Address: "PO Box 640201",
-    City: "Bryce",
-    State: "Utah",
-    ZipCode: "84764-0201",
-    Phone: "(435) 834-5322",
-    Fax: "(435) 834-4703",
+    locationId: "BRCA",
+    locationName: "Bryce Canyon National Park",
+    address: "PO Box 640201",
+    city: "Bryce",
+    state: "Utah",
+    zipCode: "84764-0201",
+    phone: "(435) 834-5322",
+    fax: "(435) 834-4703",
     Visit: "https://www.nps.gov/brca/index.htm",
-    Latitude: 37.5965706,
-    Longitude: -112.1787896,
-    Location: {
+    latitude: 37.5965706,
+    longitude: -112.1787896,
+    location: {
         coordinates: [
         -112.1787896,
         37.5965706
@@ -754,17 +754,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "buff",
-    LocationName: "Buffalo National River",
-    Address: "402 N. Walnut, Suite 136",
-    City: "Harrison",
-    State: "Arkansas",
-    ZipCode: 72601,
-    Phone: "(870) 439-2502",
-    Fax: "(870) 365-2701",
-    Latitude: 36.2331995,
-    Longitude: -93.1060044,
-    Location: {
+    locationId: "buff",
+    locationName: "Buffalo National River",
+    address: "402 N. Walnut, Suite 136",
+    city: "Harrison",
+    state: "Arkansas",
+    zipCode: 72601,
+    phone: "(870) 439-2502",
+    fax: "(870) 365-2701",
+    latitude: 36.2331995,
+    longitude: -93.1060044,
+    location: {
         coordinates: [
         -93.1060044,
         36.2331995
@@ -773,17 +773,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cabr",
-    LocationName: "Cabrillo National Monument",
-    Address: "1800 Cabrillo Memorial Drive",
-    City: "San Diego",
-    State: "California",
-    ZipCode: "92106-3601",
-    Phone: 0,
-    Fax: "(619) 226-6311",
-    Latitude: 32.674287,
-    Longitude: -117.23963,
-    Location: {
+    locationId: "cabr",
+    locationName: "Cabrillo National Monument",
+    address: "1800 Cabrillo Memorial Drive",
+    city: "San Diego",
+    state: "California",
+    zipCode: "92106-3601",
+    phone: 0,
+    fax: "(619) 226-6311",
+    latitude: 32.674287,
+    longitude: -117.23963,
+    location: {
         coordinates: [
         -117.23963,
         32.674287
@@ -792,17 +792,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cali",
-    LocationName: "California National Historic Trail",
-    Address: "National Trails Intermountain Region, 324 South State St.,Suite 200",
-    City: "Salt Lake City",
-    State: "Utah",
-    ZipCode: 84111,
-    Phone: "(801) 741-1012",
-    Fax: "(801) 741-1102",
-    Latitude: 40.7620689,
-    Longitude: -111.888922,
-    Location: {
+    locationId: "cali",
+    locationName: "California National Historic Trail",
+    address: "National Trails Intermountain Region, 324 South State St.,Suite 200",
+    city: "Salt Lake city",
+    state: "Utah",
+    zipCode: 84111,
+    phone: "(801) 741-1012",
+    fax: "(801) 741-1102",
+    latitude: 40.7620689,
+    longitude: -111.888922,
+    location: {
         coordinates: [
         -111.888922,
         40.7620689
@@ -811,17 +811,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cana",
-    LocationName: "Canaveral National Seashore",
-    Address: "212 S. Washington Avenue",
-    City: "Titusville",
-    State: "Florida",
-    ZipCode: 32796,
-    Phone: "(386) 428-3384 ext. 10",
-    Fax: "(321) 264-2906",
-    Latitude: 28.613144,
-    Longitude: -80.8075783,
-    Location: {
+    locationId: "cana",
+    locationName: "Canaveral National Seashore",
+    address: "212 S. Washington Avenue",
+    city: "Titusville",
+    state: "Florida",
+    zipCode: 32796,
+    phone: "(386) 428-3384 ext. 10",
+    fax: "(321) 264-2906",
+    latitude: 28.613144,
+    longitude: -80.8075783,
+    location: {
         coordinates: [
         -80.8075783,
         28.613144
@@ -830,17 +830,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CARI",
-    LocationName: "Cane River Creole National Historical Park",
-    Address: "Cane River Creole National Historical Park, 400 Rapides Drive",
-    City: "Natchitoches",
-    State: "Louisiana",
-    ZipCode: 71457,
-    Phone: 0,
-    Fax: "(318) 356-7285",
-    Latitude: 31.7398039,
-    Longitude: -93.0835779,
-    Location: {
+    locationId: "CARI",
+    locationName: "Cane River Creole National Historical Park",
+    address: "Cane River Creole National Historical Park, 400 Rapides Drive",
+    city: "Natchitoches",
+    state: "Louisiana",
+    zipCode: 71457,
+    phone: 0,
+    fax: "(318) 356-7285",
+    latitude: 31.7398039,
+    longitude: -93.0835779,
+    location: {
         coordinates: [
         -93.0835779,
         31.7398039
@@ -849,17 +849,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cach",
-    LocationName: "Canyon de Chelly National Monument",
-    Address: "PO Box 588",
-    City: "Chinle",
-    State: "Arizona",
-    ZipCode: 86503,
-    Phone: 0,
-    Fax: "(928) 674-5507",
-    Latitude: 36.154448,
-    Longitude: -109.552607,
-    Location: {
+    locationId: "cach",
+    locationName: "Canyon de Chelly National Monument",
+    address: "PO Box 588",
+    city: "Chinle",
+    state: "Arizona",
+    zipCode: 86503,
+    phone: 0,
+    fax: "(928) 674-5507",
+    latitude: 36.154448,
+    longitude: -109.552607,
+    location: {
         coordinates: [
         -109.552607,
         36.154448
@@ -868,17 +868,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CANY",
-    LocationName: "Canyonlands National Park",
-    Address: "Canyonlands National Park, 2282 SW Resource Blvd.",
-    City: "Moab",
-    State: "Utah",
-    ZipCode: 84532,
-    Phone: 0,
-    Fax: "(435) 719-2300",
-    Latitude: 38.5398057,
-    Longitude: -109.5061713,
-    Location: {
+    locationId: "CANY",
+    locationName: "Canyonlands National Park",
+    address: "Canyonlands National Park, 2282 SW Resource Blvd.",
+    city: "Moab",
+    state: "Utah",
+    zipCode: 84532,
+    phone: 0,
+    fax: "(435) 719-2300",
+    latitude: 38.5398057,
+    longitude: -109.5061713,
+    location: {
         coordinates: [
         -109.5061713,
         38.5398057
@@ -887,18 +887,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CAHA",
-    LocationName: "Cape Hatteras National Seashore",
-    Address: "Cape Hatteras National Seashore, 1401 National Park Drive",
-    City: "Manteo",
-    State: "North Carolina",
-    ZipCode: 27954,
-    Phone: "(252) 473-2111",
-    Fax: "(252) 473-2595",
+    locationId: "CAHA",
+    locationName: "Cape Hatteras National Seashore",
+    address: "Cape Hatteras National Seashore, 1401 National Park Drive",
+    city: "Manteo",
+    state: "North Carolina",
+    zipCode: 27954,
+    phone: "(252) 473-2111",
+    fax: "(252) 473-2595",
     Visit: "https://www.nps.gov/caha/index.htm",
-    Latitude: 35.938547,
-    Longitude: -75.712322,
-    Location: {
+    latitude: 35.938547,
+    longitude: -75.712322,
+    location: {
         coordinates: [
         -75.712322,
         35.938547
@@ -907,17 +907,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cakr",
-    LocationName: "Cape Krusenstern National Monument",
-    Address: "Cape Krusenstern National Monument",
-    City: "Kotzebue",
-    State: "Alaska",
-    ZipCode: 99752,
-    Phone: 0,
-    Fax: "(907) 442-8316",
-    Latitude: 67.45055,
-    Longitude: -163.5490191,
-    Location: {
+    locationId: "cakr",
+    locationName: "Cape Krusenstern National Monument",
+    address: "Cape Krusenstern National Monument",
+    city: "Kotzebue",
+    state: "Alaska",
+    zipCode: 99752,
+    phone: 0,
+    fax: "(907) 442-8316",
+    latitude: 67.45055,
+    longitude: -163.5490191,
+    location: {
         coordinates: [
         -163.5490191,
         67.45055
@@ -926,17 +926,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CALO",
-    LocationName: "Cape Lookout National Seashore",
-    Address: "131 Charles Street",
-    City: "Harkers Island",
-    State: "North Carolina",
-    ZipCode: 28531,
-    Phone: 0,
-    Fax: "(252) 728-2160",
-    Latitude: 34.6881785,
-    Longitude: -76.526505,
-    Location: {
+    locationId: "CALO",
+    locationName: "Cape Lookout National Seashore",
+    address: "131 Charles Street",
+    city: "Harkers Island",
+    state: "North Carolina",
+    zipCode: 28531,
+    phone: 0,
+    fax: "(252) 728-2160",
+    latitude: 34.6881785,
+    longitude: -76.526505,
+    location: {
         coordinates: [
         -76.526505,
         34.6881785
@@ -945,17 +945,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CARE",
-    LocationName: "Capitol Reef National Park",
-    Address: "Capitol Reef National Park, HC 70 Box 15",
-    City: "Torrey",
-    State: "Utah",
-    ZipCode: 84775,
-    Phone: "(435) 425-3791 ext. 111",
-    Fax: "(435) 425-3026",
-    Latitude: 38.291308,
-    Longitude: -111.262257,
-    Location: {
+    locationId: "CARE",
+    locationName: "Capitol Reef National Park",
+    address: "Capitol Reef National Park, HC 70 Box 15",
+    city: "Torrey",
+    state: "Utah",
+    zipCode: 84775,
+    phone: "(435) 425-3791 ext. 111",
+    fax: "(435) 425-3026",
+    latitude: 38.291308,
+    longitude: -111.262257,
+    location: {
         coordinates: [
         -111.262257,
         38.291308
@@ -964,17 +964,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CAJO",
-    LocationName: "Captain John Smith Chesapeake National Historic Trail",
-    Address: "NPS Chesapeake Bay Program Office, 410 Severn Avenue, Suite 314",
-    City: "Annapolis",
-    State: "Maryland",
-    ZipCode: 21403,
-    Phone: "(410) 260-2470",
-    Fax: 0,
-    Latitude: 38.971705,
-    Longitude: -76.483576,
-    Location: {
+    locationId: "CAJO",
+    locationName: "Captain John Smith Chesapeake National Historic Trail",
+    address: "NPS Chesapeake Bay Program Office, 410 Severn Avenue, Suite 314",
+    city: "Annapolis",
+    state: "Maryland",
+    zipCode: 21403,
+    phone: "(410) 260-2470",
+    fax: 0,
+    latitude: 38.971705,
+    longitude: -76.483576,
+    location: {
         coordinates: [
         -76.483576,
         38.971705
@@ -983,17 +983,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CAVO",
-    LocationName: "Capulin Volcano National Monument",
-    Address: "Capulin Volcano NM, P.O. Box 40",
-    City: "Des Moines",
-    State: "New Mexico",
-    ZipCode: 88418,
-    Phone: 0,
-    Fax: "(575) 278-2211",
-    Latitude: 36.7810744,
-    Longitude: -103.9695127,
-    Location: {
+    locationId: "CAVO",
+    locationName: "Capulin Volcano National Monument",
+    address: "Capulin Volcano NM, P.O. Box 40",
+    city: "Des Moines",
+    state: "New Mexico",
+    zipCode: 88418,
+    phone: 0,
+    fax: "(575) 278-2211",
+    latitude: 36.7810744,
+    longitude: -103.9695127,
+    location: {
         coordinates: [
         -103.9695127,
         36.7810744
@@ -1002,17 +1002,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CARL",
-    LocationName: "Carl Sandburg Home National Historic Site",
-    Address: "81 Carl Sandburg Lane",
-    City: "Flat Rock",
-    State: "North Carolina",
-    ZipCode: 28731,
-    Phone: "(828) 693-4178",
-    Fax: 0,
-    Latitude: 35.273142,
-    Longitude: -82.453088,
-    Location: {
+    locationId: "CARL",
+    locationName: "Carl Sandburg Home National Historic Site",
+    address: "81 Carl Sandburg Lane",
+    city: "Flat Rock",
+    state: "North Carolina",
+    zipCode: 28731,
+    phone: "(828) 693-4178",
+    fax: 0,
+    latitude: 35.273142,
+    longitude: -82.453088,
+    location: {
         coordinates: [
         -82.453088,
         35.273142
@@ -1021,17 +1021,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CAVE",
-    LocationName: "Carlsbad Caverns National Park",
-    Address: "Carlsbad Caverns National Park, 3225 National Parks Highway",
-    City: "Carlsbad",
-    State: "New Mexico",
-    ZipCode: 88220,
-    Phone: 0,
-    Fax: "(575) 785-2133",
-    Latitude: 32.386916,
-    Longitude: -104.221362,
-    Location: {
+    locationId: "CAVE",
+    locationName: "Carlsbad Caverns National Park",
+    address: "Carlsbad Caverns National Park, 3225 National Parks Highway",
+    city: "Carlsbad",
+    state: "New Mexico",
+    zipCode: 88220,
+    phone: 0,
+    fax: "(575) 785-2133",
+    latitude: 32.386916,
+    longitude: -104.221362,
+    location: {
         coordinates: [
         -104.221362,
         32.386916
@@ -1040,17 +1040,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cagr",
-    LocationName: "Casa Grande Ruins National Monument",
-    Address: "Casa Grande Ruins National Monument, 1100 West Ruins Drive",
-    City: "Coolidge",
-    State: "Arizona",
-    ZipCode: 85128,
-    Phone: "(520) 723-3172",
-    Fax: "(520) 723-7209",
-    Latitude: 32.995425,
-    Longitude: -111.5354502,
-    Location: {
+    locationId: "cagr",
+    locationName: "Casa Grande Ruins National Monument",
+    address: "Casa Grande Ruins National Monument, 1100 West Ruins Drive",
+    city: "Coolidge",
+    state: "Arizona",
+    zipCode: 85128,
+    phone: "(520) 723-3172",
+    fax: "(520) 723-7209",
+    latitude: 32.995425,
+    longitude: -111.5354502,
+    location: {
         coordinates: [
         -111.5354502,
         32.995425
@@ -1059,17 +1059,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "casa",
-    LocationName: "Castillo de San Marcos National Monument",
-    Address: "Castillo de San Marcos NM, 1 South Castillo Drive",
-    City: "St. Augustine",
-    State: "Florida",
-    ZipCode: 32084,
-    Phone: "(904) 829-6506",
-    Fax: "(904) 823-9388",
-    Latitude: 29.897989,
-    Longitude: -81.312123,
-    Location: {
+    locationId: "casa",
+    locationName: "Castillo de San Marcos National Monument",
+    address: "Castillo de San Marcos NM, 1 South Castillo Drive",
+    city: "St. Augustine",
+    state: "Florida",
+    zipCode: 32084,
+    phone: "(904) 829-6506",
+    fax: "(904) 823-9388",
+    latitude: 29.897989,
+    longitude: -81.312123,
+    location: {
         coordinates: [
         -81.312123,
         29.897989
@@ -1078,17 +1078,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CACL",
-    LocationName: "Castle Clinton National Monument",
-    Address: "Castle Clinton National Monument, Battery Park",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10004,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 40.7035011,
-    Longitude: -74.0168506,
-    Location: {
+    locationId: "CACL",
+    locationName: "Castle Clinton National Monument",
+    address: "Castle Clinton National Monument, Battery Park",
+    city: "New York",
+    state: "New York",
+    zipCode: 10004,
+    phone: 0,
+    fax: 0,
+    latitude: 40.7035011,
+    longitude: -74.0168506,
+    location: {
         coordinates: [
         -74.0168506,
         40.7035011
@@ -1097,17 +1097,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CATO",
-    LocationName: "Catoctin Mountain Park",
-    Address: "Catoctin Mountain Park, 6602 Foxville Road",
-    City: "Thurmont",
-    State: "Maryland",
-    ZipCode: 21788,
-    Phone: 0,
-    Fax: "(301) 271-2764",
-    Latitude: 39.633853,
-    Longitude: -77.448206,
-    Location: {
+    locationId: "CATO",
+    locationName: "Catoctin Mountain Park",
+    address: "Catoctin Mountain Park, 6602 Foxville Road",
+    city: "Thurmont",
+    state: "Maryland",
+    zipCode: 21788,
+    phone: 0,
+    fax: "(301) 271-2764",
+    latitude: 39.633853,
+    longitude: -77.448206,
+    location: {
         coordinates: [
         -77.448206,
         39.633853
@@ -1116,17 +1116,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CEBR",
-    LocationName: "Cedar Breaks National Monument",
-    Address: "Cedar Breaks National Monument, 2390 W. Hwy 56, Suite 11",
-    City: "Cedar City",
-    State: "Utah",
-    ZipCode: 84720,
-    Phone: 0,
-    Fax: "(435) 586-3813",
-    Latitude: 37.6845859,
-    Longitude: -113.0965036,
-    Location: {
+    locationId: "CEBR",
+    locationName: "Cedar Breaks National Monument",
+    address: "Cedar Breaks National Monument, 2390 W. Hwy 56, Suite 11",
+    city: "Cedar city",
+    state: "Utah",
+    zipCode: 84720,
+    phone: 0,
+    fax: "(435) 586-3813",
+    latitude: 37.6845859,
+    longitude: -113.0965036,
+    location: {
         coordinates: [
         -113.0965036,
         37.6845859
@@ -1135,17 +1135,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CHCU",
-    LocationName: "Chaco Culture National Historical Park",
-    Address: "Chaco Culture National Historical Park, P. O. Box 220",
-    City: "Nageezi",
-    State: "New Mexico",
-    ZipCode: 87037,
-    Phone: 0,
-    Fax: "(505) 786-7061",
-    Latitude: 36.0638,
-    Longitude: -107.9708,
-    Location: {
+    locationId: "CHCU",
+    locationName: "Chaco Culture National Historical Park",
+    address: "Chaco Culture National Historical Park, P. O. Box 220",
+    city: "Nageezi",
+    state: "New Mexico",
+    zipCode: 87037,
+    phone: 0,
+    fax: "(505) 786-7061",
+    latitude: 36.0638,
+    longitude: -107.9708,
+    location: {
         coordinates: [
         -107.9708,
         36.0638
@@ -1154,17 +1154,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CHAM",
-    LocationName: "Chamizal National Memorial",
-    Address: "Chamizal National Memorial, 800 S. San Marcial",
-    City: "El Paso",
-    State: "Texas",
-    ZipCode: 79905,
-    Phone: "(915) 532-7273",
-    Fax: "(915) 532-7240",
-    Latitude: 31.7680934,
-    Longitude: -106.4583047,
-    Location: {
+    locationId: "CHAM",
+    locationName: "Chamizal National Memorial",
+    address: "Chamizal National Memorial, 800 S. San Marcial",
+    city: "El Paso",
+    state: "Texas",
+    zipCode: 79905,
+    phone: "(915) 532-7273",
+    fax: "(915) 532-7240",
+    latitude: 31.7680934,
+    longitude: -106.4583047,
+    location: {
         coordinates: [
         -106.4583047,
         31.7680934
@@ -1173,18 +1173,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "chis",
-    LocationName: "Channel Islands National Park",
-    Address: "Channel Islands National Park, 1901 Spinnaker Drive",
-    City: "Ventura",
-    State: "California",
-    ZipCode: 93001,
-    Phone: "(805) 658-5730",
-    Fax: "(805) 658-5799",
+    locationId: "chis",
+    locationName: "Channel Islands National Park",
+    address: "Channel Islands National Park, 1901 Spinnaker Drive",
+    city: "Ventura",
+    state: "California",
+    zipCode: 93001,
+    phone: "(805) 658-5730",
+    fax: "(805) 658-5799",
     Visit: "https://www.nps.gov/chis/index.htm",
-    Latitude: 34.245852,
-    Longitude: -119.2664691,
-    Location: {
+    latitude: 34.245852,
+    longitude: -119.2664691,
+    location: {
         coordinates: [
         -119.2664691,
         34.245852
@@ -1193,17 +1193,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CHPI",
-    LocationName: "Charles Pinckney National Historic Site",
-    Address: "1214 Middle Street",
-    City: "Sullivan's Island",
-    State: "South Carolina",
-    ZipCode: 29482,
-    Phone: "(843) 881-5516",
-    Fax: "(843) 881-7070",
-    Latitude: 32.758321,
-    Longitude: -79.856317,
-    Location: {
+    locationId: "CHPI",
+    locationName: "Charles Pinckney National Historic Site",
+    address: "1214 Middle Street",
+    city: "Sullivan's Island",
+    state: "South Carolina",
+    zipCode: 29482,
+    phone: "(843) 881-5516",
+    fax: "(843) 881-7070",
+    latitude: 32.758321,
+    longitude: -79.856317,
+    location: {
         coordinates: [
         -79.856317,
         32.758321
@@ -1212,17 +1212,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "chat",
-    LocationName: "Chattahoochee River National Recreation Area",
-    Address: "1978 Island Ford Pkwy",
-    City: "Sandy Springs",
-    State: "Georgia",
-    ZipCode: 30350,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 33.9968515,
-    Longitude: -84.3338522,
-    Location: {
+    locationId: "chat",
+    locationName: "Chattahoochee River National Recreation Area",
+    address: "1978 Island Ford Pkwy",
+    city: "Sandy Springs",
+    state: "Georgia",
+    zipCode: 30350,
+    phone: 0,
+    fax: 0,
+    latitude: 33.9968515,
+    longitude: -84.3338522,
+    location: {
         coordinates: [
         -84.3338522,
         33.9968515
@@ -1231,17 +1231,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CHOH",
-    LocationName: "Chesapeake & Ohio Canal National Historical Park",
-    Address: "C&O Canal NHP Headquarters, 1850 Dual Highway, Suite 100",
-    City: "Hagerstown",
-    State: "Maryland",
-    ZipCode: "21740-6620",
-    Phone: "(301) 739-4200",
-    Fax: "(301) 739-5275",
-    Latitude: 39.6105435,
-    Longitude: -77.6881048,
-    Location: {
+    locationId: "CHOH",
+    locationName: "Chesapeake & Ohio Canal National Historical Park",
+    address: "C&O Canal NHP Headquarters, 1850 Dual Highway, Suite 100",
+    city: "Hagerstown",
+    state: "Maryland",
+    zipCode: "21740-6620",
+    phone: "(301) 739-4200",
+    fax: "(301) 739-5275",
+    latitude: 39.6105435,
+    longitude: -77.6881048,
+    location: {
         coordinates: [
         -77.6881048,
         39.6105435
@@ -1250,17 +1250,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CBPO",
-    LocationName: "Chesapeake Bay Gateways Network",
-    Address: "410 Severn Avenue, Suite 109",
-    City: "Annapolis",
-    State: "Maryland",
-    ZipCode: 21403,
-    Phone: 0,
-    Fax: "(410) 267-5777",
-    Latitude: 38.971705,
-    Longitude: -76.483576,
-    Location: {
+    locationId: "CBPO",
+    locationName: "Chesapeake Bay Gateways Network",
+    address: "410 Severn Avenue, Suite 109",
+    city: "Annapolis",
+    state: "Maryland",
+    zipCode: 21403,
+    phone: 0,
+    fax: "(410) 267-5777",
+    latitude: 38.971705,
+    longitude: -76.483576,
+    location: {
         coordinates: [
         -76.483576,
         38.971705
@@ -1269,17 +1269,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "chch",
-    LocationName: "Chickamauga & Chattanooga National Military Park",
-    Address: "P.O. Box 2128 (Mailing), 3370 LaFayette Road (Shipping)",
-    City: "Fort Oglethorpe",
-    State: "Georgia",
-    ZipCode: 30742,
-    Phone: "(706) 866-9241",
-    Fax: "(423) 752-5215",
-    Latitude: 34.942377,
-    Longitude: -85.259056,
-    Location: {
+    locationId: "chch",
+    locationName: "Chickamauga & Chattanooga National Military Park",
+    address: "P.O. Box 2128 (Mailing), 3370 LaFayette Road (Shipping)",
+    city: "Fort Oglethorpe",
+    state: "Georgia",
+    zipCode: 30742,
+    phone: "(706) 866-9241",
+    fax: "(423) 752-5215",
+    latitude: 34.942377,
+    longitude: -85.259056,
+    location: {
         coordinates: [
         -85.259056,
         34.942377
@@ -1288,18 +1288,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CHIC",
-    LocationName: "Chickasaw National Recreation Area",
-    Address: "Chickasaw National Recreation Area, 1008 West Second Street",
-    City: "Sulphur",
-    State: "Oklahoma",
-    ZipCode: 73086,
-    Phone: 0,
-    Fax: "(580) 622-2296",
+    locationId: "CHIC",
+    locationName: "Chickasaw National Recreation Area",
+    address: "Chickasaw National Recreation Area, 1008 West Second Street",
+    city: "Sulphur",
+    state: "Oklahoma",
+    zipCode: 73086,
+    phone: 0,
+    fax: "(580) 622-2296",
     Visit: "https://www.nps.gov/chic/index.htm",
-    Latitude: 34.5089397,
-    Longitude: -96.969625,
-    Location: {
+    latitude: 34.5089397,
+    longitude: -96.969625,
+    location: {
         coordinates: [
         -96.969625,
         34.5089397
@@ -1308,17 +1308,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "chir",
-    LocationName: "Chiricahua National Monument",
-    Address: "Superintendent, 12856 E. Rhyolite Creek RD",
-    City: "Willcox",
-    State: "Arizona",
-    ZipCode: 85643,
-    Phone: "(520) 824-3560 ext. 302",
-    Fax: "(520) 824-3421",
-    Latitude: 32.007788,
-    Longitude: -109.361298,
-    Location: {
+    locationId: "chir",
+    locationName: "Chiricahua National Monument",
+    address: "Superintendent, 12856 E. Rhyolite Creek RD",
+    city: "Willcox",
+    state: "Arizona",
+    zipCode: 85643,
+    phone: "(520) 824-3560 ext. 302",
+    fax: "(520) 824-3421",
+    latitude: 32.007788,
+    longitude: -109.361298,
+    location: {
         coordinates: [
         -109.361298,
         32.007788
@@ -1327,17 +1327,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CIRO",
-    LocationName: "City of Rocks National Reserve",
-    Address: "City of Rocks National Reserve, P.O. Box 169",
-    City: "Almo",
-    State: "Idaho",
-    ZipCode: 83312,
-    Phone: 0,
-    Fax: "(208) 824-5563",
-    Latitude: 42.0774026,
-    Longitude: -113.7037797,
-    Location: {
+    locationId: "CIRO",
+    locationName: "city of Rocks National Reserve",
+    address: "city of Rocks National Reserve, P.O. Box 169",
+    city: "Almo",
+    state: "Idaho",
+    zipCode: 83312,
+    phone: 0,
+    fax: "(208) 824-5563",
+    latitude: 42.0774026,
+    longitude: -113.7037797,
+    location: {
         coordinates: [
         -113.7037797,
         42.0774026
@@ -1346,17 +1346,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CLBA",
-    LocationName: "Clara Barton National Historic Site",
-    Address: "Clara Barton NHS, 5801 Oxford Road",
-    City: "Glen Echo",
-    State: "Maryland",
-    ZipCode: 20812,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 38.967151,
-    Longitude: -77.1403459,
-    Location: {
+    locationId: "CLBA",
+    locationName: "Clara Barton National Historic Site",
+    address: "Clara Barton NHS, 5801 Oxford Road",
+    city: "Glen Echo",
+    state: "Maryland",
+    zipCode: 20812,
+    phone: 0,
+    fax: 0,
+    latitude: 38.967151,
+    longitude: -77.1403459,
+    location: {
         coordinates: [
         -77.1403459,
         38.967151
@@ -1365,17 +1365,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "colm",
-    LocationName: "Colorado National Monument",
-    Address: "Colorado National Monument, 7 M S of Fruita Hwy 340",
-    City: "Fruita",
-    State: "Colorado",
-    ZipCode: 81521,
-    Phone: 0,
-    Fax: "(970) 858-0372",
-    Latitude: 39.0556092,
-    Longitude: -108.7007007,
-    Location: {
+    locationId: "colm",
+    locationName: "Colorado National Monument",
+    address: "Colorado National Monument, 7 M S of Fruita Hwy 340",
+    city: "Fruita",
+    state: "Colorado",
+    zipCode: 81521,
+    phone: 0,
+    fax: "(970) 858-0372",
+    latitude: 39.0556092,
+    longitude: -108.7007007,
+    location: {
         coordinates: [
         -108.7007007,
         39.0556092
@@ -1384,17 +1384,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "coro",
-    LocationName: "Coronado National Memorial",
-    Address: "4101 East Montezuma Canyon Road",
-    City: "Hereford",
-    State: "Arizona",
-    ZipCode: 85615,
-    Phone: "(520) 366-5515",
-    Fax: "(520) 366-5705",
-    Latitude: 31.3458659,
-    Longitude: -110.253776,
-    Location: {
+    locationId: "coro",
+    locationName: "Coronado National Memorial",
+    address: "4101 East Montezuma Canyon Road",
+    city: "Hereford",
+    state: "Arizona",
+    zipCode: 85615,
+    phone: "(520) 366-5515",
+    fax: "(520) 366-5705",
+    latitude: 31.3458659,
+    longitude: -110.253776,
+    location: {
         coordinates: [
         -110.253776,
         31.3458659
@@ -1403,17 +1403,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "COWP",
-    LocationName: "Cowpens National Battlefield",
-    Address: "Cowpens National Battlefield, PO Box 308",
-    City: "Chesnee",
-    State: "South Carolina",
-    ZipCode: 29323,
-    Phone: 0,
-    Fax: "(864) 461-7795",
-    Latitude: 35.073993,
-    Longitude: -81.8740202,
-    Location: {
+    locationId: "COWP",
+    locationName: "Cowpens National Battlefield",
+    address: "Cowpens National Battlefield, PO Box 308",
+    city: "Chesnee",
+    state: "South Carolina",
+    zipCode: 29323,
+    phone: 0,
+    fax: "(864) 461-7795",
+    latitude: 35.073993,
+    longitude: -81.8740202,
+    location: {
         coordinates: [
         -81.8740202,
         35.073993
@@ -1422,18 +1422,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CRLA",
-    LocationName: "Crater Lake National Park",
-    Address: "P.O. Box 7",
-    City: "Crater Lake",
-    State: "Oregon",
-    ZipCode: 97604,
-    Phone: "(541) 594-3000",
-    Fax: "(541) 594-3010",
+    locationId: "CRLA",
+    locationName: "Crater Lake National Park",
+    address: "P.O. Box 7",
+    city: "Crater Lake",
+    state: "Oregon",
+    zipCode: 97604,
+    phone: "(541) 594-3000",
+    fax: "(541) 594-3010",
     Visit: "https://www.nps.gov/crla/index.htm",
-    Latitude: 42.962058,
-    Longitude: -122.148106,
-    Location: {
+    latitude: 42.962058,
+    longitude: -122.148106,
+    location: {
         coordinates: [
         -122.148106,
         42.962058
@@ -1442,17 +1442,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CRMO",
-    LocationName: "Craters of the Moon National Monument & Preserve",
-    Address: "Craters of the Moon National Monument and Preserve, P.O. Box 29",
-    City: "Arco",
-    State: "Idaho",
-    ZipCode: 83213,
-    Phone: 0,
-    Fax: "(208) 527-3073",
-    Latitude: 43.41665,
-    Longitude: -113.5166497,
-    Location: {
+    locationId: "CRMO",
+    locationName: "Craters of the Moon National Monument & Preserve",
+    address: "Craters of the Moon National Monument and Preserve, P.O. Box 29",
+    city: "Arco",
+    state: "Idaho",
+    zipCode: 83213,
+    phone: 0,
+    fax: "(208) 527-3073",
+    latitude: 43.41665,
+    longitude: -113.5166497,
+    location: {
         coordinates: [
         -113.5166497,
         43.41665
@@ -1461,18 +1461,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CUGA",
-    LocationName: "Cumberland Gap National Historical Park",
-    Address: "Cumberland Gap National Historical Park, 91 Bartlett Park Road",
-    City: "Middlesboro",
-    State: "Kentucky",
-    ZipCode: 40965,
-    Phone: "(606) 248-2817",
-    Fax: "(606) 248-7276",
+    locationId: "CUGA",
+    locationName: "Cumberland Gap National Historical Park",
+    address: "Cumberland Gap National Historical Park, 91 Bartlett Park Road",
+    city: "Middlesboro",
+    state: "Kentucky",
+    zipCode: 40965,
+    phone: "(606) 248-2817",
+    fax: "(606) 248-7276",
     Visit: "https://www.nps.gov/cuga/index.htm",
-    Latitude: 36.602419,
-    Longitude: -83.692026,
-    Location: {
+    latitude: 36.602419,
+    longitude: -83.692026,
+    location: {
         coordinates: [
         -83.692026,
         36.602419
@@ -1481,17 +1481,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cuis",
-    LocationName: "Cumberland Island National Seashore",
-    Address: "101 Wheeler Street",
-    City: "St. Marys",
-    State: "Georgia",
-    ZipCode: 31558,
-    Phone: "(912) 882-4336 ext. 254",
-    Fax: "(912) 882-6284",
-    Latitude: 30.7206567,
-    Longitude: -81.5502296,
-    Location: {
+    locationId: "cuis",
+    locationName: "Cumberland Island National Seashore",
+    address: "101 Wheeler Street",
+    city: "St. Marys",
+    state: "Georgia",
+    zipCode: 31558,
+    phone: "(912) 882-4336 ext. 254",
+    fax: "(912) 882-6284",
+    latitude: 30.7206567,
+    longitude: -81.5502296,
+    location: {
         coordinates: [
         -81.5502296,
         30.7206567
@@ -1500,17 +1500,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "cure",
-    LocationName: "Curecanti National Recreation Area",
-    Address: "National Park Service, 102 Elk Creek",
-    City: "Gunnison",
-    State: "Colorado",
-    ZipCode: 81230,
-    Phone: 0,
-    Fax: "(970) 641-3127",
-    Latitude: 38.4657461,
-    Longitude: -107.16668,
-    Location: {
+    locationId: "cure",
+    locationName: "Curecanti National Recreation Area",
+    address: "National Park Service, 102 Elk Creek",
+    city: "Gunnison",
+    state: "Colorado",
+    zipCode: 81230,
+    phone: 0,
+    fax: "(970) 641-3127",
+    latitude: 38.4657461,
+    longitude: -107.16668,
+    location: {
         coordinates: [
         -107.16668,
         38.4657461
@@ -1519,17 +1519,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "CUVA",
-    LocationName: "Cuyahoga Valley National Park",
-    Address: "Cuyahoga Valley National Park, 15610 Vaughn Rd",
-    City: "Cleveland",
-    State: "Ohio",
-    ZipCode: "44141-3097",
-    Phone: 0,
-    Fax: "(440) 546-5989",
-    Latitude: 41.2824455,
-    Longitude: -81.5706109,
-    Location: {
+    locationId: "CUVA",
+    locationName: "Cuyahoga Valley National Park",
+    address: "Cuyahoga Valley National Park, 15610 Vaughn Rd",
+    city: "Cleveland",
+    state: "Ohio",
+    zipCode: "44141-3097",
+    phone: 0,
+    fax: "(440) 546-5989",
+    latitude: 41.2824455,
+    longitude: -81.5706109,
+    location: {
         coordinates: [
         -81.5706109,
         41.2824455
@@ -1538,17 +1538,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "DABE",
-    LocationName: "David Berger National Memorial",
-    Address: "Mandel Jewish Community Center, 26001 South Woodland Road",
-    City: "Beachwood",
-    State: "Ohio",
-    ZipCode: 44122,
-    Phone: 0,
-    Fax: "(440) 546-5989",
-    Latitude: 41.4736696,
-    Longitude: -81.4914281,
-    Location: {
+    locationId: "DABE",
+    locationName: "David Berger National Memorial",
+    address: "Mandel Jewish Community Center, 26001 South Woodland Road",
+    city: "Beachwood",
+    state: "Ohio",
+    zipCode: 44122,
+    phone: 0,
+    fax: "(440) 546-5989",
+    latitude: 41.4736696,
+    longitude: -81.4914281,
+    location: {
         coordinates: [
         -81.4914281,
         41.4736696
@@ -1557,17 +1557,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "deso",
-    LocationName: "De Soto National Memorial",
-    Address: "De Soto National Memorial, P.O. Box 15390",
-    City: "Bradenton",
-    State: "Florida",
-    ZipCode: 34280,
-    Phone: "(941) 792-0458 ext. 105",
-    Fax: "(941) 792-5094",
-    Latitude: 27.371266,
-    Longitude: -82.580364,
-    Location: {
+    locationId: "deso",
+    locationName: "De Soto National Memorial",
+    address: "De Soto National Memorial, P.O. Box 15390",
+    city: "Bradenton",
+    state: "Florida",
+    zipCode: 34280,
+    phone: "(941) 792-0458 ext. 105",
+    fax: "(941) 792-5094",
+    latitude: 27.371266,
+    longitude: -82.580364,
+    location: {
         coordinates: [
         -82.580364,
         27.371266
@@ -1576,17 +1576,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "deva",
-    LocationName: "Death Valley National Park",
-    Address: "Death Valley National Park, P.O. Box 579",
-    City: "Death Valley",
-    State: "California",
-    ZipCode: 92328,
-    Phone: "(760) 786-3200",
-    Fax: "(760) 786-3283",
-    Latitude: 36.5053891,
-    Longitude: -117.0794082,
-    Location: {
+    locationId: "deva",
+    locationName: "Death Valley National Park",
+    address: "Death Valley National Park, P.O. Box 579",
+    city: "Death Valley",
+    state: "California",
+    zipCode: 92328,
+    phone: "(760) 786-3200",
+    fax: "(760) 786-3283",
+    latitude: 36.5053891,
+    longitude: -117.0794082,
+    location: {
         coordinates: [
         -117.0794082,
         36.5053891
@@ -1595,17 +1595,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "DEWA",
-    LocationName: "Delaware Water Gap National Recreation Area",
-    Address: "Interpretation & Education, Delaware Water Gap NRA",
-    City: "Bushkill",
-    State: "Pennsylvania",
-    ZipCode: "18324-9999",
-    Phone: 0,
-    Fax: "(570) 426-2402",
-    Latitude: 41.121115,
-    Longitude: -74.898707,
-    Location: {
+    locationId: "DEWA",
+    locationName: "Delaware Water Gap National Recreation Area",
+    address: "Interpretation & Education, Delaware Water Gap NRA",
+    city: "Bushkill",
+    state: "Pennsylvania",
+    zipCode: "18324-9999",
+    phone: 0,
+    fax: "(570) 426-2402",
+    latitude: 41.121115,
+    longitude: -74.898707,
+    location: {
         coordinates: [
         -74.898707,
         41.121115
@@ -1614,18 +1614,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "dena",
-    LocationName: "Denali National Park and Preserve",
-    Address: "Denali National Park & Preserve, P.O. Box 9",
-    City: "Denali Park",
-    State: "Alaska",
-    ZipCode: 99755,
-    Phone: "(907) 683-2294",
-    Fax: "(907) 683-9612",
+    locationId: "dena",
+    locationName: "Denali National Park and Preserve",
+    address: "Denali National Park & Preserve, P.O. Box 9",
+    city: "Denali Park",
+    state: "Alaska",
+    zipCode: 99755,
+    phone: "(907) 683-2294",
+    fax: "(907) 683-9612",
     Visit: "https://www.nps.gov/dena/index.htm",
-    Latitude: 63.7296854,
-    Longitude: -148.766697,
-    Location: {
+    latitude: 63.7296854,
+    longitude: -148.766697,
+    location: {
         coordinates: [
         -148.766697,
         63.7296854
@@ -1634,17 +1634,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "DEMO",
-    LocationName: "Deshler Morris House",
-    Address: "143 S. Third Street",
-    City: "Philadelphia",
-    State: "Pennsylvania",
-    ZipCode: 19106,
-    Phone: "(215) 965-2305",
-    Fax: "(215) 861-4950",
-    Latitude: 39.9480134,
-    Longitude: -75.1461357,
-    Location: {
+    locationId: "DEMO",
+    locationName: "Deshler Morris House",
+    address: "143 S. Third Street",
+    city: "Philadelphia",
+    state: "Pennsylvania",
+    zipCode: 19106,
+    phone: "(215) 965-2305",
+    fax: "(215) 861-4950",
+    latitude: 39.9480134,
+    longitude: -75.1461357,
+    location: {
         coordinates: [
         -75.1461357,
         39.9480134
@@ -1653,17 +1653,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "depo",
-    LocationName: "Devils Postpile National Monument",
-    Address: "Devils Postpile National Monument, P.O. Box 3999",
-    City: "Mammoth Lakes",
-    State: "California",
-    ZipCode: 93546,
-    Phone: 0,
-    Fax: "(760) 934-4780",
-    Latitude: 37.6146273,
-    Longitude: -119.0852642,
-    Location: {
+    locationId: "depo",
+    locationName: "Devils Postpile National Monument",
+    address: "Devils Postpile National Monument, P.O. Box 3999",
+    city: "Mammoth Lakes",
+    state: "California",
+    zipCode: 93546,
+    phone: 0,
+    fax: "(760) 934-4780",
+    latitude: 37.6146273,
+    longitude: -119.0852642,
+    location: {
         coordinates: [
         -119.0852642,
         37.6146273
@@ -1672,18 +1672,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "DETO",
-    LocationName: "Devils Tower National Monument",
-    Address: "PO Box 10",
-    City: "Devils Tower",
-    State: "Wyoming",
-    ZipCode: 82714,
-    Phone: 0,
-    Fax: "(307) 467-5350",
+    locationId: "DETO",
+    locationName: "Devils Tower National Monument",
+    address: "PO Box 10",
+    city: "Devils Tower",
+    state: "Wyoming",
+    zipCode: 82714,
+    phone: 0,
+    fax: "(307) 467-5350",
     Visit: "https://www.nps.gov/deto/index.htm",
-    Latitude: 44.588333,
-    Longitude: -104.698333,
-    Location: {
+    latitude: 44.588333,
+    longitude: -104.698333,
+    location: {
         coordinates: [
         -104.698333,
         44.588333
@@ -1692,17 +1692,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "dino",
-    LocationName: "Dinosaur National Monument",
-    Address: "Dinosaur National Monument, 4545 E. Highway 40",
-    City: "Dinosaur",
-    State: "Colorado",
-    ZipCode: "81610-9724",
-    Phone: 0,
-    Fax: "(970) 374-3003",
-    Latitude: 40.5191016,
-    Longitude: -108.9264524,
-    Location: {
+    locationId: "dino",
+    locationName: "Dinosaur National Monument",
+    address: "Dinosaur National Monument, 4545 E. Highway 40",
+    city: "Dinosaur",
+    state: "Colorado",
+    zipCode: "81610-9724",
+    phone: 0,
+    fax: "(970) 374-3003",
+    latitude: 40.5191016,
+    longitude: -108.9264524,
+    location: {
         coordinates: [
         -108.9264524,
         40.5191016
@@ -1711,18 +1711,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "drto",
-    LocationName: "Dry Tortugas National Park",
-    Address: "P.O. Box 6208",
-    City: "Key West",
-    State: "Florida",
-    ZipCode: 33041,
-    Phone: 0,
-    Fax: "(305) 242-7711",
+    locationId: "drto",
+    locationName: "Dry Tortugas National Park",
+    address: "P.O. Box 6208",
+    city: "Key West",
+    state: "Florida",
+    zipCode: 33041,
+    phone: 0,
+    fax: "(305) 242-7711",
     Visit: "https://www.nps.gov/drto/index.htm",
-    Latitude: 24.56,
-    Longitude: -81.81,
-    Location: {
+    latitude: 24.56,
+    longitude: -81.81,
+    location: {
         coordinates: [
         -81.81,
         24.56
@@ -1731,17 +1731,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "EDAL",
-    LocationName: "Edgar Allan Poe National Historic Site",
-    Address: "INHP, 143 S. Third Street",
-    City: "Philadelphia",
-    State: "Pennsylvania",
-    ZipCode: 19106,
-    Phone: 0,
-    Fax: "(215) 861-4950",
-    Latitude: 39.9480134,
-    Longitude: -75.1461357,
-    Location: {
+    locationId: "EDAL",
+    locationName: "Edgar Allan Poe National Historic Site",
+    address: "INHP, 143 S. Third Street",
+    city: "Philadelphia",
+    state: "Pennsylvania",
+    zipCode: 19106,
+    phone: 0,
+    fax: "(215) 861-4950",
+    latitude: 39.9480134,
+    longitude: -75.1461357,
+    location: {
         coordinates: [
         -75.1461357,
         39.9480134
@@ -1750,17 +1750,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "EFMO",
-    LocationName: "Effigy Mounds National Monument",
-    Address: "Effigy Mounds National Monument, 151 HWY 76",
-    City: "Harpers Ferry",
-    State: "Iowa",
-    ZipCode: 52146,
-    Phone: "(563) 873-3491",
-    Fax: "(800) 322-1704",
-    Latitude: 43.139283,
-    Longitude: -91.245468,
-    Location: {
+    locationId: "EFMO",
+    locationName: "Effigy Mounds National Monument",
+    address: "Effigy Mounds National Monument, 151 HWY 76",
+    city: "Harpers Ferry",
+    state: "Iowa",
+    zipCode: 52146,
+    phone: "(563) 873-3491",
+    fax: "(800) 322-1704",
+    latitude: 43.139283,
+    longitude: -91.245468,
+    location: {
         coordinates: [
         -91.245468,
         43.139283
@@ -1769,17 +1769,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "EISE",
-    LocationName: "Eisenhower National Historic Site",
-    Address: "Eisenhower NHS, 1195 Baltimore Pike, Suite 100",
-    City: "Gettysburg",
-    State: "Pennsylvania",
-    ZipCode: 17325,
-    Phone: "(717) 338-9114 ext. 10",
-    Fax: "(717) 338-0821",
-    Latitude: 39.8122032,
-    Longitude: -77.2215251,
-    Location: {
+    locationId: "EISE",
+    locationName: "Eisenhower National Historic Site",
+    address: "Eisenhower NHS, 1195 Baltimore Pike, Suite 100",
+    city: "Gettysburg",
+    state: "Pennsylvania",
+    zipCode: 17325,
+    phone: "(717) 338-9114 ext. 10",
+    fax: "(717) 338-0821",
+    latitude: 39.8122032,
+    longitude: -77.2215251,
+    location: {
         coordinates: [
         -77.2215251,
         39.8122032
@@ -1788,17 +1788,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELTE",
-    LocationName: "El Camino Real de los Tejas National Historic Trail",
-    Address: "National Trails Intermountain Region, P.O. Box 728",
-    City: "Santa Fe",
-    State: "New Mexico",
-    ZipCode: "87504-0728",
-    Phone: "(505) 988-6098",
-    Fax: "(505) 986-5214",
-    Latitude: 35.691543,
-    Longitude: -105.937406,
-    Location: {
+    locationId: "ELTE",
+    locationName: "El Camino Real de los Tejas National Historic Trail",
+    address: "National Trails Intermountain Region, P.O. Box 728",
+    city: "Santa Fe",
+    state: "New Mexico",
+    zipCode: "87504-0728",
+    phone: "(505) 988-6098",
+    fax: "(505) 986-5214",
+    latitude: 35.691543,
+    longitude: -105.937406,
+    location: {
         coordinates: [
         -105.937406,
         35.691543
@@ -1807,17 +1807,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELCA",
-    LocationName: "El Camino Real de Tierra Adentro National Historic Trail",
-    Address: "National Trails Intermountain Region, PO Box 728",
-    City: "Santa Fe",
-    State: "New Mexico",
-    ZipCode: "87504-0728",
-    Phone: "(505) 988-6098",
-    Fax: "(505) 988-5214",
-    Latitude: 35.689361,
-    Longitude: -105.933751,
-    Location: {
+    locationId: "ELCA",
+    locationName: "El Camino Real de Tierra Adentro National Historic Trail",
+    address: "National Trails Intermountain Region, PO Box 728",
+    city: "Santa Fe",
+    state: "New Mexico",
+    zipCode: "87504-0728",
+    phone: "(505) 988-6098",
+    fax: "(505) 988-5214",
+    latitude: 35.689361,
+    longitude: -105.933751,
+    location: {
         coordinates: [
         -105.933751,
         35.689361
@@ -1826,17 +1826,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELMA",
-    LocationName: "El Malpais National Monument",
-    Address: "El Malpais National Monument, 123 East Roosevelt Avenue",
-    City: "Grants",
-    State: "New Mexico",
-    ZipCode: 87020,
-    Phone: 0,
-    Fax: "(505) 876-2791",
-    Latitude: 35.1610428,
-    Longitude: -107.8410667,
-    Location: {
+    locationId: "ELMA",
+    locationName: "El Malpais National Monument",
+    address: "El Malpais National Monument, 123 East Roosevelt Avenue",
+    city: "Grants",
+    state: "New Mexico",
+    zipCode: 87020,
+    phone: 0,
+    fax: "(505) 876-2791",
+    latitude: 35.1610428,
+    longitude: -107.8410667,
+    location: {
         coordinates: [
         -107.8410667,
         35.1610428
@@ -1845,17 +1845,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELMO",
-    LocationName: "El Morro National Monument",
-    Address: "El Morro National Monument, HC 61 Box 43",
-    City: "Ramah",
-    State: "New Mexico",
-    ZipCode: 87321,
-    Phone: 0,
-    Fax: "(505) 783-4689",
-    Latitude: 35.043518,
-    Longitude: -108.34627,
-    Location: {
+    locationId: "ELMO",
+    locationName: "El Morro National Monument",
+    address: "El Morro National Monument, HC 61 Box 43",
+    city: "Ramah",
+    state: "New Mexico",
+    zipCode: 87321,
+    phone: 0,
+    fax: "(505) 783-4689",
+    latitude: 35.043518,
+    longitude: -108.34627,
+    location: {
         coordinates: [
         -108.34627,
         35.043518
@@ -1864,17 +1864,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELRO",
-    LocationName: "Eleanor Roosevelt National Historic Site",
-    Address: "National Park Service, 4097 Albany Post Road",
-    City: "Hyde Park",
-    State: "New York",
-    ZipCode: 12538,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 41.77043,
-    Longitude: -73.932905,
-    Location: {
+    locationId: "ELRO",
+    locationName: "Eleanor Roosevelt National Historic Site",
+    address: "National Park Service, 4097 Albany Post Road",
+    city: "Hyde Park",
+    state: "New York",
+    zipCode: 12538,
+    phone: 0,
+    fax: 0,
+    latitude: 41.77043,
+    longitude: -73.932905,
+    location: {
         coordinates: [
         -73.932905,
         41.77043
@@ -1883,17 +1883,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ELIS",
-    LocationName: "Ellis Island National Monument",
-    Address: "Statue of Liberty National Monument & Ellis Island, Liberty Island",
-    City: "New York",
-    State: "New York",
-    ZipCode: "10004-1467",
-    Phone: 0,
-    Fax: "(212) 363-6304",
-    Latitude: 40.723223,
-    Longitude: -74.011682,
-    Location: {
+    locationId: "ELIS",
+    locationName: "Ellis Island National Monument",
+    address: "Statue of Liberty National Monument & Ellis Island, Liberty Island",
+    city: "New York",
+    state: "New York",
+    zipCode: "10004-1467",
+    phone: 0,
+    fax: "(212) 363-6304",
+    latitude: 40.723223,
+    longitude: -74.011682,
+    location: {
         coordinates: [
         -74.011682,
         40.723223
@@ -1902,17 +1902,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ESSE",
-    LocationName: "Essex National Heritage Area",
-    Address: "221 Essex Street, Suite 41",
-    City: "Salem",
-    State: "Massachuetts",
-    ZipCode: 1970,
-    Phone: 0,
-    Fax: "(978) 744-6473",
-    Latitude: 42.5214953,
-    Longitude: -70.8949931,
-    Location: {
+    locationId: "ESSE",
+    locationName: "Essex National Heritage Area",
+    address: "221 Essex Street, Suite 41",
+    city: "Salem",
+    state: "Massachuetts",
+    zipCode: 1970,
+    phone: 0,
+    fax: "(978) 744-6473",
+    latitude: 42.5214953,
+    longitude: -70.8949931,
+    location: {
         coordinates: [
         -70.8949931,
         42.5214953
@@ -1921,17 +1921,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "euon",
-    LocationName: "Eugene O'Neill National Historic Site",
-    Address: "P.O. Box 280",
-    City: "Danville",
-    State: "California",
-    ZipCode: 94526,
-    Phone: 0,
-    Fax: "(925) 838-9471",
-    Latitude: 37.800695,
-    Longitude: -121.981435,
-    Location: {
+    locationId: "euon",
+    locationName: "Eugene O'Neill National Historic Site",
+    address: "P.O. Box 280",
+    city: "Danville",
+    state: "California",
+    zipCode: 94526,
+    phone: 0,
+    fax: "(925) 838-9471",
+    latitude: 37.800695,
+    longitude: -121.981435,
+    location: {
         coordinates: [
         -121.981435,
         37.800695
@@ -1940,17 +1940,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ever",
-    LocationName: "Everglades National Park",
-    Address: "40001 State Road 9336",
-    City: "Homestead",
-    State: "Florida",
-    ZipCode: "33034-6733",
-    Phone: "(305) 242-7700",
-    Fax: "(305) 242-7711",
-    Latitude: 25.395755,
-    Longitude: -80.5834525,
-    Location: {
+    locationId: "ever",
+    locationName: "Everglades National Park",
+    address: "40001 State Road 9336",
+    city: "Homestead",
+    state: "Florida",
+    zipCode: "33034-6733",
+    phone: "(305) 242-7700",
+    fax: "(305) 242-7711",
+    latitude: 25.395755,
+    longitude: -80.5834525,
+    location: {
         coordinates: [
         -80.5834525,
         25.395755
@@ -1959,17 +1959,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FEHA",
-    LocationName: "Federal Hall National Memorial",
-    Address: "Federal Hall National Memorial, 26 Wall Street",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10005,
-    Phone: 0,
-    Fax: "(212) 668-2899",
-    Latitude: 40.7073139,
-    Longitude: -74.010262,
-    Location: {
+    locationId: "FEHA",
+    locationName: "Federal Hall National Memorial",
+    address: "Federal Hall National Memorial, 26 Wall Street",
+    city: "New York",
+    state: "New York",
+    zipCode: 10005,
+    phone: 0,
+    fax: "(212) 668-2899",
+    latitude: 40.7073139,
+    longitude: -74.010262,
+    location: {
         coordinates: [
         -74.010262,
         40.7073139
@@ -1978,17 +1978,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FIIS",
-    LocationName: "Fire Island National Seashore",
-    Address: "Fire Island National Seashore, 120 Laurel Street",
-    City: "Patchogue",
-    State: "New York",
-    ZipCode: "11772-3596",
-    Phone: 0,
-    Fax: "(631) 289-4898",
-    Latitude: 40.7552554,
-    Longitude: -73.0168646,
-    Location: {
+    locationId: "FIIS",
+    locationName: "Fire Island National Seashore",
+    address: "Fire Island National Seashore, 120 Laurel Street",
+    city: "Patchogue",
+    state: "New York",
+    zipCode: "11772-3596",
+    phone: 0,
+    fax: "(631) 289-4898",
+    latitude: 40.7552554,
+    longitude: -73.0168646,
+    location: {
         coordinates: [
         -73.0168646,
         40.7552554
@@ -1997,17 +1997,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FILA",
-    LocationName: "First Ladies National Historic Site",
-    Address: "National First Ladies Library, 205 Market Avenue South",
-    City: "Canton",
-    State: "Ohio",
-    ZipCode: "44702-2107",
-    Phone: "(330) 452-0876",
-    Fax: "(330) 456-3414",
-    Latitude: 40.797611,
-    Longitude: -81.375456,
-    Location: {
+    locationId: "FILA",
+    locationName: "First Ladies National Historic Site",
+    address: "National First Ladies Library, 205 Market Avenue South",
+    city: "Canton",
+    state: "Ohio",
+    zipCode: "44702-2107",
+    phone: "(330) 452-0876",
+    fax: "(330) 456-3414",
+    latitude: 40.797611,
+    longitude: -81.375456,
+    location: {
         coordinates: [
         -81.375456,
         40.797611
@@ -2016,17 +2016,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FLNI",
-    LocationName: "Flight 93 National Memorial",
-    Address: "P.O. Box 911",
-    City: "Shanksville",
-    State: "Pennsylvania",
-    ZipCode: 15560,
-    Phone: 0,
-    Fax: "(814) 893-6329",
-    Latitude: 40.017274,
-    Longitude: -78.909198,
-    Location: {
+    locationId: "FLNI",
+    locationName: "Flight 93 National Memorial",
+    address: "P.O. Box 911",
+    city: "Shanksville",
+    state: "Pennsylvania",
+    zipCode: 15560,
+    phone: 0,
+    fax: "(814) 893-6329",
+    latitude: 40.017274,
+    longitude: -78.909198,
+    location: {
         coordinates: [
         -78.909198,
         40.017274
@@ -2035,17 +2035,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "flfo",
-    LocationName: "Florissant Fossil Beds National Monument",
-    Address: "PO Box 185",
-    City: "Florissant",
-    State: "Colorado",
-    ZipCode: 80816,
-    Phone: 0,
-    Fax: "(719) 748-3164",
-    Latitude: 38.900586,
-    Longitude: -105.336536,
-    Location: {
+    locationId: "flfo",
+    locationName: "Florissant Fossil Beds National Monument",
+    address: "PO Box 185",
+    city: "Florissant",
+    state: "Colorado",
+    zipCode: 80816,
+    phone: 0,
+    fax: "(719) 748-3164",
+    latitude: 38.900586,
+    longitude: -105.336536,
+    location: {
         coordinates: [
         -105.336536,
         38.900586
@@ -2054,17 +2054,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "fobo",
-    LocationName: "Fort Bowie National Historic Site",
-    Address: "Fort Bowie National Historic Site, 3203 South Old Fort Bowie Road",
-    City: "Bowie",
-    State: "Arizona",
-    ZipCode: 85605,
-    Phone: 0,
-    Fax: "(520) 847-2221",
-    Latitude: 32.1514176,
-    Longitude: -109.4526832,
-    Location: {
+    locationId: "fobo",
+    locationName: "Fort Bowie National Historic Site",
+    address: "Fort Bowie National Historic Site, 3203 South Old Fort Bowie Road",
+    city: "Bowie",
+    state: "Arizona",
+    zipCode: 85605,
+    phone: 0,
+    fax: "(520) 847-2221",
+    latitude: 32.1514176,
+    longitude: -109.4526832,
+    location: {
         coordinates: [
         -109.4526832,
         32.1514176
@@ -2073,17 +2073,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FODA",
-    LocationName: "Fort Davis National Historic Site",
-    Address: "Fort Davis National Historic Site, P.O. Box 1379",
-    City: "Fort Davis",
-    State: "Texas",
-    ZipCode: 79734,
-    Phone: "(432) 426-3224 ext. 220",
-    Fax: "(432) 426-3122",
-    Latitude: 30.6017944,
-    Longitude: -103.8955494,
-    Location: {
+    locationId: "FODA",
+    locationName: "Fort Davis National Historic Site",
+    address: "Fort Davis National Historic Site, P.O. Box 1379",
+    city: "Fort Davis",
+    state: "Texas",
+    zipCode: 79734,
+    phone: "(432) 426-3224 ext. 220",
+    fax: "(432) 426-3122",
+    latitude: 30.6017944,
+    longitude: -103.8955494,
+    location: {
         coordinates: [
         -103.8955494,
         30.6017944
@@ -2092,17 +2092,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FODO",
-    LocationName: "Fort Donelson National Battlefield",
-    Address: "Fort Donelson National Battlefield, P.O. Box 434",
-    City: "Dover",
-    State: "Tennessee",
-    ZipCode: 37058,
-    Phone: 0,
-    Fax: "(931) 232-4085",
-    Latitude: 36.4848862,
-    Longitude: -87.8574308,
-    Location: {
+    locationId: "FODO",
+    locationName: "Fort Donelson National Battlefield",
+    address: "Fort Donelson National Battlefield, P.O. Box 434",
+    city: "Dover",
+    state: "Tennessee",
+    zipCode: 37058,
+    phone: 0,
+    fax: "(931) 232-4085",
+    latitude: 36.4848862,
+    longitude: -87.8574308,
+    location: {
         coordinates: [
         -87.8574308,
         36.4848862
@@ -2111,17 +2111,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOFO",
-    LocationName: "Fort Foote Park",
-    Address: "13551 Fort Washington Road",
-    City: "Fort Washington",
-    State: "Maryland",
-    ZipCode: 20744,
-    Phone: 0,
-    Fax: "(301) 763-1389",
-    Latitude: 38.71312,
-    Longitude: -77.025503,
-    Location: {
+    locationId: "FOFO",
+    locationName: "Fort Foote Park",
+    address: "13551 Fort Washington Road",
+    city: "Fort Washington",
+    state: "Maryland",
+    zipCode: 20744,
+    phone: 0,
+    fax: "(301) 763-1389",
+    latitude: 38.71312,
+    longitude: -77.025503,
+    location: {
         coordinates: [
         -77.025503,
         38.71312
@@ -2130,17 +2130,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "fofr",
-    LocationName: "Fort Frederica National Monument",
-    Address: "Fort Frederica NM, 6515 Frederica Rd.",
-    City: "St. Simons Island",
-    State: "Georgia",
-    ZipCode: 31522,
-    Phone: "(912) 638-3639",
-    Fax: "(912) 634-5357",
-    Latitude: 31.223111,
-    Longitude: -81.389279,
-    Location: {
+    locationId: "fofr",
+    locationName: "Fort Frederica National Monument",
+    address: "Fort Frederica NM, 6515 Frederica Rd.",
+    city: "St. Simons Island",
+    state: "Georgia",
+    zipCode: 31522,
+    phone: "(912) 638-3639",
+    fax: "(912) 634-5357",
+    latitude: 31.223111,
+    longitude: -81.389279,
+    location: {
         coordinates: [
         -81.389279,
         31.223111
@@ -2149,17 +2149,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOLS",
-    LocationName: "Fort Larned National Historic Site",
-    Address: "Fort Larned NHS, 1767 KS Hwy 156",
-    City: "Larned",
-    State: "Kansas",
-    ZipCode: "67550-5357",
-    Phone: 0,
-    Fax: "(620) 285-3571",
-    Latitude: 38.189289,
-    Longitude: -99.19959,
-    Location: {
+    locationId: "FOLS",
+    locationName: "Fort Larned National Historic Site",
+    address: "Fort Larned NHS, 1767 KS Hwy 156",
+    city: "Larned",
+    state: "Kansas",
+    zipCode: "67550-5357",
+    phone: 0,
+    fax: "(620) 285-3571",
+    latitude: 38.189289,
+    longitude: -99.19959,
+    location: {
         coordinates: [
         -99.19959,
         38.189289
@@ -2168,17 +2168,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "foma",
-    LocationName: "Fort Matanzas National Monument",
-    Address: "Fort Matanzas National Monument, 8635 A1A South",
-    City: "St. Augustine",
-    State: "Florida",
-    ZipCode: 32080,
-    Phone: 0,
-    Fax: "(904) 471-7605",
-    Latitude: 29.716366,
-    Longitude: -81.234059,
-    Location: {
+    locationId: "foma",
+    locationName: "Fort Matanzas National Monument",
+    address: "Fort Matanzas National Monument, 8635 A1A South",
+    city: "St. Augustine",
+    state: "Florida",
+    zipCode: 32080,
+    phone: 0,
+    fax: "(904) 471-7605",
+    latitude: 29.716366,
+    longitude: -81.234059,
+    location: {
         coordinates: [
         -81.234059,
         29.716366
@@ -2187,17 +2187,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FONE",
-    LocationName: "Fort Necessity National Battlefield",
-    Address: "Fort Necessity NB, 1 Washington Parkway",
-    City: "Farmington",
-    State: "Pennsylvania",
-    ZipCode: 15437,
-    Phone: 0,
-    Fax: "(724) 329-8682",
-    Latitude: 39.819078,
-    Longitude: -79.587852,
-    Location: {
+    locationId: "FONE",
+    locationName: "Fort Necessity National Battlefield",
+    address: "Fort Necessity NB, 1 Washington Parkway",
+    city: "Farmington",
+    state: "Pennsylvania",
+    zipCode: 15437,
+    phone: 0,
+    fax: "(724) 329-8682",
+    latitude: 39.819078,
+    longitude: -79.587852,
+    location: {
         coordinates: [
         -79.587852,
         39.819078
@@ -2206,17 +2206,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "fopo",
-    LocationName: "Fort Point National Historic Site",
-    Address: "Fort Point National Historic Site, Fort Mason, Building 201",
-    City: "San Francisco",
-    State: "California",
-    ZipCode: 94123,
-    Phone: "(415) 556-1693",
-    Fax: 0,
-    Latitude: 37.767098,
-    Longitude: -122.465741,
-    Location: {
+    locationId: "fopo",
+    locationName: "Fort Point National Historic Site",
+    address: "Fort Point National Historic Site, Fort Mason, Building 201",
+    city: "San Francisco",
+    state: "California",
+    zipCode: 94123,
+    phone: "(415) 556-1693",
+    fax: 0,
+    latitude: 37.767098,
+    longitude: -122.465741,
+    location: {
         coordinates: [
         -122.465741,
         37.767098
@@ -2225,17 +2225,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "fopu",
-    LocationName: "Fort Pulaski National Monument",
-    Address: "Fort Pulaski NM, P. O. Box 30757",
-    City: "Savannah",
-    State: "Georgia",
-    ZipCode: 31410,
-    Phone: "(912) 786-5787",
-    Fax: "(912) 652-4232",
-    Latitude: 32.018264,
-    Longitude: -80.990196,
-    Location: {
+    locationId: "fopu",
+    locationName: "Fort Pulaski National Monument",
+    address: "Fort Pulaski NM, P. O. Box 30757",
+    city: "Savannah",
+    state: "Georgia",
+    zipCode: 31410,
+    phone: "(912) 786-5787",
+    fax: "(912) 652-4232",
+    latitude: 32.018264,
+    longitude: -80.990196,
+    location: {
         coordinates: [
         -80.990196,
         32.018264
@@ -2244,17 +2244,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FORA",
-    LocationName: "Fort Raleigh National Historic Site",
-    Address: "Fort Raleigh National Historic Site, 1401 National Park Drive",
-    City: "Manteo",
-    State: "North Carolina",
-    ZipCode: 27954,
-    Phone: "(252) 473-5772",
-    Fax: "(252) 473-2595",
-    Latitude: 35.938547,
-    Longitude: -75.712322,
-    Location: {
+    locationId: "FORA",
+    locationName: "Fort Raleigh National Historic Site",
+    address: "Fort Raleigh National Historic Site, 1401 National Park Drive",
+    city: "Manteo",
+    state: "North Carolina",
+    zipCode: 27954,
+    phone: "(252) 473-5772",
+    fax: "(252) 473-2595",
+    latitude: 35.938547,
+    longitude: -75.712322,
+    location: {
         coordinates: [
         -75.712322,
         35.938547
@@ -2263,17 +2263,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOSC",
-    LocationName: "Fort Scott National Historic Site",
-    Address: "Fort Scott NHS, P.O. Box 918",
-    City: "Fort Scott",
-    State: "Kansas",
-    ZipCode: 66701,
-    Phone: "(620) 223-0310",
-    Fax: "(620) 223-0188",
-    Latitude: 37.842788,
-    Longitude: -94.705509,
-    Location: {
+    locationId: "FOSC",
+    locationName: "Fort Scott National Historic Site",
+    address: "Fort Scott NHS, P.O. Box 918",
+    city: "Fort Scott",
+    state: "Kansas",
+    zipCode: 66701,
+    phone: "(620) 223-0310",
+    fax: "(620) 223-0188",
+    latitude: 37.842788,
+    longitude: -94.705509,
+    location: {
         coordinates: [
         -94.705509,
         37.842788
@@ -2282,17 +2282,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "fosm",
-    LocationName: "Fort Smith National Historic Site",
-    Address: "Fort Smith National Historic Site, PO Box 1406",
-    City: "Fort Smith",
-    State: "Arkansas",
-    ZipCode: 72902,
-    Phone: 0,
-    Fax: "(479) 783-5307",
-    Latitude: 35.387619,
-    Longitude: -94.4290819,
-    Location: {
+    locationId: "fosm",
+    locationName: "Fort Smith National Historic Site",
+    address: "Fort Smith National Historic Site, PO Box 1406",
+    city: "Fort Smith",
+    state: "Arkansas",
+    zipCode: 72902,
+    phone: 0,
+    fax: "(479) 783-5307",
+    latitude: 35.387619,
+    longitude: -94.4290819,
+    location: {
         coordinates: [
         -94.4290819,
         35.387619
@@ -2301,17 +2301,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOST",
-    LocationName: "Fort Stanwix National Monument",
-    Address: "Fort Stanwix National Monument, 112 E Park Street",
-    City: "Rome",
-    State: "New York",
-    ZipCode: 13440,
-    Phone: "(315) 338-7730",
-    Fax: "(315) 334-5051",
-    Latitude: 43.2119731,
-    Longitude: -75.4547454,
-    Location: {
+    locationId: "FOST",
+    locationName: "Fort Stanwix National Monument",
+    address: "Fort Stanwix National Monument, 112 E Park Street",
+    city: "Rome",
+    state: "New York",
+    zipCode: 13440,
+    phone: "(315) 338-7730",
+    fax: "(315) 334-5051",
+    latitude: 43.2119731,
+    longitude: -75.4547454,
+    location: {
         coordinates: [
         -75.4547454,
         43.2119731
@@ -2320,17 +2320,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOSU",
-    LocationName: "Fort Sumter National Monument",
-    Address: "1214 Middle Street",
-    City: "Sullivan's Island",
-    State: "South Carolina",
-    ZipCode: 29482,
-    Phone: 0,
-    Fax: "(843) 883-3910",
-    Latitude: 32.758321,
-    Longitude: -79.856317,
-    Location: {
+    locationId: "FOSU",
+    locationName: "Fort Sumter National Monument",
+    address: "1214 Middle Street",
+    city: "Sullivan's Island",
+    state: "South Carolina",
+    zipCode: 29482,
+    phone: 0,
+    fax: "(843) 883-3910",
+    latitude: 32.758321,
+    longitude: -79.856317,
+    location: {
         coordinates: [
         -79.856317,
         32.758321
@@ -2339,17 +2339,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOUN",
-    LocationName: "Fort Union National Monument",
-    Address: "Superintendent, Fort Union National Monument PO Box 127",
-    City: "Watrous",
-    State: "New Mexico",
-    ZipCode: 87753,
-    Phone: "(505) 425-8025",
-    Fax: "(505) 454-1155",
-    Latitude: 35.846872,
-    Longitude: -105.018118,
-    Location: {
+    locationId: "FOUN",
+    locationName: "Fort Union National Monument",
+    address: "Superintendent, Fort Union National Monument PO Box 127",
+    city: "Watrous",
+    state: "New Mexico",
+    zipCode: 87753,
+    phone: "(505) 425-8025",
+    fax: "(505) 454-1155",
+    latitude: 35.846872,
+    longitude: -105.018118,
+    location: {
         coordinates: [
         -105.018118,
         35.846872
@@ -2358,17 +2358,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOUS",
-    LocationName: "Fort Union Trading Post National Historic Site",
-    Address: "Fort Union Trading Post NHS, 15550 Hwy 1804",
-    City: "Williston",
-    State: "North Dakota",
-    ZipCode: 58801,
-    Phone: "(701) 572-9083",
-    Fax: "(701) 572-7321",
-    Latitude: 48.00016,
-    Longitude: -104.041483,
-    Location: {
+    locationId: "FOUS",
+    locationName: "Fort Union Trading Post National Historic Site",
+    address: "Fort Union Trading Post NHS, 15550 Hwy 1804",
+    city: "Williston",
+    state: "North Dakota",
+    zipCode: 58801,
+    phone: "(701) 572-9083",
+    fax: "(701) 572-7321",
+    latitude: 48.00016,
+    longitude: -104.041483,
+    location: {
         coordinates: [
         -104.041483,
         48.00016
@@ -2377,17 +2377,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOVA",
-    LocationName: "Fort Vancouver National Historic Site",
-    Address: "Fort Vancouver NHS, 612 East Reserve Street",
-    City: "Vancouver",
-    State: "Washington",
-    ZipCode: 98661,
-    Phone: "(360) 816-6230",
-    Fax: "(360) 816-6363",
-    Latitude: 45.6252599,
-    Longitude: -122.6543063,
-    Location: {
+    locationId: "FOVA",
+    locationName: "Fort Vancouver National Historic Site",
+    address: "Fort Vancouver NHS, 612 East Reserve Street",
+    city: "Vancouver",
+    state: "Washington",
+    zipCode: 98661,
+    phone: "(360) 816-6230",
+    fax: "(360) 816-6363",
+    latitude: 45.6252599,
+    longitude: -122.6543063,
+    location: {
         coordinates: [
         -122.6543063,
         45.6252599
@@ -2396,17 +2396,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FOWA",
-    LocationName: "Fort Washington Park",
-    Address: "13551 Fort Washington Road",
-    City: "Fort Washington",
-    State: "Maryland",
-    ZipCode: 20744,
-    Phone: "(301) 763-4600",
-    Fax: "(301) 763-1389",
-    Latitude: 38.71312,
-    Longitude: -77.025503,
-    Location: {
+    locationId: "FOWA",
+    locationName: "Fort Washington Park",
+    address: "13551 Fort Washington Road",
+    city: "Fort Washington",
+    state: "Maryland",
+    zipCode: 20744,
+    phone: "(301) 763-4600",
+    fax: "(301) 763-1389",
+    latitude: 38.71312,
+    longitude: -77.025503,
+    location: {
         coordinates: [
         -77.025503,
         38.71312
@@ -2415,17 +2415,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FRLA",
-    LocationName: "Frederick Law Olmsted National Historic Site",
-    Address: "Frederick Law Olmsted      National Historic Site, 99 Warren Street",
-    City: "Brookline",
-    State: "Massachusetts",
-    ZipCode: 2445,
-    Phone: 0,
-    Fax: "(617) 232-4073",
-    Latitude: 42.3254655,
-    Longitude: -71.1320319,
-    Location: {
+    locationId: "FRLA",
+    locationName: "Frederick Law Olmsted National Historic Site",
+    address: "Frederick Law Olmsted      National Historic Site, 99 Warren Street",
+    city: "Brookline",
+    state: "Massachusetts",
+    zipCode: 2445,
+    phone: 0,
+    fax: "(617) 232-4073",
+    latitude: 42.3254655,
+    longitude: -71.1320319,
+    location: {
         coordinates: [
         -71.1320319,
         42.3254655
@@ -2434,17 +2434,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FRSP",
-    LocationName: "Fredericksburg & Spotsylvania National Military Park",
-    Address: "Superintendent, 120 Chatham Lane",
-    City: "Fredericksburg",
-    State: "Virginia",
-    ZipCode: 22405,
-    Phone: 0,
-    Fax: "(540) 371-1907",
-    Latitude: 38.308756,
-    Longitude: -77.455278,
-    Location: {
+    locationId: "FRSP",
+    locationName: "Fredericksburg & Spotsylvania National Military Park",
+    address: "Superintendent, 120 Chatham Lane",
+    city: "Fredericksburg",
+    state: "Virginia",
+    zipCode: 22405,
+    phone: 0,
+    fax: "(540) 371-1907",
+    latitude: 38.308756,
+    longitude: -77.455278,
+    location: {
         coordinates: [
         -77.455278,
         38.308756
@@ -2453,17 +2453,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "FRHI",
-    LocationName: "Friendship Hill National Historic Site",
-    Address: "Friendship Hill NHS, 1 Washington Parkway",
-    City: "Farmington",
-    State: "Pennsylvania",
-    ZipCode: 15437,
-    Phone: 0,
-    Fax: "(724) 725-1999",
-    Latitude: 39.819078,
-    Longitude: -79.587852,
-    Location: {
+    locationId: "FRHI",
+    locationName: "Friendship Hill National Historic Site",
+    address: "Friendship Hill NHS, 1 Washington Parkway",
+    city: "Farmington",
+    state: "Pennsylvania",
+    zipCode: 15437,
+    phone: 0,
+    fax: "(724) 725-1999",
+    latitude: 39.819078,
+    longitude: -79.587852,
+    location: {
         coordinates: [
         -79.587852,
         39.819078
@@ -2472,17 +2472,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "gaar",
-    LocationName: "Gates of the Arctic National Park & Preserve",
-    Address: "Visitor Information, P.O. Box 30",
-    City: "Bettles",
-    State: "Alaska",
-    ZipCode: 99726,
-    Phone: "P.O. Box 30",
-    Fax: "(907) 692-5400",
-    Latitude: 67.251868,
-    Longitude: -150.184189,
-    Location: {
+    locationId: "gaar",
+    locationName: "Gates of the Arctic National Park & Preserve",
+    address: "Visitor Information, P.O. Box 30",
+    city: "Bettles",
+    state: "Alaska",
+    zipCode: 99726,
+    phone: "P.O. Box 30",
+    fax: "(907) 692-5400",
+    latitude: 67.251868,
+    longitude: -150.184189,
+    location: {
         coordinates: [
         -150.184189,
         67.251868
@@ -2491,17 +2491,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GATE",
-    LocationName: "Gateway National Recreation Area",
-    Address: "Public Affairs Office, Gateway NRA, 210 New York Avenue",
-    City: "Staten Island",
-    State: "New York",
-    ZipCode: 10305,
-    Phone: "(718) 354-4606",
-    Fax: "(718) 354-4605",
-    Latitude: 40.6035923,
-    Longitude: -74.0588092,
-    Location: {
+    locationId: "GATE",
+    locationName: "Gateway National Recreation Area",
+    address: "Public Affairs Office, Gateway NRA, 210 New York Avenue",
+    city: "Staten Island",
+    state: "New York",
+    zipCode: 10305,
+    phone: "(718) 354-4606",
+    fax: "(718) 354-4605",
+    latitude: 40.6035923,
+    longitude: -74.0588092,
+    location: {
         coordinates: [
         -74.0588092,
         40.6035923
@@ -2510,17 +2510,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GEGR",
-    LocationName: "General Grant National Memorial",
-    Address: "General Grant National Memorial, West 122nd Street and Riverside Drive",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10027,
-    Phone: 0,
-    Fax: "(212) 932-9631",
-    Latitude: 40.812908,
-    Longitude: -73.962923,
-    Location: {
+    locationId: "GEGR",
+    locationName: "General Grant National Memorial",
+    address: "General Grant National Memorial, West 122nd Street and Riverside Drive",
+    city: "New York",
+    state: "New York",
+    zipCode: 10027,
+    phone: 0,
+    fax: "(212) 932-9631",
+    latitude: 40.812908,
+    longitude: -73.962923,
+    location: {
         coordinates: [
         -73.962923,
         40.812908
@@ -2529,17 +2529,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GERO",
-    LocationName: "George Rogers Clark National Historical Park",
-    Address: "George Rogers Clark National Historical Park, 401 S. 2nd St.",
-    City: "Vincennes",
-    State: "Indiana",
-    ZipCode: 47591,
-    Phone: "(812) 882-1776 ext. 110",
-    Fax: "(812) 882-7270",
-    Latitude: 38.6778773,
-    Longitude: -87.5353188,
-    Location: {
+    locationId: "GERO",
+    locationName: "George Rogers Clark National Historical Park",
+    address: "George Rogers Clark National Historical Park, 401 S. 2nd St.",
+    city: "Vincennes",
+    state: "Indiana",
+    zipCode: 47591,
+    phone: "(812) 882-1776 ext. 110",
+    fax: "(812) 882-7270",
+    latitude: 38.6778773,
+    longitude: -87.5353188,
+    location: {
         coordinates: [
         -87.5353188,
         38.6778773
@@ -2548,17 +2548,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GWCA",
-    LocationName: "George Washington Carver National Monument",
-    Address: "George Washington Carver National Monument, 5646 Carver Road",
-    City: "Diamond",
-    State: "Missouri",
-    ZipCode: 64840,
-    Phone: 0,
-    Fax: "(417) 325-4231",
-    Latitude: 36.9859501,
-    Longitude: -94.3510047,
-    Location: {
+    locationId: "GWCA",
+    locationName: "George Washington Carver National Monument",
+    address: "George Washington Carver National Monument, 5646 Carver Road",
+    city: "Diamond",
+    state: "Missouri",
+    zipCode: 64840,
+    phone: 0,
+    fax: "(417) 325-4231",
+    latitude: 36.9859501,
+    longitude: -94.3510047,
+    location: {
         coordinates: [
         -94.3510047,
         36.9859501
@@ -2567,18 +2567,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GETT",
-    LocationName: "Gettysburg National Military Park",
-    Address: "Gettysburg National Military Park, 1195 Baltimore Pike, Suite 100",
-    City: "Gettysburg",
-    State: "Pennsylvania",
-    ZipCode: 17325,
-    Phone: 0,
-    Fax: "(717) 334-1891",
+    locationId: "GETT",
+    locationName: "Gettysburg National Military Park",
+    address: "Gettysburg National Military Park, 1195 Baltimore Pike, Suite 100",
+    city: "Gettysburg",
+    state: "Pennsylvania",
+    zipCode: 17325,
+    phone: 0,
+    fax: "(717) 334-1891",
     Visit: "https://www.nps.gov/gett/index.htm",
-    Latitude: 39.8122032,
-    Longitude: -77.2215251,
-    Location: {
+    latitude: 39.8122032,
+    longitude: -77.2215251,
+    location: {
         coordinates: [
         -77.2215251,
         39.8122032
@@ -2587,18 +2587,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GICL",
-    LocationName: "Gila Cliff Dwellings National Monument",
-    Address: "Gila Cliff Dwellings National Monument, HC 68 Box 100",
-    City: "Silver City",
-    State: "New Mexico",
-    ZipCode: 88061,
-    Phone: 0,
-    Fax: "(575) 536-9344",
+    locationId: "GICL",
+    locationName: "Gila Cliff Dwellings National Monument",
+    address: "Gila Cliff Dwellings National Monument, HC 68 Box 100",
+    city: "Silver city",
+    state: "New Mexico",
+    zipCode: 88061,
+    phone: 0,
+    fax: "(575) 536-9344",
     Visit: "https://www.nps.gov/gicl/index.htm",
-    Latitude: 32.77,
-    Longitude: -108.279999,
-    Location: {
+    latitude: 32.77,
+    longitude: -108.279999,
+    location: {
         coordinates: [
         -108.279999,
         32.77
@@ -2607,18 +2607,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "glba",
-    LocationName: "Glacier Bay National Park and Preserve",
-    Address: "Glacier Bay National Park, PO Box 140",
-    City: "Gustavus",
-    State: "Alaska",
-    ZipCode: "99826-0140",
-    Phone: 0,
-    Fax: "(907) 697-2654",
+    locationId: "glba",
+    locationName: "Glacier Bay National Park and Preserve",
+    address: "Glacier Bay National Park, PO Box 140",
+    city: "Gustavus",
+    state: "Alaska",
+    zipCode: "99826-0140",
+    phone: 0,
+    fax: "(907) 697-2654",
     Visit: "https://www.nps.gov/glba/index.htm",
-    Latitude: 58.8318772,
-    Longitude: -136.9987946,
-    Location: {
+    latitude: 58.8318772,
+    longitude: -136.9987946,
+    location: {
         coordinates: [
         -136.9987946,
         58.8318772
@@ -2627,17 +2627,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GLAC",
-    LocationName: "Glacier National Park",
-    Address: "Glacier National Park, PO Box 128",
-    City: "West Glacier",
-    State: "Montana",
-    ZipCode: 59936,
-    Phone: "(406) 888-7800",
-    Fax: "(406) 888-7808",
-    Latitude: 48.8046506,
-    Longitude: -114.1625084,
-    Location: {
+    locationId: "GLAC",
+    locationName: "Glacier National Park",
+    address: "Glacier National Park, PO Box 128",
+    city: "West Glacier",
+    state: "Montana",
+    zipCode: 59936,
+    phone: "(406) 888-7800",
+    fax: "(406) 888-7808",
+    latitude: 48.8046506,
+    longitude: -114.1625084,
+    location: {
         coordinates: [
         -114.1625084,
         48.8046506
@@ -2646,17 +2646,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GLCA",
-    LocationName: "Glen Canyon National Recreation Area",
-    Address: "Glen Canyon NRA, PO Box 1507",
-    City: "Page",
-    State: "Arizona",
-    ZipCode: 86040,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 37.3583836,
-    Longitude: -110.8076084,
-    Location: {
+    locationId: "GLCA",
+    locationName: "Glen Canyon National Recreation Area",
+    address: "Glen Canyon NRA, PO Box 1507",
+    city: "Page",
+    state: "Arizona",
+    zipCode: 86040,
+    phone: 0,
+    fax: 0,
+    latitude: 37.3583836,
+    longitude: -110.8076084,
+    location: {
         coordinates: [
         -110.8076084,
         37.3583836
@@ -2665,17 +2665,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GLEC",
-    LocationName: "Glen Echo Park",
-    Address: 0,
-    City: "Glen Echo Park",
-    State: "Missouri",
-    ZipCode: 0,
-    Phone: 0,
-    Fax: "(301) 320-1405",
-    Latitude: 38.7011622,
-    Longitude: -90.2978916,
-    Location: {
+    locationId: "GLEC",
+    locationName: "Glen Echo Park",
+    address: 0,
+    city: "Glen Echo Park",
+    state: "Missouri",
+    zipCode: 0,
+    phone: 0,
+    fax: "(301) 320-1405",
+    latitude: 38.7011622,
+    longitude: -90.2978916,
+    location: {
         coordinates: [
         -90.2978916,
         38.7011622
@@ -2684,17 +2684,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "goga",
-    LocationName: "Golden Gate National Recreation Area",
-    Address: "Golden Gate National Recreation Area, Fort Mason, Building 201",
-    City: "San Francisco",
-    State: "California",
-    ZipCode: "94123-1307",
-    Phone: "(415) 561-4700",
-    Fax: 0,
-    Latitude: 37.8439986,
-    Longitude: -122.5259596,
-    Location: {
+    locationId: "goga",
+    locationName: "Golden Gate National Recreation Area",
+    address: "Golden Gate National Recreation Area, Fort Mason, Building 201",
+    city: "San Francisco",
+    state: "California",
+    zipCode: "94123-1307",
+    phone: "(415) 561-4700",
+    fax: 0,
+    latitude: 37.8439986,
+    longitude: -122.5259596,
+    location: {
         coordinates: [
         -122.5259596,
         37.8439986
@@ -2703,17 +2703,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GOSP",
-    LocationName: "Golden Spike National Historic Site",
-    Address: "Golden Spike NHS, P.O. Box 897",
-    City: "Brigham City",
-    State: "Utah",
-    ZipCode: 84302,
-    Phone: 0,
-    Fax: "(435) 471-2341",
-    Latitude: 41.6316468,
-    Longitude: -112.4947092,
-    Location: {
+    locationId: "GOSP",
+    locationName: "Golden Spike National Historic Site",
+    address: "Golden Spike NHS, P.O. Box 897",
+    city: "Brigham city",
+    state: "Utah",
+    zipCode: 84302,
+    phone: 0,
+    fax: "(435) 471-2341",
+    latitude: 41.6316468,
+    longitude: -112.4947092,
+    location: {
         coordinates: [
         -112.4947092,
         41.6316468
@@ -2722,17 +2722,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GOIS",
-    LocationName: "Governors Island National Monument",
-    Address: "Governors Island National Monument, 10 South Street - Slip 7",
-    City: "New York",
-    State: "New York",
-    ZipCode: "10004-1921",
-    Phone: "(212) 825-3045",
-    Fax: "(212) 825-3055",
-    Latitude: 40.7012349,
-    Longitude: -74.0116813,
-    Location: {
+    locationId: "GOIS",
+    locationName: "Governors Island National Monument",
+    address: "Governors Island National Monument, 10 South Street - Slip 7",
+    city: "New York",
+    state: "New York",
+    zipCode: "10004-1921",
+    phone: "(212) 825-3045",
+    fax: "(212) 825-3055",
+    latitude: 40.7012349,
+    longitude: -74.0116813,
+    location: {
         coordinates: [
         -74.0116813,
         40.7012349
@@ -2741,17 +2741,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "grca",
-    LocationName: "Grand Canyon National Park",
-    Address: "Grand Canyon National Park, P.O. Box 129",
-    City: "Grand Canyon",
-    State: "Arizona",
-    ZipCode: 86023,
-    Phone: "(928) 638-7888",
-    Fax: "(928) 638-7797",
-    Latitude: 36.3551644,
-    Longitude: -112.6612088,
-    Location: {
+    locationId: "grca",
+    locationName: "Grand Canyon National Park",
+    address: "Grand Canyon National Park, P.O. Box 129",
+    city: "Grand Canyon",
+    state: "Arizona",
+    zipCode: 86023,
+    phone: "(928) 638-7888",
+    fax: "(928) 638-7797",
+    latitude: 36.3551644,
+    longitude: -112.6612088,
+    location: {
         coordinates: [
         -112.6612088,
         36.3551644
@@ -2760,17 +2760,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "para",
-    LocationName: "Grand Canyon-Parashant National Monument",
-    Address: "Grand Canyon-Parashant National Monument, 345 East Riverside Drive",
-    City: "St. George",
-    State: "Utah",
-    ZipCode: 84790,
-    Phone: 0,
-    Fax: "(435) 688-3388",
-    Latitude: 37.0828739,
-    Longitude: -113.576777,
-    Location: {
+    locationId: "para",
+    locationName: "Grand Canyon-Parashant National Monument",
+    address: "Grand Canyon-Parashant National Monument, 345 East Riverside Drive",
+    city: "St. George",
+    state: "Utah",
+    zipCode: 84790,
+    phone: 0,
+    fax: "(435) 688-3388",
+    latitude: 37.0828739,
+    longitude: -113.576777,
+    location: {
         coordinates: [
         -113.576777,
         37.0828739
@@ -2779,17 +2779,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GRPO",
-    LocationName: "Grand Portage National Monument",
-    Address: "P.O. Box 426, 170 Mile Creek Road",
-    City: "Grand Portage",
-    State: "Minnesota",
-    ZipCode: 55605,
-    Phone: 0,
-    Fax: "(218) 475-0174",
-    Latitude: 47.95819,
-    Longitude: -89.6895741,
-    Location: {
+    locationId: "GRPO",
+    locationName: "Grand Portage National Monument",
+    address: "P.O. Box 426, 170 Mile Creek Road",
+    city: "Grand Portage",
+    state: "Minnesota",
+    zipCode: 55605,
+    phone: 0,
+    fax: "(218) 475-0174",
+    latitude: 47.95819,
+    longitude: -89.6895741,
+    location: {
         coordinates: [
         -89.6895741,
         47.95819
@@ -2798,17 +2798,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GRTE",
-    LocationName: "Grand Teton National Park & John D. Rockefeller Jr. Memorial Parkway",
-    Address: "Grand Teton National Park, P.O. Drawer 170",
-    City: "Moose",
-    State: "Wyoming",
-    ZipCode: 83012,
-    Phone: "(307) 739-3300",
-    Fax: "(307) 739-3438",
-    Latitude: 43.729398,
-    Longitude: -110.709055,
-    Location: {
+    locationId: "GRTE",
+    locationName: "Grand Teton National Park & John D. Rockefeller Jr. Memorial Parkway",
+    address: "Grand Teton National Park, P.O. Drawer 170",
+    city: "Moose",
+    state: "Wyoming",
+    zipCode: 83012,
+    phone: "(307) 739-3300",
+    fax: "(307) 739-3438",
+    latitude: 43.729398,
+    longitude: -110.709055,
+    location: {
         coordinates: [
         -110.709055,
         43.729398
@@ -2817,17 +2817,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GRKO",
-    LocationName: "Grant-Kohrs Ranch National Historic Site",
-    Address: "Grant-Kohrs Ranch NHS, 266 Warren Lane",
-    City: "Deer Lodge",
-    State: "Montana",
-    ZipCode: 59722,
-    Phone: 0,
-    Fax: "(406) 846-3962",
-    Latitude: 46.407891,
-    Longitude: -112.735579,
-    Location: {
+    locationId: "GRKO",
+    locationName: "Grant-Kohrs Ranch National Historic Site",
+    address: "Grant-Kohrs Ranch NHS, 266 Warren Lane",
+    city: "Deer Lodge",
+    state: "Montana",
+    zipCode: 59722,
+    phone: 0,
+    fax: "(406) 846-3962",
+    latitude: 46.407891,
+    longitude: -112.735579,
+    location: {
         coordinates: [
         -112.735579,
         46.407891
@@ -2836,17 +2836,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GRBA",
-    LocationName: "Great Basin National Park",
-    Address: "Great Basin National Park, 100 Great Basin National Park",
-    City: "Baker",
-    State: "Nevada",
-    ZipCode: 89311,
-    Phone: 0,
-    Fax: "(775) 234-7269",
-    Latitude: 38.9295007,
-    Longitude: -114.2628251,
-    Location: {
+    locationId: "GRBA",
+    locationName: "Great Basin National Park",
+    address: "Great Basin National Park, 100 Great Basin National Park",
+    city: "Baker",
+    state: "Nevada",
+    zipCode: 89311,
+    phone: 0,
+    fax: "(775) 234-7269",
+    latitude: 38.9295007,
+    longitude: -114.2628251,
+    location: {
         coordinates: [
         -114.2628251,
         38.9295007
@@ -2855,17 +2855,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "grsa",
-    LocationName: "Great Sand Dunes National Park and Preserve",
-    Address: "Great Sand Dunes National Park, 11500 State Highway 150",
-    City: "Mosca",
-    State: "Colorado",
-    ZipCode: "81146-9502",
-    Phone: 0,
-    Fax: 0,
-    Latitude: 37.7275919,
-    Longitude: -105.6412527,
-    Location: {
+    locationId: "grsa",
+    locationName: "Great Sand Dunes National Park and Preserve",
+    address: "Great Sand Dunes National Park, 11500 State Highway 150",
+    city: "Mosca",
+    state: "Colorado",
+    zipCode: "81146-9502",
+    phone: 0,
+    fax: 0,
+    latitude: 37.7275919,
+    longitude: -105.6412527,
+    location: {
         coordinates: [
         -105.6412527,
         37.7275919
@@ -2874,17 +2874,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GRSM",
-    LocationName: "Great Smoky Mountains National Park",
-    Address: "Great Smoky Mountains National Park, 107 Park Headquarters Road",
-    City: "Gatlinburg",
-    State: "Tennessee",
-    ZipCode: 37738,
-    Phone: "(865) 436-1200",
-    Fax: 0,
-    Latitude: 35.691031,
-    Longitude: -83.536198,
-    Location: {
+    locationId: "GRSM",
+    locationName: "Great Smoky Mountains National Park",
+    address: "Great Smoky Mountains National Park, 107 Park Headquarters Road",
+    city: "Gatlinburg",
+    state: "Tennessee",
+    zipCode: 37738,
+    phone: "(865) 436-1200",
+    fax: 0,
+    latitude: 35.691031,
+    longitude: -83.536198,
+    location: {
         coordinates: [
         -83.536198,
         35.691031
@@ -2893,17 +2893,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GREE",
-    LocationName: "Greenbelt Park",
-    Address: "6565 Greenbelt Road",
-    City: "Greenbelt",
-    State: "Maryland",
-    ZipCode: 20770,
-    Phone: 0,
-    Fax: "(301) 344-3736",
-    Latitude: 38.995757,
-    Longitude: -76.895521,
-    Location: {
+    locationId: "GREE",
+    locationName: "Greenbelt Park",
+    address: "6565 Greenbelt Road",
+    city: "Greenbelt",
+    state: "Maryland",
+    zipCode: 20770,
+    phone: 0,
+    fax: "(301) 344-3736",
+    latitude: 38.995757,
+    longitude: -76.895521,
+    location: {
         coordinates: [
         -76.895521,
         38.995757
@@ -2912,18 +2912,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GUMO",
-    LocationName: "Guadalupe Mountains National Park",
-    Address: "Guadalupe Mountains National Park, 400 Pine Canyon Road",
-    City: "Salt Flat",
-    State: "Texas",
-    ZipCode: 79847,
-    Phone: 0,
-    Fax: "(915) 828-3269",
+    locationId: "GUMO",
+    locationName: "Guadalupe Mountains National Park",
+    address: "Guadalupe Mountains National Park, 400 Pine Canyon Road",
+    city: "Salt Flat",
+    state: "Texas",
+    zipCode: 79847,
+    phone: 0,
+    fax: "(915) 828-3269",
     Visit: "https://www.nps.gov/gumo/index.htm",
-    Latitude: 31.903912,
-    Longitude: -104.868813,
-    Location: {
+    latitude: 31.903912,
+    longitude: -104.868813,
+    location: {
         coordinates: [
         -104.868813,
         31.903912
@@ -2932,17 +2932,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "GUCO",
-    LocationName: "Guilford Courthouse National Military Park",
-    Address: "Guilford Courthouse National Military Park, 2332 New Garden Road",
-    City: "Greensboro",
-    State: "North Carolina",
-    ZipCode: "27410-2355",
-    Phone: "(336) 288-1776",
-    Fax: "(336) 282-2296",
-    Latitude: 36.1312015,
-    Longitude: -79.8488024,
-    Location: {
+    locationId: "GUCO",
+    locationName: "Guilford Courthouse National Military Park",
+    address: "Guilford Courthouse National Military Park, 2332 New Garden Road",
+    city: "Greensboro",
+    state: "North Carolina",
+    zipCode: "27410-2355",
+    phone: "(336) 288-1776",
+    fax: "(336) 282-2296",
+    latitude: 36.1312015,
+    longitude: -79.8488024,
+    location: {
         coordinates: [
         -79.8488024,
         36.1312015
@@ -2951,17 +2951,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "guis",
-    LocationName: "Gulf Islands National Seashore",
-    Address: "1801 Gulf Breeze Parkway",
-    City: "Gulf Breeze",
-    State: "Florida",
-    ZipCode: 32563,
-    Phone: 0,
-    Fax: "(850) 932-9654",
-    Latitude: 30.393904,
-    Longitude: -87.0388,
-    Location: {
+    locationId: "guis",
+    locationName: "Gulf Islands National Seashore",
+    address: "1801 Gulf Breeze Parkway",
+    city: "Gulf Breeze",
+    state: "Florida",
+    zipCode: 32563,
+    phone: 0,
+    fax: "(850) 932-9654",
+    latitude: 30.393904,
+    longitude: -87.0388,
+    location: {
         coordinates: [
         -87.0388,
         30.393904
@@ -2970,17 +2970,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HAFO",
-    LocationName: "Hagerman Fossil Beds National Monument",
-    Address: "Hagerman Fossil Beds National Monument, P.O. Box 570",
-    City: "Hagerman",
-    State: "Idaho",
-    ZipCode: 83332,
-    Phone: "(208) 933-4100",
-    Fax: "(208) 837-4857",
-    Latitude: 42.7816632,
-    Longitude: -114.9521998,
-    Location: {
+    locationId: "HAFO",
+    locationName: "Hagerman Fossil Beds National Monument",
+    address: "Hagerman Fossil Beds National Monument, P.O. Box 570",
+    city: "Hagerman",
+    state: "Idaho",
+    zipCode: 83332,
+    phone: "(208) 933-4100",
+    fax: "(208) 837-4857",
+    latitude: 42.7816632,
+    longitude: -114.9521998,
+    location: {
         coordinates: [
         -114.9521998,
         42.7816632
@@ -2989,17 +2989,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "hale",
-    LocationName: "Haleakala National Park",
-    Address: "PO Box 369",
-    City: "Makawao",
-    State: "Hawaii",
-    ZipCode: 96768,
-    Phone: "(808) 572-4400",
-    Fax: 0,
-    Latitude: 20.856944,
-    Longitude: -156.313056,
-    Location: {
+    locationId: "hale",
+    locationName: "Haleakala National Park",
+    address: "PO Box 369",
+    city: "Makawao",
+    state: "Hawaii",
+    zipCode: 96768,
+    phone: "(808) 572-4400",
+    fax: 0,
+    latitude: 20.856944,
+    longitude: -156.313056,
+    location: {
         coordinates: [
         -156.313056,
         20.856944
@@ -3008,17 +3008,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HAGR",
-    LocationName: "Hamilton Grange National Memorial",
-    Address: "Hamilton Grange National Memorial, C/O Manhattan Sites, 26 Wall Street",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10005,
-    Phone: "(212) 666-1640",
-    Fax: "(212) 932-9631",
-    Latitude: 40.7073139,
-    Longitude: -74.010262,
-    Location: {
+    locationId: "HAGR",
+    locationName: "Hamilton Grange National Memorial",
+    address: "Hamilton Grange National Memorial, C/O Manhattan Sites, 26 Wall Street",
+    city: "New York",
+    state: "New York",
+    zipCode: 10005,
+    phone: "(212) 666-1640",
+    fax: "(212) 932-9631",
+    latitude: 40.7073139,
+    longitude: -74.010262,
+    location: {
         coordinates: [
         -74.010262,
         40.7073139
@@ -3027,17 +3027,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HAMP",
-    LocationName: "Hampton National Historic Site",
-    Address: "Superintendent, 535 Hampton Lane",
-    City: "Towson",
-    State: "Maryland",
-    ZipCode: 21286,
-    Phone: 0,
-    Fax: "(410) 823-8394",
-    Latitude: 39.41789,
-    Longitude: -76.590414,
-    Location: {
+    locationId: "HAMP",
+    locationName: "Hampton National Historic Site",
+    address: "Superintendent, 535 Hampton Lane",
+    city: "Towson",
+    state: "Maryland",
+    zipCode: 21286,
+    phone: 0,
+    fax: "(410) 823-8394",
+    latitude: 39.41789,
+    longitude: -76.590414,
+    location: {
         coordinates: [
         -76.590414,
         39.41789
@@ -3046,17 +3046,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HAHA",
-    LocationName: "Harmony Hall",
-    Address: "13551 Fort Washington Road",
-    City: "Fort Washington",
-    State: "Maryland",
-    ZipCode: 20744,
-    Phone: 0,
-    Fax: "(301) 763-1389",
-    Latitude: 38.71312,
-    Longitude: -77.025503,
-    Location: {
+    locationId: "HAHA",
+    locationName: "Harmony Hall",
+    address: "13551 Fort Washington Road",
+    city: "Fort Washington",
+    state: "Maryland",
+    zipCode: 20744,
+    phone: 0,
+    fax: "(301) 763-1389",
+    latitude: 38.71312,
+    longitude: -77.025503,
+    location: {
         coordinates: [
         -77.025503,
         38.71312
@@ -3065,17 +3065,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HAFE",
-    LocationName: "Harpers Ferry National Historical Park",
-    Address: "P.O. Box 65",
-    City: "Harpers Ferry",
-    State: "West Virginia",
-    ZipCode: 25425,
-    Phone: 0,
-    Fax: "(304) 535-6244",
-    Latitude: 39.325379,
-    Longitude: -77.738882,
-    Location: {
+    locationId: "HAFE",
+    locationName: "Harpers Ferry National Historical Park",
+    address: "P.O. Box 65",
+    city: "Harpers Ferry",
+    state: "West Virginia",
+    zipCode: 25425,
+    phone: 0,
+    fax: "(304) 535-6244",
+    latitude: 39.325379,
+    longitude: -77.738882,
+    location: {
         coordinates: [
         -77.738882,
         39.325379
@@ -3084,17 +3084,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HSTR",
-    LocationName: "Harry S Truman National Historic Site",
-    Address: "Harry S Truman NHS, 223 N. Main St.",
-    City: "Independence",
-    State: "Missouri",
-    ZipCode: 64050,
-    Phone: "(816) 254-9929",
-    Fax: "(816) 254-4491",
-    Latitude: 39.0936,
-    Longitude: -94.415252,
-    Location: {
+    locationId: "HSTR",
+    locationName: "Harry S Truman National Historic Site",
+    address: "Harry S Truman NHS, 223 N. Main St.",
+    city: "Independence",
+    state: "Missouri",
+    zipCode: 64050,
+    phone: "(816) 254-9929",
+    fax: "(816) 254-4491",
+    latitude: 39.0936,
+    longitude: -94.415252,
+    location: {
         coordinates: [
         -94.415252,
         39.0936
@@ -3103,17 +3103,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "havo",
-    LocationName: "Hawai'i Volcanoes National Park",
-    Address: "Hawai`i Volcanoes National Park, P.O. Box 52",
-    City: "Hawai`i National Park",
-    State: "Hawaii",
-    ZipCode: "96718-0052",
-    Phone: "(808) 985-6000",
-    Fax: "(808) 985-6004",
-    Latitude: 19.299004,
-    Longitude: -155.3569573,
-    Location: {
+    locationId: "havo",
+    locationName: "Hawai'i Volcanoes National Park",
+    address: "Hawai`i Volcanoes National Park, P.O. Box 52",
+    city: "Hawai`i National Park",
+    state: "Hawaii",
+    zipCode: "96718-0052",
+    phone: "(808) 985-6000",
+    fax: "(808) 985-6004",
+    latitude: 19.299004,
+    longitude: -155.3569573,
+    location: {
         coordinates: [
         -155.3569573,
         19.299004
@@ -3122,17 +3122,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HEHO",
-    LocationName: "Herbert Hoover National Historic Site",
-    Address: "Herbert Hoover NHS, P. O. Box 607",
-    City: "West Branch",
-    State: "Iowa",
-    ZipCode: "52358-0607",
-    Phone: "(319) 643-2541",
-    Fax: "(319) 643-7864",
-    Latitude: 41.671985,
-    Longitude: -91.346589,
-    Location: {
+    locationId: "HEHO",
+    locationName: "Herbert Hoover National Historic Site",
+    address: "Herbert Hoover NHS, P. O. Box 607",
+    city: "West Branch",
+    state: "Iowa",
+    zipCode: "52358-0607",
+    phone: "(319) 643-2541",
+    fax: "(319) 643-7864",
+    latitude: 41.671985,
+    longitude: -91.346589,
+    location: {
         coordinates: [
         -91.346589,
         41.671985
@@ -3141,17 +3141,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "pima",
-    LocationName: "Hohokam Pima National Monument",
-    Address: "Hohokam Pima National Monument",
-    City: "Chandler",
-    State: "Arizona",
-    ZipCode: 85248,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 33.1889835,
-    Longitude: -111.9224398,
-    Location: {
+    locationId: "pima",
+    locationName: "Hohokam Pima National Monument",
+    address: "Hohokam Pima National Monument",
+    city: "Chandler",
+    state: "Arizona",
+    zipCode: 85248,
+    phone: 0,
+    fax: 0,
+    latitude: 33.1889835,
+    longitude: -111.9224398,
+    location: {
         coordinates: [
         -111.9224398,
         33.1889835
@@ -3160,17 +3160,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HOFR",
-    LocationName: "Home of Franklin D Roosevelt National Historic Site",
-    Address: "National Park Service, 4097 Albany Post Road",
-    City: "Hyde Park",
-    State: "New York",
-    ZipCode: 12538,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 41.77043,
-    Longitude: -73.932905,
-    Location: {
+    locationId: "HOFR",
+    locationName: "Home of Franklin D Roosevelt National Historic Site",
+    address: "National Park Service, 4097 Albany Post Road",
+    city: "Hyde Park",
+    state: "New York",
+    zipCode: 12538,
+    phone: 0,
+    fax: 0,
+    latitude: 41.77043,
+    longitude: -73.932905,
+    location: {
         coordinates: [
         -73.932905,
         41.77043
@@ -3179,17 +3179,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HOME",
-    LocationName: "Homestead National Monument of America",
-    Address: "Superintendent, 8523 W. State Hwy. 4",
-    City: "Beatrice",
-    State: "Nebraska",
-    ZipCode: 68310,
-    Phone: "(402) 223-3514",
-    Fax: "(402) 228-4231",
-    Latitude: 40.2917267,
-    Longitude: -96.8348525,
-    Location: {
+    locationId: "HOME",
+    locationName: "Homestead National Monument of America",
+    address: "Superintendent, 8523 W. State Hwy. 4",
+    city: "Beatrice",
+    state: "Nebraska",
+    zipCode: 68310,
+    phone: "(402) 223-3514",
+    fax: "(402) 228-4231",
+    latitude: 40.2917267,
+    longitude: -96.8348525,
+    location: {
         coordinates: [
         -96.8348525,
         40.2917267
@@ -3198,17 +3198,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HOCU",
-    LocationName: "Hopewell Culture National Historical Park",
-    Address: "Hopewell Culture National Historical Park, 16062 State Route 104",
-    City: "Chillicothe",
-    State: "Ohio",
-    ZipCode: 45601,
-    Phone: "(740) 774-1126",
-    Fax: "(740) 774-1140",
-    Latitude: 39.3738532,
-    Longitude: -83.0073082,
-    Location: {
+    locationId: "HOCU",
+    locationName: "Hopewell Culture National Historical Park",
+    address: "Hopewell Culture National Historical Park, 16062 State Route 104",
+    city: "Chillicothe",
+    state: "Ohio",
+    zipCode: 45601,
+    phone: "(740) 774-1126",
+    fax: "(740) 774-1140",
+    latitude: 39.3738532,
+    longitude: -83.0073082,
+    location: {
         coordinates: [
         -83.0073082,
         39.3738532
@@ -3217,17 +3217,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "HOFU",
-    LocationName: "Hopewell Furnace National Historic Site",
-    Address: "Hopewell Furnace National Historic Site, 2 Mark Bird Lane",
-    City: "Elverson",
-    State: "Pennsylvania",
-    ZipCode: 19520,
-    Phone: "(610) 582-8773",
-    Fax: "(610) 582-2768",
-    Latitude: 40.2081934,
-    Longitude: -75.7735281,
-    Location: {
+    locationId: "HOFU",
+    locationName: "Hopewell Furnace National Historic Site",
+    address: "Hopewell Furnace National Historic Site, 2 Mark Bird Lane",
+    city: "Elverson",
+    state: "Pennsylvania",
+    zipCode: 19520,
+    phone: "(610) 582-8773",
+    fax: "(610) 582-2768",
+    latitude: 40.2081934,
+    longitude: -75.7735281,
+    location: {
         coordinates: [
         -75.7735281,
         40.2081934
@@ -3236,17 +3236,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "hobe",
-    LocationName: "Horseshoe Bend National Military Park",
-    Address: "Horseshoe Bend NMP, 11288 Horseshoe Bend Rd.",
-    City: "Daviston",
-    State: "Alabama",
-    ZipCode: 36256,
-    Phone: "(256) 234-7111",
-    Fax: "(256) 329-9905",
-    Latitude: 33.015464,
-    Longitude: -85.687928,
-    Location: {
+    locationId: "hobe",
+    locationName: "Horseshoe Bend National Military Park",
+    address: "Horseshoe Bend NMP, 11288 Horseshoe Bend Rd.",
+    city: "Daviston",
+    state: "Alabama",
+    zipCode: 36256,
+    phone: "(256) 234-7111",
+    fax: "(256) 329-9905",
+    latitude: 33.015464,
+    longitude: -85.687928,
+    location: {
         coordinates: [
         -85.687928,
         33.015464
@@ -3255,17 +3255,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "hosp",
-    LocationName: "Hot Springs National Park",
-    Address: "Hot Springs National Park, 101 Reserve Street",
-    City: "Hot Springs",
-    State: "Arkansas",
-    ZipCode: 71901,
-    Phone: "(501) 624-2701",
-    Fax: "(501) 624-3458",
-    Latitude: 34.5116392,
-    Longitude: -93.0539835,
-    Location: {
+    locationId: "hosp",
+    locationName: "Hot Springs National Park",
+    address: "Hot Springs National Park, 101 Reserve Street",
+    city: "Hot Springs",
+    state: "Arkansas",
+    zipCode: 71901,
+    phone: "(501) 624-2701",
+    fax: "(501) 624-3458",
+    latitude: 34.5116392,
+    longitude: -93.0539835,
+    location: {
         coordinates: [
         -93.0539835,
         34.5116392
@@ -3274,17 +3274,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "hove",
-    LocationName: "Hovenweep National Monument",
-    Address: "Hovenweep National Monument, McElmo Route",
-    City: "Cortez",
-    State: "Colorado",
-    ZipCode: 81321,
-    Phone: "(970) 562-4282 ext. 10",
-    Fax: "(970) 562-4283",
-    Latitude: 37.548179,
-    Longitude: -108.548955,
-    Location: {
+    locationId: "hove",
+    locationName: "Hovenweep National Monument",
+    address: "Hovenweep National Monument, McElmo Route",
+    city: "Cortez",
+    state: "Colorado",
+    zipCode: 81321,
+    phone: "(970) 562-4282 ext. 10",
+    fax: "(970) 562-4283",
+    latitude: 37.548179,
+    longitude: -108.548955,
+    location: {
         coordinates: [
         -108.548955,
         37.548179
@@ -3293,17 +3293,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "hutar",
-    LocationName: "Hubbell Trading Post National Historic Site",
-    Address: "Hubbell Trading Post NHS, P.O. Box 150",
-    City: "Ganado",
-    State: "Arizona",
-    ZipCode: 86505,
-    Phone: 0,
-    Fax: "(928) 755-3405",
-    Latitude: 35.667514,
-    Longitude: -109.321948,
-    Location: {
+    locationId: "hutar",
+    locationName: "Hubbell Trading Post National Historic Site",
+    address: "Hubbell Trading Post NHS, P.O. Box 150",
+    city: "Ganado",
+    state: "Arizona",
+    zipCode: 86505,
+    phone: 0,
+    fax: "(928) 755-3405",
+    latitude: 35.667514,
+    longitude: -109.321948,
+    location: {
         coordinates: [
         -109.321948,
         35.667514
@@ -3312,17 +3312,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "iatr",
-    LocationName: "Ice Age National Scenic Trail",
-    Address: "National Park Service, 700 Rayovac Drive Suite 100",
-    City: "Madison",
-    State: "Wisconsin",
-    ZipCode: 53711,
-    Phone: 0,
-    Fax: "(608) 441-5606",
-    Latitude: 43.049044,
-    Longitude: -89.491477,
-    Location: {
+    locationId: "iatr",
+    locationName: "Ice Age National Scenic Trail",
+    address: "National Park Service, 700 Rayovac Drive Suite 100",
+    city: "Madison",
+    state: "Wisconsin",
+    zipCode: 53711,
+    phone: 0,
+    fax: "(608) 441-5606",
+    latitude: 43.049044,
+    longitude: -89.491477,
+    location: {
         coordinates: [
         -89.491477,
         43.049044
@@ -3331,17 +3331,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "INDE",
-    LocationName: "Independence National Historical Park",
-    Address: "Independence National Historical Park, 143 S. Third Street",
-    City: "Philadelphia",
-    State: "Pennsylvania",
-    ZipCode: 19106,
-    Phone: "(800) 537-7676",
-    Fax: "(215) 861-4950",
-    Latitude: 39.9480134,
-    Longitude: -75.1461357,
-    Location: {
+    locationId: "INDE",
+    locationName: "Independence National Historical Park",
+    address: "Independence National Historical Park, 143 S. Third Street",
+    city: "Philadelphia",
+    state: "Pennsylvania",
+    zipCode: 19106,
+    phone: "(800) 537-7676",
+    fax: "(215) 861-4950",
+    latitude: 39.9480134,
+    longitude: -75.1461357,
+    location: {
         coordinates: [
         -75.1461357,
         39.9480134
@@ -3350,17 +3350,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "INDU",
-    LocationName: "Indiana Dunes National Lakeshore",
-    Address: "1100 N. Mineral Springs Road",
-    City: "Porter",
-    State: "Indiana",
-    ZipCode: 46304,
-    Phone: "(219) 926-7561 ext. 3",
-    Fax: 0,
-    Latitude: 41.6306,
-    Longitude: -87.086864,
-    Location: {
+    locationId: "INDU",
+    locationName: "Indiana Dunes National Lakeshore",
+    address: "1100 N. Mineral Springs Road",
+    city: "Porter",
+    state: "Indiana",
+    zipCode: 46304,
+    phone: "(219) 926-7561 ext. 3",
+    fax: 0,
+    latitude: 41.6306,
+    longitude: -87.086864,
+    location: {
         coordinates: [
         -87.086864,
         41.6306
@@ -3369,17 +3369,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "inup",
-    LocationName: "Inupiat Heritage Center",
-    Address: "Inupiat Heritage Center, P.O.Box 69",
-    City: "Barrow",
-    State: "Alaska",
-    ZipCode: 99723,
-    Phone: "(907) 852-0422",
-    Fax: 0,
-    Latitude: 71.2983988,
-    Longitude: -156.7540884,
-    Location: {
+    locationId: "inup",
+    locationName: "Inupiat Heritage Center",
+    address: "Inupiat Heritage Center, P.O.Box 69",
+    city: "Barrow",
+    state: "Alaska",
+    zipCode: 99723,
+    phone: "(907) 852-0422",
+    fax: 0,
+    latitude: 71.2983988,
+    longitude: -156.7540884,
+    location: {
         coordinates: [
         -156.7540884,
         71.2983988
@@ -3388,17 +3388,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ISRO",
-    LocationName: "Isle Royale National Park",
-    Address: "Isle Royale National Park, 800 East Lakeshore Drive",
-    City: "Houghton",
-    State: "Michigan",
-    ZipCode: "49931-1869",
-    Phone: "(906) 482-0984",
-    Fax: "(906) 482-8753",
-    Latitude: 47.1225521,
-    Longitude: -88.5645333,
-    Location: {
+    locationId: "ISRO",
+    locationName: "Isle Royale National Park",
+    address: "Isle Royale National Park, 800 East Lakeshore Drive",
+    city: "Houghton",
+    state: "Michigan",
+    zipCode: "49931-1869",
+    phone: "(906) 482-0984",
+    fax: "(906) 482-8753",
+    latitude: 47.1225521,
+    longitude: -88.5645333,
+    location: {
         coordinates: [
         -88.5645333,
         47.1225521
@@ -3407,17 +3407,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JAGA",
-    LocationName: "James A Garfield National Historic Site",
-    Address: "James A. Garfield National Historic Site, 8095 Mentor Avenue",
-    City: "Mentor",
-    State: "Ohio",
-    ZipCode: 44060,
-    Phone: "(440) 255-8722",
-    Fax: "(440) 974-2045",
-    Latitude: 41.664495,
-    Longitude: -81.35085,
-    Location: {
+    locationId: "JAGA",
+    locationName: "James A Garfield National Historic Site",
+    address: "James A. Garfield National Historic Site, 8095 Mentor Avenue",
+    city: "Mentor",
+    state: "Ohio",
+    zipCode: 44060,
+    phone: "(440) 255-8722",
+    fax: "(440) 974-2045",
+    latitude: 41.664495,
+    longitude: -81.35085,
+    location: {
         coordinates: [
         -81.35085,
         41.664495
@@ -3426,17 +3426,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JELA",
-    LocationName: "Jean Lafitte National Historical Park and Preserve",
-    Address: "419 Decatur Street",
-    City: "New Orleans",
-    State: "Louisiana",
-    ZipCode: 70130,
-    Phone: 0,
-    Fax: "(504) 589-3851",
-    Latitude: 29.955125,
-    Longitude: -90.064502,
-    Location: {
+    locationId: "JELA",
+    locationName: "Jean Lafitte National Historical Park and Preserve",
+    address: "419 Decatur Street",
+    city: "New Orleans",
+    state: "Louisiana",
+    zipCode: 70130,
+    phone: 0,
+    fax: "(504) 589-3851",
+    latitude: 29.955125,
+    longitude: -90.064502,
+    location: {
         coordinates: [
         -90.064502,
         29.955125
@@ -3445,17 +3445,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JEFF",
-    LocationName: "Jefferson National Expansion Memorial",
-    Address: "Jefferson National Expansion Memorial, 11 N. 4th Street",
-    City: "St. Louis",
-    State: "Missouri",
-    ZipCode: 63102,
-    Phone: "(314) 655-1700",
-    Fax: 0,
-    Latitude: 38.624901,
-    Longitude: -90.186317,
-    Location: {
+    locationId: "JEFF",
+    locationName: "Jefferson National Expansion Memorial",
+    address: "Jefferson National Expansion Memorial, 11 N. 4th Street",
+    city: "St. Louis",
+    state: "Missouri",
+    zipCode: 63102,
+    phone: "(314) 655-1700",
+    fax: 0,
+    latitude: 38.624901,
+    longitude: -90.186317,
+    location: {
         coordinates: [
         -90.186317,
         38.624901
@@ -3464,17 +3464,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JECA",
-    LocationName: "Jewel Cave National Monument",
-    Address: "11149 U.S. Highway 16, Building B12",
-    City: "Custer",
-    State: "South Dakota",
-    ZipCode: 57730,
-    Phone: "(605) 673-8300",
-    Fax: "(605) 673-8301",
-    Latitude: 43.764308,
-    Longitude: -103.607462,
-    Location: {
+    locationId: "JECA",
+    locationName: "Jewel Cave National Monument",
+    address: "11149 U.S. Highway 16, Building B12",
+    city: "Custer",
+    state: "South Dakota",
+    zipCode: 57730,
+    phone: "(605) 673-8300",
+    fax: "(605) 673-8301",
+    latitude: 43.764308,
+    longitude: -103.607462,
+    location: {
         coordinates: [
         -103.607462,
         43.764308
@@ -3483,17 +3483,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "jica",
-    LocationName: "Jimmy Carter National Historic Site",
-    Address: "Jimmy Carter National Historic Site, 300 North Bond Street",
-    City: "Plains",
-    State: "Georgia",
-    ZipCode: 31780,
-    Phone: "(229) 824-4104",
-    Fax: "(229) 824-3441",
-    Latitude: 32.0367522,
-    Longitude: -84.3934827,
-    Location: {
+    locationId: "jica",
+    locationName: "Jimmy Carter National Historic Site",
+    address: "Jimmy Carter National Historic Site, 300 North Bond Street",
+    city: "Plains",
+    state: "Georgia",
+    zipCode: 31780,
+    phone: "(229) 824-4104",
+    fax: "(229) 824-3441",
+    latitude: 32.0367522,
+    longitude: -84.3934827,
+    location: {
         coordinates: [
         -84.3934827,
         32.0367522
@@ -3502,17 +3502,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JODA",
-    LocationName: "John Day Fossil Beds National Monument",
-    Address: "32651 Highway 19,",
-    City: "Kimberly",
-    State: "Oregon",
-    ZipCode: 97848,
-    Phone: 0,
-    Fax: "(541) 987-2336",
-    Latitude: 44.653496,
-    Longitude: -119.650654,
-    Location: {
+    locationId: "JODA",
+    locationName: "John Day Fossil Beds National Monument",
+    address: "32651 Highway 19,",
+    city: "Kimberly",
+    state: "Oregon",
+    zipCode: 97848,
+    phone: 0,
+    fax: "(541) 987-2336",
+    latitude: 44.653496,
+    longitude: -119.650654,
+    location: {
         coordinates: [
         -119.650654,
         44.653496
@@ -3521,17 +3521,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JOFI",
-    LocationName: "John Fitzgerald Kennedy National Historic Site",
-    Address: "John Fitzgerald Kennedy National Historic Site, 83 Beals Street",
-    City: "Brookline",
-    State: "Massachusetts",
-    ZipCode: 2446,
-    Phone: "(617) 566-7937",
-    Fax: 0,
-    Latitude: 42.3460692,
-    Longitude: -71.1244352,
-    Location: {
+    locationId: "JOFI",
+    locationName: "John Fitzgerald Kennedy National Historic Site",
+    address: "John Fitzgerald Kennedy National Historic Site, 83 Beals Street",
+    city: "Brookline",
+    state: "Massachusetts",
+    zipCode: 2446,
+    phone: "(617) 566-7937",
+    fax: 0,
+    latitude: 42.3460692,
+    longitude: -71.1244352,
+    location: {
         coordinates: [
         -71.1244352,
         42.3460692
@@ -3540,17 +3540,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "jomu",
-    LocationName: "John Muir National Historic Site",
-    Address: "John Muir National Historic Site, 4202 Alhambra Ave.",
-    City: "Martinez",
-    State: "California",
-    ZipCode: 94553,
-    Phone: "(925) 228-8860",
-    Fax: "(925) 228-8192",
-    Latitude: 37.9921651,
-    Longitude: -122.130977,
-    Location: {
+    locationId: "jomu",
+    locationName: "John Muir National Historic Site",
+    address: "John Muir National Historic Site, 4202 Alhambra Ave.",
+    city: "Martinez",
+    state: "California",
+    zipCode: 94553,
+    phone: "(925) 228-8860",
+    fax: "(925) 228-8192",
+    latitude: 37.9921651,
+    longitude: -122.130977,
+    location: {
         coordinates: [
         -122.130977,
         37.9921651
@@ -3559,17 +3559,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JOFL",
-    LocationName: "Johnstown Flood National Memorial",
-    Address: "Johnstown Flood National Memorial, 733 Lake Road",
-    City: "South Fork",
-    State: "Pennsylvania",
-    ZipCode: 15956,
-    Phone: 0,
-    Fax: "(814) 495-7463",
-    Latitude: 40.3508419,
-    Longitude: -78.7721602,
-    Location: {
+    locationId: "JOFL",
+    locationName: "Johnstown Flood National Memorial",
+    address: "Johnstown Flood National Memorial, 733 Lake Road",
+    city: "South Fork",
+    state: "Pennsylvania",
+    zipCode: 15956,
+    phone: 0,
+    fax: "(814) 495-7463",
+    latitude: 40.3508419,
+    longitude: -78.7721602,
+    location: {
         coordinates: [
         -78.7721602,
         40.3508419
@@ -3578,17 +3578,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "jotr",
-    LocationName: "Joshua Tree National Park",
-    Address: "Joshua Tree National Park, 74485 National Park Drive",
-    City: "Twentynine Palms",
-    State: "California",
-    ZipCode: 92277,
-    Phone: "(760) 367-5500",
-    Fax: "(760) 367-6392",
-    Latitude: 34.129523,
-    Longitude: -116.036937,
-    Location: {
+    locationId: "jotr",
+    locationName: "Joshua Tree National Park",
+    address: "Joshua Tree National Park, 74485 National Park Drive",
+    city: "Twentynine Palms",
+    state: "California",
+    zipCode: 92277,
+    phone: "(760) 367-5500",
+    fax: "(760) 367-6392",
+    latitude: 34.129523,
+    longitude: -116.036937,
+    location: {
         coordinates: [
         -116.036937,
         34.129523
@@ -3597,17 +3597,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "juba",
-    LocationName: "Juan Bautista de Anza National Historic Trail",
-    Address: "1111 Jackson St., Suite 700",
-    City: "Oakland",
-    State: "California",
-    ZipCode: 94607,
-    Phone: 0,
-    Fax: "(510) 817-1505",
-    Latitude: 37.800356,
-    Longitude: -122.266384,
-    Location: {
+    locationId: "juba",
+    locationName: "Juan Bautista de Anza National Historic Trail",
+    address: "1111 Jackson St., Suite 700",
+    city: "Oakland",
+    state: "California",
+    zipCode: 94607,
+    phone: 0,
+    fax: "(510) 817-1505",
+    latitude: 37.800356,
+    longitude: -122.266384,
+    location: {
         coordinates: [
         -122.266384,
         37.800356
@@ -3616,17 +3616,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "kala",
-    LocationName: "Kalaupapa National Historical Park",
-    Address: "Superintendent, POB 2222",
-    City: "Kalaupapa",
-    State: "Hawaii",
-    ZipCode: 96742,
-    Phone: 0,
-    Fax: "(808) 567-6729",
-    Latitude: 21.189792,
-    Longitude: -156.980138,
-    Location: {
+    locationId: "kala",
+    locationName: "Kalaupapa National Historical Park",
+    address: "Superintendent, POB 2222",
+    city: "Kalaupapa",
+    state: "Hawaii",
+    zipCode: 96742,
+    phone: 0,
+    fax: "(808) 567-6729",
+    latitude: 21.189792,
+    longitude: -156.980138,
+    location: {
         coordinates: [
         -156.980138,
         21.189792
@@ -3635,17 +3635,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "kaho",
-    LocationName: "Kaloko-Honokohau National Historical Park",
-    Address: "Kaloko-Honokohau National Historical Park, 73-4786 Kanalani St., #14",
-    City: "Kailua-Kona",
-    State: "Hawaii",
-    ZipCode: 96740,
-    Phone: 0,
-    Fax: "(808) 329-2597",
-    Latitude: 19.689206,
-    Longitude: -156.021329,
-    Location: {
+    locationId: "kaho",
+    locationName: "Kaloko-Honokohau National Historical Park",
+    address: "Kaloko-Honokohau National Historical Park, 73-4786 Kanalani St., #14",
+    city: "Kailua-Kona",
+    state: "Hawaii",
+    zipCode: 96740,
+    phone: 0,
+    fax: "(808) 329-2597",
+    latitude: 19.689206,
+    longitude: -156.021329,
+    location: {
         coordinates: [
         -156.021329,
         19.689206
@@ -3654,17 +3654,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "katm",
-    LocationName: "Katmai National Park & Preserve",
-    Address: "P.O. Box 7",
-    City: "King Salmon",
-    State: "Alaska",
-    ZipCode: 99613,
-    Phone: "(907) 246-3305",
-    Fax: "(907) 246-2116",
-    Latitude: 58.756222,
-    Longitude: -156.51724,
-    Location: {
+    locationId: "katm",
+    locationName: "Katmai National Park & Preserve",
+    address: "P.O. Box 7",
+    city: "King Salmon",
+    state: "Alaska",
+    zipCode: 99613,
+    phone: "(907) 246-3305",
+    fax: "(907) 246-2116",
+    latitude: 58.756222,
+    longitude: -156.51724,
+    location: {
         coordinates: [
         -156.51724,
         58.756222
@@ -3673,17 +3673,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "kefj",
-    LocationName: "Kenai Fjords National Park",
-    Address: "Kenai Fjords National Park, P.O. Box 1727",
-    City: "Seward",
-    State: "Alaska",
-    ZipCode: 99664,
-    Phone: 0,
-    Fax: "(907) 422-0571",
-    Latitude: 59.8463648,
-    Longitude: -150.1844857,
-    Location: {
+    locationId: "kefj",
+    locationName: "Kenai Fjords National Park",
+    address: "Kenai Fjords National Park, P.O. Box 1727",
+    city: "Seward",
+    state: "Alaska",
+    zipCode: 99664,
+    phone: 0,
+    fax: "(907) 422-0571",
+    latitude: 59.8463648,
+    longitude: -150.1844857,
+    location: {
         coordinates: [
         -150.1844857,
         59.8463648
@@ -3692,17 +3692,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "kemo",
-    LocationName: "Kennesaw Mountain National Battlefield Park",
-    Address: "Ranger Activities, 900 Kennesaw Mountain Dr.",
-    City: "Kennesaw",
-    State: "Georgia",
-    ZipCode: 30152,
-    Phone: 0,
-    Fax: "(770) 528-8398",
-    Latitude: 33.9830896,
-    Longitude: -84.5780814,
-    Location: {
+    locationId: "kemo",
+    locationName: "Kennesaw Mountain National Battlefield Park",
+    address: "Ranger Activities, 900 Kennesaw Mountain Dr.",
+    city: "Kennesaw",
+    state: "Georgia",
+    zipCode: 30152,
+    phone: 0,
+    fax: "(770) 528-8398",
+    latitude: 33.9830896,
+    longitude: -84.5780814,
+    location: {
         coordinates: [
         -84.5780814,
         33.9830896
@@ -3711,17 +3711,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "KEWE",
-    LocationName: "Keweenaw National Historical Park",
-    Address: "25970 Red Jacket Road",
-    City: "Calumet",
-    State: "Michigan",
-    ZipCode: "49913-2948",
-    Phone: 0,
-    Fax: "(906) 337-3169",
-    Latitude: 47.2423702,
-    Longitude: -88.4480218,
-    Location: {
+    locationId: "KEWE",
+    locationName: "Keweenaw National Historical Park",
+    address: "25970 Red Jacket Road",
+    city: "Calumet",
+    state: "Michigan",
+    zipCode: "49913-2948",
+    phone: 0,
+    fax: "(906) 337-3169",
+    latitude: 47.2423702,
+    longitude: -88.4480218,
+    location: {
         coordinates: [
         -88.4480218,
         47.2423702
@@ -3730,17 +3730,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "KIMO",
-    LocationName: "Kings Mountain National Military Park",
-    Address: "Superintendent, 2625 Park Rd",
-    City: "Blacksburg",
-    State: "South Carolina",
-    ZipCode: 29702,
-    Phone: "(864) 936-7921",
-    Fax: "(864) 936-9897",
-    Latitude: 35.078017,
-    Longitude: -81.395068,
-    Location: {
+    locationId: "KIMO",
+    locationName: "Kings Mountain National Military Park",
+    address: "Superintendent, 2625 Park Rd",
+    city: "Blacksburg",
+    state: "South Carolina",
+    zipCode: 29702,
+    phone: "(864) 936-7921",
+    fax: "(864) 936-9897",
+    latitude: 35.078017,
+    longitude: -81.395068,
+    location: {
         coordinates: [
         -81.395068,
         35.078017
@@ -3749,17 +3749,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "klse",
-    LocationName: "Klondike Gold Rush - Seattle Unit National Historical Park",
-    Address: "319 Second Avenue South",
-    City: "Seattle",
-    State: "Washington",
-    ZipCode: 98104,
-    Phone: "(206) 220-4240",
-    Fax: "(206) 381-0664",
-    Latitude: 47.5993181,
-    Longitude: -122.3318109,
-    Location: {
+    locationId: "klse",
+    locationName: "Klondike Gold Rush - Seattle Unit National Historical Park",
+    address: "319 Second Avenue South",
+    city: "Seattle",
+    state: "Washington",
+    zipCode: 98104,
+    phone: "(206) 220-4240",
+    fax: "(206) 381-0664",
+    latitude: 47.5993181,
+    longitude: -122.3318109,
+    location: {
         coordinates: [
         -122.3318109,
         47.5993181
@@ -3768,17 +3768,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "klgo",
-    LocationName: "Klondike Gold Rush National Historical Park",
-    Address: "P.O. Box 517",
-    City: "Skagway",
-    State: "Alaska",
-    ZipCode: 99840,
-    Phone: "(907) 983-9200",
-    Fax: "(907) 983-9249",
-    Latitude: 59.54944,
-    Longitude: -135.269027,
-    Location: {
+    locationId: "klgo",
+    locationName: "Klondike Gold Rush National Historical Park",
+    address: "P.O. Box 517",
+    city: "Skagway",
+    state: "Alaska",
+    zipCode: 99840,
+    phone: "(907) 983-9200",
+    fax: "(907) 983-9249",
+    latitude: 59.54944,
+    longitude: -135.269027,
+    location: {
         coordinates: [
         -135.269027,
         59.54944
@@ -3787,17 +3787,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "KNRI",
-    LocationName: "Knife River Indian Villages National Historic Site",
-    Address: "P.O. Box 9, 564 County Road 37",
-    City: "Stanton",
-    State: "North Dakota",
-    ZipCode: 58571,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 47.4003132,
-    Longitude: -101.4864866,
-    Location: {
+    locationId: "KNRI",
+    locationName: "Knife River Indian Villages National Historic Site",
+    address: "P.O. Box 9, 564 County Road 37",
+    city: "Stanton",
+    state: "North Dakota",
+    zipCode: 58571,
+    phone: 0,
+    fax: 0,
+    latitude: 47.4003132,
+    longitude: -101.4864866,
+    location: {
         coordinates: [
         -101.4864866,
         47.4003132
@@ -3806,17 +3806,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "kova",
-    LocationName: "Kobuk Valley National Park",
-    Address: "PO Box 1029",
-    City: "Kotzebue",
-    State: "Alaska",
-    ZipCode: 99752,
-    Phone: "(907) 442-3760",
-    Fax: "(907) 442-8316",
-    Latitude: 67.146678,
-    Longitude: -161.292928,
-    Location: {
+    locationId: "kova",
+    locationName: "Kobuk Valley National Park",
+    address: "PO Box 1029",
+    city: "Kotzebue",
+    state: "Alaska",
+    zipCode: 99752,
+    phone: "(907) 442-3760",
+    fax: "(907) 442-8316",
+    latitude: 67.146678,
+    longitude: -161.292928,
+    location: {
         coordinates: [
         -161.292928,
         67.146678
@@ -3825,17 +3825,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "lacl",
-    LocationName: "Lake Clark National Park & Preserve",
-    Address: "240 West 5th Avenue, Suite 236",
-    City: "Anchorage",
-    State: "Alaska",
-    ZipCode: 99501,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 61.2173565,
-    Longitude: -149.886172,
-    Location: {
+    locationId: "lacl",
+    locationName: "Lake Clark National Park & Preserve",
+    address: "240 West 5th Avenue, Suite 236",
+    city: "Anchorage",
+    state: "Alaska",
+    zipCode: 99501,
+    phone: 0,
+    fax: 0,
+    latitude: 61.2173565,
+    longitude: -149.886172,
+    location: {
         coordinates: [
         -149.886172,
         61.2173565
@@ -3844,18 +3844,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "lame",
-    LocationName: "Lake Mead National Recreation Area",
-    Address: "601 Nevada Way",
-    City: "Boulder City",
-    State: "Nevada",
-    ZipCode: 89005,
-    Phone: 0,
-    Fax: "(702) 293-8936",
+    locationId: "lame",
+    locationName: "Lake Mead National Recreation Area",
+    address: "601 Nevada Way",
+    city: "Boulder city",
+    state: "Nevada",
+    zipCode: 89005,
+    phone: 0,
+    fax: "(702) 293-8936",
     Visit: "https://www.nps.gov/lake/index.htm",
-    Latitude: 35.9764797,
-    Longitude: -114.8385611,
-    Location: {
+    latitude: 35.9764797,
+    longitude: -114.8385611,
+    location: {
         coordinates: [
         -114.8385611,
         35.9764797
@@ -3864,17 +3864,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "lavo",
-    LocationName: "Lassen Volcanic National Park",
-    Address: "Lassen Volcanic National Park, P.O. Box 100",
-    City: "Mineral",
-    State: "California",
-    ZipCode: "96063-0100",
-    Phone: "(530) 595-4480",
-    Fax: "(530) 595-3262",
-    Latitude: 40.5093134,
-    Longitude: -121.4330998,
-    Location: {
+    locationId: "lavo",
+    locationName: "Lassen Volcanic National Park",
+    address: "Lassen Volcanic National Park, P.O. Box 100",
+    city: "Mineral",
+    state: "California",
+    zipCode: "96063-0100",
+    phone: "(530) 595-4480",
+    fax: "(530) 595-3262",
+    latitude: 40.5093134,
+    longitude: -121.4330998,
+    location: {
         coordinates: [
         -121.4330998,
         40.5093134
@@ -3883,17 +3883,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "labe",
-    LocationName: "Lava Beds National Monument",
-    Address: "P.O. Box 1240",
-    City: "Tulelake",
-    State: "California",
-    ZipCode: 96134,
-    Phone: 0,
-    Fax: "(530) 667-2737",
-    Latitude: 41.873101,
-    Longitude: -121.519764,
-    Location: {
+    locationId: "labe",
+    locationName: "Lava Beds National Monument",
+    address: "P.O. Box 1240",
+    city: "Tulelake",
+    state: "California",
+    zipCode: 96134,
+    phone: 0,
+    fax: "(530) 667-2737",
+    latitude: 41.873101,
+    longitude: -121.519764,
+    location: {
         coordinates: [
         -121.519764,
         41.873101
@@ -3902,18 +3902,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LECL",
-    LocationName: "Lewis & Clark National Historic Trail",
-    Address: "601 Riverfront Drive",
-    City: "Omaha",
-    State: "Nebraska",
-    ZipCode: 68102,
-    Phone: "(402) 661-1804",
-    Fax: "(402) 661-1805",
+    locationId: "LECL",
+    locationName: "Lewis & Clark National Historic Trail",
+    address: "601 Riverfront Drive",
+    city: "Omaha",
+    state: "Nebraska",
+    zipCode: 68102,
+    phone: "(402) 661-1804",
+    fax: "(402) 661-1805",
     Visit: "https://www.nps.gov/lecl/index.htm",
-    Latitude: 41.264613,
-    Longitude: -95.924517,
-    Location: {
+    latitude: 41.264613,
+    longitude: -95.924517,
+    location: {
         coordinates: [
         -95.924517,
         41.264613
@@ -3922,17 +3922,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LEWI",
-    LocationName: "Lewis and Clark National Historical Park",
-    Address: "92343 Fort Clatsop Road",
-    City: "Astoria",
-    State: "Oregon",
-    ZipCode: "97103-9197",
-    Phone: "(503) 861-2471 ext. 214",
-    Fax: "(503) 861-2585",
-    Latitude: 46.1370048,
-    Longitude: -123.8798795,
-    Location: {
+    locationId: "LEWI",
+    locationName: "Lewis and Clark National Historical Park",
+    address: "92343 Fort Clatsop Road",
+    city: "Astoria",
+    state: "Oregon",
+    zipCode: "97103-9197",
+    phone: "(503) 861-2471 ext. 214",
+    fax: "(503) 861-2585",
+    latitude: 46.1370048,
+    longitude: -123.8798795,
+    location: {
         coordinates: [
         -123.8798795,
         46.1370048
@@ -3941,17 +3941,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LIBO",
-    LocationName: "Lincoln Boyhood National Memorial",
-    Address: "2916 E South Street, PO Box 1816",
-    City: "Lincoln City",
-    State: "Indiana",
-    ZipCode: 47552,
-    Phone: "(812) 937-4541",
-    Fax: "(812) 937-9929",
-    Latitude: 38.113702,
-    Longitude: -86.999079,
-    Location: {
+    locationId: "LIBO",
+    locationName: "Lincoln Boyhood National Memorial",
+    address: "2916 E South Street, PO Box 1816",
+    city: "Lincoln city",
+    state: "Indiana",
+    zipCode: 47552,
+    phone: "(812) 937-4541",
+    fax: "(812) 937-9929",
+    latitude: 38.113702,
+    longitude: -86.999079,
+    location: {
         coordinates: [
         -86.999079,
         38.113702
@@ -3960,17 +3960,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LIHO",
-    LocationName: "Lincoln Home National Historic Site",
-    Address: "Lincoln Home NHS, 413 South Eighth Street",
-    City: "Springfield",
-    State: "Illinois",
-    ZipCode: "62701-1905",
-    Phone: "(217) 492-4241",
-    Fax: "(217) 492-4673",
-    Latitude: 39.7981317,
-    Longitude: -89.6451345,
-    Location: {
+    locationId: "LIHO",
+    locationName: "Lincoln Home National Historic Site",
+    address: "Lincoln Home NHS, 413 South Eighth Street",
+    city: "Springfield",
+    state: "Illinois",
+    zipCode: "62701-1905",
+    phone: "(217) 492-4241",
+    fax: "(217) 492-4673",
+    latitude: 39.7981317,
+    longitude: -89.6451345,
+    location: {
         coordinates: [
         -89.6451345,
         39.7981317
@@ -3979,17 +3979,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LIBI",
-    LocationName: "Little Bighorn Battlefield National Monument",
-    Address: "Little Bighorn Battlefield National Monument, PO Box 39",
-    City: "Crow Agency",
-    State: "Montana",
-    ZipCode: 59022,
-    Phone: "(406) 638-3217",
-    Fax: "(406) 638-2623",
-    Latitude: 45.5605145,
-    Longitude: -107.4271624,
-    Location: {
+    locationId: "LIBI",
+    locationName: "Little Bighorn Battlefield National Monument",
+    address: "Little Bighorn Battlefield National Monument, PO Box 39",
+    city: "Crow Agency",
+    state: "Montana",
+    zipCode: 59022,
+    phone: "(406) 638-3217",
+    fax: "(406) 638-2623",
+    latitude: 45.5605145,
+    longitude: -107.4271624,
+    location: {
         coordinates: [
         -107.4271624,
         45.5605145
@@ -3998,17 +3998,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "liri",
-    LocationName: "Little River Canyon National Preserve",
-    Address: "Little River Canyon National Preserve, 4322 Little River Trail NE,   Suite 100",
-    City: "Fort Payne",
-    State: "Alabama",
-    ZipCode: 35967,
-    Phone: 0,
-    Fax: "(256) 997-9129",
-    Latitude: 34.3807297,
-    Longitude: -85.6315729,
-    Location: {
+    locationId: "liri",
+    locationName: "Little River Canyon National Preserve",
+    address: "Little River Canyon National Preserve, 4322 Little River Trail NE,   Suite 100",
+    city: "Fort Payne",
+    state: "Alabama",
+    zipCode: 35967,
+    phone: 0,
+    fax: "(256) 997-9129",
+    latitude: 34.3807297,
+    longitude: -85.6315729,
+    location: {
         coordinates: [
         -85.6315729,
         34.3807297
@@ -4017,17 +4017,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "chsc",
-    LocationName: "Little Rock Central High School National Historic Site",
-    Address: "2120 Daisy Bates Drive",
-    City: "Little Rock",
-    State: "Arkansas",
-    ZipCode: 72202,
-    Phone: 0,
-    Fax: "(501) 396-3001",
-    Latitude: 34.738773,
-    Longitude: -92.29732,
-    Location: {
+    locationId: "chsc",
+    locationName: "Little Rock Central High School National Historic Site",
+    address: "2120 Daisy Bates Drive",
+    city: "Little Rock",
+    state: "Arkansas",
+    zipCode: 72202,
+    phone: 0,
+    fax: "(501) 396-3001",
+    latitude: 34.738773,
+    longitude: -92.29732,
+    location: {
         coordinates: [
         -92.29732,
         34.738773
@@ -4036,17 +4036,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LONG",
-    LocationName: "Longfellow National Historic Site",
-    Address: "Longfellow House - Washington's Headquarters National Historic Site, 105 Brattle Street",
-    City: "Cambridge",
-    State: "Massachuetts",
-    ZipCode: 2138,
-    Phone: "(617) 876-4491",
-    Fax: "(617) 497-8718",
-    Latitude: 42.376989,
-    Longitude: -71.12637,
-    Location: {
+    locationId: "LONG",
+    locationName: "Longfellow National Historic Site",
+    address: "Longfellow House - Washington's Headquarters National Historic Site, 105 Brattle Street",
+    city: "Cambridge",
+    state: "Massachuetts",
+    zipCode: 2138,
+    phone: "(617) 876-4491",
+    fax: "(617) 497-8718",
+    latitude: 42.376989,
+    longitude: -71.12637,
+    location: {
         coordinates: [
         -71.12637,
         42.376989
@@ -4055,17 +4055,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LOWE",
-    LocationName: "Lowell National Historical Park",
-    Address: "Superintendent, 67 Kirk Street",
-    City: "Lowell",
-    State: "Massachuetts",
-    ZipCode: 1852,
-    Phone: 0,
-    Fax: "(978) 970-5085",
-    Latitude: 42.6471941,
-    Longitude: -71.3097974,
-    Location: {
+    locationId: "LOWE",
+    locationName: "Lowell National Historical Park",
+    address: "Superintendent, 67 Kirk Street",
+    city: "Lowell",
+    state: "Massachuetts",
+    zipCode: 1852,
+    phone: 0,
+    fax: "(978) 970-5085",
+    latitude: 42.6471941,
+    longitude: -71.3097974,
+    location: {
         coordinates: [
         -71.3097974,
         42.6471941
@@ -4074,17 +4074,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LOEA",
-    LocationName: "Lower East Side Tenement Museum National Historic Site",
-    Address: "108 Orchard Street, Visitor Center",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10002,
-    Phone: "(212) 982-8420",
-    Fax: "(212) 431-0402",
-    Latitude: 40.740142,
-    Longitude: -73.986736,
-    Location: {
+    locationId: "LOEA",
+    locationName: "Lower East Side Tenement Museum National Historic Site",
+    address: "108 Orchard Street, Visitor Center",
+    city: "New York",
+    state: "New York",
+    zipCode: 10002,
+    phone: "(212) 982-8420",
+    fax: "(212) 431-0402",
+    latitude: 40.740142,
+    longitude: -73.986736,
+    location: {
         coordinates: [
         -73.986736,
         40.740142
@@ -4093,17 +4093,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "LYJO",
-    LocationName: "Lyndon B. Johnson National Historical Park",
-    Address: "Superintendent, P.O. Box 329",
-    City: "Johnson City",
-    State: "Texas",
-    ZipCode: 78636,
-    Phone: "(830) 868-7128 ext. 244",
-    Fax: 0,
-    Latitude: 30.285392,
-    Longitude: -98.398629,
-    Location: {
+    locationId: "LYJO",
+    locationName: "Lyndon B. Johnson National Historical Park",
+    address: "Superintendent, P.O. Box 329",
+    city: "Johnson city",
+    state: "Texas",
+    zipCode: 78636,
+    phone: "(830) 868-7128 ext. 244",
+    fax: 0,
+    latitude: 30.285392,
+    longitude: -98.398629,
+    location: {
         coordinates: [
         -98.398629,
         30.285392
@@ -4112,17 +4112,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MAAC",
-    LocationName: "Maine Acadian Culture",
-    Address: "c/o Acadia National Park, P.O. Box 177",
-    City: "Bar Harbor",
-    State: "Maine",
-    ZipCode: 4609,
-    Phone: "(207) 288-3338",
-    Fax: "(207) 288-8813",
-    Latitude: 44.3385559,
-    Longitude: -68.2733346,
-    Location: {
+    locationId: "MAAC",
+    locationName: "Maine Acadian Culture",
+    address: "c/o Acadia National Park, P.O. Box 177",
+    city: "Bar Harbor",
+    state: "Maine",
+    zipCode: 4609,
+    phone: "(207) 288-3338",
+    fax: "(207) 288-8813",
+    latitude: 44.3385559,
+    longitude: -68.2733346,
+    location: {
         coordinates: [
         -68.2733346,
         44.3385559
@@ -4131,17 +4131,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MACA",
-    LocationName: "Mammoth Cave National Park",
-    Address: "Superintendent, 1 Mammoth Cave Parkway   P.O. Box 7",
-    City: "Mammoth Cave",
-    State: "Kentucky",
-    ZipCode: 42259,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 37.192189,
-    Longitude: -86.121529,
-    Location: {
+    locationId: "MACA",
+    locationName: "Mammoth Cave National Park",
+    address: "Superintendent, 1 Mammoth Cave Parkway   P.O. Box 7",
+    city: "Mammoth Cave",
+    state: "Kentucky",
+    zipCode: 42259,
+    phone: 0,
+    fax: 0,
+    latitude: 37.192189,
+    longitude: -86.121529,
+    location: {
         coordinates: [
         -86.121529,
         37.192189
@@ -4150,17 +4150,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MANA",
-    LocationName: "Manassas National Battlefield Park",
-    Address: "Manassas National Battlefield, 12521 Lee Highway",
-    City: "Manassas",
-    State: "Virginia",
-    ZipCode: 20109,
-    Phone: 0,
-    Fax: "(703) 754-1107",
-    Latitude: 38.805198,
-    Longitude: -77.571996,
-    Location: {
+    locationId: "MANA",
+    locationName: "Manassas National Battlefield Park",
+    address: "Manassas National Battlefield, 12521 Lee Highway",
+    city: "Manassas",
+    state: "Virginia",
+    zipCode: 20109,
+    phone: 0,
+    fax: "(703) 754-1107",
+    latitude: 38.805198,
+    longitude: -77.571996,
+    location: {
         coordinates: [
         -77.571996,
         38.805198
@@ -4169,17 +4169,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "manz",
-    LocationName: "Manzanar National Historic Site",
-    Address: "Manzanar National Historic Site, P.O. Box 426",
-    City: "Independence",
-    State: "California",
-    ZipCode: 93526,
-    Phone: "(760) 878-2194 ext. 2710",
-    Fax: "(760) 878-2949",
-    Latitude: 36.7284743,
-    Longitude: -118.1462983,
-    Location: {
+    locationId: "manz",
+    locationName: "Manzanar National Historic Site",
+    address: "Manzanar National Historic Site, P.O. Box 426",
+    city: "Independence",
+    state: "California",
+    zipCode: 93526,
+    phone: "(760) 878-2194 ext. 2710",
+    fax: "(760) 878-2949",
+    latitude: 36.7284743,
+    longitude: -118.1462983,
+    location: {
         coordinates: [
         -118.1462983,
         36.7284743
@@ -4188,17 +4188,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MABI",
-    LocationName: "Marsh-Billings-Rockefeller National Historical Park",
-    Address: "Marsh-Billings-Rockefeller National Historical Park, 54 Elm Street",
-    City: "Woodstock",
-    State: "Vermont",
-    ZipCode: 5091,
-    Phone: "(802) 457-3368 ext. 22",
-    Fax: "(802) 457-3405",
-    Latitude: 43.6285354,
-    Longitude: -72.5183519,
-    Location: {
+    locationId: "MABI",
+    locationName: "Marsh-Billings-Rockefeller National Historical Park",
+    address: "Marsh-Billings-Rockefeller National Historical Park, 54 Elm Street",
+    city: "Woodstock",
+    state: "Vermont",
+    zipCode: 5091,
+    phone: "(802) 457-3368 ext. 22",
+    fax: "(802) 457-3405",
+    latitude: 43.6285354,
+    longitude: -72.5183519,
+    location: {
         coordinates: [
         -72.5183519,
         43.6285354
@@ -4207,17 +4207,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "malu",
-    LocationName: "Martin Luther King Jr National Historic Site",
-    Address: "Superintendent, 450 Auburn Avenue, NE",
-    City: "Atlanta",
-    State: "Georgia",
-    ZipCode: 30312,
-    Phone: "(404) 331-6922",
-    Fax: "(404) 730-3112",
-    Latitude: 33.7555614,
-    Longitude: -84.3734823,
-    Location: {
+    locationId: "malu",
+    locationName: "Martin Luther King Jr National Historic Site",
+    address: "Superintendent, 450 Auburn Avenue, NE",
+    city: "Atlanta",
+    state: "Georgia",
+    zipCode: 30312,
+    phone: "(404) 331-6922",
+    fax: "(404) 730-3112",
+    latitude: 33.7555614,
+    longitude: -84.3734823,
+    location: {
         coordinates: [
         -84.3734823,
         33.7555614
@@ -4226,17 +4226,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MAVA",
-    LocationName: "Martin Van Buren National Historic Site",
-    Address: "1013 Old Post Road",
-    City: "Kinderhook",
-    State: "New York",
-    ZipCode: 12106,
-    Phone: 0,
-    Fax: "(518) 758-6986",
-    Latitude: 42.3656798,
-    Longitude: -73.704337,
-    Location: {
+    locationId: "MAVA",
+    locationName: "Martin Van Buren National Historic Site",
+    address: "1013 Old Post Road",
+    city: "Kinderhook",
+    state: "New York",
+    zipCode: 12106,
+    phone: 0,
+    fax: "(518) 758-6986",
+    latitude: 42.3656798,
+    longitude: -73.704337,
+    location: {
         coordinates: [
         -73.704337,
         42.3656798
@@ -4245,17 +4245,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "meve",
-    LocationName: "Mesa Verde National Park",
-    Address: "Mesa Verde National Park, P.O. Box 8",
-    City: "Mesa Verde",
-    State: "Colorado",
-    ZipCode: 81330,
-    Phone: "(970) 529-4465",
-    Fax: "(970) 529-4637",
-    Latitude: 37.16748,
-    Longitude: -108.525539,
-    Location: {
+    locationId: "meve",
+    locationName: "Mesa Verde National Park",
+    address: "Mesa Verde National Park, P.O. Box 8",
+    city: "Mesa Verde",
+    state: "Colorado",
+    zipCode: 81330,
+    phone: "(970) 529-4465",
+    fax: "(970) 529-4637",
+    latitude: 37.16748,
+    longitude: -108.525539,
+    location: {
         coordinates: [
         -108.525539,
         37.16748
@@ -4264,17 +4264,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MIIN",
-    LocationName: "Minidoka National Historic Site",
-    Address: "P.O. Box 570",
-    City: "Hagerman",
-    State: "Idaho",
-    ZipCode: 83332,
-    Phone: 0,
-    Fax: "(208) 837-4857",
-    Latitude: 42.812124,
-    Longitude: -114.898669,
-    Location: {
+    locationId: "MIIN",
+    locationName: "Minidoka National Historic Site",
+    address: "P.O. Box 570",
+    city: "Hagerman",
+    state: "Idaho",
+    zipCode: 83332,
+    phone: 0,
+    fax: "(208) 837-4857",
+    latitude: 42.812124,
+    longitude: -114.898669,
+    location: {
         coordinates: [
         -114.898669,
         42.812124
@@ -4283,17 +4283,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MIMA",
-    LocationName: "Minute Man National Historical Park",
-    Address: "Minute Man National Historical Park, 174 Liberty St.",
-    City: "Concord",
-    State: "Massachuetts",
-    ZipCode: 1742,
-    Phone: 0,
-    Fax: "(978) 318-7800",
-    Latitude: 42.471166,
-    Longitude: -71.35372,
-    Location: {
+    locationId: "MIMA",
+    locationName: "Minute Man National Historical Park",
+    address: "Minute Man National Historical Park, 174 Liberty St.",
+    city: "Concord",
+    state: "Massachuetts",
+    zipCode: 1742,
+    phone: 0,
+    fax: "(978) 318-7800",
+    latitude: 42.471166,
+    longitude: -71.35372,
+    location: {
         coordinates: [
         -71.35372,
         42.471166
@@ -4302,17 +4302,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MIMI",
-    LocationName: "Minuteman Missile National Historic Site",
-    Address: "21280 SD Hwy 240",
-    City: "Philip",
-    State: "South Dakota",
-    ZipCode: 57567,
-    Phone: 0,
-    Fax: "(605) 433-5558",
-    Latitude: 43.816298,
-    Longitude: -101.899697,
-    Location: {
+    locationId: "MIMI",
+    locationName: "Minuteman Missile National Historic Site",
+    address: "21280 SD Hwy 240",
+    city: "Philip",
+    state: "South Dakota",
+    zipCode: 57567,
+    phone: 0,
+    fax: "(605) 433-5558",
+    latitude: 43.816298,
+    longitude: -101.899697,
+    location: {
         coordinates: [
         -101.899697,
         43.816298
@@ -4321,17 +4321,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MISS",
-    LocationName: "Mississippi National River and Recreation Area",
-    Address: "111 East Kellogg Blvd., Suite 105",
-    City: "Saint Paul",
-    State: "Minnesota",
-    ZipCode: 55101,
-    Phone: 0,
-    Fax: "(651) 290-3214",
-    Latitude: 44.9455077,
-    Longitude: -93.0898974,
-    Location: {
+    locationId: "MISS",
+    locationName: "Mississippi National River and Recreation Area",
+    address: "111 East Kellogg Blvd., Suite 105",
+    city: "Saint Paul",
+    state: "Minnesota",
+    zipCode: 55101,
+    phone: 0,
+    fax: "(651) 290-3214",
+    latitude: 44.9455077,
+    longitude: -93.0898974,
+    location: {
         coordinates: [
         -93.0898974,
         44.9455077
@@ -4340,17 +4340,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MNRR",
-    LocationName: "Missouri National Recreational River",
-    Address: "Missouri National Recreational River, 508 E. 2nd Street",
-    City: "Yankton",
-    State: "South Dakota",
-    ZipCode: 57078,
-    Phone: "(605) 665-0209",
-    Fax: "(605) 665-4183",
-    Latitude: 42.868919,
-    Longitude: -97.384615,
-    Location: {
+    locationId: "MNRR",
+    locationName: "Missouri National Recreational River",
+    address: "Missouri National Recreational River, 508 E. 2nd Street",
+    city: "Yankton",
+    state: "South Dakota",
+    zipCode: 57078,
+    phone: "(605) 665-0209",
+    fax: "(605) 665-4183",
+    latitude: 42.868919,
+    longitude: -97.384615,
+    location: {
         coordinates: [
         -97.384615,
         42.868919
@@ -4359,18 +4359,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "moja",
-    LocationName: "Mojave National Preserve",
-    Address: "Mojave National Preserve, 2701 Barstow Road",
-    City: "Barstow",
-    State: "California",
-    ZipCode: 92311,
-    Phone: "(760) 252-6100",
-    Fax: "(760) 252-6174",
+    locationId: "moja",
+    locationName: "Mojave National Preserve",
+    address: "Mojave National Preserve, 2701 Barstow Road",
+    city: "Barstow",
+    state: "California",
+    zipCode: 92311,
+    phone: "(760) 252-6100",
+    fax: "(760) 252-6174",
     Visit: "https://www.nps.gov/moja/index.htm",
-    Latitude: 34.871394,
-    Longitude: -117.020322,
-    Location: {
+    latitude: 34.871394,
+    longitude: -117.020322,
+    location: {
         coordinates: [
         -117.020322,
         34.871394
@@ -4379,17 +4379,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MONO",
-    LocationName: "Monocacy National Battlefield",
-    Address: "4801 Urbana Pike",
-    City: "Frederick",
-    State: "Maryland",
-    ZipCode: 21704,
-    Phone: "(301) 662-3515",
-    Fax: "(301) 662-3420",
-    Latitude: 39.3665648,
-    Longitude: -77.388428,
-    Location: {
+    locationId: "MONO",
+    locationName: "Monocacy National Battlefield",
+    address: "4801 Urbana Pike",
+    city: "Frederick",
+    state: "Maryland",
+    zipCode: 21704,
+    phone: "(301) 662-3515",
+    fax: "(301) 662-3420",
+    latitude: 39.3665648,
+    longitude: -77.388428,
+    location: {
         coordinates: [
         -77.388428,
         39.3665648
@@ -4398,17 +4398,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "moca",
-    LocationName: "Montezuma Castle National Monument",
-    Address: "Montezuma Castle National Monument, P. O. Box 219",
-    City: "Camp Verde",
-    State: "Arizona",
-    ZipCode: 86322,
-    Phone: 0,
-    Fax: "(928) 567-3597",
-    Latitude: 34.6089399,
-    Longitude: -111.8412083,
-    Location: {
+    locationId: "moca",
+    locationName: "Montezuma Castle National Monument",
+    address: "Montezuma Castle National Monument, P. O. Box 219",
+    city: "Camp Verde",
+    state: "Arizona",
+    zipCode: 86322,
+    phone: 0,
+    fax: "(928) 567-3597",
+    latitude: 34.6089399,
+    longitude: -111.8412083,
+    location: {
         coordinates: [
         -111.8412083,
         34.6089399
@@ -4417,17 +4417,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MOCR",
-    LocationName: "Moores Creek National Battlefield",
-    Address: "40 Patriots Hall Drive",
-    City: "Currie",
-    State: "North Carolina",
-    ZipCode: 28435,
-    Phone: "(910) 283-5591",
-    Fax: "(910) 283-5351",
-    Latitude: 34.458784,
-    Longitude: -78.107428,
-    Location: {
+    locationId: "MOCR",
+    locationName: "Moores Creek National Battlefield",
+    address: "40 Patriots Hall Drive",
+    city: "Currie",
+    state: "North Carolina",
+    zipCode: 28435,
+    phone: "(910) 283-5591",
+    fax: "(910) 283-5351",
+    latitude: 34.458784,
+    longitude: -78.107428,
+    location: {
         coordinates: [
         -78.107428,
         34.458784
@@ -4436,17 +4436,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MOPI",
-    LocationName: "Mormon Pioneer National Historic Trail",
-    Address: "National Trails Intermountain Region, 324 South State St., Suite 200",
-    City: "Salt Lake City",
-    State: "Utah",
-    ZipCode: 84111,
-    Phone: "(801) 741-1012",
-    Fax: "(801) 741-1102",
-    Latitude: 40.7620689,
-    Longitude: -111.888922,
-    Location: {
+    locationId: "MOPI",
+    locationName: "Mormon Pioneer National Historic Trail",
+    address: "National Trails Intermountain Region, 324 South State St., Suite 200",
+    city: "Salt Lake city",
+    state: "Utah",
+    zipCode: 84111,
+    phone: "(801) 741-1012",
+    fax: "(801) 741-1102",
+    latitude: 40.7620689,
+    longitude: -111.888922,
+    location: {
         coordinates: [
         -111.888922,
         40.7620689
@@ -4455,17 +4455,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MORR",
-    LocationName: "Morristown National Historical Park",
-    Address: "Morristown National Historical Park, 30 Washington Place",
-    City: "Morristown",
-    State: "New Jersey",
-    ZipCode: "07960-4299",
-    Phone: 0,
-    Fax: "(973) 285-5021",
-    Latitude: 40.7969641,
-    Longitude: -74.4659163,
-    Location: {
+    locationId: "MORR",
+    locationName: "Morristown National Historical Park",
+    address: "Morristown National Historical Park, 30 Washington Place",
+    city: "Morristown",
+    state: "New Jersey",
+    zipCode: "07960-4299",
+    phone: 0,
+    fax: "(973) 285-5021",
+    latitude: 40.7969641,
+    longitude: -74.4659163,
+    location: {
         coordinates: [
         -74.4659163,
         40.7969641
@@ -4474,17 +4474,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MORA",
-    LocationName: "Mount Rainier National Park",
-    Address: "Mount Rainier National Park, 55210 238th Ave. East",
-    City: "Ashford",
-    State: "Washington",
-    ZipCode: 98304,
-    Phone: 0,
-    Fax: "(360) 569-2170",
-    Latitude: 46.7558282,
-    Longitude: -122.1207998,
-    Location: {
+    locationId: "MORA",
+    locationName: "Mount Rainier National Park",
+    address: "Mount Rainier National Park, 55210 238th Ave. East",
+    city: "Ashford",
+    state: "Washington",
+    zipCode: 98304,
+    phone: 0,
+    fax: "(360) 569-2170",
+    latitude: 46.7558282,
+    longitude: -122.1207998,
+    location: {
         coordinates: [
         -122.1207998,
         46.7558282
@@ -4493,17 +4493,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "MORU",
-    LocationName: "Mount Rushmore National Memorial",
-    Address: "Mount Rushmore National Memorial, 13000 Hwy 244 Bldg 31 Suite 1",
-    City: "Keystone",
-    State: "South Dakota",
-    ZipCode: 57751,
-    Phone: "(605) 574-2523",
-    Fax: "(605) 574-2307",
-    Latitude: 43.875419,
-    Longitude: -103.4531437,
-    Location: {
+    locationId: "MORU",
+    locationName: "Mount Rushmore National Memorial",
+    address: "Mount Rushmore National Memorial, 13000 Hwy 244 Bldg 31 Suite 1",
+    city: "Keystone",
+    state: "South Dakota",
+    zipCode: 57751,
+    phone: "(605) 574-2523",
+    fax: "(605) 574-2307",
+    latitude: 43.875419,
+    longitude: -103.4531437,
+    location: {
         coordinates: [
         -103.4531437,
         43.875419
@@ -4512,17 +4512,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "muwo",
-    LocationName: "Muir Woods National Monument",
-    Address: "Muir Woods National Monument",
-    City: "Mill Valley",
-    State: "California",
-    ZipCode: "94941-2696",
-    Phone: "(415) 388-2596",
-    Fax: "(415) 389-6957",
-    Latitude: 37.8960372,
-    Longitude: -122.580256,
-    Location: {
+    locationId: "muwo",
+    locationName: "Muir Woods National Monument",
+    address: "Muir Woods National Monument",
+    city: "Mill Valley",
+    state: "California",
+    zipCode: "94941-2696",
+    phone: "(415) 388-2596",
+    fax: "(415) 389-6957",
+    latitude: 37.8960372,
+    longitude: -122.580256,
+    location: {
         coordinates: [
         -122.580256,
         37.8960372
@@ -4531,17 +4531,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NATT",
-    LocationName: "Natchez Trace National Scenic Trail",
-    Address: "Natchez Trace National Scenic Trail, 2680 Natchez Trace Parkway",
-    City: "Tupelo",
-    State: "Mississippi",
-    ZipCode: 38804,
-    Phone: 0,
-    Fax: "(662) 680-4034",
-    Latitude: 34.307545,
-    Longitude: -88.720974,
-    Location: {
+    locationId: "NATT",
+    locationName: "Natchez Trace National Scenic Trail",
+    address: "Natchez Trace National Scenic Trail, 2680 Natchez Trace Parkway",
+    city: "Tupelo",
+    state: "Mississippi",
+    zipCode: 38804,
+    phone: 0,
+    fax: "(662) 680-4034",
+    latitude: 34.307545,
+    longitude: -88.720974,
+    location: {
         coordinates: [
         -88.720974,
         34.307545
@@ -4550,17 +4550,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "natr",
-    LocationName: "Natchez Trace Parkway",
-    Address: "Natchez Trace Parkway, 2680 Natchez Trace Parkway",
-    City: "Tupelo",
-    State: "Mississippi",
-    ZipCode: 38804,
-    Phone: "(800) 305-7417",
-    Fax: "(662) 680-4034",
-    Latitude: 34.307545,
-    Longitude: -88.720974,
-    Location: {
+    locationId: "natr",
+    locationName: "Natchez Trace Parkway",
+    address: "Natchez Trace Parkway, 2680 Natchez Trace Parkway",
+    city: "Tupelo",
+    state: "Mississippi",
+    zipCode: 38804,
+    phone: "(800) 305-7417",
+    fax: "(662) 680-4034",
+    latitude: 34.307545,
+    longitude: -88.720974,
+    location: {
         coordinates: [
         -88.720974,
         34.307545
@@ -4569,17 +4569,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NACE",
-    LocationName: "National Capital Parks-East",
-    Address: "1900 Anacostia Dr., SE",
-    City: "Washington",
-    State: "DC",
-    ZipCode: 20020,
-    Phone: 0,
-    Fax: "(202) 690-0862",
-    Latitude: 38.8681082,
-    Longitude: -76.9953624,
-    Location: {
+    locationId: "NACE",
+    locationName: "National Capital Parks-East",
+    address: "1900 Anacostia Dr., SE",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20020,
+    phone: 0,
+    fax: "(202) 690-0862",
+    latitude: 38.8681082,
+    longitude: -76.9953624,
+    location: {
         coordinates: [
         -76.9953624,
         38.8681082
@@ -4588,17 +4588,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "npsa",
-    LocationName: "National Park of American Samoa",
-    Address: "Superintendent, National Park of American Samoa",
-    City: "Pago Pago",
-    State: "American Samoa",
-    ZipCode: 96799,
-    Phone: 0,
-    Fax: "(684) 699-3986",
-    Latitude: -14.29129,
-    Longitude: -170.696426,
-    Location: {
+    locationId: "npsa",
+    locationName: "National Park of American Samoa",
+    address: "Superintendent, National Park of American Samoa",
+    city: "Pago Pago",
+    state: "American Samoa",
+    zipCode: 96799,
+    phone: 0,
+    fax: "(684) 699-3986",
+    latitude: -14.29129,
+    longitude: -170.696426,
+    location: {
         coordinates: [
         -170.696426,
         -14.29129
@@ -4607,17 +4607,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NPNH",
-    LocationName: "National Parks of New York Harbor",
-    Address: "National Parks of New York Harbor, Federal Hall National Memorial 26 Wall Street",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10005,
-    Phone: "(212) 668-5180",
-    Fax: "(212) 668-2375",
-    Latitude: 40.7073139,
-    Longitude: -74.010262,
-    Location: {
+    locationId: "NPNH",
+    locationName: "National Parks of New York Harbor",
+    address: "National Parks of New York Harbor, Federal Hall National Memorial 26 Wall Street",
+    city: "New York",
+    state: "New York",
+    zipCode: 10005,
+    phone: "(212) 668-5180",
+    fax: "(212) 668-2375",
+    latitude: 40.7073139,
+    longitude: -74.010262,
+    location: {
         coordinates: [
         -74.010262,
         40.7073139
@@ -4626,17 +4626,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NABR",
-    LocationName: "Natural Bridges National Monument",
-    Address: "Natural Bridges, HC-60 Box 1",
-    City: "Lake Powell",
-    State: "Utah",
-    ZipCode: 84533,
-    Phone: "(435) 692-1234 ext. 16",
-    Fax: "(435) 692-1111",
-    Latitude: 37.593888,
-    Longitude: -110.009234,
-    Location: {
+    locationId: "NABR",
+    locationName: "Natural Bridges National Monument",
+    address: "Natural Bridges, HC-60 Box 1",
+    city: "Lake Powell",
+    state: "Utah",
+    zipCode: 84533,
+    phone: "(435) 692-1234 ext. 16",
+    fax: "(435) 692-1111",
+    latitude: 37.593888,
+    longitude: -110.009234,
+    location: {
         coordinates: [
         -110.009234,
         37.593888
@@ -4645,17 +4645,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "nava",
-    LocationName: "Navajo National Monument",
-    Address: "Superintendent, Navajo National Monument, HC 71 Box 3",
-    City: "Tonalea",
-    State: "Arizona",
-    ZipCode: 86044,
-    Phone: "(928) 672-2700",
-    Fax: "(928) 672-2703",
-    Latitude: 36.40425,
-    Longitude: -110.910901,
-    Location: {
+    locationId: "nava",
+    locationName: "Navajo National Monument",
+    address: "Superintendent, Navajo National Monument, HC 71 Box 3",
+    city: "Tonalea",
+    state: "Arizona",
+    zipCode: 86044,
+    phone: "(928) 672-2700",
+    fax: "(928) 672-2703",
+    latitude: 36.40425,
+    longitude: -110.910901,
+    location: {
         coordinates: [
         -110.910901,
         36.40425
@@ -4664,17 +4664,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NEBE",
-    LocationName: "New Bedford Whaling National Historical Park",
-    Address: "New Bedford Whaling NHP, 33 William Street",
-    City: "New Bedford",
-    State: "Massachuetts",
-    ZipCode: 2740,
-    Phone: "(508) 996-4095",
-    Fax: "(508) 984-1250",
-    Latitude: 41.635758,
-    Longitude: -70.924046,
-    Location: {
+    locationId: "NEBE",
+    locationName: "New Bedford Whaling National Historical Park",
+    address: "New Bedford Whaling NHP, 33 William Street",
+    city: "New Bedford",
+    state: "Massachuetts",
+    zipCode: 2740,
+    phone: "(508) 996-4095",
+    fax: "(508) 984-1250",
+    latitude: 41.635758,
+    longitude: -70.924046,
+    location: {
         coordinates: [
         -70.924046,
         41.635758
@@ -4683,18 +4683,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "JAZZ",
-    LocationName: "New Orleans Jazz National Historical Park",
-    Address: "419 Decatur Street",
-    City: "New Orleans",
-    State: "Louisiana",
-    ZipCode: 70130,
-    Phone: 0,
-    Fax: "(504) 589-4845",
+    locationId: "JAZZ",
+    locationName: "New Orleans Jazz National Historical Park",
+    address: "419 Decatur Street",
+    city: "New Orleans",
+    state: "Louisiana",
+    zipCode: 70130,
+    phone: 0,
+    fax: "(504) 589-4845",
     Visit: "https://www.nps.gov/jazz/index.htm",
-    Latitude: 29.955125,
-    Longitude: -90.064502,
-    Location: {
+    latitude: 29.955125,
+    longitude: -90.064502,
+    location: {
         coordinates: [
         -90.064502,
         29.955125
@@ -4703,17 +4703,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NERI",
-    LocationName: "New River Gorge National River",
-    Address: "P.O. Box 246",
-    City: "Glen Jean",
-    State: "West Virginia",
-    ZipCode: 25846,
-    Phone: 0,
-    Fax: "(304) 465-0591",
-    Latitude: 37.899209,
-    Longitude: -81.157499,
-    Location: {
+    locationId: "NERI",
+    locationName: "New River Gorge National River",
+    address: "P.O. Box 246",
+    city: "Glen Jean",
+    state: "West Virginia",
+    zipCode: 25846,
+    phone: 0,
+    fax: "(304) 465-0591",
+    latitude: 37.899209,
+    longitude: -81.157499,
+    location: {
         coordinates: [
         -81.157499,
         37.899209
@@ -4722,18 +4722,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NEPE",
-    LocationName: "Nez Perce National Historical Park",
-    Address: "Nez Perce NHP, PO Box 1000",
-    City: "Lapwai",
-    State: "Idaho",
-    ZipCode: 83540,
-    Phone: "(208) 843-7001",
-    Fax: "(208) 843-7003",
+    locationId: "NEPE",
+    locationName: "Nez Perce National Historical Park",
+    address: "Nez Perce NHP, PO Box 1000",
+    city: "Lapwai",
+    state: "Idaho",
+    zipCode: 83540,
+    phone: "(208) 843-7001",
+    fax: "(208) 843-7003",
     Visit: "https://www.nps.gov/nepe/index.htm",
-    Latitude: 46.416175,
-    Longitude: -116.797523,
-    Location: {
+    latitude: 46.416175,
+    longitude: -116.797523,
+    location: {
         coordinates: [
         -116.797523,
         46.416175
@@ -4742,17 +4742,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NICO",
-    LocationName: "Nicodemus National Historic Site",
-    Address: "Nicodemus National Historic Site, 304 Washington Avenue",
-    City: "Nicodemus",
-    State: "Kansas",
-    ZipCode: "67625-3015",
-    Phone: "(785) 839-4233",
-    Fax: "(785) 839-4325",
-    Latitude: 39.393117,
-    Longitude: -99.617178,
-    Location: {
+    locationId: "NICO",
+    locationName: "Nicodemus National Historic Site",
+    address: "Nicodemus National Historic Site, 304 Washington Avenue",
+    city: "Nicodemus",
+    state: "Kansas",
+    zipCode: "67625-3015",
+    phone: "(785) 839-4233",
+    fax: "(785) 839-4325",
+    latitude: 39.393117,
+    longitude: -99.617178,
+    location: {
         coordinates: [
         -99.617178,
         39.393117
@@ -4761,17 +4761,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NISI",
-    LocationName: "Ninety Six National Historic Site",
-    Address: "Ninety Six National Historic Site, PO Box 418",
-    City: "Ninety Six",
-    State: "South Carolina",
-    ZipCode: 29666,
-    Phone: 0,
-    Fax: "(864) 543-2058",
-    Latitude: 34.1433109,
-    Longitude: -82.013465,
-    Location: {
+    locationId: "NISI",
+    locationName: "Ninety Six National Historic Site",
+    address: "Ninety Six National Historic Site, PO Box 418",
+    city: "Ninety Six",
+    state: "South Carolina",
+    zipCode: 29666,
+    phone: 0,
+    fax: "(864) 543-2058",
+    latitude: 34.1433109,
+    longitude: -82.013465,
+    location: {
         coordinates: [
         -82.013465,
         34.1433109
@@ -4780,17 +4780,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NIOB",
-    LocationName: "Niobrara National Scenic River",
-    Address: "Niobrara National Scenic River, P.O. Box 319",
-    City: "Valentine",
-    State: "Nebraska",
-    ZipCode: 69201,
-    Phone: 0,
-    Fax: "(402) 376-1949",
-    Latitude: 42.8129207,
-    Longitude: -99.9294552,
-    Location: {
+    locationId: "NIOB",
+    locationName: "Niobrara National Scenic River",
+    address: "Niobrara National Scenic River, P.O. Box 319",
+    city: "Valentine",
+    state: "Nebraska",
+    zipCode: 69201,
+    phone: 0,
+    fax: "(402) 376-1949",
+    latitude: 42.8129207,
+    longitude: -99.9294552,
+    location: {
         coordinates: [
         -99.9294552,
         42.8129207
@@ -4799,17 +4799,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "noat",
-    LocationName: "Noatak National Preserve",
-    Address: "National Park Service, P.O. Box 1029",
-    City: "Kotzebue",
-    State: "Alaska",
-    ZipCode: 99752,
-    Phone: "(907) 442-3890",
-    Fax: "(907) 442-8316",
-    Latitude: 66.898684,
-    Longitude: -162.599068,
-    Location: {
+    locationId: "noat",
+    locationName: "Noatak National Preserve",
+    address: "National Park Service, P.O. Box 1029",
+    city: "Kotzebue",
+    state: "Alaska",
+    zipCode: 99752,
+    phone: "(907) 442-3890",
+    fax: "(907) 442-8316",
+    latitude: 66.898684,
+    longitude: -162.599068,
+    location: {
         coordinates: [
         -162.599068,
         66.898684
@@ -4818,17 +4818,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "lach",
-    LocationName: "North Cascades National Park Service Complex",
-    Address: "North Cascades National Park Complex, 810 State Route 20",
-    City: "Sedro-Woolley",
-    State: "Washington",
-    ZipCode: 98284,
-    Phone: "(360) 854-7200",
-    Fax: "(360) 856-1934",
-    Latitude: 48.5109531,
-    Longitude: -122.2275204,
-    Location: {
+    locationId: "lach",
+    locationName: "North Cascades National Park Service Complex",
+    address: "North Cascades National Park Complex, 810 State Route 20",
+    city: "Sedro-Woolley",
+    state: "Washington",
+    zipCode: 98284,
+    phone: "(360) 854-7200",
+    fax: "(360) 856-1934",
+    latitude: 48.5109531,
+    longitude: -122.2275204,
+    location: {
         coordinates: [
         -122.2275204,
         48.5109531
@@ -4837,17 +4837,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NOCO",
-    LocationName: "North Country National Scenic Trail",
-    Address: "700 Rayovac Dr. Suite 100",
-    City: "Madison",
-    State: "Wisconsin",
-    ZipCode: 53711,
-    Phone: 0,
-    Fax: "(608) 441-5606",
-    Latitude: 43.049044,
-    Longitude: -89.491477,
-    Location: {
+    locationId: "NOCO",
+    locationName: "North Country National Scenic Trail",
+    address: "700 Rayovac Dr. Suite 100",
+    city: "Madison",
+    state: "Wisconsin",
+    zipCode: 53711,
+    phone: 0,
+    fax: "(608) 441-5606",
+    latitude: 43.049044,
+    longitude: -89.491477,
+    location: {
         coordinates: [
         -89.491477,
         43.049044
@@ -4856,17 +4856,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "NORG",
-    LocationName: "Northern Rio Grande National Heritage Area",
-    Address: "PO BOX 610",
-    City: "Espa&ntilde;ola",
-    State: "New Mexico",
-    ZipCode: 87532,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 35.98847,
-    Longitude: -106.087949,
-    Location: {
+    locationId: "NORG",
+    locationName: "Northern Rio Grande National Heritage Area",
+    address: "PO BOX 610",
+    city: "Espa&ntilde;ola",
+    state: "New Mexico",
+    zipCode: 87532,
+    phone: 0,
+    fax: 0,
+    latitude: 35.98847,
+    longitude: -106.087949,
+    location: {
         coordinates: [
         -106.087949,
         35.98847
@@ -4875,17 +4875,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OBED",
-    LocationName: "Obed Wild & Scenic River",
-    Address: "Obed Wild and Scenic River, P.O. Box 429",
-    City: "Wartburg",
-    State: "Tennessee",
-    ZipCode: 37887,
-    Phone: "(423) 346-6294",
-    Fax: "(423) 346-3362",
-    Latitude: 36.0761546,
-    Longitude: -84.6505281,
-    Location: {
+    locationId: "OBED",
+    locationName: "Obed Wild & Scenic River",
+    address: "Obed Wild and Scenic River, P.O. Box 429",
+    city: "Wartburg",
+    state: "Tennessee",
+    zipCode: 37887,
+    phone: "(423) 346-6294",
+    fax: "(423) 346-3362",
+    latitude: 36.0761546,
+    longitude: -84.6505281,
+    location: {
         coordinates: [
         -84.6505281,
         36.0761546
@@ -4894,17 +4894,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ocmu",
-    LocationName: "Ocmulgee National Monument",
-    Address: "Ocmulgee National Monument, 1207 Emery Highway",
-    City: "Macon",
-    State: "Georgia",
-    ZipCode: 31217,
-    Phone: 0,
-    Fax: "(478) 752-8259",
-    Latitude: 32.8483695,
-    Longitude: -83.6034314,
-    Location: {
+    locationId: "ocmu",
+    locationName: "Ocmulgee National Monument",
+    address: "Ocmulgee National Monument, 1207 Emery Highway",
+    city: "Macon",
+    state: "Georgia",
+    zipCode: 31217,
+    phone: 0,
+    fax: "(478) 752-8259",
+    latitude: 32.8483695,
+    longitude: -83.6034314,
+    location: {
         coordinates: [
         -83.6034314,
         32.8483695
@@ -4913,18 +4913,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OKCI",
-    LocationName: "Oklahoma City National Memorial",
-    Address: "PO Box 676",
-    City: "Oklahoma City",
-    State: "Oklahoma",
-    ZipCode: 73101,
-    Phone: "(405) 609-8855",
-    Fax: "(405) 609-8863",
+    locationId: "OKCI",
+    locationName: "Oklahoma city National Memorial",
+    address: "PO Box 676",
+    city: "Oklahoma city",
+    state: "Oklahoma",
+    zipCode: 73101,
+    phone: "(405) 609-8855",
+    fax: "(405) 609-8863",
     Visit: "https://www.nps.gov/okci/index.htm",
-    Latitude: 35.47,
-    Longitude: -97.52,
-    Location: {
+    latitude: 35.47,
+    longitude: -97.52,
+    location: {
         coordinates: [
         -97.52,
         35.47
@@ -4933,17 +4933,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "olsp",
-    LocationName: "Old Spanish National Historic Trail",
-    Address: "National Trails Intermountain Region, PO Box 728",
-    City: "Santa Fe",
-    State: "New Mexico",
-    ZipCode: "87504-0728",
-    Phone: "(505) 988-6098",
-    Fax: "(505) 986-5214",
-    Latitude: 35.689361,
-    Longitude: -105.933751,
-    Location: {
+    locationId: "olsp",
+    locationName: "Old Spanish National Historic Trail",
+    address: "National Trails Intermountain Region, PO Box 728",
+    city: "Santa Fe",
+    state: "New Mexico",
+    zipCode: "87504-0728",
+    phone: "(505) 988-6098",
+    fax: "(505) 986-5214",
+    latitude: 35.689361,
+    longitude: -105.933751,
+    location: {
         coordinates: [
         -105.933751,
         35.689361
@@ -4952,17 +4952,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OREG",
-    LocationName: "Oregon National Historic Trail",
-    Address: "National Park Service, 324 S. State St., Suite 200",
-    City: "Salt Lake City",
-    State: "Utah",
-    ZipCode: 84111,
-    Phone: "(801) 741-1012",
-    Fax: "(801) 741-1102",
-    Latitude: 40.7620689,
-    Longitude: -111.888922,
-    Location: {
+    locationId: "OREG",
+    locationName: "Oregon National Historic Trail",
+    address: "National Park Service, 324 S. State St., Suite 200",
+    city: "Salt Lake city",
+    state: "Utah",
+    zipCode: 84111,
+    phone: "(801) 741-1012",
+    fax: "(801) 741-1102",
+    latitude: 40.7620689,
+    longitude: -111.888922,
+    location: {
         coordinates: [
         -111.888922,
         40.7620689
@@ -4971,17 +4971,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "orpi",
-    LocationName: "Organ Pipe Cactus National Monument",
-    Address: "Organ Pipe Cactus National Monument, 10 Organ Pipe Drive",
-    City: "Ajo",
-    State: "Arizona",
-    ZipCode: 85321,
-    Phone: "(520) 387-6849 ext. 7302",
-    Fax: 0,
-    Latitude: 32.229742,
-    Longitude: -112.883295,
-    Location: {
+    locationId: "orpi",
+    locationName: "Organ Pipe Cactus National Monument",
+    address: "Organ Pipe Cactus National Monument, 10 Organ Pipe Drive",
+    city: "Ajo",
+    state: "Arizona",
+    zipCode: 85321,
+    phone: "(520) 387-6849 ext. 7302",
+    fax: 0,
+    latitude: 32.229742,
+    longitude: -112.883295,
+    location: {
         coordinates: [
         -112.883295,
         32.229742
@@ -4990,17 +4990,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OVVI",
-    LocationName: "Overmountain Victory National Historic Trail",
-    Address: "Superintendent, 2635 Park Road",
-    City: "Blacksburg",
-    State: "South Carolina",
-    ZipCode: 29702,
-    Phone: 0,
-    Fax: "(864) 936-3477",
-    Latitude: 35.078017,
-    Longitude: -81.395068,
-    Location: {
+    locationId: "OVVI",
+    locationName: "Overmountain Victory National Historic Trail",
+    address: "Superintendent, 2635 Park Road",
+    city: "Blacksburg",
+    state: "South Carolina",
+    zipCode: 29702,
+    phone: 0,
+    fax: "(864) 936-3477",
+    latitude: 35.078017,
+    longitude: -81.395068,
+    location: {
         coordinates: [
         -81.395068,
         35.078017
@@ -5009,17 +5009,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OXHI",
-    LocationName: "Oxon Cove Park & Oxon Hill Farm",
-    Address: "1900 Anacostia Dr. S.W.",
-    City: "Washington",
-    State: "DC",
-    ZipCode: 20020,
-    Phone: "(301) 839-1176",
-    Fax: "(301) 763-1066",
-    Latitude: 38.8681082,
-    Longitude: -76.9953624,
-    Location: {
+    locationId: "OXHI",
+    locationName: "Oxon Cove Park & Oxon Hill Farm",
+    address: "1900 Anacostia Dr. S.W.",
+    city: "Washington",
+    state: "DC",
+    zipCode: 20020,
+    phone: "(301) 839-1176",
+    fax: "(301) 763-1066",
+    latitude: 38.8681082,
+    longitude: -76.9953624,
+    location: {
         coordinates: [
         -76.9953624,
         38.8681082
@@ -5028,17 +5028,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "OZAR",
-    LocationName: "Ozark National Scenic Riverways",
-    Address: "Ozark National Scenic Riverways, P.O. Box 490",
-    City: "Van Buren",
-    State: "Missouri",
-    ZipCode: 63965,
-    Phone: 0,
-    Fax: "(573) 323-4140",
-    Latitude: 36.9202916,
-    Longitude: -90.9045238,
-    Location: {
+    locationId: "OZAR",
+    locationName: "Ozark National Scenic Riverways",
+    address: "Ozark National Scenic Riverways, P.O. Box 490",
+    city: "Van Buren",
+    state: "Missouri",
+    zipCode: 63965,
+    phone: 0,
+    fax: "(573) 323-4140",
+    latitude: 36.9202916,
+    longitude: -90.9045238,
+    location: {
         coordinates: [
         -90.9045238,
         36.9202916
@@ -5047,17 +5047,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PAIS",
-    LocationName: "Padre Island National Seashore",
-    Address: "Malaquite Visitor Center, PO Box 181300",
-    City: "Corpus Christi",
-    State: "Texas",
-    ZipCode: "78480-1300",
-    Phone: "(361) 949-8068",
-    Fax: "(361) 949-9951",
-    Latitude: 27.577099,
-    Longitude: -97.230383,
-    Location: {
+    locationId: "PAIS",
+    locationName: "Padre Island National Seashore",
+    address: "Malaquite Visitor Center, PO Box 181300",
+    city: "Corpus Christi",
+    state: "Texas",
+    zipCode: "78480-1300",
+    phone: "(361) 949-8068",
+    fax: "(361) 949-9951",
+    latitude: 27.577099,
+    longitude: -97.230383,
+    location: {
         coordinates: [
         -97.230383,
         27.577099
@@ -5066,17 +5066,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PAAL",
-    LocationName: "Palo Alto Battlefield National Historical Park",
-    Address: "1623 Central Boulevard, Suite 213",
-    City: "Brownsville",
-    State: "Texas",
-    ZipCode: "78520-8326",
-    Phone: "(956) 541-2785",
-    Fax: "(956) 541-6356",
-    Latitude: 25.927065,
-    Longitude: -97.511873,
-    Location: {
+    locationId: "PAAL",
+    locationName: "Palo Alto Battlefield National Historical Park",
+    address: "1623 Central Boulevard, Suite 213",
+    city: "Brownsville",
+    state: "Texas",
+    zipCode: "78520-8326",
+    phone: "(956) 541-2785",
+    fax: "(956) 541-6356",
+    latitude: 25.927065,
+    longitude: -97.511873,
+    location: {
         coordinates: [
         -97.511873,
         25.927065
@@ -5085,17 +5085,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "usar",
-    LocationName: "Park News",
-    Address: "Superintendent, 1 Arizona Memorial Place",
-    City: "Honolulu",
-    State: "Hawaii",
-    ZipCode: "96818-3145",
-    Phone: "(808) 422-3300",
-    Fax: "(808) 483-8608",
-    Latitude: 21.366479,
-    Longitude: -157.93779,
-    Location: {
+    locationId: "usar",
+    locationName: "Park News",
+    address: "Superintendent, 1 Arizona Memorial Place",
+    city: "Honolulu",
+    state: "Hawaii",
+    zipCode: "96818-3145",
+    phone: "(808) 422-3300",
+    fax: "(808) 483-8608",
+    latitude: 21.366479,
+    longitude: -157.93779,
+    location: {
         coordinates: [
         -157.93779,
         21.366479
@@ -5104,17 +5104,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "peri",
-    LocationName: "Pea Ridge National Military Park",
-    Address: "Pea Ridge NMP, 15930 E Highway 62",
-    City: "Garfield",
-    State: "Arkansas",
-    ZipCode: 72732,
-    Phone: 0,
-    Fax: "(479) 451-0219",
-    Latitude: 36.442602,
-    Longitude: -94.025976,
-    Location: {
+    locationId: "peri",
+    locationName: "Pea Ridge National Military Park",
+    address: "Pea Ridge NMP, 15930 E Highway 62",
+    city: "Garfield",
+    state: "Arkansas",
+    zipCode: 72732,
+    phone: 0,
+    fax: "(479) 451-0219",
+    latitude: 36.442602,
+    longitude: -94.025976,
+    location: {
         coordinates: [
         -94.025976,
         36.442602
@@ -5123,17 +5123,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PECO",
-    LocationName: "Pecos National Historical Park",
-    Address: "Superintendent, Pecos National Historical Park PO Box 418",
-    City: "Pecos",
-    State: "New Mexico",
-    ZipCode: 87552,
-    Phone: "(505) 757-7200",
-    Fax: "(505) 757-7207",
-    Latitude: 35.548124,
-    Longitude: -105.682312,
-    Location: {
+    locationId: "PECO",
+    locationName: "Pecos National Historical Park",
+    address: "Superintendent, Pecos National Historical Park PO Box 418",
+    city: "Pecos",
+    state: "New Mexico",
+    zipCode: 87552,
+    phone: "(505) 757-7200",
+    fax: "(505) 757-7207",
+    latitude: 35.548124,
+    longitude: -105.682312,
+    location: {
         coordinates: [
         -105.682312,
         35.548124
@@ -5142,17 +5142,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PEVI",
-    LocationName: "Perrys Victory and International Peace Memorial",
-    Address: "Perry's Victory and International Peace Memorial, Post Office Box 549",
-    City: "Put-in-Bay",
-    State: "Ohio",
-    ZipCode: 43456,
-    Phone: "(419) 285-2184",
-    Fax: "(419) 285-2516",
-    Latitude: 41.654125,
-    Longitude: -82.811077,
-    Location: {
+    locationId: "PEVI",
+    locationName: "Perrys Victory and International Peace Memorial",
+    address: "Perry's Victory and International Peace Memorial, Post Office Box 549",
+    city: "Put-in-Bay",
+    state: "Ohio",
+    zipCode: 43456,
+    phone: "(419) 285-2184",
+    fax: "(419) 285-2516",
+    latitude: 41.654125,
+    longitude: -82.811077,
+    location: {
         coordinates: [
         -82.811077,
         41.654125
@@ -5161,17 +5161,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "pefo",
-    LocationName: "Petrified Forest National Park",
-    Address: "Superintendent, Petrified Forest National Park, PO Box 2217",
-    City: "Petrified Forest",
-    State: "Arizona",
-    ZipCode: 86028,
-    Phone: 0,
-    Fax: "(928) 524-3567",
-    Latitude: 34.90999,
-    Longitude: -109.806792,
-    Location: {
+    locationId: "pefo",
+    locationName: "Petrified Forest National Park",
+    address: "Superintendent, Petrified Forest National Park, PO Box 2217",
+    city: "Petrified Forest",
+    state: "Arizona",
+    zipCode: 86028,
+    phone: 0,
+    fax: "(928) 524-3567",
+    latitude: 34.90999,
+    longitude: -109.806792,
+    location: {
         coordinates: [
         -109.806792,
         34.90999
@@ -5180,17 +5180,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PETR",
-    LocationName: "Petroglyph National Monument",
-    Address: "Petroglyph National Monument, 6001 Unser Blvd, NW",
-    City: "Albuquerque",
-    State: "New Mexico",
-    ZipCode: 87120,
-    Phone: 0,
-    Fax: "(505) 899-0207",
-    Latitude: 35.161624,
-    Longitude: -106.719073,
-    Location: {
+    locationId: "PETR",
+    locationName: "Petroglyph National Monument",
+    address: "Petroglyph National Monument, 6001 Unser Blvd, NW",
+    city: "Albuquerque",
+    state: "New Mexico",
+    zipCode: 87120,
+    phone: 0,
+    fax: "(505) 899-0207",
+    latitude: 35.161624,
+    longitude: -106.719073,
+    location: {
         coordinates: [
         -106.719073,
         35.161624
@@ -5199,17 +5199,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PIRO",
-    LocationName: "Pictured Rocks National Lakeshore",
-    Address: "Pictured Rocks National Lakeshore, P.O. Box 40",
-    City: "Munising",
-    State: "Michigan",
-    ZipCode: "49862-0040",
-    Phone: "(906) 387-3700",
-    Fax: "(906) 387-4025",
-    Latitude: 46.5178371,
-    Longitude: -86.4090096,
-    Location: {
+    locationId: "PIRO",
+    locationName: "Pictured Rocks National Lakeshore",
+    address: "Pictured Rocks National Lakeshore, P.O. Box 40",
+    city: "Munising",
+    state: "Michigan",
+    zipCode: "49862-0040",
+    phone: "(906) 387-3700",
+    fax: "(906) 387-4025",
+    latitude: 46.5178371,
+    longitude: -86.4090096,
+    location: {
         coordinates: [
         -86.4090096,
         46.5178371
@@ -5218,17 +5218,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "PINE",
-    LocationName: "Pinelands National Reserve",
-    Address: "New Jersey Pinelands Commission, 15 Springfield Rd (P.O. Box 7)",
-    City: "New Lisbon",
-    State: "NJ",
-    ZipCode: 8064,
-    Phone: "(609) 894-7300",
-    Fax: "(609) 894-7330",
-    Latitude: 39.9654592,
-    Longitude: -74.6287556,
-    Location: {
+    locationId: "PINE",
+    locationName: "Pinelands National Reserve",
+    address: "New Jersey Pinelands Commission, 15 Springfield Rd (P.O. Box 7)",
+    city: "New Lisbon",
+    state: "NJ",
+    zipCode: 8064,
+    phone: "(609) 894-7300",
+    fax: "(609) 894-7330",
+    latitude: 39.9654592,
+    longitude: -74.6287556,
+    location: {
         coordinates: [
         -74.6287556,
         39.9654592
@@ -5237,18 +5237,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "pinn",
-    LocationName: "Pinnacles National Monument",
-    Address: "Pinnacles National Monument, 5000 Highway 146",
-    City: "Paicines",
-    State: "California",
-    ZipCode: "95043-9762",
-    Phone: "(831) 389-4485",
-    Fax: "(831) 389-4489",
+    locationId: "pinn",
+    locationName: "Pinnacles National Monument",
+    address: "Pinnacles National Monument, 5000 Highway 146",
+    city: "Paicines",
+    state: "California",
+    zipCode: "95043-9762",
+    phone: "(831) 389-4485",
+    fax: "(831) 389-4489",
     Visit: "https://www.nps.gov/pinn/index.htm",
-    Latitude: 36.4869826,
-    Longitude: -121.2135701,
-    Location: {
+    latitude: 36.4869826,
+    longitude: -121.2135701,
+    location: {
         coordinates: [
         -121.2135701,
         36.4869826
@@ -5257,17 +5257,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "pisp",
-    LocationName: "Pipe Spring National Monument",
-    Address: "Pipe Spring National Monument, HC 65 Box 5",
-    City: "Fredonia",
-    State: "Arizona",
-    ZipCode: 86022,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 36.862928,
-    Longitude: -112.740538,
-    Location: {
+    locationId: "pisp",
+    locationName: "Pipe Spring National Monument",
+    address: "Pipe Spring National Monument, HC 65 Box 5",
+    city: "Fredonia",
+    state: "Arizona",
+    zipCode: 86022,
+    phone: 0,
+    fax: 0,
+    latitude: 36.862928,
+    longitude: -112.740538,
+    location: {
         coordinates: [
         -112.740538,
         36.862928
@@ -5276,17 +5276,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "pore",
-    LocationName: "Point Reyes National Seashore",
-    Address: "Point Reyes National Seashore, 1 Bear Valley Rd.",
-    City: "Point Reyes Station",
-    State: "California",
-    ZipCode: 94956,
-    Phone: 0,
-    Fax: "(415) 663-8132",
-    Latitude: 38.04195,
-    Longitude: -122.7888848,
-    Location: {
+    locationId: "pore",
+    locationName: "Point Reyes National Seashore",
+    address: "Point Reyes National Seashore, 1 Bear Valley Rd.",
+    city: "Point Reyes Station",
+    state: "California",
+    zipCode: 94956,
+    phone: 0,
+    fax: "(415) 663-8132",
+    latitude: 38.04195,
+    longitude: -122.7888848,
+    location: {
         coordinates: [
         -122.7888848,
         38.04195
@@ -5295,17 +5295,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "poex",
-    LocationName: "Pony Express National Historic Trail",
-    Address: "National Park Service, 324 S. State St., Suite 200",
-    City: "Salt Lake City",
-    State: "Utah",
-    ZipCode: 84111,
-    Phone: "(801) 741-1012",
-    Fax: "(801) 741-1102",
-    Latitude: 40.7620689,
-    Longitude: -111.888922,
-    Location: {
+    locationId: "poex",
+    locationName: "Pony Express National Historic Trail",
+    address: "National Park Service, 324 S. State St., Suite 200",
+    city: "Salt Lake city",
+    state: "Utah",
+    zipCode: 84111,
+    phone: "(801) 741-1012",
+    fax: "(801) 741-1102",
+    latitude: 40.7620689,
+    longitude: -111.888922,
+    location: {
         coordinates: [
         -111.888922,
         40.7620689
@@ -5314,17 +5314,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "poch",
-    LocationName: "Port Chicago Naval Magazine National Memorial",
-    Address: "Port Chicago Naval Magazine NM, 4202 Alhambra Ave.",
-    City: "Martinez",
-    State: "California",
-    ZipCode: 94553,
-    Phone: 0,
-    Fax: "(925) 838-9471",
-    Latitude: 37.9921651,
-    Longitude: -122.130977,
-    Location: {
+    locationId: "poch",
+    locationName: "Port Chicago Naval Magazine National Memorial",
+    address: "Port Chicago Naval Magazine NM, 4202 Alhambra Ave.",
+    city: "Martinez",
+    state: "California",
+    zipCode: 94553,
+    phone: 0,
+    fax: "(925) 838-9471",
+    latitude: 37.9921651,
+    longitude: -122.130977,
+    location: {
         coordinates: [
         -122.130977,
         37.9921651
@@ -5333,17 +5333,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "POHE",
-    LocationName: "Potomac Heritage National Scenic Trail",
-    Address: "Potomac Heritage National Scenic Trail Office, Post Office Box B",
-    City: "Harpers Ferry",
-    State: "West Virginia",
-    ZipCode: 25425,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 39.342873,
-    Longitude: -77.483886,
-    Location: {
+    locationId: "POHE",
+    locationName: "Potomac Heritage National Scenic Trail",
+    address: "Potomac Heritage National Scenic Trail Office, Post Office Box B",
+    city: "Harpers Ferry",
+    state: "West Virginia",
+    zipCode: 25425,
+    phone: 0,
+    fax: 0,
+    latitude: 39.342873,
+    longitude: -77.483886,
+    location: {
         coordinates: [
         -77.483886,
         39.342873
@@ -5352,17 +5352,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "POPO",
-    LocationName: "Poverty Point National Monument",
-    Address: "Poverty Point State Historic Site, P.O. Box 276",
-    City: "Epps",
-    State: "Louisiana",
-    ZipCode: 71237,
-    Phone: "(888) 926-5492",
-    Fax: 0,
-    Latitude: 32.63679,
-    Longitude: -91.405532,
-    Location: {
+    locationId: "POPO",
+    locationName: "Poverty Point National Monument",
+    address: "Poverty Point State Historic Site, P.O. Box 276",
+    city: "Epps",
+    state: "Louisiana",
+    zipCode: 71237,
+    phone: "(888) 926-5492",
+    fax: 0,
+    latitude: 32.63679,
+    longitude: -91.405532,
+    location: {
         coordinates: [
         -91.405532,
         32.63679
@@ -5371,17 +5371,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "puho",
-    LocationName: "Pu`uhonua o Honaunau National Historical Park",
-    Address: "Pu`uhonua o Honaunau National Historical Park",
-    City: "Captain Cook",
-    State: "Hawaii",
-    ZipCode: 96704,
-    Phone: 0,
-    Fax: "(808) 328-8251",
-    Latitude: 19.4173278,
-    Longitude: -155.9080889,
-    Location: {
+    locationId: "puho",
+    locationName: "Pu`uhonua o Honaunau National Historical Park",
+    address: "Pu`uhonua o Honaunau National Historical Park",
+    city: "Captain Cook",
+    state: "Hawaii",
+    zipCode: 96704,
+    phone: 0,
+    fax: "(808) 328-8251",
+    latitude: 19.4173278,
+    longitude: -155.9080889,
+    location: {
         coordinates: [
         -155.9080889,
         19.4173278
@@ -5390,17 +5390,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "puhe",
-    LocationName: "Pu'ukohola Heiau National Historic Site",
-    Address: "Superintendent, 62-3601 Kawaihae Road",
-    City: "Kawaihae",
-    State: "Hawaii",
-    ZipCode: 96743,
-    Phone: 0,
-    Fax: "(808) 882-4610",
-    Latitude: 20.027026,
-    Longitude: -155.819965,
-    Location: {
+    locationId: "puhe",
+    locationName: "Pu'ukohola Heiau National Historic Site",
+    address: "Superintendent, 62-3601 Kawaihae Road",
+    city: "Kawaihae",
+    state: "Hawaii",
+    zipCode: 96743,
+    phone: 0,
+    fax: "(808) 882-4610",
+    latitude: 20.027026,
+    longitude: -155.819965,
+    location: {
         coordinates: [
         -155.819965,
         20.027026
@@ -5409,17 +5409,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "RABR",
-    LocationName: "Rainbow Bridge National Monument",
-    Address: "Rainbow Bridge NM, PO Box 1507",
-    City: "Page",
-    State: "Arizona",
-    ZipCode: 86040,
-    Phone: 0,
-    Fax: "(928) 608-6259",
-    Latitude: 36.894948,
-    Longitude: -111.473479,
-    Location: {
+    locationId: "RABR",
+    locationName: "Rainbow Bridge National Monument",
+    address: "Rainbow Bridge NM, PO Box 1507",
+    city: "Page",
+    state: "Arizona",
+    zipCode: 86040,
+    phone: 0,
+    fax: "(928) 608-6259",
+    latitude: 36.894948,
+    longitude: -111.473479,
+    location: {
         coordinates: [
         -111.473479,
         36.894948
@@ -5428,17 +5428,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "redw",
-    LocationName: "Redwood National and State Parks",
-    Address: "Redwood National & State Parks, 1111 Second Street",
-    City: "Crescent City",
-    State: "California",
-    ZipCode: 95531,
-    Phone: "(707) 464-6101",
-    Fax: "(707) 464-1812",
-    Latitude: 41.753421,
-    Longitude: -124.194538,
-    Location: {
+    locationId: "redw",
+    locationName: "Redwood National and State Parks",
+    address: "Redwood National & State Parks, 1111 Second Street",
+    city: "Crescent city",
+    state: "California",
+    zipCode: 95531,
+    phone: "(707) 464-6101",
+    fax: "(707) 464-1812",
+    latitude: 41.753421,
+    longitude: -124.194538,
+    location: {
         coordinates: [
         -124.194538,
         41.753421
@@ -5447,17 +5447,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "rigr",
-    LocationName: "Rio Grande Wild & Scenic River",
-    Address: "Rio Grande Wild & Scenic River c/o Big Bend National Park, PO Box 129",
-    City: "Big Bend National Park",
-    State: "Texas",
-    ZipCode: 79834,
-    Phone: "(432) 477-2251",
-    Fax: "(432) 477-1175",
-    Latitude: 29.328389,
-    Longitude: -103.205948,
-    Location: {
+    locationId: "rigr",
+    locationName: "Rio Grande Wild & Scenic River",
+    address: "Rio Grande Wild & Scenic River c/o Big Bend National Park, PO Box 129",
+    city: "Big Bend National Park",
+    state: "Texas",
+    zipCode: 79834,
+    phone: "(432) 477-2251",
+    fax: "(432) 477-1175",
+    latitude: 29.328389,
+    longitude: -103.205948,
+    location: {
         coordinates: [
         -103.205948,
         29.328389
@@ -5466,17 +5466,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "romo",
-    LocationName: "Rocky Mountain National Park",
-    Address: "Rocky Mountain National Park, 1000 Highway 36",
-    City: "Estes Park",
-    State: "Colorado",
-    ZipCode: 80517,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 40.3753949,
-    Longitude: -105.5059499,
-    Location: {
+    locationId: "romo",
+    locationName: "Rocky Mountain National Park",
+    address: "Rocky Mountain National Park, 1000 Highway 36",
+    city: "Estes Park",
+    state: "Colorado",
+    zipCode: 80517,
+    phone: 0,
+    fax: 0,
+    latitude: 40.3753949,
+    longitude: -105.5059499,
+    location: {
         coordinates: [
         -105.5059499,
         40.3753949
@@ -5485,17 +5485,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ROWI",
-    LocationName: "Roger Williams National Memorial",
-    Address: "Roger Williams National Memorial, 282 North Main Street",
-    City: "Providence",
-    State: "RI",
-    ZipCode: 2903,
-    Phone: "(401) 521-7266",
-    Fax: "(401) 521-7239",
-    Latitude: 41.831347,
-    Longitude: -71.410749,
-    Location: {
+    locationId: "ROWI",
+    locationName: "Roger Williams National Memorial",
+    address: "Roger Williams National Memorial, 282 North Main Street",
+    city: "Providence",
+    state: "RI",
+    zipCode: 2903,
+    phone: "(401) 521-7266",
+    fax: "(401) 521-7239",
+    latitude: 41.831347,
+    longitude: -71.410749,
+    location: {
         coordinates: [
         -71.410749,
         41.831347
@@ -5504,17 +5504,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ROCA",
-    LocationName: "Roosevelt Campobello International Park",
-    Address: "Executive Secretary, P.O. Box 97",
-    City: "Lubec",
-    State: "Maine",
-    ZipCode: 4652,
-    Phone: "(506) 752-2922",
-    Fax: "(506) 752-6000",
-    Latitude: 44.858509,
-    Longitude: -66.984178,
-    Location: {
+    locationId: "ROCA",
+    locationName: "Roosevelt Campobello International Park",
+    address: "Executive Secretary, P.O. Box 97",
+    city: "Lubec",
+    state: "Maine",
+    zipCode: 4652,
+    phone: "(506) 752-2922",
+    fax: "(506) 752-6000",
+    latitude: 44.858509,
+    longitude: -66.984178,
+    location: {
         coordinates: [
         -66.984178,
         44.858509
@@ -5523,17 +5523,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "rori",
-    LocationName: "Rosie the Riveter / WWII Home Front National Historical Park",
-    Address: "PO Box 336, Station A",
-    City: "Richmond",
-    State: "California",
-    ZipCode: 94804,
-    Phone: 0,
-    Fax: "(510) 232-5504",
-    Latitude: 37.9338362,
-    Longitude: -122.3442547,
-    Location: {
+    locationId: "rori",
+    locationName: "Rosie the Riveter / WWII Home Front National Historical Park",
+    address: "PO Box 336, Station A",
+    city: "Richmond",
+    state: "California",
+    zipCode: 94804,
+    phone: 0,
+    fax: "(510) 232-5504",
+    latitude: 37.9338362,
+    longitude: -122.3442547,
+    location: {
         coordinates: [
         -122.3442547,
         37.9338362
@@ -5542,17 +5542,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ruca",
-    LocationName: "Russell Cave National Monument",
-    Address: "Russell Cave National Monument, 3729 County Road 98",
-    City: "Bridgeport",
-    State: "Alabama",
-    ZipCode: 35740,
-    Phone: 0,
-    Fax: "(256) 495-9220",
-    Latitude: 34.9807721,
-    Longitude: -85.8063291,
-    Location: {
+    locationId: "ruca",
+    locationName: "Russell Cave National Monument",
+    address: "Russell Cave National Monument, 3729 County Road 98",
+    city: "Bridgeport",
+    state: "Alabama",
+    zipCode: 35740,
+    phone: 0,
+    fax: "(256) 495-9220",
+    latitude: 34.9807721,
+    longitude: -85.8063291,
+    location: {
         coordinates: [
         -85.8063291,
         34.9807721
@@ -5561,17 +5561,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAHI",
-    LocationName: "Sagamore Hill American National Historic Site",
-    Address: "20 Sagamore Hill Road",
-    City: "Oyster Bay",
-    State: "New York",
-    ZipCode: 11771,
-    Phone: "(516) 922-4788",
-    Fax: "(516) 922-4792",
-    Latitude: 40.882588,
-    Longitude: -73.5053767,
-    Location: {
+    locationId: "SAHI",
+    locationName: "Sagamore Hill American National Historic Site",
+    address: "20 Sagamore Hill Road",
+    city: "Oyster Bay",
+    state: "New York",
+    zipCode: 11771,
+    phone: "(516) 922-4788",
+    fax: "(516) 922-4792",
+    latitude: 40.882588,
+    longitude: -73.5053767,
+    location: {
         coordinates: [
         -73.5053767,
         40.882588
@@ -5580,17 +5580,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "sagu",
-    LocationName: "Saguaro National Park",
-    Address: "Saguaro National Park, 3693 South Old Spanish Trail",
-    City: "Tucson",
-    State: "Arizona",
-    ZipCode: 85730,
-    Phone: 0,
-    Fax: "(520) 733-5183",
-    Latitude: 32.1792142,
-    Longitude: -110.738004,
-    Location: {
+    locationId: "sagu",
+    locationName: "Saguaro National Park",
+    address: "Saguaro National Park, 3693 South Old Spanish Trail",
+    city: "Tucson",
+    state: "Arizona",
+    zipCode: 85730,
+    phone: 0,
+    fax: "(520) 733-5183",
+    latitude: 32.1792142,
+    longitude: -110.738004,
+    location: {
         coordinates: [
         -110.738004,
         32.1792142
@@ -5599,17 +5599,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SACR",
-    LocationName: "Saint Croix Island International Historic Site",
-    Address: "c/o Acadia National Park, P.O. Box 177",
-    City: "Bar Harbor",
-    State: "Maine",
-    ZipCode: "04609-0177",
-    Phone: "(207) 454-3871",
-    Fax: "(207) 288-8813",
-    Latitude: 44.3385559,
-    Longitude: -68.2733346,
-    Location: {
+    locationId: "SACR",
+    locationName: "Saint Croix Island International Historic Site",
+    address: "c/o Acadia National Park, P.O. Box 177",
+    city: "Bar Harbor",
+    state: "Maine",
+    zipCode: "04609-0177",
+    phone: "(207) 454-3871",
+    fax: "(207) 288-8813",
+    latitude: 44.3385559,
+    longitude: -68.2733346,
+    location: {
         coordinates: [
         -68.2733346,
         44.3385559
@@ -5618,17 +5618,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "sacn",
-    LocationName: "Saint Croix National Scenic Riverway",
-    Address: "401 North Hamilton Street",
-    City: "Saint Croix Falls",
-    State: "Wisconsin",
-    ZipCode: 54024,
-    Phone: "(715) 483-2274",
-    Fax: "(715) 483-3288",
-    Latitude: 45.4171447,
-    Longitude: -92.6462101,
-    Location: {
+    locationId: "sacn",
+    locationName: "Saint Croix National Scenic Riverway",
+    address: "401 North Hamilton Street",
+    city: "Saint Croix Falls",
+    state: "Wisconsin",
+    zipCode: 54024,
+    phone: "(715) 483-2274",
+    fax: "(715) 483-3288",
+    latitude: 45.4171447,
+    longitude: -92.6462101,
+    location: {
         coordinates: [
         -92.6462101,
         45.4171447
@@ -5637,17 +5637,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAPA",
-    LocationName: "Saint Paul's Church National Historic Site",
-    Address: "St. Paul's Church National Historic Site, 897 South Columbus Ave.",
-    City: "Mount Vernon",
-    State: "New York",
-    ZipCode: 10550,
-    Phone: "(914) 667-4116",
-    Fax: 0,
-    Latitude: 40.8933639,
-    Longitude: -73.8264656,
-    Location: {
+    locationId: "SAPA",
+    locationName: "Saint Paul's Church National Historic Site",
+    address: "St. Paul's Church National Historic Site, 897 South Columbus Ave.",
+    city: "Mount Vernon",
+    state: "New York",
+    zipCode: 10550,
+    phone: "(914) 667-4116",
+    fax: 0,
+    latitude: 40.8933639,
+    longitude: -73.8264656,
+    location: {
         coordinates: [
         -73.8264656,
         40.8933639
@@ -5656,17 +5656,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAGA",
-    LocationName: "Saint-Gaudens National Historic Site",
-    Address: "139 Saint-Gaudens Road",
-    City: "Cornish",
-    State: "New Hampshire",
-    ZipCode: 3745,
-    Phone: "(603) 675-2175",
-    Fax: "(603) 675-2701",
-    Latitude: 43.49751,
-    Longitude: -72.373789,
-    Location: {
+    locationId: "SAGA",
+    locationName: "Saint-Gaudens National Historic Site",
+    address: "139 Saint-Gaudens Road",
+    city: "Cornish",
+    state: "New Hampshire",
+    zipCode: 3745,
+    phone: "(603) 675-2175",
+    fax: "(603) 675-2701",
+    latitude: 43.49751,
+    longitude: -72.373789,
+    location: {
         coordinates: [
         -72.373789,
         43.49751
@@ -5675,17 +5675,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAMA",
-    LocationName: "Salem Maritime National Historic Site",
-    Address: "Salem Maritime National Historic Site, 160 Derby Street",
-    City: "Salem",
-    State: "Massachuetts",
-    ZipCode: 1970,
-    Phone: "(978) 740-1650",
-    Fax: "(978) 740-1685",
-    Latitude: 42.5217765,
-    Longitude: -70.8862569,
-    Location: {
+    locationId: "SAMA",
+    locationName: "Salem Maritime National Historic Site",
+    address: "Salem Maritime National Historic Site, 160 Derby Street",
+    city: "Salem",
+    state: "Massachuetts",
+    zipCode: 1970,
+    phone: "(978) 740-1650",
+    fax: "(978) 740-1685",
+    latitude: 42.5217765,
+    longitude: -70.8862569,
+    location: {
         coordinates: [
         -70.8862569,
         42.5217765
@@ -5694,17 +5694,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAPU",
-    LocationName: "Salinas Pueblo Missions National Monument",
-    Address: "P.O. Box 517",
-    City: "Mountainair",
-    State: "New Mexico",
-    ZipCode: 87036,
-    Phone: 0,
-    Fax: "(505) 847-2441",
-    Latitude: 34.520341,
-    Longitude: -106.241127,
-    Location: {
+    locationId: "SAPU",
+    locationName: "Salinas Pueblo Missions National Monument",
+    address: "P.O. Box 517",
+    city: "Mountainair",
+    state: "New Mexico",
+    zipCode: 87036,
+    phone: 0,
+    fax: "(505) 847-2441",
+    latitude: 34.520341,
+    longitude: -106.241127,
+    location: {
         coordinates: [
         -106.241127,
         34.520341
@@ -5713,17 +5713,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "saan",
-    LocationName: "San Antonio Missions National Historical Park",
-    Address: "San Antonio Missions National Historical Park, 2202 Roosevelt Avenue",
-    City: "San Antonio",
-    State: "Texas",
-    ZipCode: 78210,
-    Phone: 0,
-    Fax: "(210) 534-1106",
-    Latitude: 29.381974,
-    Longitude: -98.482254,
-    Location: {
+    locationId: "saan",
+    locationName: "San Antonio Missions National Historical Park",
+    address: "San Antonio Missions National Historical Park, 2202 Roosevelt Avenue",
+    city: "San Antonio",
+    state: "Texas",
+    zipCode: 78210,
+    phone: 0,
+    fax: "(210) 534-1106",
+    latitude: 29.381974,
+    longitude: -98.482254,
+    location: {
         coordinates: [
         -98.482254,
         29.381974
@@ -5732,17 +5732,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "safr",
-    LocationName: "San Francisco Maritime National Historical Park",
-    Address: "San Francisco Maritime NHP, Fort Mason Center, Building E",
-    City: "San Francisco",
-    State: "California",
-    ZipCode: 94123,
-    Phone: "(415) 447-5000",
-    Fax: "(415) 556-1624",
-    Latitude: 37.804208,
-    Longitude: -122.431068,
-    Location: {
+    locationId: "safr",
+    locationName: "San Francisco Maritime National Historical Park",
+    address: "San Francisco Maritime NHP, Fort Mason Center, Building E",
+    city: "San Francisco",
+    state: "California",
+    zipCode: 94123,
+    phone: "(415) 447-5000",
+    fax: "(415) 556-1624",
+    latitude: 37.804208,
+    longitude: -122.431068,
+    location: {
         coordinates: [
         -122.431068,
         37.804208
@@ -5751,18 +5751,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAJU",
-    LocationName: "San Juan National Historic Site",
-    Address: "San Juan NHS, 501 Calle Norzagaray",
-    City: "San Juan",
-    State: "Puerto Rico",
-    ZipCode: 901,
-    Phone: 0,
-    Fax: "(787) 289-7972",
+    locationId: "SAJU",
+    locationName: "San Juan National Historic Site",
+    address: "San Juan NHS, 501 Calle Norzagaray",
+    city: "San Juan",
+    state: "Puerto Rico",
+    zipCode: 901,
+    phone: 0,
+    fax: "(787) 289-7972",
     Visit: "https://www.nps.gov/saju/index.htm",
-    Latitude: 18.468075,
-    Longitude: -66.115186,
-    Location: {
+    latitude: 18.468075,
+    longitude: -66.115186,
+    location: {
         coordinates: [
         -66.115186,
         18.468075
@@ -5771,17 +5771,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "sand",
-    LocationName: "Sand Creek Massacre National Historic Site",
-    Address: "PO Box 249, 910 Wansted",
-    City: "Eads",
-    State: "Colorado",
-    ZipCode: 81036,
-    Phone: 0,
-    Fax: "(719) 438-5410",
-    Latitude: 38.4838305,
-    Longitude: -102.7857891,
-    Location: {
+    locationId: "sand",
+    locationName: "Sand Creek Massacre National Historic Site",
+    address: "PO Box 249, 910 Wansted",
+    city: "Eads",
+    state: "Colorado",
+    zipCode: 81036,
+    phone: 0,
+    fax: "(719) 438-5410",
+    latitude: 38.4838305,
+    longitude: -102.7857891,
+    location: {
         coordinates: [
         -102.7857891,
         38.4838305
@@ -5790,17 +5790,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "safe",
-    LocationName: "Santa Fe National Historic Trail",
-    Address: "National Trails Intermountain Region, PO Box 728",
-    City: "Santa Fe",
-    State: "New Mexico",
-    ZipCode: "87504-0728",
-    Phone: "(505) 988-6098",
-    Fax: "(505) 986-5214",
-    Latitude: 35.689361,
-    Longitude: -105.933751,
-    Location: {
+    locationId: "safe",
+    locationName: "Santa Fe National Historic Trail",
+    address: "National Trails Intermountain Region, PO Box 728",
+    city: "Santa Fe",
+    state: "New Mexico",
+    zipCode: "87504-0728",
+    phone: "(505) 988-6098",
+    fax: "(505) 986-5214",
+    latitude: 35.689361,
+    longitude: -105.933751,
+    location: {
         coordinates: [
         -105.933751,
         35.689361
@@ -5809,17 +5809,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "samo",
-    LocationName: "Santa Monica Mountains National Recreation Area",
-    Address: "401 West Hillcrest Drive",
-    City: "Thousand Oaks",
-    State: "California",
-    ZipCode: 91360,
-    Phone: 0,
-    Fax: "(805) 370-2350",
-    Latitude: 34.1859982,
-    Longitude: -118.8861188,
-    Location: {
+    locationId: "samo",
+    locationName: "Santa Monica Mountains National Recreation Area",
+    address: "401 West Hillcrest Drive",
+    city: "Thousand Oaks",
+    state: "California",
+    zipCode: 91360,
+    phone: 0,
+    fax: "(805) 370-2350",
+    latitude: 34.1859982,
+    longitude: -118.8861188,
+    location: {
         coordinates: [
         -118.8861188,
         34.1859982
@@ -5828,17 +5828,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SARA",
-    LocationName: "Saratoga National Historical Park",
-    Address: "648 Route 32",
-    City: "Stillwater",
-    State: "New York",
-    ZipCode: 12170,
-    Phone: 0,
-    Fax: "(518) 664-3349",
-    Latitude: 43.0189449,
-    Longitude: -73.6456328,
-    Location: {
+    locationId: "SARA",
+    locationName: "Saratoga National Historical Park",
+    address: "648 Route 32",
+    city: "Stillwater",
+    state: "New York",
+    zipCode: 12170,
+    phone: 0,
+    fax: "(518) 664-3349",
+    latitude: 43.0189449,
+    longitude: -73.6456328,
+    location: {
         coordinates: [
         -73.6456328,
         43.0189449
@@ -5847,17 +5847,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SAIR",
-    LocationName: "Saugus Iron Works National Historic Site",
-    Address: "244 Central Street",
-    City: "Saugus",
-    State: "Massachuetts",
-    ZipCode: 1906,
-    Phone: 0,
-    Fax: "(781) 231-7345",
-    Latitude: 42.468009,
-    Longitude: -71.008909,
-    Location: {
+    locationId: "SAIR",
+    locationName: "Saugus Iron Works National Historic Site",
+    address: "244 Central Street",
+    city: "Saugus",
+    state: "Massachuetts",
+    zipCode: 1906,
+    phone: 0,
+    fax: "(781) 231-7345",
+    latitude: 42.468009,
+    longitude: -71.008909,
+    location: {
         coordinates: [
         -71.008909,
         42.468009
@@ -5866,17 +5866,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SCBL",
-    LocationName: "Scotts Bluff National Monument",
-    Address: "P.O. Box 27",
-    City: "Gering",
-    State: "Nebraska",
-    ZipCode: 69341,
-    Phone: "(308) 436-9700",
-    Fax: "(308) 436-7611",
-    Latitude: 41.824167,
-    Longitude: -103.665,
-    Location: {
+    locationId: "SCBL",
+    locationName: "Scotts Bluff National Monument",
+    address: "P.O. Box 27",
+    city: "Gering",
+    state: "Nebraska",
+    zipCode: 69341,
+    phone: "(308) 436-9700",
+    fax: "(308) 436-7611",
+    latitude: 41.824167,
+    longitude: -103.665,
+    location: {
         coordinates: [
         -103.665,
         41.824167
@@ -5885,17 +5885,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "semo",
-    LocationName: "Selma To Montgomery National Historic Trail",
-    Address: "7002 US Highway 80, P.O. Box 595",
-    City: "Hayneville",
-    State: "Alabama",
-    ZipCode: 36040,
-    Phone: 0,
-    Fax: "(334) 877-1985",
-    Latitude: 32.268672,
-    Longitude: -86.717968,
-    Location: {
+    locationId: "semo",
+    locationName: "Selma To Montgomery National Historic Trail",
+    address: "7002 US Highway 80, P.O. Box 595",
+    city: "Hayneville",
+    state: "Alabama",
+    zipCode: 36040,
+    phone: 0,
+    fax: "(334) 877-1985",
+    latitude: 32.268672,
+    longitude: -86.717968,
+    location: {
         coordinates: [
         -86.717968,
         32.268672
@@ -5904,17 +5904,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "seki",
-    LocationName: "Sequoia & Kings Canyon National Park",
-    Address: "Sequoia & Kings Canyon National Parks, 47050 Generals Highway",
-    City: "Three Rivers",
-    State: "California",
-    ZipCode: "93271-9700",
-    Phone: "(559) 565-3341",
-    Fax: "(559) 565-3730",
-    Latitude: 36.491318,
-    Longitude: -118.825722,
-    Location: {
+    locationId: "seki",
+    locationName: "Sequoia & Kings Canyon National Park",
+    address: "Sequoia & Kings Canyon National Parks, 47050 Generals Highway",
+    city: "Three Rivers",
+    state: "California",
+    zipCode: "93271-9700",
+    phone: "(559) 565-3341",
+    fax: "(559) 565-3730",
+    latitude: 36.491318,
+    longitude: -118.825722,
+    location: {
         coordinates: [
         -118.825722,
         36.491318
@@ -5923,17 +5923,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SHIL",
-    LocationName: "Shiloh National Military Park",
-    Address: "Shiloh National Military Park, 1055 Pittsburg Landing Road",
-    City: "Shiloh",
-    State: "Tennessee",
-    ZipCode: 38376,
-    Phone: 0,
-    Fax: "(731) 689-5450",
-    Latitude: 35.151883,
-    Longitude: -88.329943,
-    Location: {
+    locationId: "SHIL",
+    locationName: "Shiloh National Military Park",
+    address: "Shiloh National Military Park, 1055 Pittsburg Landing Road",
+    city: "Shiloh",
+    state: "Tennessee",
+    zipCode: 38376,
+    phone: 0,
+    fax: "(731) 689-5450",
+    latitude: 35.151883,
+    longitude: -88.329943,
+    location: {
         coordinates: [
         -88.329943,
         35.151883
@@ -5942,17 +5942,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "sitk",
-    LocationName: "Sitka National Historical Park",
-    Address: "Sitka National Historical Park, 103 Monastery Street",
-    City: "Sitka",
-    State: "Alaska",
-    ZipCode: 99835,
-    Phone: 0,
-    Fax: "(907) 747-5938",
-    Latitude: 57.0519805,
-    Longitude: -135.3315533,
-    Location: {
+    locationId: "sitk",
+    locationName: "Sitka National Historical Park",
+    address: "Sitka National Historical Park, 103 Monastery Street",
+    city: "Sitka",
+    state: "Alaska",
+    zipCode: 99835,
+    phone: 0,
+    fax: "(907) 747-5938",
+    latitude: 57.0519805,
+    longitude: -135.3315533,
+    location: {
         coordinates: [
         -135.3315533,
         57.0519805
@@ -5961,17 +5961,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SLBE",
-    LocationName: "Sleeping Bear Dunes National Lakeshore",
-    Address: "Sleeping Bear Dunes National Lakeshore, 9922 Front Street",
-    City: "Empire",
-    State: "Michigan",
-    ZipCode: 49630,
-    Phone: 0,
-    Fax: "(231) 326-5382",
-    Latitude: 44.811405,
-    Longitude: -86.056252,
-    Location: {
+    locationId: "SLBE",
+    locationName: "Sleeping Bear Dunes National Lakeshore",
+    address: "Sleeping Bear Dunes National Lakeshore, 9922 Front Street",
+    city: "Empire",
+    state: "Michigan",
+    zipCode: 49630,
+    phone: 0,
+    fax: "(231) 326-5382",
+    latitude: 44.811405,
+    longitude: -86.056252,
+    location: {
         coordinates: [
         -86.056252,
         44.811405
@@ -5980,17 +5980,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "SPAR",
-    LocationName: "Springfield Armory National Historic Site",
-    Address: "Springfield Armory NHS, One Armory Square, Suite 2",
-    City: "Springfield",
-    State: "Massachusetts",
-    ZipCode: "01105-1299",
-    Phone: "(413) 734-8551",
-    Fax: "(413) 747-8062",
-    Latitude: 42.095995,
-    Longitude: -72.583279,
-    Location: {
+    locationId: "SPAR",
+    locationName: "Springfield Armory National Historic Site",
+    address: "Springfield Armory NHS, One Armory Square, Suite 2",
+    city: "Springfield",
+    state: "Massachusetts",
+    zipCode: "01105-1299",
+    phone: "(413) 734-8551",
+    fax: "(413) 747-8062",
+    latitude: 42.095995,
+    longitude: -72.583279,
+    location: {
         coordinates: [
         -72.583279,
         42.095995
@@ -5999,17 +5999,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "STSP",
-    LocationName: "Star-Spangled Banner National Historic Trail",
-    Address: "National Park Service, 410 Severn Avenue, Suite 314",
-    City: "Annapolis",
-    State: "Maryland",
-    ZipCode: 21403,
-    Phone: 0,
-    Fax: "(410) 263-2137",
-    Latitude: 38.971705,
-    Longitude: -76.483576,
-    Location: {
+    locationId: "STSP",
+    locationName: "Star-Spangled Banner National Historic Trail",
+    address: "National Park Service, 410 Severn Avenue, Suite 314",
+    city: "Annapolis",
+    state: "Maryland",
+    zipCode: 21403,
+    phone: 0,
+    fax: "(410) 263-2137",
+    latitude: 38.971705,
+    longitude: -76.483576,
+    location: {
         coordinates: [
         -76.483576,
         38.971705
@@ -6018,17 +6018,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "STLI",
-    LocationName: "Statue of Liberty National Monument",
-    Address: "National Park Service, Statue of Liberty National Monument, Liberty Island",
-    City: "New York",
-    State: "New York",
-    ZipCode: "10004-1467",
-    Phone: "(212) 363-3200",
-    Fax: "(212) 363-6304",
-    Latitude: 40.699067,
-    Longitude: -74.028522,
-    Location: {
+    locationId: "STLI",
+    locationName: "Statue of Liberty National Monument",
+    address: "National Park Service, Statue of Liberty National Monument, Liberty Island",
+    city: "New York",
+    state: "New York",
+    zipCode: "10004-1467",
+    phone: "(212) 363-3200",
+    fax: "(212) 363-6304",
+    latitude: 40.699067,
+    longitude: -74.028522,
+    location: {
         coordinates: [
         -74.028522,
         40.699067
@@ -6037,17 +6037,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "STEA",
-    LocationName: "Steamtown National Historic Site",
-    Address: "Click the Contact Us link to your left, 150 South Washington Ave",
-    City: "Scranton",
-    State: "Pennsylvania",
-    ZipCode: 18503,
-    Phone: "(570) 340-5200",
-    Fax: 0,
-    Latitude: 41.406345,
-    Longitude: -75.6654819,
-    Location: {
+    locationId: "STEA",
+    locationName: "Steamtown National Historic Site",
+    address: "Click the Contact Us link to your left, 150 South Washington Ave",
+    city: "Scranton",
+    state: "Pennsylvania",
+    zipCode: 18503,
+    phone: "(570) 340-5200",
+    fax: 0,
+    latitude: 41.406345,
+    longitude: -75.6654819,
+    location: {
         coordinates: [
         -75.6654819,
         41.406345
@@ -6056,17 +6056,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "STRI",
-    LocationName: "Stones River National Battlefield",
-    Address: "3501 Old Nashville Highway",
-    City: "Murfreesboro",
-    State: "Tennessee",
-    ZipCode: 37129,
-    Phone: 0,
-    Fax: "(615) 893-9508",
-    Latitude: 35.884486,
-    Longitude: -86.43472,
-    Location: {
+    locationId: "STRI",
+    locationName: "Stones River National Battlefield",
+    address: "3501 Old Nashville Highway",
+    city: "Murfreesboro",
+    state: "Tennessee",
+    zipCode: 37129,
+    phone: 0,
+    fax: "(615) 893-9508",
+    latitude: 35.884486,
+    longitude: -86.43472,
+    location: {
         coordinates: [
         -86.43472,
         35.884486
@@ -6075,17 +6075,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "sucr",
-    LocationName: "Sunset Crater Volcano National Monument",
-    Address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
-    City: "Flagstaff",
-    State: "Arizona",
-    ZipCode: 86004,
-    Phone: 0,
-    Fax: "(928) 714-0565",
-    Latitude: 35.238961,
-    Longitude: -111.570755,
-    Location: {
+    locationId: "sucr",
+    locationName: "Sunset Crater Volcano National Monument",
+    address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
+    city: "Flagstaff",
+    state: "Arizona",
+    zipCode: 86004,
+    phone: 0,
+    fax: "(928) 714-0565",
+    latitude: 35.238961,
+    longitude: -111.570755,
+    location: {
         coordinates: [
         -111.570755,
         35.238961
@@ -6094,17 +6094,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "TAPR",
-    LocationName: "Tallgrass Prairie National Preserve",
-    Address: "Tallgrass Prairie National Preserve, P.O. Box 585",
-    City: "Cottonwood Falls",
-    State: "Kansas",
-    ZipCode: 66845,
-    Phone: "(620) 273-8494",
-    Fax: "(620) 273-6099",
-    Latitude: 38.4426255,
-    Longitude: -96.5730004,
-    Location: {
+    locationId: "TAPR",
+    locationName: "Tallgrass Prairie National Preserve",
+    address: "Tallgrass Prairie National Preserve, P.O. Box 585",
+    city: "Cottonwood Falls",
+    state: "Kansas",
+    zipCode: 66845,
+    phone: "(620) 273-8494",
+    fax: "(620) 273-6099",
+    latitude: 38.4426255,
+    longitude: -96.5730004,
+    location: {
         coordinates: [
         -96.5730004,
         38.4426255
@@ -6113,17 +6113,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "THKO",
-    LocationName: "Thaddeus Kosciuszko National Memorial",
-    Address: "INHP, 143 S. Third Street",
-    City: "Philadelphia",
-    State: "Pennsylvania",
-    ZipCode: 19106,
-    Phone: "(215) 597-7130",
-    Fax: "(215) 597-0321",
-    Latitude: 39.9480134,
-    Longitude: -75.1461357,
-    Location: {
+    locationId: "THKO",
+    locationName: "Thaddeus Kosciuszko National Memorial",
+    address: "INHP, 143 S. Third Street",
+    city: "Philadelphia",
+    state: "Pennsylvania",
+    zipCode: 19106,
+    phone: "(215) 597-7130",
+    fax: "(215) 597-0321",
+    latitude: 39.9480134,
+    longitude: -75.1461357,
+    location: {
         coordinates: [
         -75.1461357,
         39.9480134
@@ -6132,17 +6132,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "THRB",
-    LocationName: "Theodore Roosevelt Birthplace National Historic Site",
-    Address: "Theodore Roosevelt Birthplace NHS, 28 East 20th Street",
-    City: "New York",
-    State: "New York",
-    ZipCode: 10003,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 40.7387645,
-    Longitude: -73.988999,
-    Location: {
+    locationId: "THRB",
+    locationName: "Theodore Roosevelt Birthplace National Historic Site",
+    address: "Theodore Roosevelt Birthplace NHS, 28 East 20th Street",
+    city: "New York",
+    state: "New York",
+    zipCode: 10003,
+    phone: 0,
+    fax: 0,
+    latitude: 40.7387645,
+    longitude: -73.988999,
+    location: {
         coordinates: [
         -73.988999,
         40.7387645
@@ -6151,17 +6151,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "THRI",
-    LocationName: "Theodore Roosevelt Inaugural National Historic Site",
-    Address: "Theodore Roosevelt Inaugural National Historic SIte, 641 Delaware Avenue",
-    City: "Buffalo",
-    State: "New York",
-    ZipCode: 14202,
-    Phone: 0,
-    Fax: "(716) 884-0330",
-    Latitude: 42.901478,
-    Longitude: -78.872416,
-    Location: {
+    locationId: "THRI",
+    locationName: "Theodore Roosevelt Inaugural National Historic Site",
+    address: "Theodore Roosevelt Inaugural National Historic SIte, 641 Delaware Avenue",
+    city: "Buffalo",
+    state: "New York",
+    zipCode: 14202,
+    phone: 0,
+    fax: "(716) 884-0330",
+    latitude: 42.901478,
+    longitude: -78.872416,
+    location: {
         coordinates: [
         -78.872416,
         42.901478
@@ -6170,17 +6170,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "THCO",
-    LocationName: "Thomas Cole National Historic Site",
-    Address: "Thomas Cole NHS/Cedar Grove, PO Box 426, 218 Spring St",
-    City: "Catskill",
-    State: "New York",
-    ZipCode: 12414,
-    Phone: 0,
-    Fax: "(518) 943-0652",
-    Latitude: 42.225588,
-    Longitude: -73.861144,
-    Location: {
+    locationId: "THCO",
+    locationName: "Thomas Cole National Historic Site",
+    address: "Thomas Cole NHS/Cedar Grove, PO Box 426, 218 Spring St",
+    city: "Catskill",
+    state: "New York",
+    zipCode: 12414,
+    phone: 0,
+    fax: "(518) 943-0652",
+    latitude: 42.225588,
+    longitude: -73.861144,
+    location: {
         coordinates: [
         -73.861144,
         42.225588
@@ -6189,17 +6189,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "EDIS",
-    LocationName: "Thomas Edison National Historical Park",
-    Address: "Thomas Edison National Historical Park, 211 Main Street",
-    City: "West Orange",
-    State: "New Jersey",
-    ZipCode: "07052-5612",
-    Phone: "(973) 736-0550 ext. 11",
-    Fax: "(973) 736-6567",
-    Latitude: 40.7839654,
-    Longitude: -74.2339497,
-    Location: {
+    locationId: "EDIS",
+    locationName: "Thomas Edison National Historical Park",
+    address: "Thomas Edison National Historical Park, 211 Main Street",
+    city: "West Orange",
+    state: "New Jersey",
+    zipCode: "07052-5612",
+    phone: "(973) 736-0550 ext. 11",
+    fax: "(973) 736-6567",
+    latitude: 40.7839654,
+    longitude: -74.2339497,
+    location: {
         coordinates: [
         -74.2339497,
         40.7839654
@@ -6208,17 +6208,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "THST",
-    LocationName: "Thomas Stone National Historic Site",
-    Address: "6655 Rose Hill Rd",
-    City: "Port Tobacco",
-    State: "Maryland",
-    ZipCode: 20677,
-    Phone: 0,
-    Fax: "(301) 934-8793",
-    Latitude: 38.5223783,
-    Longitude: -77.0285753,
-    Location: {
+    locationId: "THST",
+    locationName: "Thomas Stone National Historic Site",
+    address: "6655 Rose Hill Rd",
+    city: "Port Tobacco",
+    state: "Maryland",
+    zipCode: 20677,
+    phone: 0,
+    fax: "(301) 934-8793",
+    latitude: 38.5223783,
+    longitude: -77.0285753,
+    location: {
         coordinates: [
         -77.0285753,
         38.5223783
@@ -6227,17 +6227,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "TICA",
-    LocationName: "Timpanogos Cave National Monument",
-    Address: "R.R. 3 Box 200",
-    City: "American Fork",
-    State: "Utah",
-    ZipCode: 84003,
-    Phone: 0,
-    Fax: "(801) 756-5661",
-    Latitude: 40.371125,
-    Longitude: -111.806123,
-    Location: {
+    locationId: "TICA",
+    locationName: "Timpanogos Cave National Monument",
+    address: "R.R. 3 Box 200",
+    city: "American Fork",
+    state: "Utah",
+    zipCode: 84003,
+    phone: 0,
+    fax: "(801) 756-5661",
+    latitude: 40.371125,
+    longitude: -111.806123,
+    location: {
         coordinates: [
         -111.806123,
         40.371125
@@ -6246,17 +6246,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "foca",
-    LocationName: "Timucuan Ecological and Historic Preserve & Fort Caroline National Memorial",
-    Address: "12713 Fort Caroline Road",
-    City: "Jacksonville",
-    State: "Florida",
-    ZipCode: 32225,
-    Phone: "(904) 641-7155",
-    Fax: "(904) 221-5248",
-    Latitude: 30.3793742,
-    Longitude: -81.5029008,
-    Location: {
+    locationId: "foca",
+    locationName: "Timucuan Ecological and Historic Preserve & Fort Caroline National Memorial",
+    address: "12713 Fort Caroline Road",
+    city: "Jacksonville",
+    state: "Florida",
+    zipCode: 32225,
+    phone: "(904) 641-7155",
+    fax: "(904) 221-5248",
+    latitude: 30.3793742,
+    longitude: -81.5029008,
+    location: {
         coordinates: [
         -81.5029008,
         30.3793742
@@ -6265,17 +6265,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tont",
-    LocationName: "Tonto National Monument",
-    Address: "Tonto National Monument, 26260 N Az Hwy 188 # 2",
-    City: "Roosevelt",
-    State: "Arizona",
-    ZipCode: 85545,
-    Phone: "(928) 467-2241",
-    Fax: "(928) 467-2225",
-    Latitude: 33.66672,
-    Longitude: -111.1297924,
-    Location: {
+    locationId: "tont",
+    locationName: "Tonto National Monument",
+    address: "Tonto National Monument, 26260 N Az Hwy 188 # 2",
+    city: "Roosevelt",
+    state: "Arizona",
+    zipCode: 85545,
+    phone: "(928) 467-2241",
+    fax: "(928) 467-2225",
+    latitude: 33.66672,
+    longitude: -111.1297924,
+    location: {
         coordinates: [
         -111.1297924,
         33.66672
@@ -6284,17 +6284,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "TOSY",
-    LocationName: "Touro Synagogue National Historic Site",
-    Address: "Touro Synagogue Foundation, 85 Touro Street",
-    City: "Newport",
-    State: "RI",
-    ZipCode: 2840,
-    Phone: 0,
-    Fax: "(401) 847-8121",
-    Latitude: 41.489131,
-    Longitude: -71.312102,
-    Location: {
+    locationId: "TOSY",
+    locationName: "Touro Synagogue National Historic Site",
+    address: "Touro Synagogue Foundation, 85 Touro Street",
+    city: "Newport",
+    state: "RI",
+    zipCode: 2840,
+    phone: 0,
+    fax: "(401) 847-8121",
+    latitude: 41.489131,
+    longitude: -71.312102,
+    location: {
         coordinates: [
         -71.312102,
         41.489131
@@ -6303,17 +6303,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "trte",
-    LocationName: "Trail of Tears National Historic Trail",
-    Address: "National Trails Intermountain Region, P.O. Box 728",
-    City: "Santa Fe",
-    State: "New Mexico",
-    ZipCode: "87504-0728",
-    Phone: "(505) 988-6098",
-    Fax: "(505) 986-5214",
-    Latitude: 35.691543,
-    Longitude: -105.937406,
-    Location: {
+    locationId: "trte",
+    locationName: "Trail of Tears National Historic Trail",
+    address: "National Trails Intermountain Region, P.O. Box 728",
+    city: "Santa Fe",
+    state: "New Mexico",
+    zipCode: "87504-0728",
+    phone: "(505) 988-6098",
+    fax: "(505) 986-5214",
+    latitude: 35.691543,
+    longitude: -105.937406,
+    location: {
         coordinates: [
         -105.937406,
         35.691543
@@ -6322,17 +6322,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tule",
-    LocationName: "Tule Lake Unit",
-    Address: "Tule Lake Unit, P.O. Box 1240",
-    City: "Tulelake",
-    State: "California",
-    ZipCode: 96134,
-    Phone: "(530) 260-0537",
-    Fax: 0,
-    Latitude: 41.9551552,
-    Longitude: -121.4777694,
-    Location: {
+    locationId: "tule",
+    locationName: "Tule Lake Unit",
+    address: "Tule Lake Unit, P.O. Box 1240",
+    city: "Tulelake",
+    state: "California",
+    zipCode: 96134,
+    phone: "(530) 260-0537",
+    fax: 0,
+    latitude: 41.9551552,
+    longitude: -121.4777694,
+    location: {
         coordinates: [
         -121.4777694,
         41.9551552
@@ -6341,17 +6341,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tuma",
-    LocationName: "Tumacacori National Historical Park",
-    Address: "Superintendent, P. O. Box 8067",
-    City: "Tumacacori",
-    State: "Arizona",
-    ZipCode: 85640,
-    Phone: "(520) 398-2341",
-    Fax: "(520) 398-9271",
-    Latitude: 31.57766,
-    Longitude: -110.999009,
-    Location: {
+    locationId: "tuma",
+    locationName: "Tumacacori National Historical Park",
+    address: "Superintendent, P. O. Box 8067",
+    city: "Tumacacori",
+    state: "Arizona",
+    zipCode: 85640,
+    phone: "(520) 398-2341",
+    fax: "(520) 398-9271",
+    latitude: 31.57766,
+    longitude: -110.999009,
+    location: {
         coordinates: [
         -110.999009,
         31.57766
@@ -6360,17 +6360,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "TUPE",
-    LocationName: "Tupelo National Battlefield",
-    Address: "Tupelo National Battlefield, 2680 Natchez Trace Parkway",
-    City: "Tupelo",
-    State: "Mississippi",
-    ZipCode: 38804,
-    Phone: 0,
-    Fax: "(662) 680-4034",
-    Latitude: 34.307545,
-    Longitude: -88.720974,
-    Location: {
+    locationId: "TUPE",
+    locationName: "Tupelo National Battlefield",
+    address: "Tupelo National Battlefield, 2680 Natchez Trace Parkway",
+    city: "Tupelo",
+    state: "Mississippi",
+    zipCode: 38804,
+    phone: 0,
+    fax: "(662) 680-4034",
+    latitude: 34.307545,
+    longitude: -88.720974,
+    location: {
         coordinates: [
         -88.720974,
         34.307545
@@ -6379,17 +6379,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tuai",
-    LocationName: "Tuskegee Airmen National Historic Site",
-    Address: "Tuskegee Airmen NHS, 1616 Chappie James Ave.",
-    City: "Tuskegee",
-    State: "Alabama",
-    ZipCode: 36083,
-    Phone: "(334) 724-0922",
-    Fax: "(334) 724-0952",
-    Latitude: 32.4505152,
-    Longitude: -85.6773793,
-    Location: {
+    locationId: "tuai",
+    locationName: "Tuskegee Airmen National Historic Site",
+    address: "Tuskegee Airmen NHS, 1616 Chappie James Ave.",
+    city: "Tuskegee",
+    state: "Alabama",
+    zipCode: 36083,
+    phone: "(334) 724-0922",
+    fax: "(334) 724-0952",
+    latitude: 32.4505152,
+    longitude: -85.6773793,
+    location: {
         coordinates: [
         -85.6773793,
         32.4505152
@@ -6398,17 +6398,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tuin",
-    LocationName: "Tuskegee Institute National Historic Site",
-    Address: "Tuskegee Institute National Historic Site, 1212 West Montgomery Road",
-    City: "Tuskegee",
-    State: "Alabama",
-    ZipCode: 36083,
-    Phone: 0,
-    Fax: "(334) 727-4597",
-    Latitude: 32.4283309,
-    Longitude: -85.7091633,
-    Location: {
+    locationId: "tuin",
+    locationName: "Tuskegee Institute National Historic Site",
+    address: "Tuskegee Institute National Historic Site, 1212 West Montgomery Road",
+    city: "Tuskegee",
+    state: "Alabama",
+    zipCode: 36083,
+    phone: 0,
+    fax: "(334) 727-4597",
+    latitude: 32.4283309,
+    longitude: -85.7091633,
+    location: {
         coordinates: [
         -85.7091633,
         32.4283309
@@ -6417,17 +6417,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "tuzi",
-    LocationName: "Tuzigoot National Monument",
-    Address: "Tuzigoot National Monument, P.O. Box 219",
-    City: "Camp Verde",
-    State: "Arizona",
-    ZipCode: 86322,
-    Phone: "(928) 634-5564",
-    Fax: "(928) 567-3597",
-    Latitude: 34.5636358,
-    Longitude: -111.8543178,
-    Location: {
+    locationId: "tuzi",
+    locationName: "Tuzigoot National Monument",
+    address: "Tuzigoot National Monument, P.O. Box 219",
+    city: "Camp Verde",
+    state: "Arizona",
+    zipCode: 86322,
+    phone: "(928) 634-5564",
+    fax: "(928) 567-3597",
+    latitude: 34.5636358,
+    longitude: -111.8543178,
+    location: {
         coordinates: [
         -111.8543178,
         34.5636358
@@ -6436,17 +6436,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ULSG",
-    LocationName: "Ulysses S Grant National Historic Site",
-    Address: "Superintendent, 7400 Grant Road",
-    City: "St. Louis",
-    State: "Missouri",
-    ZipCode: 63123,
-    Phone: 0,
-    Fax: "(314) 842-1659",
-    Latitude: 38.547834,
-    Longitude: -90.356985,
-    Location: {
+    locationId: "ULSG",
+    locationName: "Ulysses S Grant National Historic Site",
+    address: "Superintendent, 7400 Grant Road",
+    city: "St. Louis",
+    state: "Missouri",
+    zipCode: 63123,
+    phone: 0,
+    fax: "(314) 842-1659",
+    latitude: 38.547834,
+    longitude: -90.356985,
+    location: {
         coordinates: [
         -90.356985,
         38.547834
@@ -6455,17 +6455,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "UPDE",
-    LocationName: "Upper Delaware Scenic and Recreational River",
-    Address: "Superintendent, 274 River Road",
-    City: "Beach Lake",
-    State: "Pennsylvania",
-    ZipCode: 18405,
-    Phone: "(570) 729-7134",
-    Fax: "(570) 729-7148",
-    Latitude: 41.6199728,
-    Longitude: -75.0508572,
-    Location: {
+    locationId: "UPDE",
+    locationName: "Upper Delaware Scenic and Recreational River",
+    address: "Superintendent, 274 River Road",
+    city: "Beach Lake",
+    state: "Pennsylvania",
+    zipCode: 18405,
+    phone: "(570) 729-7134",
+    fax: "(570) 729-7148",
+    latitude: 41.6199728,
+    longitude: -75.0508572,
+    location: {
         coordinates: [
         -75.0508572,
         41.6199728
@@ -6474,17 +6474,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "VAFO",
-    LocationName: "Valley Forge National Historical Park",
-    Address: "1400 North Outer Line Drive",
-    City: "King of Prussia",
-    State: "Pennsylvania",
-    ZipCode: 19406,
-    Phone: 0,
-    Fax: "(610) 783-1060",
-    Latitude: 40.095596,
-    Longitude: -75.423987,
-    Location: {
+    locationId: "VAFO",
+    locationName: "Valley Forge National Historical Park",
+    address: "1400 North Outer Line Drive",
+    city: "King of Prussia",
+    state: "Pennsylvania",
+    zipCode: 19406,
+    phone: 0,
+    fax: "(610) 783-1060",
+    latitude: 40.095596,
+    longitude: -75.423987,
+    location: {
         coordinates: [
         -75.423987,
         40.095596
@@ -6493,17 +6493,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "VAMA",
-    LocationName: "Vanderbilt Mansion National Historic Site",
-    Address: "National Park Service, 4097 Albany Post Road",
-    City: "Hyde Park",
-    State: "New York",
-    ZipCode: 12538,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 41.77043,
-    Longitude: -73.932905,
-    Location: {
+    locationId: "VAMA",
+    locationName: "Vanderbilt Mansion National Historic Site",
+    address: "National Park Service, 4097 Albany Post Road",
+    city: "Hyde Park",
+    state: "New York",
+    zipCode: 12538,
+    phone: 0,
+    fax: 0,
+    latitude: 41.77043,
+    longitude: -73.932905,
+    location: {
         coordinates: [
         -73.932905,
         41.77043
@@ -6512,17 +6512,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "VICK",
-    LocationName: "Vicksburg National Military Park",
-    Address: "Vicksburg National Military Park, 3201 Clay Street",
-    City: "Vicksburg",
-    State: "Mississippi",
-    ZipCode: 39183,
-    Phone: "(601) 636-0583",
-    Fax: "(601) 636-9497",
-    Latitude: 32.345551,
-    Longitude: -90.855577,
-    Location: {
+    locationId: "VICK",
+    locationName: "Vicksburg National Military Park",
+    address: "Vicksburg National Military Park, 3201 Clay Street",
+    city: "Vicksburg",
+    state: "Mississippi",
+    zipCode: 39183,
+    phone: "(601) 636-0583",
+    fax: "(601) 636-9497",
+    latitude: 32.345551,
+    longitude: -90.855577,
+    location: {
         coordinates: [
         -90.855577,
         32.345551
@@ -6531,17 +6531,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "VIIS",
-    LocationName: "Virgin Islands National Park",
-    Address: "Virgin Islands National Park, 1300 Cruz Bay Creek",
-    City: "St. John",
-    State: "Virgin Islands",
-    ZipCode: 830,
-    Phone: "(340) 776-6201 ext. 238",
-    Fax: "(340) 775-9592",
-    Latitude: 18.34215,
-    Longitude: -64.767569,
-    Location: {
+    locationId: "VIIS",
+    locationName: "Virgin Islands National Park",
+    address: "Virgin Islands National Park, 1300 Cruz Bay Creek",
+    city: "St. John",
+    state: "Virgin Islands",
+    zipCode: 830,
+    phone: "(340) 776-6201 ext. 238",
+    fax: "(340) 775-9592",
+    latitude: 18.34215,
+    longitude: -64.767569,
+    location: {
         coordinates: [
         -64.767569,
         18.34215
@@ -6550,17 +6550,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "VOYA",
-    LocationName: "Voyageurs National Park",
-    Address: "Voyageurs National Park, 360 Highway 11 East",
-    City: "International Falls",
-    State: "Minnesota",
-    ZipCode: 56649,
-    Phone: 0,
-    Fax: "(218) 285-7407",
-    Latitude: 48.6020835,
-    Longitude: -93.403716,
-    Location: {
+    locationId: "VOYA",
+    locationName: "Voyageurs National Park",
+    address: "Voyageurs National Park, 360 Highway 11 East",
+    city: "International Falls",
+    state: "Minnesota",
+    zipCode: 56649,
+    phone: 0,
+    fax: "(218) 285-7407",
+    latitude: 48.6020835,
+    longitude: -93.403716,
+    location: {
         coordinates: [
         -93.403716,
         48.6020835
@@ -6569,17 +6569,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "waca",
-    LocationName: "Walnut Canyon National Monument",
-    Address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
-    City: "Flagstaff",
-    State: "Arizona",
-    ZipCode: 86004,
-    Phone: 0,
-    Fax: "(928) 527-0246",
-    Latitude: 35.238961,
-    Longitude: -111.570755,
-    Location: {
+    locationId: "waca",
+    locationName: "Walnut Canyon National Monument",
+    address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
+    city: "Flagstaff",
+    state: "Arizona",
+    zipCode: 86004,
+    phone: 0,
+    fax: "(928) 527-0246",
+    latitude: 35.238961,
+    longitude: -111.570755,
+    location: {
         coordinates: [
         -111.570755,
         35.238961
@@ -6588,17 +6588,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "wapa",
-    LocationName: "War in the Pacific National Historical Park",
-    Address: "Superintendent, 135 Murray Boulevard",
-    City: "Hagatna",
-    State: "Guam",
-    ZipCode: 96910,
-    Phone: 0,
-    Fax: 0,
-    Latitude: 13.44645,
-    Longitude: 144.786636,
-    Location: {
+    locationId: "wapa",
+    locationName: "War in the Pacific National Historical Park",
+    address: "Superintendent, 135 Murray Boulevard",
+    city: "Hagatna",
+    state: "Guam",
+    zipCode: 96910,
+    phone: 0,
+    fax: 0,
+    latitude: 13.44645,
+    longitude: 144.786636,
+    location: {
         coordinates: [
         144.786636,
         13.44645
@@ -6607,17 +6607,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "wefa",
-    LocationName: "Weir Farm National Historic Site",
-    Address: "Weir Farm NHS, 735 Nod Hill Road",
-    City: "Wilton",
-    State: "Connecticut",
-    ZipCode: 6897,
-    Phone: "(203) 834-1896",
-    Fax: "(203) 834-2421",
-    Latitude: 41.2566156,
-    Longitude: -73.4562524,
-    Location: {
+    locationId: "wefa",
+    locationName: "Weir Farm National Historic Site",
+    address: "Weir Farm NHS, 735 Nod Hill Road",
+    city: "Wilton",
+    state: "Connecticut",
+    zipCode: 6897,
+    phone: "(203) 834-1896",
+    fax: "(203) 834-2421",
+    latitude: 41.2566156,
+    longitude: -73.4562524,
+    location: {
         coordinates: [
         -73.4562524,
         41.2566156
@@ -6626,17 +6626,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "whis",
-    LocationName: "Whiskeytown National Recreational Area",
-    Address: "P.O. Box 188, 14412 Kennedy Memorial Drive",
-    City: "Whiskeytown",
-    State: "California",
-    ZipCode: "96095-0188",
-    Phone: 0,
-    Fax: "(530) 246-5154",
-    Latitude: 40.612879,
-    Longitude: -122.573041,
-    Location: {
+    locationId: "whis",
+    locationName: "Whiskeytown National Recreational Area",
+    address: "P.O. Box 188, 14412 Kennedy Memorial Drive",
+    city: "Whiskeytown",
+    state: "California",
+    zipCode: "96095-0188",
+    phone: 0,
+    fax: "(530) 246-5154",
+    latitude: 40.612879,
+    longitude: -122.573041,
+    location: {
         coordinates: [
         -122.573041,
         40.612879
@@ -6645,18 +6645,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "WHSA",
-    LocationName: "White Sands National Monument",
-    Address: "White Sands National Monument, PO Box 1086",
-    City: "Holloman AFB",
-    State: "New Mexico",
-    ZipCode: 88330,
-    Phone: 0,
-    Fax: 0,
+    locationId: "WHSA",
+    locationName: "White Sands National Monument",
+    address: "White Sands National Monument, PO Box 1086",
+    city: "Holloman AFB",
+    state: "New Mexico",
+    zipCode: 88330,
+    phone: 0,
+    fax: 0,
     Visit: "https://www.nps.gov/whsa/index.htm",
-    Latitude: 32.7696209,
-    Longitude: -106.3182956,
-    Location: {
+    latitude: 32.7696209,
+    longitude: -106.3182956,
+    location: {
         coordinates: [
         -106.3182956,
         32.7696209
@@ -6665,17 +6665,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "WIHO",
-    LocationName: "William Howard Taft National Historic Site",
-    Address: "William Howard Taft National Historic Site, 2038 Auburn Ave.",
-    City: "Cincinnati",
-    State: "Ohio",
-    ZipCode: 45219,
-    Phone: "(513) 684-3262 ext. 201",
-    Fax: "(513) 684-3627",
-    Latitude: 39.119518,
-    Longitude: -84.508156,
-    Location: {
+    locationId: "WIHO",
+    locationName: "William Howard Taft National Historic Site",
+    address: "William Howard Taft National Historic Site, 2038 Auburn Ave.",
+    city: "Cincinnati",
+    state: "Ohio",
+    zipCode: 45219,
+    phone: "(513) 684-3262 ext. 201",
+    fax: "(513) 684-3627",
+    latitude: 39.119518,
+    longitude: -84.508156,
+    location: {
         coordinates: [
         -84.508156,
         39.119518
@@ -6684,17 +6684,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "WORI",
-    LocationName: "Women's Rights National Historical Park",
-    Address: "Superintendent, 136 Fall Street",
-    City: "Seneca Falls",
-    State: "New York",
-    ZipCode: 13148,
-    Phone: "(315) 568-0024",
-    Fax: "(315) 568-2141",
-    Latitude: 42.9106968,
-    Longitude: -76.8001038,
-    Location: {
+    locationId: "WORI",
+    locationName: "Women's Rights National Historical Park",
+    address: "Superintendent, 136 Fall Street",
+    city: "Seneca Falls",
+    state: "New York",
+    zipCode: 13148,
+    phone: "(315) 568-0024",
+    fax: "(315) 568-2141",
+    latitude: 42.9106968,
+    longitude: -76.8001038,
+    location: {
         coordinates: [
         -76.8001038,
         42.9106968
@@ -6703,17 +6703,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "wrst",
-    LocationName: "Wrangell-St. Elias National Park & Preserve",
-    Address: "Wrangell-St. Elias National Park, PO Box 439",
-    City: "Copper Center",
-    State: "Alaska",
-    ZipCode: 99573,
-    Phone: 0,
-    Fax: "(907) 822-7216",
-    Latitude: 61.5614999,
-    Longitude: -143.8523096,
-    Location: {
+    locationId: "wrst",
+    locationName: "Wrangell-St. Elias National Park & Preserve",
+    address: "Wrangell-St. Elias National Park, PO Box 439",
+    city: "Copper Center",
+    state: "Alaska",
+    zipCode: 99573,
+    phone: 0,
+    fax: "(907) 822-7216",
+    latitude: 61.5614999,
+    longitude: -143.8523096,
+    location: {
         coordinates: [
         -143.8523096,
         61.5614999
@@ -6722,17 +6722,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "WRBR",
-    LocationName: "Wright Brothers National Memorial",
-    Address: "Wright Brothers National Memorial, 1401 National Park Drive",
-    City: "Manteo",
-    State: "North Carolina",
-    ZipCode: 27954,
-    Phone: "(252) 441-7430",
-    Fax: "(252) 473-2595",
-    Latitude: 35.938547,
-    Longitude: -75.712322,
-    Location: {
+    locationId: "WRBR",
+    locationName: "Wright Brothers National Memorial",
+    address: "Wright Brothers National Memorial, 1401 National Park Drive",
+    city: "Manteo",
+    state: "North Carolina",
+    zipCode: 27954,
+    phone: "(252) 441-7430",
+    fax: "(252) 473-2595",
+    latitude: 35.938547,
+    longitude: -75.712322,
+    location: {
         coordinates: [
         -75.712322,
         35.938547
@@ -6741,17 +6741,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "wupa",
-    LocationName: "Wupatki National Monument",
-    Address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
-    City: "Flagstaff",
-    State: "Arizona",
-    ZipCode: 86004,
-    Phone: 0,
-    Fax: "(928) 679-2349",
-    Latitude: 35.238961,
-    Longitude: -111.570755,
-    Location: {
+    locationId: "wupa",
+    locationName: "Wupatki National Monument",
+    address: "Superintendent, Flagstaff Area National Monuments, 6400 N. Hwy 89",
+    city: "Flagstaff",
+    state: "Arizona",
+    zipCode: 86004,
+    phone: 0,
+    fax: "(928) 679-2349",
+    latitude: 35.238961,
+    longitude: -111.570755,
+    location: {
         coordinates: [
         -111.570755,
         35.238961
@@ -6760,18 +6760,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "YELL",
-    LocationName: "Yellowstone National Park",
-    Address: "P.O. Box 168",
-    City: "Yellowstone National Park",
-    State: "Wyoming",
-    ZipCode: "82190-0168",
-    Phone: "(307) 344-7381",
-    Fax: "(307) 344-2014",
+    locationId: "YELL",
+    locationName: "Yellowstone National Park",
+    address: "P.O. Box 168",
+    city: "Yellowstone National Park",
+    state: "Wyoming",
+    zipCode: "82190-0168",
+    phone: "(307) 344-7381",
+    fax: "(307) 344-2014",
     Visit: "https://www.nps.gov/yell/index.htm",
-    Latitude: 44.462085,
-    Longitude: -110.642441,
-    Location: {
+    latitude: 44.462085,
+    longitude: -110.642441,
+    location: {
         coordinates: [
         -110.642441,
         44.462085
@@ -6780,18 +6780,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "yose",
-    LocationName: "Yosemite National Park",
-    Address: "PO Box 577",
-    City: "Yosemite National Park",
-    State: "California",
-    ZipCode: 95389,
-    Phone: "(209) 372-0200",
-    Fax: 0,
+    locationId: "yose",
+    locationName: "Yosemite National Park",
+    address: "PO Box 577",
+    city: "Yosemite National Park",
+    state: "California",
+    zipCode: 95389,
+    phone: "(209) 372-0200",
+    fax: 0,
     Visit: "https://www.nps.gov/yose/index.htm",
-    Latitude: 37.7189997,
-    Longitude: -119.5571677,
-    Location: {
+    latitude: 37.7189997,
+    longitude: -119.5571677,
+    location: {
         coordinates: [
         -119.5571677,
         37.7189997
@@ -6800,17 +6800,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "yuho",
-    LocationName: "Yucca House National Monument",
-    Address: "c/o Mesa Verde National Park, P.O. Box 8",
-    City: "Mesa Verde",
-    State: "Colorado",
-    ZipCode: 81330,
-    Phone: "(970) 529-4465",
-    Fax: "(970) 529-4637",
-    Latitude: 37.16748,
-    Longitude: -108.525539,
-    Location: {
+    locationId: "yuho",
+    locationName: "Yucca House National Monument",
+    address: "c/o Mesa Verde National Park, P.O. Box 8",
+    city: "Mesa Verde",
+    state: "Colorado",
+    zipCode: 81330,
+    phone: "(970) 529-4465",
+    fax: "(970) 529-4637",
+    latitude: 37.16748,
+    longitude: -108.525539,
+    location: {
         coordinates: [
         -108.525539,
         37.16748
@@ -6819,17 +6819,17 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "yuch",
-    LocationName: "Yukon Charley Rivers National Preserve",
-    Address: "Eagle Visitor Center, P.O. Box 167",
-    City: "Eagle",
-    State: "Alaska",
-    ZipCode: 99738,
-    Phone: "(907) 547-2233",
-    Fax: "(907) 547-2247",
-    Latitude: 64.78943,
-    Longitude: -141.202849,
-    Location: {
+    locationId: "yuch",
+    locationName: "Yukon Charley Rivers National Preserve",
+    address: "Eagle Visitor Center, P.O. Box 167",
+    city: "Eagle",
+    state: "Alaska",
+    zipCode: 99738,
+    phone: "(907) 547-2233",
+    fax: "(907) 547-2247",
+    latitude: 64.78943,
+    longitude: -141.202849,
+    location: {
         coordinates: [
         -141.202849,
         64.78943
@@ -6838,18 +6838,18 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ZION",
-    LocationName: "Zion National Park",
-    Address: "Zion National Park",
-    City: "Springdale",
-    State: "Utah",
-    ZipCode: 84767,
-    Phone: 0,
-    Fax: "(435) 772-3426",
+    locationId: "ZION",
+    locationName: "Zion National Park",
+    address: "Zion National Park",
+    city: "Springdale",
+    state: "Utah",
+    zipCode: 84767,
+    phone: 0,
+    fax: "(435) 772-3426",
     Visit: "https://www.nps.gov/zion/index.htm",
-    Latitude: 37.240801,
-    Longitude: -112.941626,
-    Location: {
+    latitude: 37.240801,
+    longitude: -112.941626,
+    location: {
         coordinates: [
         -112.941626,
         37.240801
@@ -6857,4 +6857,4 @@ const nationalParksArray = [
         type: "Point"
     }
     }
-]
+];
