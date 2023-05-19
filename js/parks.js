@@ -8,7 +8,7 @@ const parkSelect = qS('#parks-select');
 const parkList = qS('#parks-list');
 
 window.onload = () => {
-  qSA('button').forEach(btn => btn.onclick = populateParkSelect);
+  qSA('button.searchTypeBtn').forEach(btn => btn.onclick = populateParkSelect);
 };
 
 const populateParkSelect = e => {
@@ -60,10 +60,10 @@ const displayParkInfo = (parkLi, selectedPark) => {
   parkLi.innerHTML = `
     <div class="selectedPark">
       <div>${name}</div>
-      <span class="m-3">${address}</span>
+      <span class="m-3">${address || ''}</span>
       <span class="m-3">${city}</span>
       <span class="m-3">${state}</span>
-      <span class="m-3">${zipCode}</span>
+      <span class="m-3">${zipCode || ''}</span>
       <div>${contact}</div>
     </div>
   `;
