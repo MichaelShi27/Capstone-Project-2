@@ -17,20 +17,28 @@ const populateMountainSelect = () => {
   mountainSelect.onchange = displayMountainInfo;
 };
 
-const displayMountainInfo = () => {
+const displayMountainInfo = async () => {
   const mountainInfo = qS('#mountains-info');
   mountainInfo.innerHTML = '';
 
   const { value } = mountainSelect;
   if (value === 'default') return;
 
-  const { name, elevation, effort, desc, img } = mountains[value];
+  const { name, elevation, effort, desc, img, coords: { lat, lng } } = mountains[value];
+  const { results: { sunrise, sunset } } = await fetchSunriseSunset(lat, lng);
 
   mountainInfo.innerHTML = `
     <div>Name: ${name}<div>
     <span>Elevation: ${elevation}<span>
     <span>Effort Level: ${effort}<span>
+    <span>Sunrise: ${sunrise} UTC</span>
+    <span>Sunset: ${sunset} UTC</span>
     <div>Description: ${desc}<div>
     <img src="../images/${img}">
   `;
+};
+
+const fetchSunriseSunset = async (lat, lng) => {
+  const resp = await fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`);
+  return await resp.json();
 };
