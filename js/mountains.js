@@ -24,12 +24,13 @@ const displayMountainInfo = () => {
   const { value } = mountainSelect;
   if (value === 'default') return;
 
-  const { name, elevation, effort, desc } = mountains[value];
+  const { name, elevation, effort, desc, img } = mountains[value];
 
   mountainInfo.innerHTML = `
     <div>Name: ${name}<div>
     <span>Elevation: ${elevation}<span>
     <span>Effort Level: ${effort}<span>
     <div>Description: ${desc}<div>
+    <img src="../images/${img}">
   `;
 };
