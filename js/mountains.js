@@ -34,7 +34,7 @@ const displayMountainInfo = async () => {
     <span>Sunrise: ${sunrise} UTC</span>
     <span>Sunset: ${sunset} UTC</span>
     <div>Description: ${desc}<div>
-    <img src="../images/${img}">
+    <img src="../images/mountains/${img}">
     <span id="map"></span>
   `;
 
