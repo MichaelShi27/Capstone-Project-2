@@ -1,3 +1,17 @@
 #parks-select {
   display: none;
 }
+
+.selectedPark {
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  background-color: paleturquoise;
+  margin: 10px;
+}
+
+.close-btn {
+  font-size: 10px;
+}
