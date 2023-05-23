@@ -1,26 +1,4 @@
-#parks-select {
-  display: none;
-}
-
-.selectedPark {
-  padding: 10px;
-}
-
-li {
-  list-style-type: none;
-  background-color: paleturquoise;
-  margin: 10px;
-}
-
-.close-btn {
-  font-size: 10px;
-}
-
-#map {
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-}
+/* index.html */
 
 #home-body {
   background-image: url('../images/home.jpg');
@@ -83,4 +61,34 @@ audio {
   background-color: white;
   opacity: 2%;
   cursor: pointer;
+}
+
+
+/* parks.html */
+
+#parks-select {
+  display: none;
+}
+
+.selectedPark {
+  padding: 10px;
+}
+
+li {
+  list-style-type: none;
+  background-color: paleturquoise;
+  margin: 10px;
+}
+
+.close-btn {
+  font-size: 10px;
+}
+
+
+/* mountains.html */
+
+#map {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
 }
