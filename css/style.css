@@ -60,7 +60,7 @@ li {
   bottom: 0;
 }
 
-#park1:hover, #mountain:hover, #park2:hover {
+#park1:hover, #mountain:hover, #park2:hover, .hover {
   background-color: white;
   opacity: 2%;
   cursor: pointer;
