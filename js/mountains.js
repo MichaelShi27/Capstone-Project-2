@@ -1,5 +1,5 @@
 import { mountainData } from './data/mountainData.js';
-import { qS, setDisplay } from './helpers.js';
+import { qS, createMap } from './helpers.js';
 
 // sort alphabetically by 'name' property
 const mountains = mountainData.sort((a, b) => a.name.toLowerCase().localeCompare( b.name.toLowerCase() ));
@@ -35,7 +35,10 @@ const displayMountainInfo = async () => {
     <span>Sunset: ${sunset} UTC</span>
     <div>Description: ${desc}<div>
     <img src="../images/${img}">
+    <span id="map"></span>
   `;
+
+  createMap(lat, lng, qS('#map'), name);
 };
 
 const fetchSunriseSunset = async (lat, lng) => {
