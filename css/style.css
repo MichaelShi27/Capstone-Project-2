@@ -21,3 +21,47 @@ li {
   width: 300px;
   height: 300px;
 }
+
+#home-body {
+  background-image: url('../images/home.jpg');
+  background-size: cover;
+}
+
+#home-body h1 {
+  color: white;
+  margin: 15px 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif
+}
+
+#park1 { 
+  width: 550px;
+  top: 150px;
+  height: 200px;
+  position: absolute;
+}
+
+#mountain {
+  /* border: 3px solid green; */
+  height: 170px;
+  width: 900px;
+  left: 580px;
+  top: 180px;
+  position: absolute;
+}
+
+#mountain:hover {
+  border-radius: 80%;
+}
+
+#park2 {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#park1:hover, #mountain:hover, #park2:hover {
+  background-color: white;
+  opacity: 2%;
+  cursor: pointer;
+}
