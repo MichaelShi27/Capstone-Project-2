@@ -30,26 +30,29 @@ li {
 #home-body h1 {
   color: white;
   margin: 15px 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+#sky {
+  position: absolute;
+  top: 0;
+  height: 160px;
+  width: 100%;
 }
 
 #park1 { 
   width: 550px;
   top: 150px;
-  height: 200px;
+  height: 210px;
   position: absolute;
 }
 
 #mountain {
-  /* border: 3px solid green; */
   height: 170px;
   width: 900px;
   left: 580px;
   top: 180px;
   position: absolute;
-}
-
-#mountain:hover {
   border-radius: 80%;
 }
 
