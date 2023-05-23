@@ -33,6 +33,22 @@ li {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
 }
 
+audio {
+  visibility: hidden;
+  height: 20px;
+}
+
+#audio-container {
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  z-index: 3;
+}
+
+#audio-container:hover audio {
+  visibility: visible;
+}
+
 #sky {
   position: absolute;
   top: 0;
