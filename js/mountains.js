@@ -28,16 +28,18 @@ const displayMountainInfo = async () => {
   const { results: { sunrise, sunset } } = await fetchSunriseSunset(lat, lng);
 
   mountainInfo.innerHTML = `
-    <span class="m-3">Elevation: ${elevation}'</span>
-    <span class="m-3">Effort Level: ${effort}</span>
-    <span class="m-3">Sunrise: ${sunrise} UTC</span>
-    <span class="m-3">Sunset: ${sunset} UTC</span>
-    <div class="m-3">Description: ${desc}</div>
-    <img class="m-2" src="../images/mountains/${img}">
-    <div class="m-2" id="map"></div>
+    <span class="m-3"><strong>Elevation:</strong> ${elevation}'</span>
+    <span class="m-3"><strong>Effort Level:</strong> ${effort}</span>
+    <span class="m-3"><strong>Sunrise:</strong> ${sunrise} UTC</span>
+    <span class="m-3"><strong>Sunset:</strong> ${sunset} UTC</span>
+    <div class="m-3"><strong>Description:</strong> ${desc}</div>
+    <div class="p-3 img-container">
+      <img class="m-2" src="../images/mountains/${img}">
+      <div class="m-2" id="map"></div>
+    </div>
   `;
 
-    createMap({ lat, lng }, qS('#map'), name);
+  createMap({ lat, lng }, qS('#map'), name);
 };
 
 const createMap = async (position, element, title) => {
