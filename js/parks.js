@@ -78,13 +78,17 @@ const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
         <div class="m-1">${city}, ${state} ${zipCode || ''}</div>
         <div class="${contact ? 'm-1' : ''}">${contact || ''}</div>
       </div>
+      <button id="${id}-close" class="close-btn">x</button>
     </div>
   `;
-  const btnStr = `<button id="${id}-close" class="close-btn">Close</button>`;
-  parkLi.insertAdjacentHTML('afterend', btnStr);
   
-  qS(`button#${id}-close`).onclick = function() {
+  // rewrite onclick, otherwise clicking btn will just trigger the original parkLi.onclick again
+  parkLi.onclick = null; 
+
+  qS(`button#${id}-close`).onclick = () => {
     parkLi.innerHTML = parkLiStr;
-    this.remove();
+    
+    // w/o setTimeout, clicking the btn still triggers the onclick re-assigned below
+    setTimeout(() => parkLi.onclick = () => displayParkInfo(parkLi, selectedPark, parkLiStr), 500);
   };
 };

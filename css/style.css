@@ -122,6 +122,7 @@ audio {
   background-color: rgb(241, 241, 241);
   padding: 0 40px;
   opacity: 80%;
+  position: relative;
 }
 
 #parks-container li:hover {
@@ -148,6 +149,9 @@ audio {
 
 .close-btn {
   font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 #forest-img {
