@@ -4,6 +4,7 @@ import { qS, setDisplay, hideElements } from './helpers.js';
 const mountainSelect = qS('#mountains-select');
 const mountainSort = qS('#mountains-sort');
 const mountainInfo = qS('#mountains-info');
+const mtnImg = qS('#mtn-img');
 
 const sortMountainData = () => {
   const { value } = mountainSort;
@@ -23,6 +24,7 @@ const sortMountainData = () => {
 const populateMountainSelect = () => {
   mountainSelect.options.length = 0;
   hideElements(mountainInfo);
+  setDisplay(mtnImg, 'block');
 
   const mountains = sortMountainData();
 
@@ -38,10 +40,11 @@ window.onload = populateMountainSelect;
 mountainSort.onchange = populateMountainSelect;
 
 const displayMountainInfo = async mountains => {
-  hideElements(mountainInfo);
+  hideElements(mtnImg);
 
   const { value } = mountainSelect;
-  if (value === 'default') return;
+  if (value === 'default')
+    return setDisplay(mtnImg, 'block');
 
   setDisplay(mountainInfo, 'block');
 

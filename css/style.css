@@ -91,12 +91,18 @@ li {
   background-color: rgb(224, 224, 224);
 }
 
+#mtn-img {
+  display: block;
+  width: 60%;
+  margin: 80px auto;
+}
+
 #mountains-body .img-container {
   display: flex;
   justify-content: space-around;
 }
 
-#mountains-body img {
+#mountains-body img.m-2 {
   height: 400px;
   border: 1px solid black;
 }
