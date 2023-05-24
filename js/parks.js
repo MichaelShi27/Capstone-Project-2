@@ -7,12 +7,12 @@ import { qS, qSA, setDisplay, hideElements } from './helpers.js';
 const parkSelect = qS('#parks-select');
 const parkList = qS('#parks-list');
 
-window.onload = () => {
-  qSA('button.searchTypeBtn').forEach(btn => btn.onclick = e => {
+window.onload = () => qSA('button.searchTypeBtn').forEach(
+  btn => (btn.onclick = e => {
     populateParkSelect(e);
     toggleSelectedBtn(e);
-  });
-};
+  })
+);
 
 const populateParkSelect = e => {
   parkSelect.options.length = 0;
@@ -78,7 +78,7 @@ const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
         <div class="m-1">${city}, ${state} ${zipCode || ''}</div>
         <div class="${contact ? 'm-1' : ''}">${contact || ''}</div>
       </div>
-      <button id="${id}-close" class="close-btn">x</button>
+      <button id="${id}-close" class="close-btn">X</button>
     </div>
   `;
   
