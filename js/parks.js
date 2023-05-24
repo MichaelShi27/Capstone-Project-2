@@ -58,8 +58,8 @@ const displayParks = searchType => {
 
     const parkLiStr = `
       <div class="d-flex justify-content-between">
-        <span>${name}</span>
-        <span>${city}, ${state}</span>
+        <span class="park-li-name m-3"><h6>${name}</h6></span>
+        <span class="m-3">${city}, ${state}</span>
       </div>
     `;
     parkLi.innerHTML = parkLiStr;
@@ -75,13 +75,13 @@ const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
 
   const contact = phone || (fax ? `Fax: ${fax}` : '');
   parkLi.innerHTML = `
-    <div class="selectedPark">
-      <div>${name}</div>
-      <span class="m-3">${address || ''}</span>
-      <span class="m-3">${city}</span>
-      <span class="m-3">${state}</span>
-      <span class="m-3">${zipCode || ''}</span>
-      <div>${contact}</div>
+    <div class="selected-park d-flex justify-content-between">
+      <h5 class="d-flex align-items-center">${name}</h5>
+      <div class="park-info">
+        <div class="${address ? 'm-1' : ''}">${address || ''}</div>
+        <div class="m-1">${city}, ${state} ${zipCode || ''}</div>
+        <div class="${contact ? 'm-1' : ''}">${contact || ''}</div>
+      </div>
     </div>
   `;
   const btnStr = `<button id="${id}-close" class="close-btn">Close</button>`;

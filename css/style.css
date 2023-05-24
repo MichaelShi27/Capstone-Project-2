@@ -88,17 +88,35 @@ audio {
 
 #parks-select {
   display: none;
-  margin: 15px 0 0 30px;
+  margin: 15px 0 20px 30px;
 }
 
-.selectedPark {
-  padding: 10px;
+.selected-park {
+  padding: 10px 0;
 }
 
-li {
+#parks-container li {
   list-style-type: none;
-  background-color: paleturquoise;
-  margin: 10px;
+  background-color: rgb(241, 241, 241);
+  padding: 0 40px;
+}
+
+#parks-container li:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.park-li-name h6 {
+  display: inline;
+}
+
+.selected-park h5 {
+  margin-right: 40px;
+}
+
+.park-info {
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: right;
 }
 
 .close-btn {
@@ -111,6 +129,23 @@ li {
   position: absolute;
   top: 120px;
   z-index: -1;
+}
+
+#parks-list {
+  max-height: 520px;
+  width: 60%;
+  margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#parks-list::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(208, 208, 208);
+}
+
+#parks-list::-webkit-scrollbar-thumb {
+  background-color: rgb(164, 164, 164);  
 }
 
 
