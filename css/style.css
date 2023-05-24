@@ -1,3 +1,8 @@
+select {
+  padding: 4px;
+}
+
+
 /* index.html */
 
 #home-body {
@@ -95,14 +100,36 @@ audio {
   padding: 10px 0;
 }
 
-#parks-container li {
+#parks-list {
+  max-height: 520px;
+  width: 60%;
+  margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#parks-list::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(208, 208, 208);
+}
+
+#parks-list::-webkit-scrollbar-thumb {
+  background-color: rgb(164, 164, 164);  
+}
+
+#parks-list li {
   list-style-type: none;
   background-color: rgb(241, 241, 241);
   padding: 0 40px;
+  opacity: 80%;
 }
 
 #parks-container li:hover {
   background-color: rgb(207, 207, 207);
+}
+
+#parks-list li span {
+  opacity: 100%;
 }
 
 .park-li-name h6 {
@@ -129,23 +156,6 @@ audio {
   position: absolute;
   top: 120px;
   z-index: -1;
-}
-
-#parks-list {
-  max-height: 520px;
-  width: 60%;
-  margin: auto;
-  overflow: scroll;
-  overflow-x: hidden;
-}
-
-#parks-list::-webkit-scrollbar {
-  width: 10px;
-  background-color: rgb(208, 208, 208);
-}
-
-#parks-list::-webkit-scrollbar-thumb {
-  background-color: rgb(164, 164, 164);  
 }
 
 
@@ -176,4 +186,12 @@ audio {
   width: 600px;
   height: 400px;
   border: 1px solid black;
+}
+
+.fade-in { animation: fadeIn 4s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  100% { opacity: 1; }
 }

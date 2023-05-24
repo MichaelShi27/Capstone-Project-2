@@ -40,12 +40,8 @@ const toggleSelectedBtn = e => {
 const displayParks = searchType => {
   parkList.innerHTML = '';
 
-  const forestImg = qS('#forest-img');
-  hideElements(forestImg);
-
   const selected = parkSelect.value;
-  if (selected === 'default')
-    return setDisplay(forestImg, 'block');
+  if (selected === 'default') return;
     
   const filteringFunc = ({ state, name }) => searchType === 'location' ? state === selected : name.includes(selected);
   const selectedParks = parks.filter(filteringFunc);
