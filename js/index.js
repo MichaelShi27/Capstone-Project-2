@@ -15,7 +15,7 @@ park1.onmouseenter = () => parkMouseHelper(park2, 'add', 'parks');
 park1.onmouseleave = () => parkMouseHelper(park2, 'remove');
 
 park2.onmouseenter = () => parkMouseHelper(park1, 'add', 'parks');
-park2.onmouseleave = () => parkMouseHelper(park2, 'remove');
+park2.onmouseleave = () => parkMouseHelper(park1, 'remove');
 
 const parkMouseHelper = (element, funcStr, searchType) => {
   element.classList[funcStr]('hover'); // add or remove 'hover' from classList
