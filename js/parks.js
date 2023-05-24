@@ -82,12 +82,15 @@ const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
     </div>
   `;
   
+  parkLi.classList.add('selected-park-li');
+
   // rewrite onclick, otherwise clicking btn will just trigger the original parkLi.onclick again
   parkLi.onclick = null; 
 
   qS(`button#${id}-close`).onclick = () => {
     parkLi.innerHTML = parkLiStr;
-    
+    parkLi.classList.remove('selected-park-li');
+
     // w/o setTimeout, clicking the btn still triggers the onclick re-assigned below
     setTimeout(() => parkLi.onclick = () => displayParkInfo(parkLi, selectedPark, parkLiStr), 500);
   };
