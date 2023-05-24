@@ -1,5 +1,5 @@
 import { mountainData } from './data/mountainData.js';
-import { qS, createMap } from './helpers.js';
+import { qS } from './helpers.js';
 
 // sort alphabetically by 'name' property
 const mountains = mountainData.sort((a, b) => a.name.toLowerCase().localeCompare( b.name.toLowerCase() ));
@@ -37,7 +37,15 @@ const displayMountainInfo = async () => {
     <div class="m-2" id="map"></div>
   `;
 
-  createMap(lat, lng, qS('#map'), name);
+    createMap({ lat, lng }, qS('#map'), name);
+};
+
+const createMap = async (position, element, title) => {
+  const { Map } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+  const map = new Map(element, { zoom: 4, center: position, mapId: "map",});
+  const marker = new AdvancedMarkerElement({ map, position, title });
 };
 
 const fetchSunriseSunset = async (lat, lng) => {
