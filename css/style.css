@@ -66,6 +66,10 @@ audio {
 
 /* parks.html */
 
+#parks-body {
+  background-color: rgb(224, 224, 224);
+}
+
 #parks-select {
   display: none;
 }
@@ -84,6 +88,14 @@ li {
   font-size: 10px;
 }
 
+#forest-img {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 120px;
+  z-index: -1;
+}
+
 
 /* mountains.html */
 
@@ -92,9 +104,10 @@ li {
 }
 
 #mtn-img {
-  display: block;
-  width: 60%;
-  margin: 80px auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 #mountains-body .img-container {

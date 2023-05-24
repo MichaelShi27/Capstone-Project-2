@@ -40,7 +40,7 @@ window.onload = populateMountainSelect;
 mountainSort.onchange = populateMountainSelect;
 
 const displayMountainInfo = async mountains => {
-  hideElements(mtnImg);
+  hideElements(mtnImg, mountainInfo);
 
   const { value } = mountainSelect;
   if (value === 'default')
