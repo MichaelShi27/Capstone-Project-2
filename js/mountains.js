@@ -1,28 +1,49 @@
 import { mountainData } from './data/mountainData.js';
-import { qS } from './helpers.js';
-
-// sort alphabetically by 'name' property
-const mountains = mountainData.sort((a, b) => a.name.toLowerCase().localeCompare( b.name.toLowerCase() ));
+import { qS, setDisplay, hideElements } from './helpers.js';
 
 const mountainSelect = qS('#mountains-select');
+const mountainSort = qS('#mountains-sort');
+const mountainInfo = qS('#mountains-info');
 
-window.onload = () => populateMountainSelect();
+const sortMountainData = () => {
+  const { value } = mountainSort;
+  const effortLevels = { Moderate: 1, 'Moderate to Strenous': 2, Strenuous: 3 };
+  const sortByName = (a, b) => a.name.toLowerCase().localeCompare( b.name.toLowerCase() );
+
+  return mountainData.sort((a, b) => {
+    if (value === 'a-z')
+      return sortByName(a, b);
+    else if (value === 'elevation')
+      return (a.elevation - b.elevation) || sortByName(a, b);
+    else if (value === 'effort')
+      return (effortLevels[a.effort] - effortLevels[b.effort]) || sortByName(a, b);
+  });
+};
 
 const populateMountainSelect = () => {
+  mountainSelect.options.length = 0;
+  hideElements(mountainInfo);
+
+  const mountains = sortMountainData();
+
   mountainSelect.add( new Option('Select a mountain', 'default') );
 
   for (const [ idx, { name } ] of mountains.entries())
     mountainSelect.add( new Option(name, idx) );
 
-  mountainSelect.onchange = displayMountainInfo;
+  mountainSelect.onchange = () => displayMountainInfo(mountains);
 };
 
-const displayMountainInfo = async () => {
-  const mountainInfo = qS('#mountains-info');
-  mountainInfo.innerHTML = '';
+window.onload = populateMountainSelect;
+mountainSort.onchange = populateMountainSelect;
+
+const displayMountainInfo = async mountains => {
+  hideElements(mountainInfo);
 
   const { value } = mountainSelect;
   if (value === 'default') return;
+
+  setDisplay(mountainInfo, 'block');
 
   const { name, elevation, effort, desc, img, coords: { lat, lng } } = mountains[value];
   const { results: { sunrise, sunset } } = await fetchSunriseSunset(lat, lng);
