@@ -87,8 +87,12 @@ li {
 
 /* mountains.html */
 
+#mountains-body {
+  background-color: rgb(224, 224, 224);
+}
+
 #map {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
