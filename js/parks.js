@@ -2,7 +2,7 @@ import { parkTypes } from './data/parkTypeData.js';
 import { parks } from './data/nationalParkData.js';
 import { locations } from './data/locationData.js';
 
-import { qS, qSA, setDisplay } from './helpers.js';
+import { qS, qSA, setDisplay, hideElements } from './helpers.js';
 
 const parkSelect = qS('#parks-select');
 const parkList = qS('#parks-list');
@@ -40,9 +40,13 @@ const toggleSelectedBtn = e => {
 const displayParks = searchType => {
   parkList.innerHTML = '';
 
-  const selected = parkSelect.value;
-  if (selected === 'default') return;
+  const forestImg = qS('#forest-img');
+  hideElements(forestImg);
 
+  const selected = parkSelect.value;
+  if (selected === 'default')
+    return setDisplay(forestImg, 'block');
+    
   const filteringFunc = ({ state, name }) => searchType === 'location' ? state === selected : name.includes(selected);
   const selectedParks = parks.filter(filteringFunc);
 
@@ -51,18 +55,20 @@ const displayParks = searchType => {
 
     const parkLi = document.createElement('li');
     parkList.appendChild(parkLi);
-    parkLi.innerHTML = `
+
+    const parkLiStr = `
       <div class="d-flex justify-content-between">
         <span>${name}</span>
         <span>${city}, ${state}</span>
       </div>
     `;
+    parkLi.innerHTML = parkLiStr;
 
-    parkLi.onclick = () => displayParkInfo(parkLi, selectedPark);
+    parkLi.onclick = () => displayParkInfo(parkLi, selectedPark, parkLiStr);
   }
 };
 
-const displayParkInfo = (parkLi, selectedPark) => {
+const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
   const { id, name, address, city, state, zipCode, phone, fax } = selectedPark;
 
   if ( qS(`button#${id}-close`) ) return; // if a button already exists for this park
@@ -82,7 +88,7 @@ const displayParkInfo = (parkLi, selectedPark) => {
   parkLi.insertAdjacentHTML('afterend', btnStr);
   
   qS(`button#${id}-close`).onclick = function() {
-    parkLi.innerHTML = name;
+    parkLi.innerHTML = parkLiStr;
     this.remove();
   };
 };
