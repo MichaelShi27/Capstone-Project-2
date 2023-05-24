@@ -70,8 +70,25 @@ audio {
   background-color: rgb(224, 224, 224);
 }
 
+#parks-container {
+  margin-left: 30px;
+}
+
+.searchTypeBtn {
+  margin-left: 10px;
+}
+
+.searchTypeBtn:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.searchTypeBtn.selected {
+  background-color: rgb(184, 181, 181);
+}
+
 #parks-select {
   display: none;
+  margin: 15px 0 0 30px;
 }
 
 .selectedPark {
