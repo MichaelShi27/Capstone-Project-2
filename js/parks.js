@@ -46,7 +46,15 @@ const displayParks = searchType => {
   const filteringFunc = ({ state, name }) => searchType === 'location' ? state === selected : name.includes(selected);
   const selectedParks = parks.filter(filteringFunc);
 
+  const capitalizeAllWords = str => {
+    const words = str.split(' ');
+    return words.map(word => `${word[0].toUpperCase()}${word.slice(1)}`).join(' ');
+  };
+  
   for (const selectedPark of selectedParks) {
+    for (const key of [ 'name', 'address', 'city', 'state' ])
+      selectedPark[key] = capitalizeAllWords( selectedPark[key] );
+
     const { name, city, state } = selectedPark;
 
     const parkLi = document.createElement('li');
