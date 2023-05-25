@@ -56,15 +56,16 @@ audio {
 #sky {
   position: absolute;
   top: 0;
-  height: 160px;
+  height: 250px;
   width: 100%;
+  clip-path: polygon(50% 0%, 100% 0, 100% 42%, 100% 64%, 90% 96%, 67% 66%, 35% 100%, 8% 61%, 0% 35%, 0 0);
 }
 
-#park1 { 
-  width: 550px;
-  top: 150px;
-  height: 210px;
-  position: absolute;
+#speech-msg {
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+  margin: 18px 120px;
+  text-align: right;
 }
 
 #mountain {
