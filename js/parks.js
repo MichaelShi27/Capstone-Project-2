@@ -53,11 +53,7 @@ const displayParks = searchType => {
 
   setCountMsg(selectedParks.length);
 
-  const capitalizeAllWords = str => {
-    if (!str) return;
-    const words = str.split(' ');
-    return words.map(word => `${word[0].toUpperCase()}${word.slice(1)}`).join(' ');
-  };
+  const capitalizeAllWords = str => str && str.split(' ').map(word => word && `${word[0].toUpperCase()}${word.slice(1)}`).join(' ');
   
   for (const selectedPark of selectedParks) {
     for (const key of [ 'name', 'address', 'city', 'state' ])
