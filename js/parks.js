@@ -2,10 +2,13 @@ import { parkTypes } from './data/parkTypeData.js';
 import { parks } from './data/nationalParkData.js';
 import { locations } from './data/locationData.js';
 
-import { qS, qSA, setDisplay, hideElements } from './helpers.js';
+import { qS, qSA, setDisplay } from './helpers.js';
+
+const clearElements = (...elements) => elements.forEach(el => el.innerHTML = '');
 
 const parkSelect = qS('#parks-select');
 const parkList = qS('#parks-list');
+const countMsg = qS('#count-msg');
 
 window.onload = () => qSA('button.searchTypeBtn').forEach(
   btn => (btn.onclick = e => {
@@ -16,7 +19,8 @@ window.onload = () => qSA('button.searchTypeBtn').forEach(
 
 const populateParkSelect = e => {
   parkSelect.options.length = 0;
-  parkList.innerHTML = '';
+  clearElements(parkList, countMsg);
+
   setDisplay(parkSelect, 'block');
 
   const typeSelected = e.target.value === 'type';
@@ -38,13 +42,16 @@ const toggleSelectedBtn = e => {
 };
 
 const displayParks = searchType => {
-  parkList.innerHTML = '';
+  clearElements(parkList);
 
   const selected = parkSelect.value;
-  if (selected === 'default') return;
+  if (selected === 'default')
+    return clearElements(countMsg);
 
   const filteringFunc = ({ state, name }) => searchType === 'location' ? state === selected : name.includes(selected);
   const selectedParks = parks.filter(filteringFunc);
+
+  setCountMsg(selectedParks.length);
 
   const capitalizeAllWords = str => {
     if (!str) return;
@@ -72,6 +79,8 @@ const displayParks = searchType => {
     parkLi.onclick = () => displayParkInfo(parkLi, selectedPark, parkLiStr);
   }
 };
+
+const setCountMsg = count => countMsg.textContent = `${count} park${count === 1 ? '' : 's'} found.`;
 
 const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
   const { id, name, address, city, state, zipCode, phone, fax } = selectedPark;

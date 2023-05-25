@@ -122,11 +122,19 @@ audio {
 #parks-list {
   max-height: 520px;
   width: 60%;
-  margin: auto;
+  margin: 30px auto;
   overflow: scroll;
   overflow-x: hidden;
   backdrop-filter: blur(3px);
   padding: 0;
+}
+
+#count-msg {
+  position: absolute;
+  top: 90px;
+  left: 690px;
+  font-size: 20px;
+  color: gray;
 }
 
 #parks-list::-webkit-scrollbar {
