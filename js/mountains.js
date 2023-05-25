@@ -60,6 +60,7 @@ const displayMountainInfo = async mountains => {
     <div class="p-3 img-container fade-in-fast">
       <img class="m-2" src="../images/mountains/${img}">
       <div class="m-2" id="map"></div>
+      <div class="m-2" id="street-view"></div>
     </div>
   `;
 
@@ -72,6 +73,10 @@ const createMap = async (position, element, title) => {
 
   const map = new Map(element, { zoom: 4, center: position, mapId: "map",});
   const marker = new AdvancedMarkerElement({ map, position, title });
+  const streetView = new google.maps.StreetViewPanorama(
+    qS('#street-view'),
+    { position, pov: { heading: 165, pitch: 0 }, zoom: 1 }
+  );  
 };
 
 const fetchSunriseSunset = async (lat, lng) => {
