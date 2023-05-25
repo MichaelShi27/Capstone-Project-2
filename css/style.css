@@ -7,6 +7,10 @@ select {
   font-weight: 600;
 }
 
+.nav-link:hover {
+  color: rgb(34, 34, 206);
+}
+
 
 /* index.html */
 
@@ -53,23 +57,25 @@ audio {
 
 #mountain {
   height: 170px;
-  width: 900px;
-  left: 580px;
+  width: 950px;
+  left: 540px;
   top: 180px;
   position: absolute;
   border-radius: 80%;
+  clip-path: polygon(50% 0%, 79% 39%, 100% 5%, 90% 49%, 75% 73%, 49% 86%, 15% 80%, 0 51%, 16% 40%, 34% 25%);
 }
 
-#park2 {
-  height: 50%;
+#park {
+  height: 100%;
   width: 100%;
   position: absolute;
   bottom: 0;
+  clip-path: polygon(50% 50%, 81% 41%, 100% 27%, 100% 48%, 100% 100%, 51% 100%, 0 100%, 0 51%, 0 15%, 18% 32%);
 }
 
-#park1:hover, #mountain:hover, #park2:hover, .hover {
+#mountain:hover, #park:hover, .hover {
   background-color: white;
-  opacity: 2%;
+  opacity: 3%;
   cursor: pointer;
 }
 
