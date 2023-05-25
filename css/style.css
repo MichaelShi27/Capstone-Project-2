@@ -2,6 +2,11 @@ select {
   padding: 4px;
 }
 
+.active-nav {
+  color: rgb(6, 6, 199);
+  font-weight: 600;
+}
+
 
 /* index.html */
 
@@ -140,6 +145,7 @@ audio {
 
 #parks-container li:hover {
   background-color: rgb(36, 36, 36);
+  cursor: pointer;
 }
 
 #parks-list li span {
