@@ -42,11 +42,12 @@ const displayParks = searchType => {
 
   const selected = parkSelect.value;
   if (selected === 'default') return;
-    
+
   const filteringFunc = ({ state, name }) => searchType === 'location' ? state === selected : name.includes(selected);
   const selectedParks = parks.filter(filteringFunc);
 
   const capitalizeAllWords = str => {
+    if (!str) return;
     const words = str.split(' ');
     return words.map(word => `${word[0].toUpperCase()}${word.slice(1)}`).join(' ');
   };
