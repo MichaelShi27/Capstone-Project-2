@@ -20,7 +20,10 @@ const options = [
   'search mountains',
   'parks',
   'search parks',
-  'town'
+  'soap',
+  'soap today',
+  'movies',
+  'watch movies'
 ];
 
 const grammar = `#JSGF V1.0; grammar colors; public <option> = ${options.join(" | ")};`;
@@ -57,8 +60,10 @@ recognition.onresult = e => {
     window.location = switchPage('mountains');
   else if (speech === options[2] || speech === options[3])
     window.location = switchPage('parks');
-  else if (speech === options[4]) 
-    window.location = 'https://the-town-map.vercel.app/';
+  else if (
+    speech === options[4] || speech === options[5] || 
+    speech === options[6] || speech === options[7]
+  ) window.location = 'https://soap2day.to/';
   else {
     speechMsg.innerHTML = "I didn't recognize that command.";
     recognition.stop();
