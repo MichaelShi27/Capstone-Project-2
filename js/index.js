@@ -1,6 +1,6 @@
 import { qS } from './helpers.js';
 
-const rewriteHeading = str => qS('#heading').innerHTML = str ? `<h4>Search ${str}?</h4>` : 'Outsidë';
+const rewriteHeading = str => qS('#heading').innerHTML = str ? `<h4>Search ${str}?</h4>` : 'Outsidë Lands';
 
 qS('#sky').onmouseenter = () => rewriteHeading();
 qS('#mountain').onmouseenter = () => rewriteHeading('mountains');
