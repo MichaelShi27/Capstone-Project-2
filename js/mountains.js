@@ -58,7 +58,7 @@ const displayMountainInfo = async mountains => {
     <span class="mtn-info"><strong>Sunset:</strong> ${sunset} UTC</span>
     <div class="mtn-info mtn-info-border"><strong>Description:</strong> ${desc}</div>
     <div class="p-3 img-container fade-in-fast">
-      <img class="m-2" src="../images/mountains/${img}">
+      <img class="m-2" src="../images/mountains/${img}" alt="${name}">
       <div class="m-2" id="map"></div>
       <div class="m-2" id="street-view"></div>
     </div>
