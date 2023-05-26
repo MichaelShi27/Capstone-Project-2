@@ -19,7 +19,8 @@ const options = [
   'mountains',
   'search mountains',
   'parks',
-  'search parks'
+  'search parks',
+  'town'
 ];
 
 const grammar = `#JSGF V1.0; grammar colors; public <option> = ${options.join(" | ")};`;
@@ -56,14 +57,16 @@ recognition.onresult = e => {
     window.location = switchPage('mountains');
   else if (speech === options[2] || speech === options[3])
     window.location = switchPage('parks');
+  else if (speech === options[4]) 
+    window.location = 'https://the-town-map.vercel.app/';
   else {
     speechMsg.innerHTML = "I didn't recognize that command.";
     recognition.stop();
     speechMsg.classList.remove('on');
-    setTimeout(() => speechMsg.innerHTML = '', 4000);
+    setTimeout(() => !speechMsg.classList.contains('on') && (speechMsg.innerHTML = ''), 4000);
   }
 };
 
 recognition.onspeechend = recognition.stop;
 recognition.onnomatch = () => speechMsg.innerHTML = "I didn't recognize that command.";
-recognition.onerror = () => speechMsg.innerHTML = 'Error occurred in recognition!';
+recognition.onerror = () => speechMsg.innerHTML = 'Error occurred in speech recognition!';
