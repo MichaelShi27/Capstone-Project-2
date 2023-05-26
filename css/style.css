@@ -11,12 +11,17 @@ select {
 }
 
 .active-nav {
-  color: rgb(6, 6, 199);
-  font-weight: 600;
+  color: rgb(146, 146, 146);
+  font-weight: 700;
 }
 
 .nav-link:hover {
   color: rgb(34, 34, 206);
+}
+
+.active-nav:hover {
+  color: rgb(146, 146, 146);
+  cursor: default;
 }
 
 #ufo {
@@ -327,6 +332,10 @@ audio {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   margin: 0 20px;
+}
+
+#mountains-info strong {
+  color:rgb(217, 217, 255);
 }
 
 .mtn-info {
