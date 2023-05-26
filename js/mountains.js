@@ -52,11 +52,11 @@ const displayMountainInfo = async mountains => {
   const { results: { sunrise, sunset } } = await fetchSunriseSunset(lat, lng);
 
   mountainInfo.innerHTML = `
-    <span class="m-3"><strong>Elevation:</strong> ${elevation}'</span>
-    <span class="m-3"><strong>Effort Level:</strong> ${effort}</span>
-    <span class="m-3"><strong>Sunrise:</strong> ${sunrise} UTC</span>
-    <span class="m-3"><strong>Sunset:</strong> ${sunset} UTC</span>
-    <div class="m-3"><strong>Description:</strong> ${desc}</div>
+    <span class="mtn-info mtn-info-border"><strong>Elevation:</strong> ${elevation}'</span>
+    <span class="mtn-info"><strong>Effort Level:</strong> ${effort}</span>
+    <span class="mtn-info"><strong>Sunrise:</strong> ${sunrise} UTC</span>
+    <span class="mtn-info"><strong>Sunset:</strong> ${sunset} UTC</span>
+    <div class="mtn-info mtn-info-border"><strong>Description:</strong> ${desc}</div>
     <div class="p-3 img-container fade-in-fast">
       <img class="m-2" src="../images/mountains/${img}">
       <div class="m-2" id="map"></div>

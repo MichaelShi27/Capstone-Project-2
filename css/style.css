@@ -229,6 +229,14 @@ audio {
   margin: 0 20px;
 }
 
+.mtn-info {
+  margin: 20px 30px;
+}
+
+.mtn-info-border {
+  margin-left: 50px;
+}
+
 #mountains-body .img-container {
   display: flex;
   justify-content: space-around;
