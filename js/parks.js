@@ -43,6 +43,7 @@ const toggleSelectedBtn = e => {
 
 const displayParks = searchType => {
   clearElements(parkList);
+  parkList.classList.remove('blur', 'scrollbox');
 
   const selected = parkSelect.value;
   if (selected === 'default')
@@ -62,6 +63,9 @@ const displayParks = searchType => {
     const { name, city, state } = selectedPark;
 
     const parkLi = document.createElement('li');
+    parkLi.classList.add('fade-item');
+    parkLi.style.display = 'none';
+
     parkList.appendChild(parkLi);
 
     const parkLiStr = `
@@ -74,6 +78,17 @@ const displayParks = searchType => {
 
     parkLi.onclick = () => displayParkInfo(parkLi, selectedPark, parkLiStr);
   }
+
+  const fadeIn = (item, delay) => setTimeout(() => {
+    item.style.display = 'block';
+    item.classList.add('fade');
+  }, delay);
+
+  const fadeItems = qSA(".fade-item");
+  for (const [ idx, item ] of fadeItems.entries())
+    fadeIn(item, idx * 30);
+
+  setTimeout(() => parkList.classList.add('blur', 'scrollbox'), fadeItems.length * 35);
 };
 
 const setCountMsg = count => countMsg.textContent = `${count} park${count === 1 ? '' : 's'} found.`;

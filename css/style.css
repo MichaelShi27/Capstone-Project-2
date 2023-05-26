@@ -202,11 +202,10 @@ audio {
 }
 
 .selected-park-li {
-  border: 2px solid white;
+  border: 2px solid white !important;
   margin: 10px 0;
-  background-color: black;
-  color: white;
-  opacity: 94% !important;
+  background-color: black !important;
+  opacity: 90% !important;
 }
 
 .selected-park {
@@ -217,10 +216,22 @@ audio {
   max-height: 520px;
   width: 60%;
   margin: 30px auto;
-  overflow: scroll;
-  overflow-x: hidden;
-  backdrop-filter: blur(3px);
   padding: 0;
+  overflow: hidden;
+}
+
+.fade-item {
+  transition: .2s all ease-in-out;
+}
+
+.fade {
+  animation: fadeIn 0.9s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { background-color: rgba(0, 0, 0, 0.75); }
 }
 
 #count-msg {
@@ -231,20 +242,28 @@ audio {
   color: rgb(178, 178, 178);
 }
 
-#parks-list::-webkit-scrollbar {
+#parks-list.blur {
+  backdrop-filter: blur(3px);
+}
+
+#parks-list.scrollbox {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.scrollbox::-webkit-scrollbar {
   width: 10px;
   background-color: rgb(208, 208, 208);
 }
 
-#parks-list::-webkit-scrollbar-thumb {
+.scrollbox::-webkit-scrollbar-thumb {
   background-color: rgb(164, 164, 164);  
 }
 
 #parks-list li {
   list-style-type: none;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 0 40px;
-  opacity: 75%;
   position: relative;
   left: 0;
   border: 1px solid rgb(157, 157, 157);
