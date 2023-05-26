@@ -88,8 +88,7 @@ const displayParks = searchType => {
   for (const [ idx, item ] of fadeItems.entries())
     fadeIn(item, idx * 30);
 
-  const delay = Math.max( 500, Math.min( 500, fadeItems.length * 35 ) );
-  setTimeout(() => parkList.classList.add('blur', 'scrollbox'), delay);
+  setTimeout(() => parkList.classList.add('blur', 'scrollbox'), 500);
 };
 
 const setCountMsg = count => countMsg.textContent = `${count} park${count === 1 ? '' : 's'} found.`;
