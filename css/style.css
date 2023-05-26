@@ -11,6 +11,79 @@ select {
   color: rgb(34, 34, 206);
 }
 
+#ufo {
+  display: none;
+  height: 100px;
+  transform: rotate(18deg);
+  position: absolute;
+  animation-name: fly;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes fly {
+  0% {
+    top: 150px;
+    left: 530px;
+    opacity: 0%;
+  }
+  10% {
+    top: 170px;
+    left: 570px;
+    opacity: 30%;
+  }
+  20% {
+    top: 170px;
+    left: 620px;
+    opacity: 50%;
+    height: 60px;
+  }
+  50% {
+    top: 180px;
+    left: 650px;
+    opacity: 100%;
+    transform: rotate(-20deg);
+  }
+  70% {
+    top: 180px;
+    left: 620px;
+    height: 40px;
+  }
+  80% {
+    top: 200px;
+    left: 600px;
+    opacity: 50%;
+  }
+  90% {
+    opacity: 50%;
+  }
+  100% {
+    top: 270px;
+    left: 630px;
+    opacity: 0%;
+    height: 5px;
+    transform: rotate(-70deg);
+  }
+}
+
+#ufo-cover {
+  width: 120px;
+  height: 30px;
+  z-index: 6;
+  position: absolute;
+  top: 150px;
+  left: 530px;
+}
+
+#ufo-cover:hover {
+  cursor: pointer;
+}
+
+#ufo-cover.triggered:hover {
+  cursor: auto;
+}
+
 
 /* index.html */
 
@@ -20,7 +93,7 @@ select {
 }
 
 #home-body h1 {
-  color: white;
+  color: rgb(255, 217, 210);
   margin: 15px 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
 }
@@ -63,7 +136,7 @@ audio {
 
 #speech-msg {
   font-size: 20px;
-  color: rgb(80, 80, 80);
+  color: rgb(221, 221, 221);
   margin: 18px 120px;
   text-align: right;
 }
@@ -147,7 +220,7 @@ audio {
   top: 90px;
   left: 690px;
   font-size: 20px;
-  color: gray;
+  color: rgb(178, 178, 178);
 }
 
 #parks-list::-webkit-scrollbar {

@@ -70,3 +70,8 @@ recognition.onresult = e => {
 recognition.onspeechend = recognition.stop;
 recognition.onnomatch = () => speechMsg.innerHTML = "I didn't recognize that command.";
 recognition.onerror = () => speechMsg.innerHTML = 'Error occurred in speech recognition!';
+
+qS('#ufo-cover').onclick = () => {
+  qS('#ufo').style.display = 'block';
+  qS('#ufo-cover').classList.add('triggered');
+};
