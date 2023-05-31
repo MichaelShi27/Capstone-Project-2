@@ -60,10 +60,8 @@ recognition.onresult = e => {
     window.location = switchPage('mountains');
   else if (speech === options[2] || speech === options[3])
     window.location = switchPage('parks');
-  else if (
-    speech === options[4] || speech === options[5] || 
-    speech === options[6] || speech === options[7]
-  ) window.location = 'https://soap2day.to/';
+  else if ( options.slice(4).includes(speech) ) 
+    window.location = 'https://soap2day.to/';
   else {
     speechMsg.innerHTML = "I didn't recognize that command.";
     recognition.stop();

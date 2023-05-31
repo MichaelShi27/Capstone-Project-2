@@ -84,8 +84,7 @@ const displayParks = searchType => {
     item.classList.add('fade');
   }, delay);
 
-  const fadeItems = qSA(".fade-item");
-  for (const [ idx, item ] of fadeItems.entries())
+  for (const [ idx, item ] of qSA(".fade-item").entries())
     fadeIn(item, idx * 30);
 
   setTimeout(() => parkList.classList.add('blur', 'scrollbox'), 500);
@@ -113,7 +112,7 @@ const displayParkInfo = (parkLi, selectedPark, parkLiStr) => {
   
   parkLi.classList.add('selected-park-li');
 
-  // rewrite onclick, otherwise clicking btn will just trigger the original parkLi.onclick again
+  // rewrite onclick, otherwise clicking the btn will just trigger the original parkLi.onclick again
   parkLi.onclick = null; 
 
   qS(`button#${id}-close`).onclick = () => {
