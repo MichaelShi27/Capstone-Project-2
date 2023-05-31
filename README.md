@@ -5,13 +5,13 @@ Outsidë Lands is a website that displays various national parks and mountains, 
 ## Screenshots
 
 Home page:
-![Home page](./images/screenshots/index.png)
+![Home page](./images/screenshots/index.PNG)
 
 Mountains page:
-![Mountains page](./images/screenshots/mountains.png)
+![Mountains page](./images/screenshots/mountains.PNG)
 
 Parks page:
-![Parks page](./images/screenshots/parks.png)
+![Parks page](./images/screenshots/parks.PNG)
 
 ## Snippet
 One interesting bit of JavaScript I wrote was for how I implemented buttons to close an individual park's information display element. Because the button is located inside the park's ```<li>``` element (i.e. parkLi), clicking on the button would originally just trigger the parkLi's onclick function. 
