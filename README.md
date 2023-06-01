@@ -16,7 +16,9 @@ Parks page:
 ## Snippet
 One interesting bit of JavaScript I wrote was for how I implemented buttons to close an individual park's information display element. Because the button is located inside the park's ```<li>``` element (i.e. parkLi), clicking on the button would originally just trigger the parkLi's onclick function. 
 
-To solve this, I reassigned the parkLi's onclick to null inside the parkLi's onclick itself, then reset it to its original value inside the button's onclick. I needed to reset it in a setTimeout because without the setTimeout, clicking the button would still trigger the original parkLi onclick even though I only reassigned the original inside the button's onclick.
+I attempted to fix the problem through a few different approaches: a boolean flag variable that would act as "state," altering the .value property of the parkLi, and even putting the button outside of the parkLi (this worked, but I didn't like how it looked).
+
+Eventually, I solved the issue by reassigning the parkLi's onclick to null inside the parkLi's onclick itself, then resetting it to its original value inside the button's onclick. I needed to reset it in a setTimeout because without the setTimeout, clicking the button would still trigger the original parkLi onclick even though I only reassigned the original inside the button's onclick.
 
 Here is the code, significantly abridged and modified for clarity:
 
